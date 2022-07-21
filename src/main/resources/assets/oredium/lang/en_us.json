@@ -1,0 +1,10 @@
+{
+  "item.oredium.alezarita_ingot": "Alezarita Ingot",
+  "item.oredium.alezarita_nugget": "Alezarita Nugget",
+
+  "block.oredium.alezarita_block": "Alezarita Block",
+
+  "itemGroup.oredium_tab_items" : "Oredium - Items",
+  "itemGroup.oredium_tab_blocks" : "Oredium - Blocks",
+  "itemGroup.oredium_tab_armors" : "Oredium - Armors"
+}
