@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "oredium:alezarita_ingot"
+        }
+    ],
+    "result": {
+        "item": "oredium:alezarita_nugget",
+        "count": 9
+    }
+}

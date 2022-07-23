@@ -1,11 +1,11 @@
-package com.hugoz.oredium.blocks.alezarita;
+package com.hugorandom.oredium.blocks;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.material.Material;
 
-public class AlezaritaBlock extends Block {
+public class MetalBlock extends Block {
 
-    public AlezaritaBlock() {
+    public MetalBlock() {
         super(Block.Properties
                 .of(Material.METAL)
                 .requiresCorrectToolForDrops()

@@ -1,8 +1,7 @@
-package com.hugoz.oredium.util;
+package com.hugorandom.oredium.util;
 
-import com.hugoz.oredium.inits.BlocksInit;
-import com.hugoz.oredium.inits.ItemsInit;
-import net.minecraft.world.item.BlockItem;
+import com.hugorandom.oredium.inits.BlocksInit;
+import com.hugorandom.oredium.inits.ItemsInit;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 

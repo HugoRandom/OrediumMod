@@ -1,7 +1,7 @@
-package com.hugoz.oredium;
+package com.hugorandom.oredium;
 
-import com.hugoz.oredium.inits.BlocksInit;
-import com.hugoz.oredium.inits.ItemsInit;
+import com.hugorandom.oredium.inits.BlocksInit;
+import com.hugorandom.oredium.inits.ItemsInit;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;

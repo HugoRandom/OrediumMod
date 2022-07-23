@@ -1,8 +1,8 @@
-package com.hugoz.oredium.inits;
+package com.hugorandom.oredium.inits;
 
-import com.hugoz.oredium.Oredium;
-import com.hugoz.oredium.blocks.alezarita.AlezaritaBlock;
-import com.hugoz.oredium.util.ItemGroupTabs;
+import com.hugorandom.oredium.Oredium;
+import com.hugorandom.oredium.blocks.MetalBlock;
+import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -20,7 +20,7 @@ public class BlocksInit {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Oredium.MOD_ID);
 
     // Bloques de x9 Lingotes
-    public static final RegistryObject<Block> ALEZARITA_BLOCK = registerBlock("alezarita_block", AlezaritaBlock::new);
+    public static final RegistryObject<Block> ALEZARITA_BLOCK = registerBlock("alezarita_block", MetalBlock::new);
 
 
     // REGISTERS - NO TOCAR

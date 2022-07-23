@@ -1,8 +1,7 @@
-package com.hugoz.oredium.inits;
+package com.hugorandom.oredium.inits;
 
-import com.hugoz.oredium.Oredium;
-import com.hugoz.oredium.items.Normal;
-import net.minecraft.world.item.CreativeModeTab;
+import com.hugorandom.oredium.Oredium;
+import com.hugorandom.oredium.items.Normal;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

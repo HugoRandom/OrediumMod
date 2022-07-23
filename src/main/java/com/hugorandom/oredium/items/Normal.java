@@ -1,6 +1,6 @@
-package com.hugoz.oredium.items;
+package com.hugorandom.oredium.items;
 
-import com.hugoz.oredium.util.ItemGroupTabs;
+import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 
