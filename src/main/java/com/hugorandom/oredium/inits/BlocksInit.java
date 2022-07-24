@@ -4,6 +4,7 @@ import com.hugorandom.oredium.Oredium;
 import com.hugorandom.oredium.blocks.LampBlock;
 import com.hugorandom.oredium.blocks.MetalBlock;
 import com.hugorandom.oredium.blocks.OreBlock;
+import com.hugorandom.oredium.blocks.OrediumBlock;
 import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -85,5 +86,5 @@ public class BlocksInit {
     public static final RegistryObject<Block> MIGUELITIO_LAMP = registerBlock("miguelitio_lamp", LampBlock::new);
 
     // Especiales
-    public static final RegistryObject<Block> OREDIUM_BLOCK = registerBlock("oredium_block", LampBlock::new);
+    public static final RegistryObject<Block> OREDIUM_BLOCK = registerBlock("oredium_block", OrediumBlock::new);
 }

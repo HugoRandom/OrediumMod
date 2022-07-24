@@ -13,19 +13,21 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class GemItem extends Item {
+public class AmuletItem extends Item {
 
-    public GemItem() {
+    public AmuletItem() {
         super(new Properties()
                 .tab(ItemGroupTabs.OREDIUM_ITEMS)
                 .rarity(Rarity.UNCOMMON)
-                .stacksTo(16)
-                .setNoRepair());
+                .stacksTo(1)
+                .setNoRepair()
+                .fireResistant());
     }
+
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         if(!Screen.hasShiftDown()){
-            pTooltipComponents.add(new TranslatableComponent("tooltip.oredium.gem"));
+            pTooltipComponents.add(new TranslatableComponent("tooltip.oredium.amulet"));
         }
     }
 }

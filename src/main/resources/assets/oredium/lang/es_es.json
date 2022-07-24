@@ -224,6 +224,9 @@
 	"tooltip.miguelitio_armor_upgraded": "\u00A7bEscapando mejor - 3x <3",
 	"tooltip.shine_armor_upgraded": "\u00A79Antimagia",
 
+	"tooltip.oredium.amulet": "Usado para crear el Bloque de Oredium",
+	"tooltip.oredium.gem": "Una pieza del poder...",
+
 	"itemGroup.oredium_tab_items": "Oredium - Objetos",
 	"itemGroup.oredium_tab_tools": "Oredium - Herramientas",
 	"itemGroup.oredium_tab_armors": "Oredium - Armaduras",

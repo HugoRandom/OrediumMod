@@ -14,7 +14,7 @@ public class ItemGroupTabs {
         }
     };
 
-    public static final CreativeModeTab OREDIUM_BLOCKS = new CreativeModeTab("oredium_tab_tools"){
+    public static final CreativeModeTab OREDIUM_TOOLS = new CreativeModeTab("oredium_tab_tools"){
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(BlocksInit.OREDIUM_BLOCK.get());

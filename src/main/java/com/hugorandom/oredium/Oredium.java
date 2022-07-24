@@ -3,6 +3,7 @@ package com.hugorandom.oredium;
 import com.hugorandom.oredium.inits.BlocksInit;
 import com.hugorandom.oredium.inits.FoodsInit;
 import com.hugorandom.oredium.inits.ItemsInit;
+import com.hugorandom.oredium.inits.ToolsInit;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -28,6 +29,7 @@ public class Oredium
         ItemsInit.register(eventBus);
         BlocksInit.register(eventBus);
         FoodsInit.register(eventBus);
+        ToolsInit.register(eventBus);
 
         eventBus.addListener(this::setup);
 
@@ -37,7 +39,7 @@ public class Oredium
     private void setup(final FMLCommonSetupEvent event)
     {
         // some preinit code
-        LOGGER.info("HELLO FROM PREINIT");
+        LOGGER.info("OREDIUM ACTIVO");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
 }

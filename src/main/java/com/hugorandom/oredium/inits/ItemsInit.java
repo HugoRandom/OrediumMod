@@ -1,6 +1,7 @@
 package com.hugorandom.oredium.inits;
 
 import com.hugorandom.oredium.Oredium;
+import com.hugorandom.oredium.items.AmuletItem;
 import com.hugorandom.oredium.items.GemItem;
 import com.hugorandom.oredium.items.CommonItem;
 import net.minecraft.world.item.Item;
@@ -51,10 +52,7 @@ public class ItemsInit {
     public static final RegistryObject<Item> MIGUELITIO_GEM = ITEMS.register("miguelitio_gem", GemItem::new);
 
     // Especiales
-    public static final RegistryObject<Item> OREDIUM_AMULET = ITEMS.register("oredium_amulet",
-            () -> new Item(new Item.Properties()
-                    .stacksTo(1)
-                    .rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> OREDIUM_AMULET = ITEMS.register("oredium_amulet", AmuletItem::new);
 
 
 }

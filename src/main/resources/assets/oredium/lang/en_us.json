@@ -222,7 +222,10 @@
 	"tooltip.franitolina_armor_upgraded": "\u00A76Get Lucky",
 	"tooltip.hugodium_armor_upgraded": "\u00A7cInmmortal Fury - 2x <3",
 	"tooltip.miguelitio_armor_upgraded": "\u00A7bBetter Escape - 3x <3",
-	"tooltip.shine_armor_upgraded": "\u00A79Antimagic",	
+	"tooltip.shine_armor_upgraded": "\u00A79Antimagic",
+
+	"tooltip.oredium.amulet": "Used to make the Oredium Block",
+	"tooltip.oredium.gem": "A piece of power...",
 
 	"itemGroup.oredium_tab_items": "Oredium - Items",
 	"itemGroup.oredium_tab_tools": "Oredium - Tools",
