@@ -1,0 +1,15 @@
+{
+  	"replace": false,
+  	"values": [
+	    "#forge:storage_blocks/alezarita",
+	    "#forge:storage_blocks/axidita",
+	    "#forge:storage_blocks/caballerita",
+	    "#forge:storage_blocks/cesarita",
+	    "#forge:storage_blocks/caballerita",
+	    "#forge:storage_blocks/enderium",
+	    "#forge:storage_blocks/franitolina",
+	    "#forge:storage_blocks/hugodium",
+	    "#forge:storage_blocks/miguelitio",
+	    "#forge:storage_blocks/shine"    
+	]
+}

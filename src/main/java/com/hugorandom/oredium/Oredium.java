@@ -1,6 +1,7 @@
 package com.hugorandom.oredium;
 
 import com.hugorandom.oredium.inits.BlocksInit;
+import com.hugorandom.oredium.inits.FoodsInit;
 import com.hugorandom.oredium.inits.ItemsInit;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Blocks;
@@ -26,6 +27,7 @@ public class Oredium
 
         ItemsInit.register(eventBus);
         BlocksInit.register(eventBus);
+        FoodsInit.register(eventBus);
 
         eventBus.addListener(this::setup);
 

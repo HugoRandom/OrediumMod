@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "oredium:hugodium_block",
+        "oredium:alezarita_block",
+        "oredium:axidita_block",
+        "oredium:franitolina_block",
+        "oredium:miguelitio_block",
+        "oredium:shine_block",
+        "oredium:cesarita_block",
+        "oredium:caballerita_block",
+        "oredium:enderium_block"
+    ]
+}

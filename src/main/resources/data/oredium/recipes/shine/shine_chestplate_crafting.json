@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "i i",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "oredium:shine_ingot"
+        }
+    },
+    "result": {
+        "item": "oredium:shine_chestplate",
+        "count": 1
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "oredium:franitolina_ingot"
+        }
+    ],
+    "result": {
+        "item": "oredium:franitolina_nugget",
+        "count": 9
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "oredium:upgrading",
+  "ingredients": [
+    {
+      "item": "oredium:enderium_gem"
+    },
+    {
+      "item": "oredium:enderium_chestplate"
+    }
+  ],
+  "output": {
+    "item": "oredium:enderium_chestplate_upgraded"
+  }
+}

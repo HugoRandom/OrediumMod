@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "oredium:shine_nugget"
+        }
+    },
+    "result": {
+        "item": "oredium:shine_ingot",
+        "count": 1
+    }
+}

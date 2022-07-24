@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#E",
+        "OC"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wheat"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "O": {
+            "item": "oredium:caballerita_nugget"
+        },
+        "C": {
+            "item": "minecraft:cooked_porkchop"
+        }
+    },
+    "result": {
+        "item": "oredium:caballerita_cake",
+        "count": 1
+    }
+}

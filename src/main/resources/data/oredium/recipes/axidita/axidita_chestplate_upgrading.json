@@ -1,0 +1,14 @@
+ {
+  "type": "oredium:upgrading",
+  "ingredients": [
+    {
+      "item": "oredium:axidita_gem"
+    },
+    {
+      "item": "oredium:axidita_chestplate"
+    }
+  ],
+  "output": {
+    "item": "oredium:axidita_chestplate_upgraded"
+  }
+}

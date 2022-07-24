@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "oredium:miguelitio_block"
+        }
+    ],
+    "result": {
+        "item": "oredium:miguelitio_ingot",
+        "count": 9
+    }
+}

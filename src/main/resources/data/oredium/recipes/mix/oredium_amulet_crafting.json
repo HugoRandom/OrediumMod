@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#Oo",
+        "FAH",
+        "CWZ"
+    ],
+    "key": {
+        "#": {
+            "item": "oredium:axidita_ingot"
+        },
+        "O": {
+            "item": "oredium:hugodium_ingot"
+        },
+        "o": {
+            "item": "oredium:franitolina_ingot"
+        },
+        "F": {
+            "item": "oredium:cesarita_ingot"
+        },
+        "A": {
+            "item": "oredium:enderium_crystal"
+        },
+        "H": {
+            "item": "oredium:alezarita_ingot"
+        },
+        "C": {
+            "item": "oredium:shine_ingot"
+        },
+        "W": {
+            "item": "oredium:miguelitio_ingot"
+        },
+        "Z": {
+            "item": "oredium:caballerita_ingot"
+        }
+    },
+    "result": {
+        "item": "oredium:oredium_amulet",
+        "count": 1
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "oredium:upgrading",
+  "ingredients": [
+    {
+      "item": "oredium:caballerita_gem"
+    },
+    {
+      "item": "oredium:caballerita_leggings"
+    }
+  ],
+  "output": {
+    "item": "oredium:caballerita_leggings_upgraded"
+  }
+}

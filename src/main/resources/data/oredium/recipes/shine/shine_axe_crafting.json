@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "oo",
+        "o/",
+        " /"
+    ],
+    "key": {
+        "o": {
+            "item": "oredium:shine_ingot"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "oredium:shine_axe",
+        "count": 1
+    }
+}

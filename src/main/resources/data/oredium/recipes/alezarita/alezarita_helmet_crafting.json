@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "i i"
+    ],
+    "key": {
+        "i": {
+            "item": "oredium:alezarita_ingot"
+        }
+    },
+    "result": {
+        "item": "oredium:alezarita_helmet",
+        "count": 1
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:diamond_sword"
+    },
+    "addition": {
+        "item": "oredium:miguelitio_ingot"
+    },
+    "result": {
+        "item": "oredium:miguelitio_sword"
+    }
+}

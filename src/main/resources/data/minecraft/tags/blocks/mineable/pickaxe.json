@@ -1,6 +1,33 @@
 {
     "replace": false,
     "values": [
-        "oredium:alezarita_block"
+        "oredium:shine_block",
+        "oredium:caballerita_block",
+        "oredium:axidita_block",
+        "oredium:cesarita_block",
+        "oredium:franitolina_block",
+        "oredium:enderium_block",
+        "oredium:alezarita_block",
+        "oredium:hugodium_block",
+        "oredium:miguelitio_block",
+        "oredium:shine_ore",
+        "oredium:caballerita_ore",
+        "oredium:axidita_ore",
+        "oredium:cesarita_ore",
+        "oredium:franitolina_ore",
+        "oredium:enderium_ore",
+        "oredium:alezarita_ore",
+        "oredium:hugodium_ore",
+        "oredium:miguelitio_ore",
+        "oredium:shine_lamp",
+        "oredium:caballerita_lamp",
+        "oredium:axidita_lamp",
+        "oredium:cesarita_lamp",
+        "oredium:franitolina_lamp",
+        "oredium:enderium_lamp",
+        "oredium:alezarita_lamp",
+        "oredium:hugodium_lamp",
+        "oredium:miguelitio_lamp",
+        "oredium:oredium_block"
     ]
 }

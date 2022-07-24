@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:diamond_chestplate"
+    },
+    "addition": {
+        "item": "oredium:hugodium_ingot"
+    },
+    "result": {
+        "item": "oredium:hugodium_chestplate"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#W#",
+        "SES",
+        " W "
+    ],
+    "key": {
+        "#": {
+            "item": "oredium:shine_nugget"
+        },
+        "W": {
+            "item": "minecraft:wheat"
+        },        
+        "S": {
+            "item": "minecraft:sugar"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        }        
+    },
+    "result": {
+        "item": "oredium:shine_cupcake",
+        "count": 1
+    }
+}

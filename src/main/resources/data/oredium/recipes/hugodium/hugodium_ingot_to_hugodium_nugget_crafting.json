@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "oredium:hugodium_ingot"
+        }
+    ],
+    "result": {
+        "item": "oredium:hugodium_nugget",
+        "count": 9
+    }
+}

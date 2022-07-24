@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "i i"
+    ],
+    "key": {
+        "i": {
+            "item": "oredium:shine_ingot"
+        }
+    },
+    "result": {
+        "item": "oredium:shine_helmet",
+        "count": 1
+    }
+}

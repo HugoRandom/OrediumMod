@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#iE",
+        "iJi",
+        "giN"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "i": {
+            "item": "oredium:alezarita_ingot"
+        },
+        "E": {
+            "item": "minecraft:emerald"
+        },
+        "J": {
+            "item": "oredium:enderium_crystal"
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "N": {
+            "item": "minecraft:netherite_scrap"
+        }
+    },
+    "result": {
+        "item": "oredium:alezarita_gem",
+        "count": 2
+    }
+}

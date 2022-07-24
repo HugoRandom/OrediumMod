@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "oredium:caballerita_nugget"
+        }
+    },
+    "result": {
+        "item": "oredium:caballerita_ingot",
+        "count": 1
+    }
+}

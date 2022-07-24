@@ -10,21 +10,21 @@ public class ItemGroupTabs {
     public static final CreativeModeTab OREDIUM_ITEMS = new CreativeModeTab("oredium_tab_items"){
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ItemsInit.ALEZARITA_INGOT.get());
+            return new ItemStack(ItemsInit.OREDIUM_AMULET.get());
         }
     };
 
-    public static final CreativeModeTab OREDIUM_BLOCKS = new CreativeModeTab("oredium_tab_blocks"){
+    public static final CreativeModeTab OREDIUM_BLOCKS = new CreativeModeTab("oredium_tab_tools"){
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(BlocksInit.ALEZARITA_BLOCK.get());
+            return new ItemStack(BlocksInit.OREDIUM_BLOCK.get());
         }
     };
 
     public static final CreativeModeTab OREDIUM_ARMORS = new CreativeModeTab("oredium_tab_armors"){
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ItemsInit.ALEZARITA_NUGGET.get());
+            return new ItemStack(ItemsInit.ENDERIUM_GEM.get());
         }
     };
 }

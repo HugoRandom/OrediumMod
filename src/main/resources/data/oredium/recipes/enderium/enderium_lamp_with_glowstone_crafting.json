@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " O ",
+        "OTO",
+        " O "
+    ],
+    "key": {
+        "O": {
+            "item": "oredium:enderium_nugget"
+        },
+        "T": {
+            "item": "minecraft:glowstone"
+        }
+    },
+    "result": {
+        "item": "oredium:enderium_lamp",
+        "count": 1
+    }
+}

@@ -1,0 +1,123 @@
+{
+  "display": {
+    "icon": {
+      "item": "oredium:enderium_ingot"
+    },
+    "title": {
+      "translate": "advancement.start_title"
+    },
+    "description": {
+      "translate": "advancement.start_desc"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_alezarita": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oredium:alezarita_ingot"
+          }
+        ]
+      }
+    },
+    "get_axidita": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oredium:axidita_ingot"
+          }
+        ]
+      }
+    },
+    "get_caballerita": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oredium:caballerita_ingot"
+          }
+        ]
+      }
+    },
+    "get_cesarita": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oredium:cesarita_ingot"
+          }
+        ]
+      }
+    },
+    "get_enderium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oredium:enderium_ingot"
+          }
+        ]
+      }
+    },
+    "get_franitolina": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oredium:franitolina_ingot"
+          }
+        ]
+      }
+    },
+    "get_hugodium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oredium:hugodium_ingot"
+          }
+        ]
+      }
+    },
+    "get_miguelitio": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oredium:miguelitio_ingot"
+          }
+        ]
+      }
+    },
+    "get_shine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oredium:shine_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_alezarita",
+      "get_axidita",
+      "get_caballerita",
+      "get_cesarita",
+      "get_enderium",
+      "get_franitolina",
+      "get_hugodium",
+      "get_miguelitio",
+      "get_shine"
+    ]
+  ]
+}

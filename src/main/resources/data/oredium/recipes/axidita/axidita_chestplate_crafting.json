@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "i i",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "oredium:axidita_ingot"
+        }
+    },
+    "result": {
+        "item": "oredium:axidita_chestplate",
+        "count": 1
+    }
+}

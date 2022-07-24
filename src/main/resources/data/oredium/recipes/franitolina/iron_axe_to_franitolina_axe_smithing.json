@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:iron_axe"
+    },
+    "addition": {
+        "item": "oredium:franitolina_ingot"
+    },
+    "result": {
+        "item": "oredium:franitolina_axe"
+    }
+}

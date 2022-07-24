@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "oredium:hugodium_nugget"
+        }
+    },
+    "result": {
+        "item": "oredium:hugodium_ingot",
+        "count": 1
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "oredium:alezarita_ore"
+    },
+    "result": "oredium:alezarita_ingot",
+    "experience": 1,
+    "cookingtime": 100
+}

@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "oredium:caballerita_ore"
+    },
+    "result": "oredium:caballerita_ingot",
+    "experience": 0.75,
+    "cookingtime": 200
+}

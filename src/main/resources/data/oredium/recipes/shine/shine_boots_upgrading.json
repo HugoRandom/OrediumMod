@@ -1,0 +1,14 @@
+{
+  "type": "oredium:upgrading",
+  "ingredients": [
+    {
+      "item": "oredium:shine_gem"
+    },
+    {
+      "item": "oredium:shine_boots"
+    }
+  ],
+  "output": {
+    "item": "oredium:shine_boots_upgraded"
+  }
+}

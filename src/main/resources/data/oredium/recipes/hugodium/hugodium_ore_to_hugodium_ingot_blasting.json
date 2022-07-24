@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "oredium:hugodium_ore"
+    },
+    "result": "oredium:hugodium_ingot",
+    "experience": 1,
+    "cookingtime": 100
+}

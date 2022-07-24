@@ -1,0 +1,9 @@
+{
+  "upgrading_sound": {
+    "category": "blocks",
+    "subtitle": "oredium.upgrading_sound",
+    "sounds": [
+      "oredium:upgrading_sound"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "CSE",
+        " B "
+    ],
+    "key": {
+        "#": {
+            "item": "oredium:alezarita_nugget"
+        },
+        "C": {
+            "item": "minecraft:kelp"
+        },
+        "S": {
+            "item": "minecraft:cooked_chicken"
+        },
+        "E": {
+            "tag": "forge:crops/tomato"
+        },
+        "B": {
+            "item": "minecraft:bowl"
+        }
+    },
+    "result": {
+        "item": "oredium:alezarita_chicken",
+        "count": 1
+    }
+}

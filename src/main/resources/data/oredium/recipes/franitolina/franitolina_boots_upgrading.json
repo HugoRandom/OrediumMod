@@ -1,0 +1,14 @@
+{
+  "type": "oredium:upgrading",
+  "ingredients": [
+    {
+      "item": "oredium:franitolina_gem"
+    },
+    {
+      "item": "oredium:franitolina_boots"
+    }
+  ],
+  "output": {
+    "item": "oredium:franitolina_boots_upgraded"
+  }
+}

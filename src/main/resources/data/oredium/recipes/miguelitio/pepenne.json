@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#O#",
+        "PoP",
+        "#o#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wheat"
+        },
+        "O": {
+            "item": "oredium:miguelitio_nugget"
+        },
+        "P": {
+            "item": "minecraft:potato"
+        },
+        "o": {
+	      	"tag": "forge:crops/tomato"
+	    }
+    },
+    "result": {
+        "item": "oredium:pepenne",
+        "count": 1
+    }
+}

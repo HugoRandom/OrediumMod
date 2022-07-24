@@ -4,9 +4,9 @@ import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 
-public class Normal extends Item {
+public class CommonItem extends Item {
 
-    public Normal() {
+    public CommonItem() {
         super(new Properties()
                 .tab(ItemGroupTabs.OREDIUM_ITEMS)
                 .rarity(Rarity.COMMON)

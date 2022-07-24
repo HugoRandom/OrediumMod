@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "oredium:shine_sword",
+      "nbt": "{Enchantments:[{id:\"sharpness\",lvl:3}]}"
+    },
+    "title": {
+      "translate": "advancement.kill_title"
+    },
+    "description": {
+      "translate": "advancement.kill_desc"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "oredium:swords",
+  "criteria": {
+    "shine_sword": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "item": "oredium:shine_sword"
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:villager"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

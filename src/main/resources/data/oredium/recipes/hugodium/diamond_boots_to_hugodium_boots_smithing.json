@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:diamond_boots"
+    },
+    "addition": {
+        "item": "oredium:hugodium_ingot"
+    },
+    "result": {
+        "item": "oredium:hugodium_boots"
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "oredium:upgrading",
+  "ingredients": [
+    {
+      "item": "oredium:cesarita_gem"
+    },
+    {
+      "item": "oredium:cesarita_chestplate"
+    }
+  ],
+  "output": {
+    "item": "oredium:cesarita_chestplate_upgraded"
+  }
+}

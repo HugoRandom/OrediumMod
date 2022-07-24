@@ -1,0 +1,14 @@
+{
+  "type": "oredium:upgrading",
+  "ingredients": [
+    {
+      "item": "oredium:alezarita_gem"
+    },
+    {
+      "item": "oredium:alezarita_boots"
+    }
+  ],
+  "output": {
+    "item": "oredium:alezarita_boots_upgraded"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "i i",
+        "i i"
+    ],
+    "key": {
+        "i": {
+            "item": "oredium:enderium_ingot"
+        }
+    },
+    "result": {
+        "item": "oredium:enderium_leggings",
+        "count": 1
+    }
+}

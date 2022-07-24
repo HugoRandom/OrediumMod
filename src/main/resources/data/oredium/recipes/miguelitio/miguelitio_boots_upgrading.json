@@ -1,0 +1,14 @@
+{
+  "type": "oredium:upgrading",
+  "ingredients": [
+    {
+      "item": "oredium:miguelitio_gem"
+    },
+    {
+      "item": "oredium:miguelitio_boots"
+    }
+  ],
+  "output": {
+    "item": "oredium:miguelitio_boots_upgraded"
+  }
+}

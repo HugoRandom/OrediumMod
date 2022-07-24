@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "oredium:enderium_ingot"
+        }
+    ],
+    "result": {
+        "item": "oredium:enderium_nugget",
+        "count": 9
+    }
+}

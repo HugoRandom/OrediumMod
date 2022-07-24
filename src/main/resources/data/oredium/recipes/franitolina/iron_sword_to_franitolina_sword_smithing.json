@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:iron_sword"
+    },
+    "addition": {
+        "item": "oredium:franitolina_ingot"
+    },
+    "result": {
+        "item": "oredium:franitolina_sword"
+    }
+}

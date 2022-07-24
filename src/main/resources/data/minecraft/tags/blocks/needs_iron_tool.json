@@ -1,6 +1,13 @@
 {
     "replace": false,
     "values": [
-
+        "oredium:caballerita_block",
+        "oredium:axidita_block",
+        "oredium:cesarita_block",
+        "oredium:franitolina_block",
+        "oredium:caballerita_ore",
+        "oredium:axidita_ore",
+        "oredium:cesarita_ore",
+        "oredium:franitolina_ore"
     ]
 }

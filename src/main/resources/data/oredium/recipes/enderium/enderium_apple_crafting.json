@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ooo",
+        "oAo",
+        "ooo"
+    ],
+    "key": {
+        "o": {
+            "item": "oredium:enderium_ingot"
+        },
+        "A": {
+            "item": "minecraft:apple"
+        }
+    },
+    "result": {
+        "item": "oredium:enderium_apple",
+        "count": 1
+    }
+}

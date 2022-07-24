@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "oredium:axidita_nugget"
+        }
+    },
+    "result": {
+        "item": "oredium:axidita_ingot",
+        "count": 1
+    }
+}
