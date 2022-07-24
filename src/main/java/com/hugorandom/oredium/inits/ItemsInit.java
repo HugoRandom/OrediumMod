@@ -32,24 +32,13 @@ public class ItemsInit {
     // Pepitas
     public static final RegistryObject<Item> SHINE_NUGGET = ITEMS.register("shine_nugget", CommonItem::new);
     public static final RegistryObject<Item> CABALLERITA_NUGGET = ITEMS.register("caballerita_nugget", CommonItem::new);
-    public static final RegistryObject<Item> AXIDITA_INUGGET = ITEMS.register("axidita_nugget", CommonItem::new);
+    public static final RegistryObject<Item> AXIDITA_NUGGET = ITEMS.register("axidita_nugget", CommonItem::new);
     public static final RegistryObject<Item> CESARITA_NUGGET = ITEMS.register("cesarita_nugget", CommonItem::new);
     public static final RegistryObject<Item> FRANITOLINA_NUGGET = ITEMS.register("franitolina_nugget", CommonItem::new);
     public static final RegistryObject<Item> ENDERIUM_NUGGET = ITEMS.register("enderium_nugget", CommonItem::new);
     public static final RegistryObject<Item> ALEZARITA_NUGGET = ITEMS.register("alezarita_nugget", CommonItem::new);
     public static final RegistryObject<Item> HUGODIUM_NUGGET = ITEMS.register("hugodium_nugget", CommonItem::new);
     public static final RegistryObject<Item> MIGUELITIO_NUGGET = ITEMS.register("miguelitio_nugget", CommonItem::new);
-
-    // Gemas
-    public static final RegistryObject<Item> SHINE_GEM = ITEMS.register("shine_gem", GemItem::new);
-    public static final RegistryObject<Item> CABALLERITA_GEM = ITEMS.register("caballerita_gem", GemItem::new);
-    public static final RegistryObject<Item> AXIDITA_GEM = ITEMS.register("axidita_gem", GemItem::new);
-    public static final RegistryObject<Item> CESARITA_GEM = ITEMS.register("cesarita_gem", GemItem::new);
-    public static final RegistryObject<Item> FRANITOLINA_GEM = ITEMS.register("franitolina_gem", GemItem::new);
-    public static final RegistryObject<Item> ENDERIUM_GEM = ITEMS.register("enderium_gem", GemItem::new);
-    public static final RegistryObject<Item> ALEZARITA_GEM = ITEMS.register("alezarita_gem", GemItem::new);
-    public static final RegistryObject<Item> HUGODIUM_GEM = ITEMS.register("hugodium_gem", GemItem::new);
-    public static final RegistryObject<Item> MIGUELITIO_GEM = ITEMS.register("miguelitio_gem", GemItem::new);
 
     // Especiales
     public static final RegistryObject<Item> OREDIUM_AMULET = ITEMS.register("oredium_amulet", AmuletItem::new);

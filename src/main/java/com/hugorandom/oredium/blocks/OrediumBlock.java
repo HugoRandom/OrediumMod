@@ -15,7 +15,7 @@ public class OrediumBlock extends Block {
 	public OrediumBlock() {
 		super(Properties
         		.of(Material.METAL)
-        		.sound(SoundType.LANTERN)
+        		.sound(SoundType.SHROOMLIGHT)
         		.requiresCorrectToolForDrops()
         		.strength(8.0f, 40.0f)
         		.lightLevel((lightLevel) -> 10));

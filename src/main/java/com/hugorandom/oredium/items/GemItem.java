@@ -17,15 +17,13 @@ public class GemItem extends Item {
 
     public GemItem() {
         super(new Properties()
-                .tab(ItemGroupTabs.OREDIUM_ITEMS)
+                .tab(ItemGroupTabs.OREDIUM_ARMORS)
                 .rarity(Rarity.UNCOMMON)
                 .stacksTo(16)
                 .setNoRepair());
     }
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        if(!Screen.hasShiftDown()){
-            pTooltipComponents.add(new TranslatableComponent("tooltip.oredium.gem"));
-        }
+        pTooltipComponents.add(new TranslatableComponent("tooltip.oredium.gem"));
     }
 }

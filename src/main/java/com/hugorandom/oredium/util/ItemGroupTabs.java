@@ -1,5 +1,6 @@
 package com.hugorandom.oredium.util;
 
+import com.hugorandom.oredium.inits.ArmorsInit;
 import com.hugorandom.oredium.inits.BlocksInit;
 import com.hugorandom.oredium.inits.ItemsInit;
 import net.minecraft.world.item.CreativeModeTab;
@@ -16,15 +17,13 @@ public class ItemGroupTabs {
 
     public static final CreativeModeTab OREDIUM_TOOLS = new CreativeModeTab("oredium_tab_tools"){
         @Override
-        public ItemStack makeIcon() {
-            return new ItemStack(BlocksInit.OREDIUM_BLOCK.get());
-        }
+        public ItemStack makeIcon() { return new ItemStack(BlocksInit.OREDIUM_BLOCK.get()); }
     };
 
     public static final CreativeModeTab OREDIUM_ARMORS = new CreativeModeTab("oredium_tab_armors"){
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ItemsInit.ENDERIUM_GEM.get());
+            return new ItemStack(ArmorsInit.ENDERIUM_CHESTPLATE_UPGRADED.get());
         }
     };
 }

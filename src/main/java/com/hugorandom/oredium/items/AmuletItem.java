@@ -26,8 +26,6 @@ public class AmuletItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        if(!Screen.hasShiftDown()){
-            pTooltipComponents.add(new TranslatableComponent("tooltip.oredium.amulet"));
-        }
+        pTooltipComponents.add(new TranslatableComponent("tooltip.oredium.amulet"));
     }
 }

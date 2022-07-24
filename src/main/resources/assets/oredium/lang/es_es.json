@@ -214,16 +214,6 @@
 	"item.oredium.enderium_crystal": "Cristal de Enderita",
 	"item.oredium.oredium_amulet": "Amuleto de Oredium",	
 
-	"tooltip.alezarita_armor_upgraded": "\u00A78Furia inmortal - 2x <3",
-	"tooltip.axidita_armor_upgraded": "\u00A7aDuro como la piedra - 3x <3",
-	"tooltip.caballerita_armor_upgraded": "\u00A7eInfernal - 2x <3",
-	"tooltip.cesarita_armor_upgraded": "\u00A78Protecion oscura",
-	"tooltip.enderium_armor_upgraded": "\u00A75Buen aliento",	
-	"tooltip.franitolina_armor_upgraded": "\u00A76Suerte especial",
-	"tooltip.hugodium_armor_upgraded": "\u00A7cUltima esperanza - 2x <3",
-	"tooltip.miguelitio_armor_upgraded": "\u00A7bEscapando mejor - 3x <3",
-	"tooltip.shine_armor_upgraded": "\u00A79Antimagia",
-
 	"tooltip.oredium.amulet": "Usado para crear el Bloque de Oredium",
 	"tooltip.oredium.gem": "Una pieza del poder...",
 
@@ -233,7 +223,7 @@
 
 	"screen.oredium.upgrading": "Mejorando Armadura",
 
-	"advancement.start_title": "Mas minerales, si...",
+	"advancement.start_title": "Oredium",
 	"advancement.start_desc": "Explora el mod Oredium",
 	"advancement.ingots_title": "Todos pa mi",
 	"advancement.ingots_desc": "Obten todos los lingotes de Oredium",

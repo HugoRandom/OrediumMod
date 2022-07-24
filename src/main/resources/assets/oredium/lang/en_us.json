@@ -214,16 +214,6 @@
 	"item.oredium.enderium_crystal": "Enderita Crystal",	
 	"item.oredium.oredium_amulet": "Oredium Amulet",
 
-	"tooltip.alezarita_armor_upgraded": "\u00A78Last Hope - 2x <3",
-	"tooltip.axidita_armor_upgraded": "\u00A7aHard as Rock - 3x <3",
-	"tooltip.caballerita_armor_upgraded": "\u00A7eInfernal - 2x <3",
-	"tooltip.cesarita_armor_upgraded": "\u00A78Black Proteccion ",
-	"tooltip.enderium_armor_upgraded": "\u00A75Good Breath",	
-	"tooltip.franitolina_armor_upgraded": "\u00A76Get Lucky",
-	"tooltip.hugodium_armor_upgraded": "\u00A7cInmmortal Fury - 2x <3",
-	"tooltip.miguelitio_armor_upgraded": "\u00A7bBetter Escape - 3x <3",
-	"tooltip.shine_armor_upgraded": "\u00A79Antimagic",
-
 	"tooltip.oredium.amulet": "Used to make the Oredium Block",
 	"tooltip.oredium.gem": "A piece of power...",
 
@@ -233,7 +223,7 @@
 
 	"screen.oredium.upgrading": "Upgrading Armor",
 
-	"advancement.start_title": "More Ores, yes...",
+	"advancement.start_title": "Oredium",
 	"advancement.start_desc": "Explore the Oredium mod",
 	"advancement.ingots_title": "All of them",
 	"advancement.ingots_desc": "Get all the Oredium ingots",
