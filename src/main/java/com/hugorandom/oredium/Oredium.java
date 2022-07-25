@@ -1,5 +1,6 @@
 package com.hugorandom.oredium;
 
+import com.hugorandom.oredium.events.ArmorEvents;
 import com.hugorandom.oredium.inits.*;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Blocks;
@@ -28,8 +29,10 @@ public class Oredium
         FoodsInit.register(eventBus);
         ToolsInit.register(eventBus);
         ArmorsInit.register(eventBus);
+        PaintingsInit.register(eventBus);
 
         eventBus.addListener(this::setup);
+        MinecraftForge.EVENT_BUS.register(ArmorEvents.class);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
