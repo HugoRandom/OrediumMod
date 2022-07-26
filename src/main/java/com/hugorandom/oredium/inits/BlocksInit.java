@@ -1,13 +1,9 @@
 package com.hugorandom.oredium.inits;
 
 import com.hugorandom.oredium.Oredium;
-import com.hugorandom.oredium.blocks.LampBlock;
-import com.hugorandom.oredium.blocks.MetalBlock;
-import com.hugorandom.oredium.blocks.OreBlock;
-import com.hugorandom.oredium.blocks.OrediumBlock;
+import com.hugorandom.oredium.blocks.*;
 import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -57,16 +53,26 @@ public class BlocksInit {
     // Menas
     public static final RegistryObject<Block> SHINE_ORE = registerBlock("shine_ore",
             () -> new OreBlock(4f, 3f));
+    public static final RegistryObject<Block> DEEPSLATE_SHINE_ORE = registerBlock("deepslate_shine_ore",
+            () -> new DeepslateOreBlock(4.5f, 3f));
     public static final RegistryObject<Block> CABALLERITA_ORE = registerBlock("caballerita_ore",
             () -> new OreBlock(5f, 4f));
+    public static final RegistryObject<Block> DEEPSLATE_CABALLERITA_ORE = registerBlock("deepslate_caballerita_ore",
+            () -> new DeepslateOreBlock(5.5f, 4f));
     public static final RegistryObject<Block> CESARITA_ORE = registerBlock("cesarita_ore",
             () -> new OreBlock(5f, 4f));
+    public static final RegistryObject<Block> DEEPSLATE_CESARITA_ORE = registerBlock("deepslate_cesarita_ore",
+            () -> new DeepslateOreBlock(5.5f, 4f));
     public static final RegistryObject<Block> AXIDITA_ORE = registerBlock("axidita_ore",
             () -> new OreBlock(4f, 3f));
+    public static final RegistryObject<Block> DEEPSLATE_AXIDITA_ORE = registerBlock("deepslate_axidita_ore",
+            () -> new DeepslateOreBlock(4.5f, 3f));
     public static final RegistryObject<Block> FRANITOLINA_ORE = registerBlock("franitolina_ore",
             () -> new OreBlock(5f, 5f));
-    public static final RegistryObject<Block> ENDERIUM_ORE = registerBlock("enderium_ore",
-            () -> new OreBlock(6f, 10f));
+    public static final RegistryObject<Block> DEEPSLATE_FRANITOLINA_ORE = registerBlock("deepslate_franitolina_ore",
+            () -> new DeepslateOreBlock(5.5f, 5f));
+    public static final RegistryObject<Block> DEEPSLATE_ENDERIUM_ORE = registerBlock("deepslate_enderium_ore",
+            () -> new DeepslateOreBlock(6f, 10f));
     public static final RegistryObject<Block> ALEZARITA_ORE = registerBlock("alezarita_ore",
             () -> new OreBlock(5f, 6f));
     public static final RegistryObject<Block> HUGODIUM_ORE = registerBlock("hugodium_ore",

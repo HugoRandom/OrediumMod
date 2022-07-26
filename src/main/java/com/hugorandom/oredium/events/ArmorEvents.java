@@ -3,12 +3,12 @@ package com.hugorandom.oredium.events;
 import com.hugorandom.oredium.Oredium;
 import com.hugorandom.oredium.inits.ArmorsInit;
 import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.living.LivingAttackEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -20,6 +20,7 @@ public class ArmorEvents {
 
     @SubscribeEvent(priority=EventPriority.NORMAL, receiveCanceled=true)
     public static void onEntityHurt(LivingAttackEvent event) {
+        LivingEntity player = event.getEntityLiving();
         ItemStack helmet = event.getEntityLiving().getItemBySlot(EquipmentSlot.HEAD);
         ItemStack chest = event.getEntityLiving().getItemBySlot(EquipmentSlot.CHEST);
         ItemStack legs = event.getEntityLiving().getItemBySlot(EquipmentSlot.LEGS);
@@ -27,8 +28,8 @@ public class ArmorEvents {
 
         if (helmet.getItem() == ArmorsInit.ALEZARITA_HELMET_UPGRADED.get() && chest.getItem() == ArmorsInit.ALEZARITA_CHESTPLATE_UPGRADED.get()
                 && legs.getItem() == ArmorsInit.ALEZARITA_LEGGINGS_UPGRADED.get() && boots.getItem() == ArmorsInit.ALEZARITA_BOOTS_UPGRADED.get()) {
-            if (event.getEntityLiving().getHealth() < 4) {
-                event.getEntityLiving().addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 0));
+            if (player.getHealth() < 4) {
+                addEffect(player, MobEffects.MOVEMENT_SPEED);
             }
         }
         else if (helmet.getItem() == ArmorsInit.AXIDITA_HELMET_UPGRADED.get() && chest.getItem() == ArmorsInit.AXIDITA_CHESTPLATE_UPGRADED.get()
@@ -81,9 +82,18 @@ public class ArmorEvents {
         }
     }
 
-    public static void addEffect(LivingEntity player){
-        player.getActiveEffects();
-
-        player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 0));
+    public static void addEffect(LivingEntity player, MobEffect effect){
+        int level = -1;
+        int time = 0;
+        for (MobEffectInstance MEI : player.getActiveEffects()) {
+            if(MEI.getEffect() == effect){
+                time = MEI.getDuration();
+                level = MEI.getAmplifier();
+                if (level >= 3) level = 3;
+                if (time >= 9600) time = 9600;
+                break;
+            }
+        }
+        player.addEffect(new MobEffectInstance(effect, time+200, level+1));
     }
 }

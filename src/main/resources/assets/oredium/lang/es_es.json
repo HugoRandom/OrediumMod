@@ -1,5 +1,4 @@
-{	
-
+{
 	"block.oredium.alezarita_ore": "Mena de Alezarita",	
 	"block.oredium.axidita_ore": "Mena de Axidita",	
 	"block.oredium.caballerita_ore": "Mena de Caballerita",	
@@ -8,7 +7,14 @@
 	"block.oredium.franitolina_ore": "Mena de Franitolina",
 	"block.oredium.hugodium_ore": "Mena de Hugodium",	
 	"block.oredium.miguelitio_ore": "Mena de Miguelitio",	
-	"block.oredium.shine_ore": "Mena de Shine",	
+	"block.oredium.shine_ore": "Mena de Shine",
+
+	"block.oredium.axidita_ore": "Mena de Axidita de pizarra profunda",
+	"block.oredium.caballerita_ore": "Mena de Caballerita pizarra profunda",
+	"block.oredium.cesarita_ore": "Mena de Cesarita pizarra profunda",
+	"block.oredium.enderium_ore": "Mena de Enderium pizarra profunda",
+	"block.oredium.franitolina_ore": "Mena de Franitolina pizarra profunda",
+	"block.oredium.shine_ore": "Mena de Shine pizarra profunda",
 
 	"item.oredium.alezarita_nugget": "Pepita de Alezarita",	
 	"item.oredium.axidita_nugget": "Pepita de Axidita",
@@ -220,6 +226,8 @@
 	"itemGroup.oredium_tab_items": "Oredium - Objetos",
 	"itemGroup.oredium_tab_tools": "Oredium - Herramientas",
 	"itemGroup.oredium_tab_armors": "Oredium - Armaduras",
+
+	"sounds.oredium.upgrading_sound": "Sonido de Mejora",
 
 	"screen.oredium.upgrading": "Mejorando Armadura",
 

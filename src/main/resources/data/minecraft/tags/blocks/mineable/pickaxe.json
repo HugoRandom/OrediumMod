@@ -15,7 +15,6 @@
         "oredium:axidita_ore",
         "oredium:cesarita_ore",
         "oredium:franitolina_ore",
-        "oredium:enderium_ore",
         "oredium:alezarita_ore",
         "oredium:hugodium_ore",
         "oredium:miguelitio_ore",
@@ -28,6 +27,12 @@
         "oredium:alezarita_lamp",
         "oredium:hugodium_lamp",
         "oredium:miguelitio_lamp",
-        "oredium:oredium_block"
+        "oredium:oredium_block",
+        "oredium:deepslate_shine_ore",
+        "oredium:deepslate_caballerita_ore",
+        "oredium:deepslate_axidita_ore",
+        "oredium:deepslate_cesarita_ore",
+        "oredium:deepslate_franitolina_ore",
+        "oredium:deepslate_enderium_ore"
     ]
 }

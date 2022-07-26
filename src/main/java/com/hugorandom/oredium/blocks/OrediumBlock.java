@@ -25,7 +25,7 @@ public class OrediumBlock extends Block {
         		.sound(SoundType.SHROOMLIGHT)
         		.requiresCorrectToolForDrops()
         		.strength(8.0f, 40.0f)
-        		.lightLevel((lightLevel) -> 10));
+        		.lightLevel((state) -> state.getValue(OrediumBlock.UPGRADING) ? 10 : 0));
 	}
 
 	@Override

@@ -1,5 +1,4 @@
-{	
-
+{
 	"block.oredium.alezarita_ore": "Alezarita Ore",	
 	"block.oredium.axidita_ore": "Axidita Ore",	
 	"block.oredium.caballerita_ore": "Caballerita Ore",	
@@ -9,6 +8,13 @@
 	"block.oredium.hugodium_ore": "Hugodium Ore",	
 	"block.oredium.miguelitio_ore": "Miguelitio Ore",	
 	"block.oredium.shine_ore": "Shine Ore",
+
+	"block.oredium.deepslate_axidita_ore": "Deepslate Axidita Ore",
+	"block.oredium.deepslate_caballerita_ore": "Deepslate Caballerita Ore",
+	"block.oredium.deepslate_cesarita_ore": "Deepslate Cesarita Ore",
+	"block.oredium.deepslate_enderium_ore": "Deepslate Enderium Ore",
+	"block.oredium.deepslate_franitolina_ore": "Deepslate Franitolina Ore",
+	"block.oredium.deepslate_shine_ore": "Deepslate Shine Ore",
 
 	"item.oredium.alezarita_nugget": "Alezarita Nugget",
 	"item.oredium.axidita_nugget": "Axidita Nugget",		
@@ -220,6 +226,8 @@
 	"itemGroup.oredium_tab_items": "Oredium - Items",
 	"itemGroup.oredium_tab_tools": "Oredium - Tools",
 	"itemGroup.oredium_tab_armors": "Oredium - Armors",
+
+	"sounds.oredium.upgrading_sound": "Upgrading Sound",
 
 	"screen.oredium.upgrading": "Upgrading Armor",
 

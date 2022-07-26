@@ -1,0 +1,8 @@
+{
+    "upgrading_sound": {
+        "subtitle": "sounds.oredium.upgrading_sound",
+        "sounds": [
+            "oredium:upgrading_sound"
+        ]
+    }
+}

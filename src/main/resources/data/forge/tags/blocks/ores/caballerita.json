@@ -1,6 +1,7 @@
 {
   	"replace": false,
   	"values": [
-    	"oredium:caballerita_ore"
+    	"oredium:caballerita_ore",
+		"oredium:deepslate_caballerita_ore"
   	]
 }

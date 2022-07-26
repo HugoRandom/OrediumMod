@@ -8,6 +8,10 @@
         "oredium:caballerita_ore",
         "oredium:axidita_ore",
         "oredium:cesarita_ore",
-        "oredium:franitolina_ore"
+        "oredium:franitolina_ore",
+        "oredium:deepslate_caballerita_ore",
+        "oredium:deepslate_axidita_ore",
+        "oredium:deepslate_cesarita_ore",
+        "oredium:deepslate_franitolina_ore"
     ]
 }

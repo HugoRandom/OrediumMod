@@ -1,7 +1,7 @@
 {
     "type": "minecraft:blasting",
     "ingredient": {
-        "item": "oredium:enderium_ore"
+        "item": "oredium:deepslate_enderium_ore"
     },
     "result": "oredium:enderium_ingot",
     "experience": 1,

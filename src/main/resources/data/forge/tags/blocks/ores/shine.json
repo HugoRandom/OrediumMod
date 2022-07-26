@@ -1,6 +1,7 @@
 {
   	"replace": false,
   	"values": [
-    	"oredium:shine_ore"
+    	"oredium:shine_ore",
+		"oredium:deepslate_shine_ore"
   	]
 }

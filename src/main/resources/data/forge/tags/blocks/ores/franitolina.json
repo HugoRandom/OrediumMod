@@ -1,6 +1,7 @@
 {
   	"replace": false,
   	"values": [
-    	"oredium:franitolina_ore"
+    	"oredium:franitolina_ore",
+		"oredium:deepslate_franitolina_ore"
   	]
 }
