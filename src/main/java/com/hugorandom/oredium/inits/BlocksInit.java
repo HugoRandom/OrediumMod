@@ -3,9 +3,15 @@ package com.hugorandom.oredium.inits;
 import com.hugorandom.oredium.Oredium;
 import com.hugorandom.oredium.blocks.*;
 import com.hugorandom.oredium.util.ItemGroupTabs;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerBlock;
+import net.minecraft.world.level.block.FlowerPotBlock;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -22,15 +28,19 @@ public class BlocksInit {
         registerBlockItem(name, toReturn);
         return toReturn;
     }
+    private static <T extends Block> RegistryObject<T> registerBlockNoItem(String name, Supplier<T> block){
+        return BLOCKS.register(name, block);
+    }
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block){
         return ItemsInit.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(ItemGroupTabs.OREDIUM_ITEMS)));
     }
+
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);
     }
 
 
-    // Bloques de x9 Lingotes
+    // Bloques de x9 Lingotes - Blocks of Metal
     public static final RegistryObject<Block> SHINE_BLOCK = registerBlock("shine_block",
             () -> new MetalBlock(4f, 3f));
     public static final RegistryObject<Block> CABALLERITA_BLOCK = registerBlock("caballerita_block",
@@ -50,7 +60,7 @@ public class BlocksInit {
     public static final RegistryObject<Block> MIGUELITIO_BLOCK = registerBlock("miguelitio_block",
             () -> new MetalBlock(6f, 8f));
 
-    // Menas
+    // Menas normales y profundas - Normal and deepslate Ores
     public static final RegistryObject<Block> SHINE_ORE = registerBlock("shine_ore",
             () -> new OreBlock(4f, 3f));
     public static final RegistryObject<Block> DEEPSLATE_SHINE_ORE = registerBlock("deepslate_shine_ore",
@@ -80,7 +90,7 @@ public class BlocksInit {
     public static final RegistryObject<Block> MIGUELITIO_ORE = registerBlock("miguelitio_ore",
             () -> new OreBlock(4f, 8f));
 
-    // Lamparas
+    // Lamparas - Lamps
     public static final RegistryObject<Block> SHINE_LAMP = registerBlock("shine_lamp", LampBlock::new);
     public static final RegistryObject<Block> CABALLERITA_LAMP = registerBlock("caballerita_lamp", LampBlock::new);
     public static final RegistryObject<Block> AXIDITA_LAMP = registerBlock("axidita_lamp", LampBlock::new);
@@ -91,6 +101,17 @@ public class BlocksInit {
     public static final RegistryObject<Block> HUGODIUM_LAMP = registerBlock("hugodium_lamp", LampBlock::new);
     public static final RegistryObject<Block> MIGUELITIO_LAMP = registerBlock("miguelitio_lamp", LampBlock::new);
 
-    // Especiales
+    // Especiales - Specials
     public static final RegistryObject<Block> OREDIUM_BLOCK = registerBlock("oredium_block", OrediumBlock::new);
+
+    // Flores - Flowers
+    public static final RegistryObject<Block> SOLIMA = registerBlock("solima",
+            () -> new FlowerBlock(MobEffects.GLOWING, 3,
+                    BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion()));
+
+    public static final RegistryObject<Block> POTTED_SOLIMA = registerBlockNoItem("potted_solima",
+            () -> new FlowerPotBlock(null, BlocksInit.SOLIMA,
+                    BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
+
+
 }

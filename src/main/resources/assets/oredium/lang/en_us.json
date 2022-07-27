@@ -55,7 +55,10 @@
 	"block.oredium.franitolina_lamp": "Franitolina Lamp",
 	"block.oredium.hugodium_lamp": "Hugodium Lamp",
 	"block.oredium.miguelitio_lamp": "Miguelitio Lamp",	
-	"block.oredium.shine_lamp": "Shine Lamp",		
+	"block.oredium.shine_lamp": "Shine Lamp",
+
+	"block.oredium.solima": "Solima",
+	"block.oredium.potted_solima": "Potted Solima",
 
 	"material.oredium.alezarita": "Alezarita",
 	"material.oredium.axidita": "Axidita",
