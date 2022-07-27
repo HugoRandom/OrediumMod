@@ -90,6 +90,26 @@ public class BlocksInit {
     public static final RegistryObject<Block> MIGUELITIO_ORE = registerBlock("miguelitio_ore",
             () -> new OreBlock(4f, 8f));
 
+    // Bloques de metal en bruto - Raw metal blocks
+    public static final RegistryObject<Block> RAW_SHINE_BLOCK = registerBlock("raw_shine_block",
+            () -> new MetalBlock(3f, 1f));
+    public static final RegistryObject<Block> RAW_CABALLERITA_BLOCK = registerBlock("raw_caballerita_block",
+            () -> new MetalBlock(4f, 1f));
+    public static final RegistryObject<Block> RAW_CESARITA_BLOCK = registerBlock("raw_cesarita_block",
+            () -> new MetalBlock(4f, 1f));
+    public static final RegistryObject<Block> RAW_AXIDITA_BLOCK = registerBlock("raw_axidita_block",
+            () -> new MetalBlock(4f, 3f));
+    public static final RegistryObject<Block> RAW_FRANITOLINA_BLOCK = registerBlock("raw_franitolina_block",
+            () -> new MetalBlock(4f, 3f));
+    public static final RegistryObject<Block> RAW_ENDERIUM_BLOCK = registerBlock("raw_enderium_block",
+            () -> new MetalBlock(4f, 3f));
+    public static final RegistryObject<Block> RAW_ALEZARITA_BLOCK = registerBlock("raw_alezarita_block",
+            () -> new MetalBlock(5f, 4f));
+    public static final RegistryObject<Block> RAW_HUGODIUM_BLOCK = registerBlock("raw_hugodium_block",
+            () -> new MetalBlock(5f, 5f));
+    public static final RegistryObject<Block> RAW_MIGUELITIO_BLOCK = registerBlock("raw_miguelitio_block",
+            () -> new MetalBlock(5f, 6f));
+
     // Lamparas - Lamps
     public static final RegistryObject<Block> SHINE_LAMP = registerBlock("shine_lamp", LampBlock::new);
     public static final RegistryObject<Block> CABALLERITA_LAMP = registerBlock("caballerita_lamp", LampBlock::new);
