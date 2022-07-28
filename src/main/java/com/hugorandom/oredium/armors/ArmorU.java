@@ -3,6 +3,7 @@ package com.hugorandom.oredium.armors;
 import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ItemStack;

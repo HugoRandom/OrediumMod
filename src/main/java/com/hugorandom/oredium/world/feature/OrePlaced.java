@@ -2,11 +2,15 @@ package com.hugorandom.oredium.world.feature;
 
 import net.minecraft.core.Holder;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
+import net.minecraft.data.worldgen.placement.VegetationPlacements;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
-import net.minecraft.world.level.levelgen.placement.HeightRangePlacement;
-import net.minecraft.world.level.levelgen.placement.PlacedFeature;
+import net.minecraft.world.level.levelgen.placement.*;
 
 public class OrePlaced {
+
+    public static final Holder<PlacedFeature> SOLIMA_PLACED = PlacementUtils.register("solima_placed",
+            WorldConfig.FLOWER_SOLIMA, RarityFilter.onAverageOnceEvery(16),
+            InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome());
 
     public static final Holder<PlacedFeature> SHINE_PLACED = PlacementUtils.register("shine_placed",
             WorldConfig.SHINE_ORE, OreConfig.commonOrePlacement(18, HeightRangePlacement.triangle(

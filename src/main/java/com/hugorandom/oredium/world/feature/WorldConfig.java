@@ -4,9 +4,14 @@ import com.hugorandom.oredium.inits.BlocksInit;
 import net.minecraft.core.Holder;
 import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.data.worldgen.features.OreFeatures;
+import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.RandomFeatureConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.RandomPatchConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.SimpleBlockConfiguration;
+import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
 
 import java.util.List;
 
@@ -44,7 +49,13 @@ public class WorldConfig {
     public static final List<OreConfiguration.TargetBlockState> MIGUELITIO_SPAWN = List.of(
             OreConfiguration.target(OreFeatures.NETHERRACK, BlocksInit.MIGUELITIO_ORE.get().defaultBlockState())
     );
+    // Flores - Flowers
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> FLOWER_SOLIMA =
+            FeatureUtils.register("flower_solima", Feature.FLOWER,
+                    new RandomPatchConfiguration(24, 4, 1, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(BlocksInit.SOLIMA.get())))));
 
+    // Minerales - Ores
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> SHINE_ORE =
             FeatureUtils.register("shine_ore", Feature.ORE, new OreConfiguration(SHINE_SPAWN, 8));
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> AXIDITA_ORE =

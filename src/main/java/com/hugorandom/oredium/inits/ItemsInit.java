@@ -63,10 +63,7 @@ public class ItemsInit {
     public static final RegistryObject<Item> HUGODIUM_GEM = ITEMS.register("hugodium_gem", GemItem::new);
     public static final RegistryObject<Item> MIGUELITIO_GEM = ITEMS.register("miguelitio_gem", GemItem::new);
 
-    // Especiales - Specials
-    public static final RegistryObject<Item> OREDIUM_AMULET = ITEMS.register("oredium_amulet", AmuletItem::new);
 
-    public static final RegistryObject<Item> UMC = ITEMS.register("umc", UMCItem::new);
 
 
 }

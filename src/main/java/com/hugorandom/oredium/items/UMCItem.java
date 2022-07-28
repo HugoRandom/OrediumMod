@@ -38,15 +38,14 @@ public class UMCItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(new TranslatableComponent("tooltip.oredium.UMC"));
+        pTooltipComponents.add(new TranslatableComponent("tooltip.oredium.umc"));
     }
 
     @Override
     public InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer, InteractionHand pUsedHand) {
-        BlockPos pos = pPlayer.getOnPos();
-        pLevel.explode((Entity)null, DamageSource.badRespawnPointExplosion(), (ExplosionDamageCalculator)null,
-                (double)pos.getX() + 0.5D, (double)pos.getY() + 0.5D, (double)pos.getZ() + 0.5D,
-                5.0F, false, Explosion.BlockInteraction.DESTROY);
+        BlockPos pos = pPlayer.blockPosition();
+        pLevel.explode(null,(double)pos.getX() + 0.5D, (double)pos.getY() + 0.5D, (double)pos.getZ() + 0.5D,
+                1.0F, false, Explosion.BlockInteraction.BREAK);
         return super.use(pLevel, pPlayer, pUsedHand);
     }
 }

@@ -1,6 +1,7 @@
-package com.hugorandom.oredium.events;
+package com.hugorandom.oredium.world;
 
 import com.hugorandom.oredium.Oredium;
+import com.hugorandom.oredium.world.gen.FlowerGen;
 import com.hugorandom.oredium.world.gen.OreGen;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -11,5 +12,6 @@ public class WoldEvents {
     @SubscribeEvent
     public static void biomeLoadingEvent(final BiomeLoadingEvent event){
         OreGen.generateOres(event);
+        FlowerGen.generateFlowers(event);
     }
 }

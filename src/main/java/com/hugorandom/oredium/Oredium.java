@@ -1,13 +1,11 @@
 package com.hugorandom.oredium;
 
-import com.hugorandom.oredium.events.ArmorEvents;
-import com.hugorandom.oredium.events.WoldEvents;
+import com.hugorandom.oredium.world.WoldEvents;
 import com.hugorandom.oredium.inits.*;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -33,6 +31,7 @@ public class Oredium
         ItemsInit.register(eventBus);
         FoodsInit.register(eventBus);
         BlocksInit.register(eventBus);
+        ItemsRareInit.register(eventBus);
         ToolsInit.register(eventBus);
         ArmorsInit.register(eventBus);
         PaintingsInit.register(eventBus);
@@ -40,7 +39,6 @@ public class Oredium
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::clientSetup);
-        MinecraftForge.EVENT_BUS.register(ArmorEvents.class);
         MinecraftForge.EVENT_BUS.register(WoldEvents.class);
 
         // Register ourselves for server and other game events we are interested in
