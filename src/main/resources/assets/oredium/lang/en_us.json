@@ -232,13 +232,14 @@
 
 	"item.oredium.enderium_crystal": "Enderita Crystal",	
 	"item.oredium.oredium_amulet": "Oredium Amulet",
+	"item.oredium.umc": "Urent Monochloroacetic Catalyst (UMC)",
 
 	"tooltip.oredium.amulet": "Used to make the Oredium Block",
 	"tooltip.oredium.gem": "A piece of power...",
+	"tooltip.oredium.umc": "§cWARNING: §fHighly explosive",
 
 	"itemGroup.oredium_tab_items": "Oredium - Items",
 	"itemGroup.oredium_tab_tools": "Oredium - Tools",
-	"itemGroup.oredium_tab_armors": "Oredium - Armors",
 
 	"sounds.oredium.upgrading_sound": "Upgrading Sound",
 

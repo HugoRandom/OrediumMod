@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " i ",
+        "gSn",
+        " E "
+    ],
+    "key": {
+        "i": {
+            "item": "oredium:axidita_ingot"
+        },
+        "g": {
+            "item": "oredium:miguelito_ingot"
+        },
+        "S": {
+            "item": "oredium:umc"
+        },
+        "n": {
+            "item": "minecraft:clay_ball"
+        },
+        "E": {
+            "item": "minecraft:copper_ingot"
+        }
+    },
+    "result": {
+        "item": "oredium:miguelitio_gem",
+        "count": 1
+    }
+}

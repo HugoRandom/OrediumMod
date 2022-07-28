@@ -31,8 +31,8 @@ public class Oredium
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ItemsInit.register(eventBus);
-        BlocksInit.register(eventBus);
         FoodsInit.register(eventBus);
+        BlocksInit.register(eventBus);
         ToolsInit.register(eventBus);
         ArmorsInit.register(eventBus);
         PaintingsInit.register(eventBus);

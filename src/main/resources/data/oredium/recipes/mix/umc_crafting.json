@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "NGN",
+        "S#S"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blaze_powder"
+        },
+        "N": {
+            "item": "minecraft:netherite_scrap"
+        },
+        "G": {
+            "item": "minecraft:quartz"
+        },
+        "S": {
+            "item": "minecraft:gunpowder"
+        }
+    },
+    "result": {
+        "item": "oredium:umc",
+        "count": 1
+    }
+}

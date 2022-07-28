@@ -231,14 +231,15 @@
 	"item.oredium.shine_gem": "Gema de Shine",
 
 	"item.oredium.enderium_crystal": "Cristal de Enderita",
-	"item.oredium.oredium_amulet": "Amuleto de Oredium",	
+	"item.oredium.oredium_amulet": "Amuleto de Oredium",
+	"item.oredium.umc": "Catalizador Urente Monocloroacético (CUM)",
 
 	"tooltip.oredium.amulet": "Usado para crear el Bloque de Oredium",
 	"tooltip.oredium.gem": "Una pieza del poder...",
+	"tooltip.oredium.umc": "§cADVERTENCIA: §fAltamente explosivo",
 
 	"itemGroup.oredium_tab_items": "Oredium - Objetos",
 	"itemGroup.oredium_tab_tools": "Oredium - Herramientas",
-	"itemGroup.oredium_tab_armors": "Oredium - Armaduras",
 
 	"sounds.oredium.upgrading_sound": "Sonido de Mejora",
 

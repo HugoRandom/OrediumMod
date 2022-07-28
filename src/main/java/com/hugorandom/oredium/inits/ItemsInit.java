@@ -4,6 +4,7 @@ import com.hugorandom.oredium.Oredium;
 import com.hugorandom.oredium.items.AmuletItem;
 import com.hugorandom.oredium.items.GemItem;
 import com.hugorandom.oredium.items.CommonItem;
+import com.hugorandom.oredium.items.UMCItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -18,7 +19,7 @@ public class ItemsInit {
         ITEMS.register(eventBus);
     }
 
-    // Lingotes
+    // Lingotes - Ingots
     public static final RegistryObject<Item> SHINE_INGOT = ITEMS.register("shine_ingot", CommonItem::new);
     public static final RegistryObject<Item> CABALLERITA_INGOT = ITEMS.register("caballerita_ingot", CommonItem::new);
     public static final RegistryObject<Item> AXIDITA_INGOT = ITEMS.register("axidita_ingot", CommonItem::new);
@@ -40,8 +41,32 @@ public class ItemsInit {
     public static final RegistryObject<Item> HUGODIUM_NUGGET = ITEMS.register("hugodium_nugget", CommonItem::new);
     public static final RegistryObject<Item> MIGUELITIO_NUGGET = ITEMS.register("miguelitio_nugget", CommonItem::new);
 
-    // Especiales
+    // Mineral en Bruto - RAW
+    public static final RegistryObject<Item> RAW_SHINE = ITEMS.register("raw_shine", CommonItem::new);
+    public static final RegistryObject<Item> RAW_CABALLERITA = ITEMS.register("raw_caballerita", CommonItem::new);
+    public static final RegistryObject<Item> RAW_AXIDITA = ITEMS.register("raw_axidita", CommonItem::new);
+    public static final RegistryObject<Item> RAW_CESARITA = ITEMS.register("raw_cesarita", CommonItem::new);
+    public static final RegistryObject<Item> RAW_FRANITOLINA = ITEMS.register("raw_franitolina", CommonItem::new);
+    public static final RegistryObject<Item> RAW_ENDERIUM = ITEMS.register("raw_enderium", CommonItem::new);
+    public static final RegistryObject<Item> RAW_ALEZARITA = ITEMS.register("raw_alezarita", CommonItem::new);
+    public static final RegistryObject<Item> RAW_HUGODIUM = ITEMS.register("raw_hugodium", CommonItem::new);
+    public static final RegistryObject<Item> RAW_MIGUELITIO = ITEMS.register("raw_miguelitio", CommonItem::new);
+
+    // Gemas
+    public static final RegistryObject<Item> SHINE_GEM = ITEMS.register("shine_gem", GemItem::new);
+    public static final RegistryObject<Item> CABALLERITA_GEM = ITEMS.register("caballerita_gem", GemItem::new);
+    public static final RegistryObject<Item> AXIDITA_GEM = ITEMS.register("axidita_gem", GemItem::new);
+    public static final RegistryObject<Item> CESARITA_GEM = ITEMS.register("cesarita_gem", GemItem::new);
+    public static final RegistryObject<Item> FRANITOLINA_GEM = ITEMS.register("franitolina_gem", GemItem::new);
+    public static final RegistryObject<Item> ENDERIUM_GEM = ITEMS.register("enderium_gem", GemItem::new);
+    public static final RegistryObject<Item> ALEZARITA_GEM = ITEMS.register("alezarita_gem", GemItem::new);
+    public static final RegistryObject<Item> HUGODIUM_GEM = ITEMS.register("hugodium_gem", GemItem::new);
+    public static final RegistryObject<Item> MIGUELITIO_GEM = ITEMS.register("miguelitio_gem", GemItem::new);
+
+    // Especiales - Specials
     public static final RegistryObject<Item> OREDIUM_AMULET = ITEMS.register("oredium_amulet", AmuletItem::new);
+
+    public static final RegistryObject<Item> UMC = ITEMS.register("umc", UMCItem::new);
 
 
 }

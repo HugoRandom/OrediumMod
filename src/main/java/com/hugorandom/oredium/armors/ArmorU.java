@@ -13,7 +13,7 @@ public class ArmorU extends ArmorItem {
     public ArmorU(ArmorMaterial pMaterial, EquipmentSlot pSlot) {
         super(pMaterial, pSlot,
                 new Properties()
-                        .tab(ItemGroupTabs.OREDIUM_ARMORS)
+                        .tab(ItemGroupTabs.OREDIUM_TOOLS)
                         .rarity(Rarity.UNCOMMON)
                         .stacksTo(1)
                         .fireResistant());

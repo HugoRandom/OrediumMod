@@ -10,7 +10,7 @@ public class Armor extends ArmorItem {
     public Armor(ArmorMaterial pMaterial, EquipmentSlot pSlot) {
         super(pMaterial, pSlot,
                 new Properties()
-                        .tab(ItemGroupTabs.OREDIUM_ARMORS)
+                        .tab(ItemGroupTabs.OREDIUM_TOOLS)
                         .rarity(Rarity.COMMON)
                         .stacksTo(1));
     }

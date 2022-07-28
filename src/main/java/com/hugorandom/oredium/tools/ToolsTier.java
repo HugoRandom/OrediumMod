@@ -16,13 +16,13 @@ public class ToolsTier {
     public static final ForgeTier CESARITA = new ForgeTier(2, 981, 7.0f, 3.5f, 8,
             BlockTags.NEEDS_IRON_TOOL,() -> Ingredient.of(ItemsInit.CESARITA_INGOT.get()));
     public static final ForgeTier FRANITOLINA = new ForgeTier(3, 1126, 7.5f, 4.0f, 20,
-            BlockTags.NEEDS_DIAMOND_TOOL,() -> Ingredient.of(ItemsInit.ALEZARITA_INGOT.get()));
+            BlockTags.NEEDS_DIAMOND_TOOL,() -> Ingredient.of(ItemsInit.FRANITOLINA_INGOT.get()));
     public static final ForgeTier ENDERIUM = new ForgeTier(3, 2031, 9.0f, 4f, 18,
             BlockTags.NEEDS_DIAMOND_TOOL,() -> Ingredient.of(ItemsInit.ENDERIUM_INGOT.get()));
     public static final ForgeTier ALEZARITA = new ForgeTier(4, 1561, 8.0f, 4.5f, 12,
             BlockTags.NEEDS_DIAMOND_TOOL,() -> Ingredient.of(ItemsInit.ALEZARITA_INGOT.get()));
     public static final ForgeTier HUGODIUM = new ForgeTier(4, 1896, 10.0f, 4.5f, 12,
-            BlockTags.NEEDS_DIAMOND_TOOL,() -> Ingredient.of(ItemsInit.ALEZARITA_INGOT.get()));
+            BlockTags.NEEDS_DIAMOND_TOOL,() -> Ingredient.of(ItemsInit.HUGODIUM_INGOT.get()));
     public static final ForgeTier MIGUELITIO = new ForgeTier(4, 1924, 8.5f, 4.5f, 16,
-            BlockTags.NEEDS_DIAMOND_TOOL,() -> Ingredient.of(ItemsInit.ALEZARITA_INGOT.get()));
+            BlockTags.NEEDS_DIAMOND_TOOL,() -> Ingredient.of(ItemsInit.MIGUELITIO_INGOT.get()));
 }

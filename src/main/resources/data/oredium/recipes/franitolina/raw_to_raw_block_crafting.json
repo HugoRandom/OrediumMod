@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ooo",
+        "ooo",
+        "ooo"
+    ],
+    "key": {
+        "o": {
+            "item": "oredium:raw_franitolina"
+        }
+    },
+    "result": {
+        "item": "oredium:raw_franitolina_block",
+        "count": 1
+    }
+}

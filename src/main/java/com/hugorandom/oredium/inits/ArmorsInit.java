@@ -99,17 +99,6 @@ public class ArmorsInit {
     public static final RegistryObject<Item> MIGUELITIO_BOOTS = ARMORS.register("miguelitio_boots",
             () -> new Armor(ArmorTier.MIGUELITIO, EquipmentSlot.FEET));
 
-    // Gemas
-    public static final RegistryObject<Item> SHINE_GEM = ARMORS.register("shine_gem", GemItem::new);
-    public static final RegistryObject<Item> CABALLERITA_GEM = ARMORS.register("caballerita_gem", GemItem::new);
-    public static final RegistryObject<Item> AXIDITA_GEM = ARMORS.register("axidita_gem", GemItem::new);
-    public static final RegistryObject<Item> CESARITA_GEM = ARMORS.register("cesarita_gem", GemItem::new);
-    public static final RegistryObject<Item> FRANITOLINA_GEM = ARMORS.register("franitolina_gem", GemItem::new);
-    public static final RegistryObject<Item> ENDERIUM_GEM = ARMORS.register("enderium_gem", GemItem::new);
-    public static final RegistryObject<Item> ALEZARITA_GEM = ARMORS.register("alezarita_gem", GemItem::new);
-    public static final RegistryObject<Item> HUGODIUM_GEM = ARMORS.register("hugodium_gem", GemItem::new);
-    public static final RegistryObject<Item> MIGUELITIO_GEM = ARMORS.register("miguelitio_gem", GemItem::new);
-
     // Cascos mejorados - Helmets upgraded
     public static final RegistryObject<Item> SHINE_HELMET_UPGRADED = ARMORS.register("shine_helmet_upgraded",
             () -> new ArmorU(ArmorTier.SHINE_UPGRADED, EquipmentSlot.HEAD));

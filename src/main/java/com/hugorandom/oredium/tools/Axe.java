@@ -2,7 +2,6 @@ package com.hugorandom.oredium.tools;
 
 import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.world.item.AxeItem;
-import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Tier;
 

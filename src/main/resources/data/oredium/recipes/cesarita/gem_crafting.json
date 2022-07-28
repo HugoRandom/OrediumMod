@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " i ",
+        "gSn",
+        " E "
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "g": {
+            "item": "oredium:cesarita_ingot"
+        },
+        "S": {
+            "item": "oredium:umc"
+        },
+        "n": {
+            "item": "minecraft:coal"
+        },
+        "E": {
+            "item": "minecraft:spider_eye"
+        }
+    },
+    "result": {
+        "item": "oredium:cesarita_gem",
+        "count": 1
+    }
+}

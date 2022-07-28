@@ -1,7 +1,6 @@
 package com.hugorandom.oredium.items;
 
 import com.hugorandom.oredium.util.ItemGroupTabs;
-import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.item.Item;
@@ -17,7 +16,7 @@ public class GemItem extends Item {
 
     public GemItem() {
         super(new Properties()
-                .tab(ItemGroupTabs.OREDIUM_ARMORS)
+                .tab(ItemGroupTabs.OREDIUM_ITEMS)
                 .rarity(Rarity.UNCOMMON)
                 .stacksTo(16)
                 .setNoRepair());

@@ -1,32 +1,29 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#iE",
-        "iJi",
-        "giN"
+        " i ",
+        "gSn",
+        " D "
     ],
     "key": {
-        "#": {
-            "item": "minecraft:diamond"
-        },
         "i": {
             "item": "oredium:alezarita_ingot"
         },
-        "E": {
-            "item": "minecraft:emerald"
-        },
-        "J": {
-            "item": "oredium:enderium_crystal"
-        },
         "g": {
-            "item": "minecraft:gold_ingot"
+            "item": "oredium:shine_ingot"
         },
-        "N": {
-            "item": "minecraft:netherite_scrap"
+        "S": {
+            "item": "oredium:umc"
+        },
+        "n": {
+            "item": "oredium:cesarita_ingot"
+        },
+        "D": {
+            "item": "minecraft:diamond"
         }
     },
     "result": {
         "item": "oredium:alezarita_gem",
-        "count": 2
+        "count": 1
     }
 }

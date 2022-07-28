@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " i ",
+        "gSn",
+        " E "
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:nether_brick"
+        },
+        "g": {
+            "item": "oredium:hugodium_ingot"
+        },
+        "S": {
+            "item": "oredium:umc"
+        },
+        "n": {
+            "item": "minecraft:redstone"
+        },
+        "E": {
+            "item": "minecraft:nether_wart"
+        }
+    },
+    "result": {
+        "item": "oredium:hugodium_gem",
+        "count": 1
+    }
+}

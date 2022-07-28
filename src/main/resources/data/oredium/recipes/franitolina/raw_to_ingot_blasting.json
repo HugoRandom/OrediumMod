@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "oredium:raw_franitolina"
+    },
+    "result": "oredium:franitolina_ingot",
+    "experience": 1,
+    "cookingtime": 100
+}

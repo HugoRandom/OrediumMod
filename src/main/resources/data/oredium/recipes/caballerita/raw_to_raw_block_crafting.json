@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ooo",
+        "ooo",
+        "ooo"
+    ],
+    "key": {
+        "o": {
+            "item": "oredium:raw_caballerita"
+        }
+    },
+    "result": {
+        "item": "oredium:raw_caballerita_block",
+        "count": 1
+    }
+}

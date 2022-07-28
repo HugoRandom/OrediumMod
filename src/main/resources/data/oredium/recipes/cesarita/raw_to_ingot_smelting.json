@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "oredium:raw_cesarita"
+    },
+    "result": "oredium:cesarita_ingot",
+    "experience": 1,
+    "cookingtime": 200
+}

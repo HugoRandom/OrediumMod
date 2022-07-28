@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " i ",
+        "gSn",
+        " E "
+    ],
+    "key": {
+        "i": {
+            "item": "oredium:gold_ingot"
+        },
+        "g": {
+            "item": "oredium:shine_ingot"
+        },
+        "S": {
+            "item": "oredium:umc"
+        },
+        "n": {
+            "item": "minecraft:honeycomb"
+        },
+        "E": {
+            "item": "minecraft:blue_dye"
+        }
+    },
+    "result": {
+        "item": "oredium:shine_gem",
+        "count": 1
+    }
+}

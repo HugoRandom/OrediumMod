@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "oredium:raw_caballerita_block"
+        }
+    ],
+    "result": {
+        "item": "oredium:raw_caballerita",
+        "count": 9
+    }
+}
