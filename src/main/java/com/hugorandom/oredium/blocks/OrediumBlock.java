@@ -1,8 +1,7 @@
 package com.hugorandom.oredium.blocks;
 
-import com.hugorandom.oredium.blocks.entitys.OrediumBlockEntity;
+import com.hugorandom.oredium.blocks.entitys.UpgradingEntity;
 import com.hugorandom.oredium.inits.BlocksEntitiesInit;
-import com.hugorandom.oredium.inits.BlocksInit;
 import com.hugorandom.oredium.util.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.TextComponent;
@@ -57,8 +56,8 @@ public class OrediumBlock extends BaseEntityBlock {
 	public void onRemove(BlockState pState, Level pLevel, BlockPos pPos, BlockState pNewState, boolean pIsMoving) {
 		if (pState.getBlock() != pNewState.getBlock()){
 			BlockEntity blockEntity = pLevel.getBlockEntity(pPos);
-			if (blockEntity instanceof OrediumBlockEntity){
-				((OrediumBlockEntity) blockEntity).drops();
+			if (blockEntity instanceof UpgradingEntity){
+				((UpgradingEntity) blockEntity).drops();
 			}
 		}
 		super.onRemove(pState, pLevel, pPos, pNewState, pIsMoving);
@@ -69,16 +68,12 @@ public class OrediumBlock extends BaseEntityBlock {
 		if(!pLevel.isClientSide()){
 			if (pHand == InteractionHand.MAIN_HAND){
 				BlockEntity entity = pLevel.getBlockEntity(pPos);
-				if (entity instanceof OrediumBlockEntity){
-					NetworkHooks.openGui(((ServerPlayer) pPlayer), (OrediumBlockEntity)entity, pPos);
+				if (entity instanceof UpgradingEntity){
+					NetworkHooks.openGui(((ServerPlayer) pPlayer), (UpgradingEntity)entity, pPos);
 				}
 				else{
 					throw new IllegalStateException("Pal lobby hermano");
-					// pPlayer.sendMessage(new TextComponent("¡Necesita estar encendido!"), pPlayer.getUUID());
 				}
-			}
-			else{
-				pPlayer.sendMessage(new TextComponent("Mano vacia porfa..."), pPlayer.getUUID());
 			}
 		}
 		return InteractionResult.sidedSuccess(pLevel.isClientSide);
@@ -87,13 +82,13 @@ public class OrediumBlock extends BaseEntityBlock {
 	@Nullable
 	@Override
 	public BlockEntity newBlockEntity(BlockPos pPos, BlockState pState) {
-		return new OrediumBlockEntity(pPos, pState);
+		return new UpgradingEntity(pPos, pState);
 	}
 
 	@Nullable
 	@Override
 	public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level pLevel, BlockState pState, BlockEntityType<T> pBlockEntityType) {
-		return createTickerHelper(pBlockEntityType, BlocksEntitiesInit.OREDIUM_BLOCK_ENTITY.get(), OrediumBlockEntity::tick);
+		return createTickerHelper(pBlockEntityType, BlocksEntitiesInit.OREDIUM_BLOCK_ENTITY.get(), UpgradingEntity::tick);
 	}
 
 	@Override

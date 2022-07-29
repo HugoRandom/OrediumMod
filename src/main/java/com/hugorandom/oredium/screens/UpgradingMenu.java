@@ -1,15 +1,13 @@
 package com.hugorandom.oredium.screens;
 
-import com.hugorandom.oredium.blocks.entitys.OrediumBlockEntity;
+import com.hugorandom.oredium.blocks.entitys.UpgradingEntity;
 import com.hugorandom.oredium.inits.BlocksInit;
 import com.hugorandom.oredium.inits.MenusInit;
 import com.hugorandom.oredium.screens.slots.ResultSlot;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraft.world.inventory.ContainerLevelAccess;
-import net.minecraft.world.inventory.Slot;
+import net.minecraft.world.inventory.*;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -18,18 +16,21 @@ import net.minecraftforge.items.SlotItemHandler;
 
 public class UpgradingMenu extends AbstractContainerMenu {
 
-    private final OrediumBlockEntity blockEntity;
+    private final UpgradingEntity blockEntity;
     private final Level level;
+    private final ContainerData data;
 
     public UpgradingMenu(int pContainerId, Inventory inv, FriendlyByteBuf extraData) {
-        this(pContainerId, inv, inv.player.level.getBlockEntity(extraData.readBlockPos()));
+        this(pContainerId, inv, inv.player.level.getBlockEntity(extraData.readBlockPos()), new SimpleContainerData(2));
     }
 
-    public UpgradingMenu(int pContainerId, Inventory inv, BlockEntity entity) {
+    public UpgradingMenu(int pContainerId, Inventory inv, BlockEntity entity, ContainerData data) {
         super(MenusInit.UPGRADING_MENU.get(), pContainerId);
         checkContainerSize(inv, 3);
-        blockEntity = ((OrediumBlockEntity) entity);
+        blockEntity = ((UpgradingEntity) entity);
         this.level = inv.player.level;
+        this.data = data;
+
         addPlayerInventory(inv);
         addPlayerHotbar(inv);
 
@@ -38,6 +39,20 @@ public class UpgradingMenu extends AbstractContainerMenu {
             this.addSlot(new SlotItemHandler(handler, 1, 134, 33));
             this.addSlot(new ResultSlot(handler, 2, 80, 33));
         } );
+
+        addDataSlots(data);
+    }
+
+    public boolean isCrafting(){
+        return data.get(0) > 0;
+    }
+
+    public int getScaledProgress(){
+        int progress = this.data.get(0);
+        int maxProgress = this.data.get(1);
+        int progressArrow = 20;
+
+        return maxProgress !=0 && progress !=0 ? progress * progressArrow / maxProgress : 0;
     }
 
     // CREDIT GOES TO: diesieben07 | https://github.com/diesieben07/SevenCommons

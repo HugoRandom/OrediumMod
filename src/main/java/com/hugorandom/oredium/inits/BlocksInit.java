@@ -2,7 +2,6 @@ package com.hugorandom.oredium.inits;
 
 import com.hugorandom.oredium.Oredium;
 import com.hugorandom.oredium.blocks.*;
-import com.hugorandom.oredium.blocks.entitys.OrediumBlockEntity;
 import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;

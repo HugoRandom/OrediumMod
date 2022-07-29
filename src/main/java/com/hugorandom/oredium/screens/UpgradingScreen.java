@@ -26,6 +26,11 @@ public class UpgradingScreen extends AbstractContainerScreen<UpgradingMenu> {
         int x = (width - imageWidth) / 2;
         int y = (height - imageHeight) / 2;
         this.blit(pPoseStack, x, y, 0, 0, imageWidth, imageHeight);
+
+        if(menu.isCrafting()){
+            this.blit(pPoseStack, x + 51, y + 35, 176, 0, menu.getScaledProgress(), 13);
+            this.blit(pPoseStack, x + 105, y + 35, 176, 13, menu.getScaledProgress(), 13);
+        }
     }
 
     @Override

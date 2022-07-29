@@ -1,7 +1,7 @@
 package com.hugorandom.oredium.inits;
 
 import com.hugorandom.oredium.Oredium;
-import com.hugorandom.oredium.blocks.entitys.OrediumBlockEntity;
+import com.hugorandom.oredium.blocks.entitys.UpgradingEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -16,8 +16,8 @@ public class BlocksEntitiesInit {
         BLOCK_ENTITIES.register(eventBus);
     }
 
-    public static final RegistryObject<BlockEntityType<OrediumBlockEntity>> OREDIUM_BLOCK_ENTITY =
+    public static final RegistryObject<BlockEntityType<UpgradingEntity>> OREDIUM_BLOCK_ENTITY =
             BLOCK_ENTITIES.register("oredium_block_entity",
-                    () -> BlockEntityType.Builder.of(OrediumBlockEntity::new,
+                    () -> BlockEntityType.Builder.of(UpgradingEntity::new,
                             BlocksInit.OREDIUM_BLOCK.get()).build(null));
 }

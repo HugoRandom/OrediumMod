@@ -38,6 +38,7 @@ public class Oredium
         PaintingsInit.register(eventBus);
         SoundsInit.register(eventBus);
         MenusInit.register(eventBus);
+        RecipesInit.register(eventBus);
 
         eventBus.addListener(this::setup);
 

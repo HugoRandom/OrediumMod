@@ -1,21 +1,23 @@
 package com.hugorandom.oredium.blocks.entitys;
 
+import ca.weblite.objc.Message;
 import com.hugorandom.oredium.inits.ArmorsInit;
 import com.hugorandom.oredium.inits.BlocksEntitiesInit;
 import com.hugorandom.oredium.inits.ItemsInit;
 import com.hugorandom.oredium.inits.SoundsInit;
+import com.hugorandom.oredium.recipes.UpgradingRecipe;
 import com.hugorandom.oredium.screens.UpgradingMenu;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.*;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.inventory.ContainerData;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.alchemy.PotionUtils;
 import net.minecraft.world.item.alchemy.Potions;
@@ -32,14 +34,19 @@ import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+import org.jline.utils.Log;
 
 import java.util.Map;
+import java.util.Optional;
 import java.util.Random;
 
-public class OrediumBlockEntity extends BlockEntity implements MenuProvider {
+public class UpgradingEntity extends BlockEntity implements MenuProvider {
 
-	public static final BooleanProperty UPGRADING = BooleanProperty.create("upgrading");
 	public LazyOptional<IItemHandler> lazyItemHandler = LazyOptional.empty();
+
+	protected final ContainerData data;
+	private int progress = 0;
+	private int maxProgress = 50;
 
 	private final ItemStackHandler itemHandler = new ItemStackHandler(3){
 		@Override
@@ -48,8 +55,28 @@ public class OrediumBlockEntity extends BlockEntity implements MenuProvider {
 		}
 	};
 
-	public OrediumBlockEntity(BlockPos pPos, BlockState pBlockState) {
+	public UpgradingEntity(BlockPos pPos, BlockState pBlockState) {
 		super(BlocksEntitiesInit.OREDIUM_BLOCK_ENTITY.get(), pPos, pBlockState);
+		this.data = new ContainerData() {
+			public int get(int index) {
+				switch (index) {
+					case 0: return UpgradingEntity.this.progress;
+					case 1: return UpgradingEntity.this.maxProgress;
+					default: return 0;
+				}
+			}
+
+			public void set(int index, int value) {
+				switch(index) {
+					case 0: UpgradingEntity.this.progress = value; break;
+					case 1: UpgradingEntity.this.maxProgress = value; break;
+				}
+			}
+
+			public int getCount() {
+				return 2;
+			}
+		};
 	}
 
 	@Override
@@ -60,7 +87,7 @@ public class OrediumBlockEntity extends BlockEntity implements MenuProvider {
 	@Nullable
 	@Override
 	public AbstractContainerMenu createMenu(int pContainerId, Inventory pPlayerInventory, Player pPlayer) {
-		return new UpgradingMenu(pContainerId, pPlayerInventory, this);
+		return new UpgradingMenu(pContainerId, pPlayerInventory, this, this.data);
 	}
 
 	@NotNull
@@ -87,6 +114,7 @@ public class OrediumBlockEntity extends BlockEntity implements MenuProvider {
 	@Override
 	protected void saveAdditional(CompoundTag pTag) {
 		pTag.put("inventory", itemHandler.serializeNBT());
+		pTag.putInt("upgrading.progress", progress);
 		super.saveAdditional(pTag);
 	}
 
@@ -94,6 +122,7 @@ public class OrediumBlockEntity extends BlockEntity implements MenuProvider {
 	public void load(CompoundTag nbt) {
 		super.load(nbt);
 		itemHandler.deserializeNBT(nbt.getCompound("inventory"));
+		progress = nbt.getInt("upgrading.progress");
 	}
 
 	public void drops() {
@@ -105,32 +134,57 @@ public class OrediumBlockEntity extends BlockEntity implements MenuProvider {
 		Containers.dropContents(this.level, this.worldPosition, inventory);
 	}
 
-	public static void tick(Level pLevel, BlockPos pPos, BlockState pState, OrediumBlockEntity pBlockEntity) {
-		if(hasRecipe(pBlockEntity) && hasNotReachedStackLimit(pBlockEntity)) {
-			craftItem(pBlockEntity);
+	public static void tick(Level pLevel, BlockPos pPos, BlockState pState, UpgradingEntity pBlockEntity) {
+		if(hasRecipe(pBlockEntity)) {
+			pBlockEntity.progress++;
+			setChanged(pLevel, pPos, pState);
+			if(pBlockEntity.progress > pBlockEntity.maxProgress) {
+				craftItem(pBlockEntity);
+			}
+		} else {
+			pBlockEntity.resetProgress();
+			setChanged(pLevel, pPos, pState);
 		}
 	}
 
-	private static void craftItem(OrediumBlockEntity entity) {
-		ItemStack output = new ItemStack(ArmorsInit.ALEZARITA_HELMET_UPGRADED.get());
-		Map<Enchantment, Integer> enchants = EnchantmentHelper.getEnchantments(entity.itemHandler.getStackInSlot(0));
-		for(Map.Entry<Enchantment, Integer> mapEntry : enchants.entrySet()){
-			output.enchant(mapEntry.getKey(), mapEntry.getValue());
+	private static boolean hasRecipe(UpgradingEntity entity) {
+		Level level = entity.level;
+		SimpleContainer inventory = new SimpleContainer(entity.itemHandler.getSlots());
+		for (int i = 0; i < entity.itemHandler.getSlots(); i++) {
+			inventory.setItem(i, entity.itemHandler.getStackInSlot(i));
 		}
-		entity.itemHandler.extractItem(0, 1, false);
-		entity.itemHandler.extractItem(1, 1, false);
-		entity.itemHandler.insertItem(2, output , false);
-		entity.level.playSound(null, entity.getBlockPos(), SoundsInit.UPGRADING_SOUND.get(), SoundSource.BLOCKS, 0.7f, 0.7f);
+
+		Optional<UpgradingRecipe> match = level.getRecipeManager()
+				.getRecipeFor(UpgradingRecipe.Type.INSTANCE, inventory, level);
+
+		return match.isPresent() && inventory.getItem(2).isEmpty();
 	}
 
-	private static boolean hasRecipe(OrediumBlockEntity entity) {
-		boolean hasItemInFirstSlot = entity.itemHandler.getStackInSlot(0).getItem() == ArmorsInit.ALEZARITA_HELMET.get();
-		boolean hasItemInSecondSlot = entity.itemHandler.getStackInSlot(1).getItem() == ItemsInit.ALEZARITA_GEM.get();
+	private static void craftItem(UpgradingEntity entity) {
+		Level level = entity.level;
+		SimpleContainer inventory = new SimpleContainer(entity.itemHandler.getSlots());
+		for (int i = 0; i < entity.itemHandler.getSlots(); i++) {
+			inventory.setItem(i, entity.itemHandler.getStackInSlot(i));
+		}
 
-		return hasItemInFirstSlot && hasItemInSecondSlot;
+		Optional<UpgradingRecipe> match = level.getRecipeManager()
+				.getRecipeFor(UpgradingRecipe.Type.INSTANCE, inventory, level);
+
+		if(match.isPresent()) {
+			ItemStack output = new ItemStack(match.get().getResultItem().getItem());
+			Map<Enchantment, Integer> enchants = EnchantmentHelper.getEnchantments(entity.itemHandler.getStackInSlot(0));
+			for(Map.Entry<Enchantment, Integer> mapEntry : enchants.entrySet()){
+				output.enchant(mapEntry.getKey(), mapEntry.getValue());
+			}
+			entity.itemHandler.extractItem(0, 1, false);
+			entity.itemHandler.extractItem(1, 1, false);
+			entity.itemHandler.insertItem(2, output , false);
+			entity.level.playSound(null, entity.getBlockPos(), SoundsInit.UPGRADING_SOUND.get(), SoundSource.BLOCKS, 0.7f, 0.7f);
+			entity.resetProgress();
+		}
 	}
 
-	private static boolean hasNotReachedStackLimit(OrediumBlockEntity entity) {
-		return entity.itemHandler.getStackInSlot(2).getCount() < entity.itemHandler.getStackInSlot(2).getMaxStackSize();
+	private void resetProgress() {
+		this.progress = 0;
 	}
 }
