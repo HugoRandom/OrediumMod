@@ -2,6 +2,7 @@ package com.hugorandom.oredium.inits;
 
 import com.hugorandom.oredium.Oredium;
 import com.hugorandom.oredium.blocks.*;
+import com.hugorandom.oredium.blocks.entitys.OrediumBlockEntity;
 import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
@@ -11,7 +12,6 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;

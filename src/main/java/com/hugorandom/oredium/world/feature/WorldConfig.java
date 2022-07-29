@@ -52,7 +52,7 @@ public class WorldConfig {
     // Flores - Flowers
     public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> FLOWER_SOLIMA =
             FeatureUtils.register("flower_solima", Feature.FLOWER,
-                    new RandomPatchConfiguration(24, 4, 1, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                    new RandomPatchConfiguration(18, 2, 1, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                             new SimpleBlockConfiguration(BlockStateProvider.simple(BlocksInit.SOLIMA.get())))));
 
     // Minerales - Ores

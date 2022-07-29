@@ -31,23 +31,22 @@ public class Oredium
         ItemsInit.register(eventBus);
         FoodsInit.register(eventBus);
         BlocksInit.register(eventBus);
+        BlocksEntitiesInit.register(eventBus);
         ItemsRareInit.register(eventBus);
         ToolsInit.register(eventBus);
         ArmorsInit.register(eventBus);
         PaintingsInit.register(eventBus);
         SoundsInit.register(eventBus);
+        MenusInit.register(eventBus);
 
         eventBus.addListener(this::setup);
-        eventBus.addListener(this::clientSetup);
+
         MinecraftForge.EVENT_BUS.register(WoldEvents.class);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
-    private void clientSetup(final FMLClientSetupEvent event){
-        ItemBlockRenderTypes.setRenderLayer(BlocksInit.SOLIMA.get(), RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(BlocksInit.POTTED_SOLIMA.get(), RenderType.cutout());
-    }
+
     private void setup(final FMLCommonSetupEvent event)
     {
        event.enqueueWork(() -> {

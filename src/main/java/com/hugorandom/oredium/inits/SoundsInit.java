@@ -9,7 +9,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class SoundsInit {
-    public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, Oredium.MOD_ID);
+    public static final DeferredRegister<SoundEvent> SOUNDS =
+            DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, Oredium.MOD_ID);
 
     public static void register(IEventBus eventBus){
         SOUNDS.register(eventBus);
