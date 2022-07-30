@@ -31,7 +31,7 @@ public class BlocksInit {
         return BLOCKS.register(name, block);
     }
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block){
-        return ItemsInit.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(ItemGroupTabs.OREDIUM_ITEMS)));
+        return ItemsInit.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(ItemGroupTabs.OREDIUM_BLOCKS)));
     }
 
     public static void register(IEventBus eventBus){
@@ -58,38 +58,6 @@ public class BlocksInit {
             () -> new MetalBlock(6f, 7f));
     public static final RegistryObject<Block> MIGUELITIO_BLOCK = registerBlock("miguelitio_block",
             () -> new MetalBlock(6f, 8f));
-
-    // Menas normales y profundas - Normal and deepslate Ores
-    public static final RegistryObject<Block> SHINE_ORE = registerBlock("shine_ore",
-            () -> new OreBlock(4f, 3f));
-    public static final RegistryObject<Block> CABALLERITA_ORE = registerBlock("caballerita_ore",
-            () -> new OreBlock(5f, 4f));
-    public static final RegistryObject<Block> AXIDITA_ORE = registerBlock("axidita_ore",
-            () -> new OreBlock(4f, 3f));
-    public static final RegistryObject<Block> CESARITA_ORE = registerBlock("cesarita_ore",
-            () -> new OreBlock(5f, 4f));
-    public static final RegistryObject<Block> FRANITOLINA_ORE = registerBlock("franitolina_ore",
-            () -> new OreBlock(5f, 5f));
-    public static final RegistryObject<Block> DEEPSLATE_ENDERIUM_ORE = registerBlock("deepslate_enderium_ore",
-            () -> new DeepslateOreBlock(6f, 10f));
-    public static final RegistryObject<Block> ALEZARITA_ORE = registerBlock("alezarita_ore",
-            () -> new OreBlock(5f, 6f));
-    public static final RegistryObject<Block> HUGODIUM_ORE = registerBlock("hugodium_ore",
-            () -> new OreBlock(6f, 7f));
-    public static final RegistryObject<Block> MIGUELITIO_ORE = registerBlock("miguelitio_ore",
-            () -> new OreBlock(4f, 8f));
-    public static final RegistryObject<Block> DEEPSLATE_SHINE_ORE = registerBlock("deepslate_shine_ore",
-            () -> new DeepslateOreBlock(4.5f, 3f));
-    public static final RegistryObject<Block> DEEPSLATE_CABALLERITA_ORE = registerBlock("deepslate_caballerita_ore",
-            () -> new DeepslateOreBlock(5.5f, 4f));
-    public static final RegistryObject<Block> DEEPSLATE_CESARITA_ORE = registerBlock("deepslate_cesarita_ore",
-            () -> new DeepslateOreBlock(5.5f, 4f));
-    public static final RegistryObject<Block> DEEPSLATE_AXIDITA_ORE = registerBlock("deepslate_axidita_ore",
-            () -> new DeepslateOreBlock(4.5f, 3f));
-    public static final RegistryObject<Block> DEEPSLATE_FRANITOLINA_ORE = registerBlock("deepslate_franitolina_ore",
-            () -> new DeepslateOreBlock(5.5f, 5f));
-
-
 
     // Bloques de metal en bruto - Raw metal blocks
     public static final RegistryObject<Block> RAW_SHINE_BLOCK = registerBlock("raw_shine_block",
@@ -121,6 +89,36 @@ public class BlocksInit {
     public static final RegistryObject<Block> ALEZARITA_LAMP = registerBlock("alezarita_lamp", LampBlock::new);
     public static final RegistryObject<Block> HUGODIUM_LAMP = registerBlock("hugodium_lamp", LampBlock::new);
     public static final RegistryObject<Block> MIGUELITIO_LAMP = registerBlock("miguelitio_lamp", LampBlock::new);
+
+    // Menas normales y profundas - Normal and deepslate Ores
+    public static final RegistryObject<Block> SHINE_ORE = registerBlock("shine_ore",
+            () -> new OreBlock(4f, 3f));
+    public static final RegistryObject<Block> CABALLERITA_ORE = registerBlock("caballerita_ore",
+            () -> new OreBlock(5f, 4f));
+    public static final RegistryObject<Block> AXIDITA_ORE = registerBlock("axidita_ore",
+            () -> new OreBlock(4f, 3f));
+    public static final RegistryObject<Block> CESARITA_ORE = registerBlock("cesarita_ore",
+            () -> new OreBlock(5f, 4f));
+    public static final RegistryObject<Block> FRANITOLINA_ORE = registerBlock("franitolina_ore",
+            () -> new OreBlock(5f, 5f));
+    public static final RegistryObject<Block> DEEPSLATE_ENDERIUM_ORE = registerBlock("deepslate_enderium_ore",
+            () -> new DeepslateOreBlock(6f, 10f));
+    public static final RegistryObject<Block> ALEZARITA_ORE = registerBlock("alezarita_ore",
+            () -> new OreBlock(5f, 6f));
+    public static final RegistryObject<Block> HUGODIUM_ORE = registerBlock("hugodium_ore",
+            () -> new OreBlock(6f, 7f));
+    public static final RegistryObject<Block> MIGUELITIO_ORE = registerBlock("miguelitio_ore",
+            () -> new OreBlock(4f, 8f));
+    public static final RegistryObject<Block> DEEPSLATE_SHINE_ORE = registerBlock("deepslate_shine_ore",
+            () -> new DeepslateOreBlock(4.5f, 3f));
+    public static final RegistryObject<Block> DEEPSLATE_CABALLERITA_ORE = registerBlock("deepslate_caballerita_ore",
+            () -> new DeepslateOreBlock(5.5f, 4f));
+    public static final RegistryObject<Block> DEEPSLATE_AXIDITA_ORE = registerBlock("deepslate_axidita_ore",
+            () -> new DeepslateOreBlock(4.5f, 3f));
+    public static final RegistryObject<Block> DEEPSLATE_CESARITA_ORE = registerBlock("deepslate_cesarita_ore",
+            () -> new DeepslateOreBlock(5.5f, 4f));
+    public static final RegistryObject<Block> DEEPSLATE_FRANITOLINA_ORE = registerBlock("deepslate_franitolina_ore",
+            () -> new DeepslateOreBlock(5.5f, 5f));
 
     // Flores - Flowers
     public static final RegistryObject<Block> SOLIMA = registerBlock("solima",

@@ -61,10 +61,7 @@ public class ItemsRareInit {
                     new Item.Properties().tab(ItemGroupTabs.OREDIUM_ITEMS).stacksTo(1)
                             .craftRemainder(Items.BUCKET).rarity(Rarity.UNCOMMON)));
 
-
     // Especiales - Specials
     public static final RegistryObject<Item> UMC = ITEMSRARE.register("umc", UMCItem::new);
     public static final RegistryObject<Item> OREDIUM_AMULET = ITEMSRARE.register("oredium_amulet", AmuletItem::new);
-
-
 }

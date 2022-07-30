@@ -2,6 +2,7 @@ package com.hugorandom.oredium.blocks;
 
 import com.hugorandom.oredium.blocks.entitys.UpgradingEntity;
 import com.hugorandom.oredium.inits.BlocksEntitiesInit;
+import com.hugorandom.oredium.inits.ParticlesInit;
 import com.hugorandom.oredium.util.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.TextComponent;
@@ -93,5 +94,13 @@ public class OrediumBlock extends BaseEntityBlock {
 			pEntity.setSecondsOnFire(1);
 		}
 		super.stepOn(pLevel, pPos, pState, pEntity);
+	}
+
+	@Override
+	public void animateTick(BlockState pState, Level pLevel, BlockPos pos, Random rand) {
+		super.animateTick(pState, pLevel, pos, rand);
+		if (rand.nextInt(10) == 0) {
+			pLevel.addParticle(ParticlesInit.OREDIUM_PARTICLE.get(), (double)pos.getX() + rand.nextDouble(), (double)pos.getY() + 1.1D, (double)pos.getZ() + rand.nextDouble(), 0.0D, 0.0D, 0.0D);
+		}
 	}
 }

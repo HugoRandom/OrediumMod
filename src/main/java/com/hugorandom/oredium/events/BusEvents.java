@@ -1,9 +1,13 @@
 package com.hugorandom.oredium.events;
 
 import com.hugorandom.oredium.Oredium;
+import com.hugorandom.oredium.inits.ParticlesInit;
+import com.hugorandom.oredium.particles.OrediumParticle;
 import com.hugorandom.oredium.recipes.UpgradingRecipe;
+import net.minecraft.client.Minecraft;
 import net.minecraft.core.Registry;
 import net.minecraft.world.item.crafting.RecipeSerializer;
+import net.minecraftforge.client.event.ParticleFactoryRegisterEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -14,5 +18,10 @@ public class BusEvents {
     @SubscribeEvent
     public static void registerRecipeTypes(final RegistryEvent.Register<RecipeSerializer<?>> event){
         Registry.register(Registry.RECIPE_TYPE, UpgradingRecipe.Type.ID, UpgradingRecipe.Type.INSTANCE);
+    }
+
+    @SubscribeEvent
+    public static void registerParticleFactories(final ParticleFactoryRegisterEvent event){
+        Minecraft.getInstance().particleEngine.register(ParticlesInit.OREDIUM_PARTICLE.get(), OrediumParticle.Provider::new);
     }
 }

@@ -37,6 +37,7 @@ public class Oredium
         SoundsInit.register(eventBus);
         MenusInit.register(eventBus);
         RecipesInit.register(eventBus);
+        ParticlesInit.register(eventBus);
 
         eventBus.addListener(this::setup);
 
