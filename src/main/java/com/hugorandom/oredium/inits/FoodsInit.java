@@ -15,7 +15,6 @@ public class FoodsInit {
         FOODS.register(eventBus);
     }
 
-
     public static final RegistryObject<Item> SHINE_CUPCAKE = FOODS.register("shine_cupcake", ShineCupcake::new);
     public static final RegistryObject<Item> CABALLERITA_CAKE = FOODS.register("caballerita_cake", CaballeritaCake::new);
     public static final RegistryObject<Item> CLORETS = FOODS.register("clorets", Clorets::new);

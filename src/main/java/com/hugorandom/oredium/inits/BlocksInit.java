@@ -44,10 +44,10 @@ public class BlocksInit {
             () -> new MetalBlock(4f, 3f));
     public static final RegistryObject<Block> CABALLERITA_BLOCK = registerBlock("caballerita_block",
             () -> new MetalBlock(5f, 3f));
-    public static final RegistryObject<Block> CESARITA_BLOCK = registerBlock("cesarita_block",
-            () -> new MetalBlock(5f, 3f));
     public static final RegistryObject<Block> AXIDITA_BLOCK = registerBlock("axidita_block",
             () -> new MetalBlock(5f, 4f));
+    public static final RegistryObject<Block> CESARITA_BLOCK = registerBlock("cesarita_block",
+            () -> new MetalBlock(5f, 3f));
     public static final RegistryObject<Block> FRANITOLINA_BLOCK = registerBlock("franitolina_block",
             () -> new MetalBlock(5f, 4f));
     public static final RegistryObject<Block> ENDERIUM_BLOCK = registerBlock("enderium_block",

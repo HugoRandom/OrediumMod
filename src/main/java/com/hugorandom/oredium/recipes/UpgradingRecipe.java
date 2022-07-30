@@ -51,6 +51,12 @@ public class UpgradingRecipe implements Recipe<SimpleContainer> {
             return false;
         }
     }
+
+    @Override
+    public NonNullList<Ingredient> getIngredients() {
+        return recipeItems;
+    }
+
     @Override
     public ItemStack assemble(SimpleContainer pContainer) {
         return output;
