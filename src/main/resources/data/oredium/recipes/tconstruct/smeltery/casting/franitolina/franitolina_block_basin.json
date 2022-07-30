@@ -1,0 +1,15 @@
+{
+  	"type": "tconstruct:casting_basin",
+  	"fluid": {
+    	"name": "oredium:molten_franitolina",
+    	"amount": 1296
+  	},
+  	"result": "oredium:franitolina_block",
+  	"cooling_time": 200,
+  	"conditions": [
+		{
+	    	"type": "forge:mod_loaded",
+	    	"modid": "tconstruct"
+	    }
+  	]
+}

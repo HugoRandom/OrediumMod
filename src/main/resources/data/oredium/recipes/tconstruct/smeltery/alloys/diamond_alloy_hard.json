@@ -1,0 +1,49 @@
+{
+  	"type": "tconstruct:alloy",
+  	"conditions": [
+    	{
+      		"value": {
+        		"tag": "forge:ingots/tin",
+        		"type": "forge:tag_empty"
+      		},
+      		"type": "forge:not"
+    	},
+    	{
+      		"value": {
+        		"tag": "forge:ingots/zinc",
+        		"type": "forge:tag_empty"
+      		},
+      		"type": "forge:not"
+    	},
+    	{
+      		"value": {
+        		"tag": "forge:ingots/platinum",
+        		"type": "forge:tag_empty"
+      		},
+      		"type": "forge:not"
+    	}
+  	],
+  	"inputs": [
+	    {
+	      	"name": "oredium:molten_miguelitio",
+	      	"amount": 64
+	    },	    
+	    {
+	      	"name": "tconstruct:molten_tungsten",
+	      	"amount": 16
+	    },
+	    {
+	      	"name": "tconstruct:molten_osmium",
+	      	"amount": 16
+	    },
+	    {
+	      	"name": "tconstruct:molten_slimesteel",
+	      	"amount": 64
+	    }
+  	],
+  	"result": {
+    	"fluid": "tconstruct:molten_diamond",
+    	"amount": 64
+  	},
+  	"temperature": 2500
+}

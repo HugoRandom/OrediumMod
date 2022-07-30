@@ -1,0 +1,26 @@
+{
+  	"type": "tconstruct:damagable_melting",
+  	"ingredient": [
+    	{
+      		"item": "oredium:franitolina_sword"
+    	}    	
+  	],
+  	"result": {
+    	"fluid": "oredium:molten_franitolina",
+    	"amount": 144
+  	},
+  	"byproducts":[
+	    {
+	      	"fluid": "tconstruct:molten_iron",
+	      	"amount": 288
+	    }
+    ],
+  	"temperature": 1000,
+  	"time": 100,
+  	"conditions": [
+		{
+	    	"type": "forge:mod_loaded",
+	    	"modid": "tconstruct"
+	    }
+  	]
+}

@@ -1,0 +1,19 @@
+{
+  	"type": "tconstruct:casting_table",
+  	"cast": {
+    	"tag": "tconstruct:casts/single_use/ingot"
+  	},
+  	"cast_consumed": true,
+  	"fluid": {
+   		"name": "oredium:molten_enderium",
+    	"amount": 144
+  	},
+  	"result": "oredium:enderium_ingot",
+  	"cooling_time": 100,
+  	"conditions": [
+      	{
+          	"type": "forge:mod_loaded",
+          	"modid": "tconstruct"
+      	}
+  	]
+}

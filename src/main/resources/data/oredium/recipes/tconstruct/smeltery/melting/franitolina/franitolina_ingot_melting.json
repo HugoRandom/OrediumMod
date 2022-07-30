@@ -1,0 +1,18 @@
+{
+  	"type": "tconstruct:melting",
+  	"ingredient": {
+    	"tag": "forge:ingots/franitolina"
+  	},
+  	"result": {
+    	"fluid": "oredium:molten_franitolina",
+    	"amount": 144
+  	},
+  	"temperature": 1000,
+  	"time": 80,
+  	"conditions": [
+      	{
+          	"type": "forge:mod_loaded",
+          	"modid": "tconstruct"
+      	}
+  	]
+}

@@ -1,0 +1,15 @@
+{
+  	"craftable": false,
+  	"tier": 3,
+  	"sortOrder": 2,
+  	"fluid": "oredium:molten_cesarita",
+  	"fluidPerUnit": 144,
+  	"textColor": "#312A24",
+  	"temperature": 1000,
+  	"traits": [
+    	{
+      		"name": "tconstruct:smite",
+      		"level": 1
+    	}
+  	]
+}

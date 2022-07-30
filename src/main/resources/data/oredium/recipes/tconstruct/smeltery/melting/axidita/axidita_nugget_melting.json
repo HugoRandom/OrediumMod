@@ -1,0 +1,18 @@
+{
+  	"type": "tconstruct:melting",
+  	"ingredient": {
+    	"tag": "forge:nuggets/axidita"
+  	},
+  	"result": {
+    	"fluid": "oredium:molten_axidita",
+    	"amount": 16
+  	},
+  	"temperature": 1500,
+  	"time": 20,
+  	"conditions": [
+      	{
+          	"type": "forge:mod_loaded",
+          	"modid": "tconstruct"
+      	}
+  	]
+}

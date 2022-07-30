@@ -1,0 +1,24 @@
+{
+  	"type": "tconstruct:melting",
+  	"ingredient": {
+    	 "item": "oredium:hugodium_lamp"
+  	},
+  	"result": {
+    	"fluid": "tconstruct:molten_glass",
+    	"amount": 1000
+  	},
+  	"byproducts": [
+    	{
+	      	"fluid": "oredium:molten_hugodium",
+	      	"amount": 64
+    	}
+  	],	
+  	"temperature": 1000,
+  	"time": 150,
+  	"conditions": [
+      	{
+          	"type": "forge:mod_loaded",
+          	"modid": "tconstruct"
+      	}
+  	]
+}

@@ -1,0 +1,15 @@
+{
+  	"craftable": false,
+  	"tier": 3,
+  	"sortOrder": 2,
+  	"fluid": "oredium:molten_caballerita",
+  	"fluidPerUnit": 144,
+  	"textColor": "#EBD530",
+  	"temperature": 1000,
+  	"traits": [
+    	{
+      		"name": "tconstruct:heavy",
+      		"level": 1
+    	}
+  	]
+}

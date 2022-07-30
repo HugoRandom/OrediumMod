@@ -1,0 +1,15 @@
+{
+  	"craftable": false,
+  	"tier": 4,
+  	"sortOrder": 2,
+  	"fluid": "oredium:molten_alezarita",
+  	"fluidPerUnit": 144,
+  	"textColor": "#1631CD",
+  	"temperature": 1500,
+  	"traits": [
+    	{
+      		"name": "tconstruct:insatiable",
+      		"level": 1
+    	}
+  	]
+}

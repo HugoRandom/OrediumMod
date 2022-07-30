@@ -1,0 +1,15 @@
+{
+  	"craftable": false,
+  	"tier": 2,
+  	"sortOrder": 2,
+  	"fluid": "oredium:molten_shine",
+  	"fluidPerUnit": 144,
+  	"textColor": "#58ACFF",
+  	"temperature": 800,
+  	"traits": [
+    	{
+      		"name": "tconstruct:experienced",
+      		"level": 1
+    	}
+  	]
+}

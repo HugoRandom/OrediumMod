@@ -1,0 +1,7 @@
+{
+  	"replace": false,
+  	"values": [
+    	"oredium:hugodium_fluid_still",
+    	"oredium:hugodium_fluid_flowing"
+  	]
+}

@@ -1,0 +1,7 @@
+{
+  	"replace": false,
+  	"values": [
+    	"oredium:enderium_fluid_still",
+    	"oredium:enderium_fluid_flowing"
+  	]
+}

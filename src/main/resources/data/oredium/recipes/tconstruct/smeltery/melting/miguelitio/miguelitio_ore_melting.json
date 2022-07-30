@@ -1,0 +1,24 @@
+{
+  	"type": "tconstruct:ore_melting",
+  	"ingredient": {
+    	"tag": "forge:ores/miguelitio"
+  	},
+  	"result": {
+    	"fluid": "oredium:molten_miguelitio",
+    	"amount": 64
+  	},
+  	"byproducts": [
+    	{
+      	"fluid": "tconstruct:molten_invar",
+      	"amount": 48
+    	}
+  	],	
+  	"temperature": 1500,
+  	"time": 100,
+  	"conditions": [
+      	{
+          	"type": "forge:mod_loaded",
+          	"modid": "tconstruct"
+      	}
+  	]
+}

@@ -1,0 +1,7 @@
+{
+  	"replace": false,
+  	"values": [
+    	"oredium:shine_fluid_still",
+    	"oredium:shine_fluid_flowing"
+  	]
+}

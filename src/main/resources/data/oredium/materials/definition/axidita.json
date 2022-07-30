@@ -1,0 +1,15 @@
+{
+  	"craftable": false,
+  	"tier": 3,
+  	"sortOrder": 2,
+  	"fluid": "oredium:molten_axidita",
+  	"fluidPerUnit": 144,
+  	"textColor": "#52D37A",
+  	"temperature": 1000,
+  	"traits": [
+    	{
+      		"name": "tconstruct:lightweight",
+      		"level": 1
+    	}
+  	]
+}

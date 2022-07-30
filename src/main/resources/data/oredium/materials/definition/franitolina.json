@@ -1,0 +1,15 @@
+{
+  	"craftable": false,
+  	"tier": 3,
+  	"sortOrder": 2,
+  	"fluid": "oredium:molten_franitolina",
+  	"fluidPerUnit": 144,
+  	"textColor": "#ED810F",
+  	"temperature": 1000,
+  	"traits": [
+    	{
+      		"name": "tconstruct:enhanced",
+      		"level": 1
+    	}
+  	]
+}

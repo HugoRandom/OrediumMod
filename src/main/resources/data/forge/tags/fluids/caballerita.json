@@ -1,0 +1,7 @@
+{
+  	"replace": false,
+  	"values": [
+    	"oredium:caballerita_fluid_still",
+    	"oredium:caballerita_fluid_flowing"
+  	]
+}

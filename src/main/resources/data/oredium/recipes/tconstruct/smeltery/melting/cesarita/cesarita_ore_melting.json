@@ -1,0 +1,24 @@
+{
+  	"type": "tconstruct:ore_melting",
+  	"ingredient": {
+    	"tag": "forge:ores/cesarita"
+  	},
+  	"result": {
+    	"fluid": "oredium:molten_cesarita",
+    	"amount": 144
+  	},
+  	"byproducts": [
+    	{
+      	"fluid": "tconstruct:molten_lead",
+      	"amount": 48
+    	}
+  	],	
+  	"temperature": 1000,
+  	"time": 100,
+  	"conditions": [
+      	{
+          	"type": "forge:mod_loaded",
+          	"modid": "tconstruct"
+      	}
+  	]
+}

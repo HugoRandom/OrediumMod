@@ -1,0 +1,20 @@
+{
+  	"type": "tconstruct:damagable_melting",
+  	"ingredient": [
+    	{
+      		"item": "oredium:axidita_shovel"
+    	}    	
+  	],
+  	"result": {
+    	"fluid": "oredium:molten_axidita",
+    	"amount": 144
+  	},
+  	"temperature": 1000,
+  	"time": 100,
+  	"conditions": [
+		{
+	    	"type": "forge:mod_loaded",
+	    	"modid": "tconstruct"
+	    }
+  	]
+}

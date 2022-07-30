@@ -1,0 +1,18 @@
+{
+  	"type": "tconstruct:material",
+  	"conditions": [
+    	{
+      		"value": {
+        	"tag": "forge:nuggets/axidita",
+        	"type": "forge:tag_empty"
+      	},
+      	"type": "forge:not"
+    	}
+  	],
+  	"ingredient": {
+    	"tag": "forge:nuggets/axidita"
+  	},
+  	"value": 1,
+  	"needed": 9,
+  	"material": "oredium:axidita"
+}

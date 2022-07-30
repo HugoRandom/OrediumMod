@@ -1,0 +1,31 @@
+{
+  	"type": "tconstruct:alloy",
+  	"conditions": [
+    	{
+      		"value": {
+        		"tag": "forge:ingots/uranium",
+        		"type": "forge:tag_empty"
+      		},
+      		"type": "forge:not"
+    	}
+  	],
+  	"inputs": [
+	    {
+	      	"name": "oredium:molten_shine",
+	      	"amount": 576
+	    },
+	    {
+	      	"name": "minecraft:milk",
+	      	"amount": 500
+	    },
+	    {
+	      	"name": "tconstruct:molten_uranium",
+	      	"amount": 288
+	    }
+  	],
+  	"result": {
+    	"fluid": "tconstruct:molten_gold",
+    	"amount": 432
+  	},
+  	"temperature": 1250
+}

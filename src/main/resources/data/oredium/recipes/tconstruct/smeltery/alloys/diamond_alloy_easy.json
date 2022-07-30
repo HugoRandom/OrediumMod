@@ -1,0 +1,49 @@
+{
+  	"type": "tconstruct:alloy",
+  	"conditions": [
+    	{
+      		"value": {
+        		"tag": "forge:ingots/tin",
+        		"type": "forge:tag_empty"
+      		},
+      		"type": "forge:not"
+    	},
+    	{
+      		"value": {
+        		"tag": "forge:ingots/zinc",
+        		"type": "forge:tag_empty"
+      		},
+      		"type": "forge:not"
+    	},
+    	{
+      		"value": {
+        		"tag": "forge:ingots/platinum",
+        		"type": "forge:tag_empty"
+      		},
+      		"type": "forge:not"
+    	}
+  	],
+  	"inputs": [
+	    {
+	      	"name": "tconstruct:molten_tin",
+	      	"amount": 432
+	    },	    
+	    {
+	      	"name": "tconstruct:molten_zinc",
+	      	"amount": 432
+	    },
+	    {
+	      	"name": "tconstruct:molten_platinum",
+	      	"amount": 288
+	    },
+	    {
+	      	"tag": "forge:magma",
+	      	"amount": 500
+	    }
+  	],
+  	"result": {
+    	"fluid": "tconstruct:molten_diamond",
+    	"amount": 144
+  	},
+  	"temperature": 2500
+}

@@ -276,5 +276,16 @@
 	"advancement.fraopu_title": "Guess Who...",
 	"advancement.fraopu_desc": "Use a specific item in a specific block (See the image)",
 	"advancement.miguelitio_storm_title": "I HAD THE POWER",
-	"advancement.miguelitio_storm_desc": "Waste a Miguelitio Gem on its specific block"	
+	"advancement.miguelitio_storm_desc": "Waste a Miguelitio Gem on its specific block",
+
+	"item.oredium.hugodium_bucket": "Molten Hugodium Bucket",
+	"item.oredium.axidita_bucket": "Molten Axidita Bucket",
+	"item.oredium.alezarita_bucket": "Molten Alezarita Bucket",
+	"item.oredium.franitolina_bucket": "Molten Franitolina Bucket",
+	"item.oredium.miguelitio_bucket": "Molten Miguelitio Bucket",
+	"item.oredium.shine_bucket": "Molten Shine Bucket",
+	"item.oredium.cesarita_bucket": "Molten Cesarita Bucket",
+	"item.oredium.caballerita_bucket": "Molten Caballerita Bucket",
+	"item.oredium.enderium_bucket": "Molten Enderium Bucket",
+	"item.oredium.infernum_bucket": "Infernum Bucket"
 }

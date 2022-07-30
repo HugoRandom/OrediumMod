@@ -1,0 +1,18 @@
+{
+  	"type": "tconstruct:casting_table",
+  	"cast": {
+    	"tag": "tconstruct:casts/multi_use/nugget"
+  	},
+  	"fluid": {
+    	"name": "oredium:molten_cesarita",
+    	"amount": 16
+  	},
+  	"result": "oredium:cesarita_nugget",
+  	"cooling_time": 20,
+  	"conditions": [
+      	{
+          	"type": "forge:mod_loaded",
+          	"modid": "tconstruct"
+      	}
+  	]
+}

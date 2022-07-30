@@ -1,0 +1,21 @@
+{
+  	"type": "tconstruct:material",
+  	"conditions": [
+    	{
+      		"value": {
+        	"tag": "forge:storage_blocks/cesarita",
+        	"type": "forge:tag_empty"
+		},
+      	"type": "forge:not"
+    	}
+  	],
+  	"ingredient": {
+    	"tag": "forge:storage_blocks/cesarita"
+  	},
+  	"value": 9,
+  	"needed": 1,
+  	"material": "oredium:cesarita",
+  	"leftover": {
+		"tag": "forge:ingots/cesarita"
+	}
+}

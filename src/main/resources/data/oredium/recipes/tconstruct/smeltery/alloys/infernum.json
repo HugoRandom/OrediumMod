@@ -1,0 +1,26 @@
+{
+  	"type": "tconstruct:alloy",
+  	"inputs": [
+    {
+      	"name": "minecraft:lava",
+      	"amount": 432
+    },
+    {
+      	"tag": "forge:magma",
+      	"amount": 500
+    },
+    {
+      	"name": "oredium:molten_hugodium",
+      	"amount": 144
+    },
+    {
+      	"name": "tconstruct:liquid_soul",
+      	"amount": 250
+    }
+  	],
+  	"result": {
+    	"fluid": "oredium:infernum",
+    	"amount": 500
+  	},
+  	"temperature": 1500
+}

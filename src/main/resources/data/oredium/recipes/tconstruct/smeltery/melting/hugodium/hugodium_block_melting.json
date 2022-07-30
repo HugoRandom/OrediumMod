@@ -1,0 +1,18 @@
+{
+  	"type": "tconstruct:melting",
+  	"ingredient": {
+    	"tag": "forge:storage_blocks/hugodium"
+  	},
+  	"result": {
+    	"fluid": "oredium:molten_hugodium",
+    	"amount": 1296
+  	},
+  	"temperature": 1500,
+  	"time": 200,
+  	"conditions": [
+      	{
+          	"type": "forge:mod_loaded",
+          	"modid": "tconstruct"
+      	}
+  	]
+}

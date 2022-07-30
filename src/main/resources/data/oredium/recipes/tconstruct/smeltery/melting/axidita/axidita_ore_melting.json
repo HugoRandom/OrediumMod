@@ -1,0 +1,24 @@
+{
+  	"type": "tconstruct:ore_melting",
+  	"ingredient": {
+    	"tag": "forge:ores/axidita"
+  	},
+  	"result": {
+    	"fluid": "oredium:molten_axidita",
+    	"amount": 144
+  	},
+  	"byproducts": [
+    	{
+      	"fluid": "oredium:molten_emerald",
+      	"amount": 48
+    	}
+  	],	
+  	"temperature": 1000,
+  	"time": 100,
+  	"conditions": [
+      	{
+          	"type": "forge:mod_loaded",
+          	"modid": "tconstruct"
+      	}
+  	]
+}

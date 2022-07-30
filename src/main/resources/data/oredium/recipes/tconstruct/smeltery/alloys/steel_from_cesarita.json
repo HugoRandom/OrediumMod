@@ -1,0 +1,27 @@
+{
+  	"type": "tconstruct:alloy",
+  	"conditions": [
+    	{
+      		"value": {
+        		"tag": "forge:ingots/steel",
+        		"type": "forge:tag_empty"
+      		},
+      		"type": "forge:not"
+    	}
+  	],
+  	"inputs": [
+	    {
+	      	"name": "oredium:molten_cesarita",
+	      	"amount": 432
+	    },
+	    {
+	      	"name": "tconstruct:molten_iron",
+	      	"amount": 288
+	    }
+  	],
+  	"result": {
+    	"fluid": "tconstruct:molten_steel",
+    	"amount": 432
+  	},
+  	"temperature": 1000
+}

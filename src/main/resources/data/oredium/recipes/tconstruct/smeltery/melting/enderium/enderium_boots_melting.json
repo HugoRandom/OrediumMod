@@ -1,0 +1,20 @@
+{
+  	"type": "tconstruct:damagable_melting",
+  	"ingredient": [
+    	{
+      		"item": "oredium:enderium_boots"
+    	}    	
+  	],
+  	"result": {
+    	"fluid": "oredium:molten_enderium",
+    	"amount": 576
+  	},
+  	"temperature": 1500,
+  	"time": 200,
+  	"conditions": [
+		{
+	    	"type": "forge:mod_loaded",
+	    	"modid": "tconstruct"
+	    }
+  	]
+}

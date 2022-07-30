@@ -1,0 +1,15 @@
+{
+  	"craftable": false,
+  	"tier": 4,
+  	"sortOrder": 2,
+  	"fluid": "oredium:molten_hugodium",
+  	"fluidPerUnit": 144,
+  	"textColor": "#F4232B",
+  	"temperature": 1500,
+  	"traits": [
+    	{
+      		"name": "tconstruct:momentum",
+      		"level": 1
+    	}
+  	]
+}

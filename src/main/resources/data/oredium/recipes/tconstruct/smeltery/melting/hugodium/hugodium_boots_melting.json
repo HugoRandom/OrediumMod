@@ -1,0 +1,26 @@
+{
+  	"type": "tconstruct:damagable_melting",
+  	"ingredient": [
+    	{
+      		"item": "oredium:hugodium_boots"
+    	}    	
+  	],
+  	"result": {
+    	"fluid": "oredium:molten_hugodium",
+    	"amount": 144
+  	},
+  	"byproducts":[
+	    {
+	      	"fluid": "tconstruct:molten_diamond",
+	      	"amount": 576
+	    }
+    ],
+  	"temperature": 1500,
+  	"time": 200,
+  	"conditions": [
+		{
+	    	"type": "forge:mod_loaded",
+	    	"modid": "tconstruct"
+	    }
+  	]
+}

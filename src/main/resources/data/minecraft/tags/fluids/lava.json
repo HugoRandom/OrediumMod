@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "oredium:shine_fluid",
+    "oredium:shine_flowing",
+    "oredium:caballerita_fluid",
+    "oredium:caballerita_flowing",
+    "oredium:axidita_fluid",
+    "oredium:axidita_flowing",
+    "oredium:cesarita_fluid",
+    "oredium:cesarita_flowing",
+    "oredium:franitolina_fluid",
+    "oredium:franitolina_flowing",
+    "oredium:enderium_fluid",
+    "oredium:enderium_flowing",
+    "oredium:alezarita_fluid",
+    "oredium:alezarita_flowing",
+    "oredium:hugodium_fluid",
+    "oredium:hugodium_flowing",
+    "oredium:miguelitio_fluid",
+    "oredium:miguelitio_flowing",
+    "oredium:infernum_fluid",
+    "oredium:infernum_flowing"
+  ]
+}

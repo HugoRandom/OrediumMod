@@ -1,0 +1,18 @@
+{
+  	"type": "tconstruct:melting",
+  	"ingredient": {
+    	"tag": "forge:ingots/shine"
+  	},
+  	"result": {
+    	"fluid": "oredium:molten_shine",
+    	"amount": 144
+  	},
+  	"temperature": 800,
+  	"time": 80,
+  	"conditions": [
+      	{
+          	"type": "forge:mod_loaded",
+          	"modid": "tconstruct"
+      	}
+  	]
+}

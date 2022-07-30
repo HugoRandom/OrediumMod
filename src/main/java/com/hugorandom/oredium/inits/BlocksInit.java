@@ -90,6 +90,7 @@ public class BlocksInit {
             () -> new DeepslateOreBlock(5.5f, 5f));
 
 
+
     // Bloques de metal en bruto - Raw metal blocks
     public static final RegistryObject<Block> RAW_SHINE_BLOCK = registerBlock("raw_shine_block",
             () -> new MetalBlock(4f, 3f));

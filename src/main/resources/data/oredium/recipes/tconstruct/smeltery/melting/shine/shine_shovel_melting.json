@@ -1,0 +1,20 @@
+{
+  	"type": "tconstruct:damagable_melting",
+  	"ingredient": [
+    	{
+      		"item": "oredium:shine_shovel"
+    	}    	
+  	],
+  	"result": {
+    	"fluid": "oredium:molten_shine",
+    	"amount": 144
+  	},
+  	"temperature": 800,
+  	"time": 100,
+  	"conditions": [
+		{
+	    	"type": "forge:mod_loaded",
+	    	"modid": "tconstruct"
+	    }
+  	]
+}

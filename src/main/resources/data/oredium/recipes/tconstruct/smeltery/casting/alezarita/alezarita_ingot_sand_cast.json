@@ -1,0 +1,19 @@
+{
+  	"type": "tconstruct:casting_table",
+  	"cast": {
+    	"tag": "tconstruct:casts/single_use/ingot"
+  	},
+  	"cast_consumed": true,
+  	"fluid": {
+   		"name": "oredium:molten_alezarita",
+    	"amount": 144
+  	},
+  	"result": "oredium:alezarita_ingot",
+  	"cooling_time": 80,
+  	"conditions": [
+      	{
+          	"type": "forge:mod_loaded",
+          	"modid": "tconstruct"
+      	}
+  	]
+}

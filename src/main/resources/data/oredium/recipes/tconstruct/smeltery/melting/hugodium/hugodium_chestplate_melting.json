@@ -1,0 +1,25 @@
+{
+  	"type": "tconstruct:damagable_melting",
+  	"ingredient": [
+    	{
+      		"item": "oredium:hugodium_chestplate"
+    	}    	
+  	],
+  	"result": {
+    	"fluid": "oredium:molten_hugodium",
+    	"amount": 144
+  	},
+  	"byproducts":
+    {
+      	"fluid": "tconstruct:molten_diamond",
+      	"amount": 1152
+    },
+  	"temperature": 1500,
+  	"time": 300,
+  	"conditions": [
+		{
+	    	"type": "forge:mod_loaded",
+	    	"modid": "tconstruct"
+	    }
+  	]
+}

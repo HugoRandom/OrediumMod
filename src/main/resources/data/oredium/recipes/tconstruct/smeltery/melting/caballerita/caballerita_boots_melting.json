@@ -1,0 +1,20 @@
+{
+  	"type": "tconstruct:damagable_melting",
+  	"ingredient": [
+    	{
+      		"item": "oredium:caballerita_boots"
+    	}    	
+  	],
+  	"result": {
+    	"fluid": "oredium:molten_caballerita",
+    	"amount": 576
+  	},
+  	"temperature": 1000,
+  	"time": 200,
+  	"conditions": [
+		{
+	    	"type": "forge:mod_loaded",
+	    	"modid": "tconstruct"
+	    }
+  	]
+}

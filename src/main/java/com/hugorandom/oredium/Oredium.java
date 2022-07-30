@@ -27,6 +27,8 @@ public class Oredium
         ItemsInit.register(eventBus);
         BlocksInit.register(eventBus);
         FoodsInit.register(eventBus);
+        FluidsInit.register(eventBus);
+        BlockFluidsInit.register(eventBus);
         ItemsRareInit.register(eventBus);
         BlocksEntitiesInit.register(eventBus);
         ToolsInit.register(eventBus);

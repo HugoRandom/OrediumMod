@@ -1,0 +1,19 @@
+{
+  	"type": "tconstruct:casting_table",
+  	"cast": {
+    	"item": "minecraft:apple"
+  	},
+  	"cast_consumed": true,
+  	"fluid": {
+    	"name": "oredium:molten_enderium",
+    	"amount": 1152
+  	},
+  	"result": "oredium:enderium_apple",
+  	"cooling_time": 161,
+  	"conditions": [
+      	{
+          	"type": "forge:mod_loaded",
+          	"modid": "tconstruct"
+      	}
+  	]
+}

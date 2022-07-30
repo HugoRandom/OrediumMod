@@ -276,6 +276,16 @@
 	"advancement.fraopu_title": "Adivina que...",
 	"advancement.fraopu_desc": "Usa un objeto especifico en un bloque especifico (Mira la imagen)",
 	"advancement.miguelitio_storm_title": "YO TENIA EL PODER",
-	"advancement.miguelitio_storm_desc": "Gasta una Gema de Miguelito en su bloque especifico."	
-	
+	"advancement.miguelitio_storm_desc": "Gasta una Gema de Miguelito en su bloque especifico.",
+
+	"item.oredium.hugodium_bucket": "Cubeta de Hugodium Fundido",
+	"item.oredium.alezarita_bucket": "Cubeta de Alezarita Fundido",
+	"item.oredium.axidita_bucket": "Cubeta de Axidita Fundida",
+	"item.oredium.franitolina_bucket": "Cubeta de Franitolina Fundido",
+	"item.oredium.miguelitio_bucket": "Cubeta de Miguelitio Fundido",
+	"item.oredium.shine_bucket": "Cubeta de Shine Fundido",
+	"item.oredium.cesarita_bucket": "Cubeta de Cesarita Fundido",
+	"item.oredium.caballerita_bucket": "Cubeta de Caballerita Fundido",
+	"item.oredium.enderium_bucket": "Cubeta de Enderium Fundido",
+	"item.oredium.infernum_bucket": "Cubeta de Infernum"
 }

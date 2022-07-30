@@ -1,0 +1,7 @@
+{
+  	"replace": false,
+  	"values": [
+    	"oredium:cesarita_fluid_still",
+    	"oredium:cesarita_fluid_flowing"
+  	]
+}

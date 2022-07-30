@@ -1,0 +1,21 @@
+{
+  	"type": "tconstruct:material",
+  	"conditions": [
+    	{
+      		"value": {
+        	"tag": "forge:storage_blocks/axidita",
+        	"type": "forge:tag_empty"
+		},
+      	"type": "forge:not"
+    	}
+  	],
+  	"ingredient": {
+    	"tag": "forge:storage_blocks/axidita"
+  	},
+  	"value": 9,
+  	"needed": 1,
+  	"material": "oredium:axidita",
+  	"leftover": {
+		"tag": "forge:ingots/axidita"
+	}
+}

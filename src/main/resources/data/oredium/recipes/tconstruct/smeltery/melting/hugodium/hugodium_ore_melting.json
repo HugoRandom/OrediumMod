@@ -1,0 +1,24 @@
+{
+  	"type": "tconstruct:ore_melting",
+  	"ingredient": {
+    	"tag": "forge:ores/hugodium"
+  	},
+  	"result": {
+    	"fluid": "oredium:molten_hugodium",
+    	"amount": 144
+  	},
+  	"byproducts": [
+    	{
+      	"fluid": "tconstruct:molten_platinum",
+      	"amount": 48
+    	}
+  	],	
+  	"temperature": 1500,
+  	"time": 100,
+  	"conditions": [
+      	{
+          	"type": "forge:mod_loaded",
+          	"modid": "tconstruct"
+      	}
+  	]
+}
