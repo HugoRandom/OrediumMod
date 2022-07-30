@@ -11,13 +11,13 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ItemsRareInit {
     public static final DeferredRegister<Item> ITEMSRARE = DeferredRegister.create(ForgeRegistries.ITEMS, Oredium.MOD_ID);
-
     public static void register(IEventBus eventBus){
         ITEMSRARE.register(eventBus);
     }
 
     // Especiales - Specials
+    public static final RegistryObject<Item> UMC = ITEMSRARE.register("umc", UMCItem::new);
     public static final RegistryObject<Item> OREDIUM_AMULET = ITEMSRARE.register("oredium_amulet", AmuletItem::new);
 
-    public static final RegistryObject<Item> UMC = ITEMSRARE.register("umc", UMCItem::new);
+
 }

@@ -1,5 +1,6 @@
 package com.hugorandom.oredium.foods;
 
+import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
@@ -9,7 +10,8 @@ public class ShineCupcake extends Item {
 
 	public ShineCupcake() {
 		super(new Properties()								
-				.food(SHINE_CUPCAKE));		
+				.food(SHINE_CUPCAKE)
+				.tab(ItemGroupTabs.OREDIUM_ITEMS));
 	}
 	
 	public static final FoodProperties SHINE_CUPCAKE = new FoodProperties.Builder()

@@ -1,5 +1,7 @@
 package com.hugorandom.oredium.foods;
 
+import com.hugorandom.oredium.Oredium;
+import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
@@ -9,7 +11,8 @@ public class AlezaritaChicken extends BowItem {
 
 	public AlezaritaChicken() {
 		super(new Properties()							
-				.food(ALEZARITA_CHICKEN));		
+				.food(ALEZARITA_CHICKEN)
+				.tab(ItemGroupTabs.OREDIUM_ITEMS));
 	}
 	
 	public static final FoodProperties ALEZARITA_CHICKEN = new FoodProperties.Builder()

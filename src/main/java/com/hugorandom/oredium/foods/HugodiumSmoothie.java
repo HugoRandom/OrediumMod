@@ -1,5 +1,6 @@
 package com.hugorandom.oredium.foods;
 
+import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -13,7 +14,8 @@ public class HugodiumSmoothie extends Item {
 
 	public HugodiumSmoothie() {
 		super(new Properties()							
-				.food(HUGODIUM_SMOOTHIE));		
+				.food(HUGODIUM_SMOOTHIE)
+				.tab(ItemGroupTabs.OREDIUM_ITEMS));
 	}
 	public static final FoodProperties HUGODIUM_SMOOTHIE = new FoodProperties.Builder()
 			.effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 200, 0), 1.0f)

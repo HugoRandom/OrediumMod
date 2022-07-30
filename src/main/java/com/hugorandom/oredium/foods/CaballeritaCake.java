@@ -1,5 +1,6 @@
 package com.hugorandom.oredium.foods;
 
+import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
@@ -9,7 +10,8 @@ public class CaballeritaCake extends Item {
 
 	public CaballeritaCake() {
 		super(new Properties()							
-				.food(CABALLERITA_CAKE));		
+				.food(CABALLERITA_CAKE)
+				.tab(ItemGroupTabs.OREDIUM_ITEMS));
 	}
 	
 	public static final FoodProperties CABALLERITA_CAKE = new FoodProperties.Builder()

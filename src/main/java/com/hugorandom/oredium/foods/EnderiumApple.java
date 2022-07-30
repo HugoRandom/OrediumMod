@@ -1,5 +1,6 @@
 package com.hugorandom.oredium.foods;
 
+import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
@@ -11,7 +12,8 @@ public class EnderiumApple extends Item {
 	public EnderiumApple() {
 		super(new Properties()
 				.rarity(Rarity.RARE)
-				.food(ENDERIUM_APPLE));		
+				.food(ENDERIUM_APPLE)
+				.tab(ItemGroupTabs.OREDIUM_ITEMS));
 	}
 	public static final FoodProperties ENDERIUM_APPLE = new FoodProperties.Builder()
 			.effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 200, 1), 1.0f)

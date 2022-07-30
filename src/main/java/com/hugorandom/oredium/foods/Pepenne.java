@@ -1,5 +1,6 @@
 package com.hugorandom.oredium.foods;
 
+import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
@@ -12,7 +13,8 @@ public class Pepenne extends Item {
 
 	public Pepenne() {
 		super(new Properties()							
-				.food(PEPENNE));		
+				.food(PEPENNE)
+				.tab(ItemGroupTabs.OREDIUM_ITEMS));
 	}
 	
 	public static final FoodProperties PEPENNE = new FoodProperties.Builder()

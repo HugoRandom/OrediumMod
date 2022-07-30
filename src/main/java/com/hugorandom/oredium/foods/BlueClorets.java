@@ -1,5 +1,6 @@
 package com.hugorandom.oredium.foods;
 
+import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
@@ -9,7 +10,8 @@ public class BlueClorets extends Item {
 
 	public BlueClorets() {
 		super(new Properties()							
-				.food(BLUE_CLORETS));		
+				.food(BLUE_CLORETS)
+				.tab(ItemGroupTabs.OREDIUM_ITEMS));
 	}
 	
 	public static final FoodProperties BLUE_CLORETS = new FoodProperties.Builder()

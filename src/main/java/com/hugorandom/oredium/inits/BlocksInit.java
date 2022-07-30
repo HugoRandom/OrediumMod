@@ -62,24 +62,14 @@ public class BlocksInit {
     // Menas normales y profundas - Normal and deepslate Ores
     public static final RegistryObject<Block> SHINE_ORE = registerBlock("shine_ore",
             () -> new OreBlock(4f, 3f));
-    public static final RegistryObject<Block> DEEPSLATE_SHINE_ORE = registerBlock("deepslate_shine_ore",
-            () -> new DeepslateOreBlock(4.5f, 3f));
     public static final RegistryObject<Block> CABALLERITA_ORE = registerBlock("caballerita_ore",
             () -> new OreBlock(5f, 4f));
-    public static final RegistryObject<Block> DEEPSLATE_CABALLERITA_ORE = registerBlock("deepslate_caballerita_ore",
-            () -> new DeepslateOreBlock(5.5f, 4f));
-    public static final RegistryObject<Block> CESARITA_ORE = registerBlock("cesarita_ore",
-            () -> new OreBlock(5f, 4f));
-    public static final RegistryObject<Block> DEEPSLATE_CESARITA_ORE = registerBlock("deepslate_cesarita_ore",
-            () -> new DeepslateOreBlock(5.5f, 4f));
     public static final RegistryObject<Block> AXIDITA_ORE = registerBlock("axidita_ore",
             () -> new OreBlock(4f, 3f));
-    public static final RegistryObject<Block> DEEPSLATE_AXIDITA_ORE = registerBlock("deepslate_axidita_ore",
-            () -> new DeepslateOreBlock(4.5f, 3f));
+    public static final RegistryObject<Block> CESARITA_ORE = registerBlock("cesarita_ore",
+            () -> new OreBlock(5f, 4f));
     public static final RegistryObject<Block> FRANITOLINA_ORE = registerBlock("franitolina_ore",
             () -> new OreBlock(5f, 5f));
-    public static final RegistryObject<Block> DEEPSLATE_FRANITOLINA_ORE = registerBlock("deepslate_franitolina_ore",
-            () -> new DeepslateOreBlock(5.5f, 5f));
     public static final RegistryObject<Block> DEEPSLATE_ENDERIUM_ORE = registerBlock("deepslate_enderium_ore",
             () -> new DeepslateOreBlock(6f, 10f));
     public static final RegistryObject<Block> ALEZARITA_ORE = registerBlock("alezarita_ore",
@@ -88,26 +78,37 @@ public class BlocksInit {
             () -> new OreBlock(6f, 7f));
     public static final RegistryObject<Block> MIGUELITIO_ORE = registerBlock("miguelitio_ore",
             () -> new OreBlock(4f, 8f));
+    public static final RegistryObject<Block> DEEPSLATE_SHINE_ORE = registerBlock("deepslate_shine_ore",
+            () -> new DeepslateOreBlock(4.5f, 3f));
+    public static final RegistryObject<Block> DEEPSLATE_CABALLERITA_ORE = registerBlock("deepslate_caballerita_ore",
+            () -> new DeepslateOreBlock(5.5f, 4f));
+    public static final RegistryObject<Block> DEEPSLATE_CESARITA_ORE = registerBlock("deepslate_cesarita_ore",
+            () -> new DeepslateOreBlock(5.5f, 4f));
+    public static final RegistryObject<Block> DEEPSLATE_AXIDITA_ORE = registerBlock("deepslate_axidita_ore",
+            () -> new DeepslateOreBlock(4.5f, 3f));
+    public static final RegistryObject<Block> DEEPSLATE_FRANITOLINA_ORE = registerBlock("deepslate_franitolina_ore",
+            () -> new DeepslateOreBlock(5.5f, 5f));
+
 
     // Bloques de metal en bruto - Raw metal blocks
     public static final RegistryObject<Block> RAW_SHINE_BLOCK = registerBlock("raw_shine_block",
-            () -> new MetalBlock(3f, 1f));
+            () -> new MetalBlock(4f, 3f));
     public static final RegistryObject<Block> RAW_CABALLERITA_BLOCK = registerBlock("raw_caballerita_block",
-            () -> new MetalBlock(4f, 1f));
-    public static final RegistryObject<Block> RAW_CESARITA_BLOCK = registerBlock("raw_cesarita_block",
-            () -> new MetalBlock(4f, 1f));
+            () -> new MetalBlock(5f, 3f));
     public static final RegistryObject<Block> RAW_AXIDITA_BLOCK = registerBlock("raw_axidita_block",
-            () -> new MetalBlock(4f, 3f));
-    public static final RegistryObject<Block> RAW_FRANITOLINA_BLOCK = registerBlock("raw_franitolina_block",
-            () -> new MetalBlock(4f, 3f));
-    public static final RegistryObject<Block> RAW_ENDERIUM_BLOCK = registerBlock("raw_enderium_block",
-            () -> new MetalBlock(4f, 3f));
-    public static final RegistryObject<Block> RAW_ALEZARITA_BLOCK = registerBlock("raw_alezarita_block",
-            () -> new MetalBlock(5f, 4f));
-    public static final RegistryObject<Block> RAW_HUGODIUM_BLOCK = registerBlock("raw_hugodium_block",
             () -> new MetalBlock(5f, 5f));
+    public static final RegistryObject<Block> RAW_CESARITA_BLOCK = registerBlock("raw_cesarita_block",
+            () -> new MetalBlock(5f, 3f));
+    public static final RegistryObject<Block> RAW_FRANITOLINA_BLOCK = registerBlock("raw_franitolina_block",
+            () -> new MetalBlock(5f, 5f));
+    public static final RegistryObject<Block> RAW_ENDERIUM_BLOCK = registerBlock("raw_enderium_block",
+            () -> new MetalBlock(5f, 5f));
+    public static final RegistryObject<Block> RAW_ALEZARITA_BLOCK = registerBlock("raw_alezarita_block",
+            () -> new MetalBlock(6f, 6f));
+    public static final RegistryObject<Block> RAW_HUGODIUM_BLOCK = registerBlock("raw_hugodium_block",
+            () -> new MetalBlock(6f, 7f));
     public static final RegistryObject<Block> RAW_MIGUELITIO_BLOCK = registerBlock("raw_miguelitio_block",
-            () -> new MetalBlock(5f, 6f));
+            () -> new MetalBlock(6f, 8f));
 
     // Lamparas - Lamps
     public static final RegistryObject<Block> SHINE_LAMP = registerBlock("shine_lamp", LampBlock::new);
@@ -120,9 +121,6 @@ public class BlocksInit {
     public static final RegistryObject<Block> HUGODIUM_LAMP = registerBlock("hugodium_lamp", LampBlock::new);
     public static final RegistryObject<Block> MIGUELITIO_LAMP = registerBlock("miguelitio_lamp", LampBlock::new);
 
-    // Especiales - Specials
-    public static final RegistryObject<Block> OREDIUM_BLOCK = registerBlock("oredium_block", OrediumBlock::new);
-
     // Flores - Flowers
     public static final RegistryObject<Block> SOLIMA = registerBlock("solima",
             () -> new FlowerBlock(MobEffects.GLOWING, 3,
@@ -132,5 +130,6 @@ public class BlocksInit {
             () -> new FlowerPotBlock(null, BlocksInit.SOLIMA,
                     BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
 
-
+    // Especiales - Specials
+    public static final RegistryObject<Block> OREDIUM_BLOCK = registerBlock("oredium_block", OrediumBlock::new);
 }
