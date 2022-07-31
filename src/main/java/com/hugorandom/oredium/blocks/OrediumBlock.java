@@ -100,7 +100,8 @@ public class OrediumBlock extends BaseEntityBlock {
 	public void animateTick(BlockState pState, Level pLevel, BlockPos pos, Random rand) {
 		super.animateTick(pState, pLevel, pos, rand);
 		if (rand.nextInt(10) == 0) {
-			pLevel.addParticle(ParticlesInit.OREDIUM_PARTICLE.get(), (double)pos.getX() + rand.nextDouble(), (double)pos.getY() + 1.1D, (double)pos.getZ() + rand.nextDouble(), 0.0D, 0.0D, 0.0D);
+			pLevel.addParticle(ParticlesInit.OREDIUM_PARTICLE.get(), (double)pos.getX() + rand.nextDouble(),
+					(double)pos.getY() + 1.1D, (double)pos.getZ() + rand.nextDouble(), 0.0D, 0.0D, 0.0D);
 		}
 	}
 }

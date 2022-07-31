@@ -6,12 +6,10 @@ import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
-import java.security.Provider;
+public class NormalParticle extends TextureSheetParticle {
 
-public class OrediumParticle extends TextureSheetParticle {
-
-    protected OrediumParticle(ClientLevel level, double xCoord, double yCoord, double zCoord, SpriteSet spriteSet,
-                              double xd, double yd, double zd) {
+    protected NormalParticle(ClientLevel level, double xCoord, double yCoord, double zCoord, SpriteSet spriteSet,
+                             double xd, double yd, double zd) {
         super(level, xCoord, yCoord, zCoord);
         this.friction = 0.8F;
         this.xd = xd;
@@ -52,7 +50,7 @@ public class OrediumParticle extends TextureSheetParticle {
         public Particle createParticle(SimpleParticleType particleType, ClientLevel level,
                                        double x, double y, double z,
                                        double dx, double dy, double dz) {
-            return new OrediumParticle(level, x, y, z, this.sprites, dx, dy, dz);
+            return new NormalParticle(level, x, y, z, this.sprites, dx, dy, dz);
         }
     }
 }

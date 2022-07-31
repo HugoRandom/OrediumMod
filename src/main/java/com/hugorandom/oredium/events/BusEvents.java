@@ -2,7 +2,7 @@ package com.hugorandom.oredium.events;
 
 import com.hugorandom.oredium.Oredium;
 import com.hugorandom.oredium.inits.ParticlesInit;
-import com.hugorandom.oredium.particles.OrediumParticle;
+import com.hugorandom.oredium.particles.NormalParticle;
 import com.hugorandom.oredium.recipes.UpgradingRecipe;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.Registry;
@@ -22,6 +22,8 @@ public class BusEvents {
 
     @SubscribeEvent
     public static void registerParticleFactories(final ParticleFactoryRegisterEvent event){
-        Minecraft.getInstance().particleEngine.register(ParticlesInit.OREDIUM_PARTICLE.get(), OrediumParticle.Provider::new);
+        Minecraft.getInstance().particleEngine.register(ParticlesInit.OREDIUM_PARTICLE.get(), NormalParticle.Provider::new);
+        Minecraft.getInstance().particleEngine.register(ParticlesInit.SHINE_PARTICLE.get(), NormalParticle.Provider::new);
+        Minecraft.getInstance().particleEngine.register(ParticlesInit.FRANITOLINA_PARTICLE.get(), NormalParticle.Provider::new);
     }
 }
