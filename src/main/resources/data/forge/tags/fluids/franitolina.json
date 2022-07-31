@@ -1,7 +1,7 @@
 {
   	"replace": false,
   	"values": [
-    	"oredium:franitolina_fluid_still",
-    	"oredium:franitolina_fluid_flowing"
+    	"oredium:franitolina_fluid",
+    	"oredium:franitolina_flowing"
   	]
 }

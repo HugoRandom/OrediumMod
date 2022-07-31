@@ -130,7 +130,6 @@ public class BlocksInit {
     public static final RegistryObject<Block> SOLIMA = registerBlock("solima",
             () -> new FlowerBlock(MobEffects.GLOWING, 3,
                     BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion()));
-
     public static final RegistryObject<Block> POTTED_SOLIMA = registerBlockNoItem("potted_solima",
             () -> new FlowerPotBlock(null, BlocksInit.SOLIMA,
                     BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));

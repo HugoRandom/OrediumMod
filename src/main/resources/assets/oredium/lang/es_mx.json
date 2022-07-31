@@ -46,6 +46,16 @@
 	"item.oredium.miguelitio_ingot": "Lingote de Miguelitio",
 	"item.oredium.shine_ingot": "Lingote de Shine",
 
+	"item.oredium.raw_alezarita": "Alezarita en bruto",
+	"item.oredium.raw_axidita": "Axidita en bruto",
+	"item.oredium.raw_caballerita": "Caballerita en bruto",
+	"item.oredium.raw_cesarita": "Cesarita en bruto",
+	"item.oredium.raw_enderium": "Enderium en bruto",
+	"item.oredium.raw_franitolina": "Franitolina en bruto",
+	"item.oredium.raw_hugodium": "Hugodium en bruto",
+	"item.oredium.raw_miguelitio": "Miguelitio en bruto",
+	"item.oredium.raw_shine": "Shine en bruto",
+
 	"block.oredium.alezarita_block": "Bloque de Alezarita",
 	"block.oredium.axidita_block": "Bloque de Axidita",	
 	"block.oredium.caballerita_block": "Bloque de Caballerita",	
@@ -287,5 +297,16 @@
 	"item.oredium.cesarita_bucket": "Cubeta de Cesarita Fundido",
 	"item.oredium.caballerita_bucket": "Cubeta de Caballerita Fundido",
 	"item.oredium.enderium_bucket": "Cubeta de Enderium Fundido",
-	"item.oredium.infernum_bucket": "Cubeta de Infernum"
+	"item.oredium.infernum_bucket": "Cubeta de Infernum",
+
+	"fluid.oredium.hugodium": "Hugodium fundido",
+	"fluid.oredium.alezarita": "MAlezarita fundida",
+	"fluid.oredium.axidita": "Axidita fundida",
+	"fluid.oredium.franitolina": "Franitolina fundida",
+	"fluid.oredium.miguelitio": "Miguelitio fundido",
+	"fluid.oredium.shine": "Shine fundido",
+	"fluid.oredium.cesarita": "Cesarita fundida",
+	"fluid.oredium.caballerita": "Caballerita fundida",
+	"fluid.oredium.enderium": "Enderium fundido",
+	"fluid.oredium.infernum": "Infernum"
 }

@@ -44,8 +44,8 @@ public class UMCItem extends Item {
     @Override
     public InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer, InteractionHand pUsedHand) {
         BlockPos pos = pPlayer.blockPosition();
-        pLevel.explode(null,(double)pos.getX() + 0.5D, (double)pos.getY() + 0.5D, (double)pos.getZ() + 0.5D,
-                1.0F, false, Explosion.BlockInteraction.BREAK);
+        pLevel.explode(null,(double)pos.getX() + 0.5D, (double)pos.getY() + 1.5D, (double)pos.getZ() + 0.5D,
+                1.5F, false, Explosion.BlockInteraction.BREAK);
         return super.use(pLevel, pPlayer, pUsedHand);
     }
 }

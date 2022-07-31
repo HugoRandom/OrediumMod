@@ -21,7 +21,7 @@ public class FluidsInit {
     
 	// Hugodium
 	public static final ResourceLocation HUGODIUM_STILL = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/hugodium_fluid_still");
-    public static final ResourceLocation HUGODIUM_FLOW = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/hugodium_fluid_flow");;
+    public static final ResourceLocation HUGODIUM_FLOW = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/hugodium_fluid_flow");
     public static final RegistryObject<ForgeFlowingFluid.Source> HUGODIUM_FLUID =
     		FLUIDS.register("hugodium_fluid", () -> new ForgeFlowingFluid.Source(FluidsInit.HUGODIUM_PROPERTIES));
     public static final RegistryObject<ForgeFlowingFluid.Flowing> HUGODIUM_FLOWING =
@@ -36,7 +36,7 @@ public class FluidsInit {
     
     // Alezarita
     public static final ResourceLocation ALEZARITA_STILL = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/alezarita_fluid_still");
-    public static final ResourceLocation ALEZARITA_FLOW = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/alezarita_fluid_flow");;
+    public static final ResourceLocation ALEZARITA_FLOW = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/alezarita_fluid_flow");
     public static final RegistryObject<ForgeFlowingFluid.Source> ALEZARITA_FLUID =
     		FLUIDS.register("alezarita_fluid", () -> new ForgeFlowingFluid.Source(FluidsInit.ALEZARITA_PROPERTIES));
     public static final RegistryObject<ForgeFlowingFluid.Flowing> ALEZARITA_FLOWING =
@@ -51,7 +51,7 @@ public class FluidsInit {
     
     // Axidita
 	public static final ResourceLocation AXIDITA_STILL = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/axidita_fluid_still");
-	public static final ResourceLocation AXIDITA_FLOW = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/axidita_fluid_flow");;
+	public static final ResourceLocation AXIDITA_FLOW = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/axidita_fluid_flow");
 	public static final RegistryObject<ForgeFlowingFluid.Source> AXIDITA_FLUID =
 			FLUIDS.register("axidita_fluid", () -> new ForgeFlowingFluid.Source(FluidsInit.AXIDITA_PROPERTIES));
 	public static final RegistryObject<ForgeFlowingFluid.Flowing> AXIDITA_FLOWING =
@@ -66,7 +66,7 @@ public class FluidsInit {
     
     // Franitolina
 	public static final ResourceLocation FRANITOLINA_STILL = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/franitolina_fluid_still");
-	public static final ResourceLocation FRANITOLINA_FLOW = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/franitolina_fluid_flow");;
+	public static final ResourceLocation FRANITOLINA_FLOW = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/franitolina_fluid_flow");
 	public static final RegistryObject<ForgeFlowingFluid.Source> FRANITOLINA_FLUID =
 			FLUIDS.register("franitolina_fluid", () -> new ForgeFlowingFluid.Source(FluidsInit.FRANITOLINA_PROPERTIES));
 	public static final RegistryObject<ForgeFlowingFluid.Flowing> FRANITOLINA_FLOWING =
@@ -81,7 +81,7 @@ public class FluidsInit {
     
     // Miguelitio
 	public static final ResourceLocation MIGUELITIO_STILL = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/miguelitio_fluid_still");
-	public static final ResourceLocation MIGUELITIO_FLOW = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/miguelitio_fluid_flow");;
+	public static final ResourceLocation MIGUELITIO_FLOW = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/miguelitio_fluid_flow");
 	public static final RegistryObject<ForgeFlowingFluid.Source> MIGUELITIO_FLUID =
 			FLUIDS.register("miguelitio_fluid", () -> new ForgeFlowingFluid.Source(FluidsInit.MIGUELITIO_PROPERTIES));
 	public static final RegistryObject<ForgeFlowingFluid.Flowing> MIGUELITIO_FLOWING =
@@ -96,7 +96,7 @@ public class FluidsInit {
     
     // Shine
 	public static final ResourceLocation SHINE_STILL = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/shine_fluid_still");
-	public static final ResourceLocation SHINE_FLOW = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/shine_fluid_flow");;
+	public static final ResourceLocation SHINE_FLOW = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/shine_fluid_flow");
 	public static final RegistryObject<ForgeFlowingFluid.Source> SHINE_FLUID =
 			FLUIDS.register("shine_fluid", () -> new ForgeFlowingFluid.Source(FluidsInit.SHINE_PROPERTIES));
 	public static final RegistryObject<ForgeFlowingFluid.Flowing> SHINE_FLOWING =
@@ -111,7 +111,7 @@ public class FluidsInit {
     
     // Cesarita
 	public static final ResourceLocation CESARITA_STILL = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/cesarita_fluid_still");
-	public static final ResourceLocation CESARITA_FLOW = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/cesarita_fluid_flow");;
+	public static final ResourceLocation CESARITA_FLOW = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/cesarita_fluid_flow");
 	public static final RegistryObject<ForgeFlowingFluid.Source> CESARITA_FLUID =
 			FLUIDS.register("cesarita_fluid", () -> new ForgeFlowingFluid.Source(FluidsInit.CESARITA_PROPERTIES));
 	public static final RegistryObject<ForgeFlowingFluid.Flowing> CESARITA_FLOWING =
@@ -126,7 +126,7 @@ public class FluidsInit {
     
     // Caballerita
 	public static final ResourceLocation CABALLERITA_STILL = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/caballerita_fluid_still");
-	public static final ResourceLocation CABALLERITA_FLOW = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/caballerita_fluid_flow");;
+	public static final ResourceLocation CABALLERITA_FLOW = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/caballerita_fluid_flow");
 	public static final RegistryObject<ForgeFlowingFluid.Source> CABALLERITA_FLUID =
 			FLUIDS.register("caballerita_fluid", () -> new ForgeFlowingFluid.Source(FluidsInit.CABALLERITA_PROPERTIES));
 	public static final RegistryObject<ForgeFlowingFluid.Flowing> CABALLERITA_FLOWING =
@@ -141,7 +141,7 @@ public class FluidsInit {
     
     // Enderium
 	public static final ResourceLocation ENDERIUM_STILL = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/enderium_fluid_still");
-	public static final ResourceLocation ENDERIUM_FLOW = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/enderium_fluid_flow");;
+	public static final ResourceLocation ENDERIUM_FLOW = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/enderium_fluid_flow");
 	public static final RegistryObject<ForgeFlowingFluid.Source> ENDERIUM_FLUID =
 			FLUIDS.register("enderium_fluid", () -> new ForgeFlowingFluid.Source(FluidsInit.ENDERIUM_PROPERTIES));
 	public static final RegistryObject<ForgeFlowingFluid.Flowing> ENDERIUM_FLOWING =
@@ -157,7 +157,7 @@ public class FluidsInit {
     // Infernum
 
 	public static final ResourceLocation INFERNUM_STILL = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/infernum_fluid_still");
-	public static final ResourceLocation INFERNUM_FLOW = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/infernum_fluid_flow");;
+	public static final ResourceLocation INFERNUM_FLOW = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/infernum_fluid_flow");
 	public static final RegistryObject<ForgeFlowingFluid.Source> INFERNUM_FLUID =
 			FLUIDS.register("infernum_fluid", () -> new ForgeFlowingFluid.Source(FluidsInit.INFERNUM_PROPERTIES));
 	public static final RegistryObject<ForgeFlowingFluid.Flowing> INFERNUM_FLOWING =

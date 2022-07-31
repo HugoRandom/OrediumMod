@@ -44,7 +44,17 @@
 	"item.oredium.franitolina_ingot": "Franitolina Ingot",
 	"item.oredium.hugodium_ingot": "Hugodium Ingot",
 	"item.oredium.miguelitio_ingot": "Miguelitio Ingot",
-	"item.oredium.shine_ingot": "Shine Ingot",	 	
+	"item.oredium.shine_ingot": "Shine Ingot",
+
+	"item.oredium.raw_alezarita": "Raw Alezarita",
+	"item.oredium.raw_axidita": "Raw Axidita",
+	"item.oredium.raw_caballerita": "Raw Caballerita",
+	"item.oredium.raw_cesarita": "Raw Cesarita",
+	"item.oredium.raw_enderium": "Raw Enderium",
+	"item.oredium.raw_franitolina": "Raw Franitolina",
+	"item.oredium.raw_hugodium": "Raw Hugodium",
+	"item.oredium.raw_miguelitio": "Raw Miguelitio",
+	"item.oredium.raw_shine": "Raw Shine",
 
 	"block.oredium.alezarita_block": "Alezarita Block",	
 	"block.oredium.axidita_block": "Axidita Block",	
@@ -287,5 +297,16 @@
 	"item.oredium.cesarita_bucket": "Molten Cesarita Bucket",
 	"item.oredium.caballerita_bucket": "Molten Caballerita Bucket",
 	"item.oredium.enderium_bucket": "Molten Enderium Bucket",
-	"item.oredium.infernum_bucket": "Infernum Bucket"
+	"item.oredium.infernum_bucket": "Infernum Bucket",
+
+	"fluid.oredium.hugodium": "Molten Hugodium",
+	"fluid.oredium.alezarita": "Molten Alezarita",
+	"fluid.oredium.axidita": "Molten Axidita",
+	"fluid.oredium.franitolina": "Molten Franitolina",
+	"fluid.oredium.miguelitio": "Molten Miguelitio",
+	"fluid.oredium.shine": "Molten Shine",
+	"fluid.oredium.cesarita": "Molten Cesarita",
+	"fluid.oredium.caballerita": "Molten Caballerita",
+	"fluid.oredium.enderium": "Molten Enderium",
+	"fluid.oredium.infernum": "Infernum"
 }

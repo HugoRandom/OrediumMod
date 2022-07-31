@@ -39,13 +39,6 @@ public class MiguelitioBlock extends MetalBlock {
             if (player.getMainHandItem().getItem() == ItemsInit.MIGUELITIO_GEM.get()) {
                 EntityType.LIGHTNING_BOLT.spawn((ServerLevel) worldIn, null, player, pos,
                         MobSpawnType.TRIGGERED.TRIGGERED, true, true);
-                int count = player.getMainHandItem().getCount();
-                if(count == 1) {
-                    player.getMainHandItem().setCount(0);
-                }
-                else {
-                    player.getMainHandItem().setCount(count - 1);
-                }
             }
             else {
                 worldIn.playSound(null, pos, SoundEvents.METAL_HIT, SoundSource.BLOCKS, 0.6f, 1f);

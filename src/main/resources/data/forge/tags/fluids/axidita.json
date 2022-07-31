@@ -1,7 +1,7 @@
 {
   	"replace": false,
   	"values": [
-    	"oredium:axidita_fluid_still",
-    	"oredium:axidita_fluid_flowing"
+    	"oredium:axidita_fluid",
+    	"oredium:axidita_flowing"
   	]
 }
