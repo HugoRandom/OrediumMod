@@ -1,0 +1,9 @@
+{
+	"craftable": false,
+	"tier": 3,
+	"sortOrder": 7,
+	"fluid": "oredium:miguelitio_fluid",
+	"fluidPerUnit": 144,
+	"textColor": "#0FEDD9",
+	"temperature": 1500
+}

@@ -1,0 +1,15 @@
+{
+  	"replace": false,
+  	"values": [
+	    "#forge:raw_materials/alezarita",
+	    "#forge:raw_materials/axidita",
+	    "#forge:raw_materials/caballerita",
+	    "#forge:raw_materials/cesarita",
+	    "#forge:raw_materials/caballerita",
+	    "#forge:raw_materials/enderium",
+	    "#forge:raw_materials/franitolina",
+	    "#forge:raw_materials/hugodium",
+	    "#forge:raw_materials/miguelitio",
+	    "#forge:raw_materials/shine"
+	]
+}

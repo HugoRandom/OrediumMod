@@ -1,0 +1,9 @@
+{
+	"craftable": false,
+	"tier": 2,
+	"sortOrder": 3,
+	"fluid": "oredium:axidita_fluid",
+	"fluidPerUnit": 144,
+	"textColor": "#52D37A",
+	"temperature": 1000
+}

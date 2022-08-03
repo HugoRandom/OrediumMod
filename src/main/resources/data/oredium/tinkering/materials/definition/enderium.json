@@ -1,0 +1,9 @@
+{
+	"craftable": false,
+	"tier": 3,
+	"sortOrder": 3,
+	"fluid": "oredium:enderium_fluid",
+	"fluidPerUnit": 144,
+	"textColor": "#8827B4",
+	"temperature": 1200
+}

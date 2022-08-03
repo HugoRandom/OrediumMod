@@ -1,0 +1,9 @@
+{
+	"craftable": false,
+	"tier": 1,
+	"sortOrder": 3,
+	"fluid": "oredium:shine_fluid",
+	"fluidPerUnit": 144,
+	"textColor": "#58ACFF",
+	"temperature": 800
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "oredium:blocks/fluids/axidita_fluid_still"
+    }
+}

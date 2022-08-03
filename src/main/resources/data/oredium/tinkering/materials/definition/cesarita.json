@@ -1,0 +1,9 @@
+{
+	"craftable": false,
+	"tier": 2,
+	"sortOrder": 3,
+	"fluid": "oredium:cesarita_fluid",
+	"fluidPerUnit": 144,
+	"textColor": "#312A24",
+	"temperature": 1000
+}

@@ -1,0 +1,9 @@
+{
+	"craftable": false,
+	"tier": 3,
+	"sortOrder": 7,
+	"fluid": "oredium:hugodium_fluid",
+	"fluidPerUnit": 144,
+	"textColor": "#F4232B",
+	"temperature": 1500
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "oredium:blocks/fluids/alezarita_fluid_still"
+    }
+}

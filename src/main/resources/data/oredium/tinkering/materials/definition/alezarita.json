@@ -1,0 +1,9 @@
+{
+	"craftable": false,
+	"tier": 3,
+	"sortOrder": 7,
+	"fluid": "oredium:alezarita_fluid",
+	"fluidPerUnit": 144,
+	"textColor": "#1631CD",
+	"temperature": 1200
+}

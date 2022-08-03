@@ -1,0 +1,9 @@
+{
+	"craftable": false,
+	"tier": 3,
+	"sortOrder": 3,
+	"fluid": "oredium:franitolina_fluid",
+	"fluidPerUnit": 144,
+	"textColor": "#ED810F",
+	"temperature": 1000
+}
