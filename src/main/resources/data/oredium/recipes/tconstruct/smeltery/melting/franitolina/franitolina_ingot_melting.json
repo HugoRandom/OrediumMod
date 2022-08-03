@@ -4,7 +4,7 @@
     	"tag": "forge:ingots/franitolina"
   	},
   	"result": {
-    	"fluid": "oredium:molten_franitolina",
+    	"fluid": "oredium:franitolina_fluid",
     	"amount": 144
   	},
   	"temperature": 1000,

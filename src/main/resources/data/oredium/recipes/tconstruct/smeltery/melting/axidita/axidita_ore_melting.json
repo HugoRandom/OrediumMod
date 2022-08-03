@@ -4,7 +4,7 @@
     	"tag": "forge:ores/axidita"
   	},
   	"result": {
-    	"fluid": "oredium:molten_axidita",
+    	"fluid": "oredium:axidita_fluid",
     	"amount": 144
   	},
   	"byproducts": [

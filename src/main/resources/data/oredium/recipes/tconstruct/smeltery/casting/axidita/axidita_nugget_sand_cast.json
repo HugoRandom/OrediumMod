@@ -5,7 +5,7 @@
   	},
   	"cast_consumed": true,
   	"fluid": {
-    	"name": "oredium:molten_axidita",
+    	"name": "oredium:axidita_fluid",
     	"amount": 16
   	},
   	"result": "oredium:axidita_nugget",

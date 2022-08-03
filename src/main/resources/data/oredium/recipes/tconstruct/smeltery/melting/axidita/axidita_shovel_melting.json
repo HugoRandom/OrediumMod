@@ -6,7 +6,7 @@
     	}    	
   	],
   	"result": {
-    	"fluid": "oredium:molten_axidita",
+    	"fluid": "oredium:axidita_fluid",
     	"amount": 144
   	},
   	"temperature": 1000,

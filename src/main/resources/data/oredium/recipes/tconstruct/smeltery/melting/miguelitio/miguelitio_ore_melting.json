@@ -4,7 +4,7 @@
     	"tag": "forge:ores/miguelitio"
   	},
   	"result": {
-    	"fluid": "oredium:molten_miguelitio",
+    	"fluid": "oredium:miguelitio_fluid",
     	"amount": 64
   	},
   	"byproducts": [

@@ -4,9 +4,15 @@
     	"tag": "forge:ingots/enderium"
   	},
   	"result": {
-    	"fluid": "oredium:molten_enderium",
+    	"fluid": "oredium:enderium_fluid",
     	"amount": 144
   	},
+	"byproducts": [
+		{
+			"fluid": "tconstruct:molten_iron",
+			"amount": 432
+		}
+	],
   	"temperature": 1500,
   	"time": 80,
   	"conditions": [

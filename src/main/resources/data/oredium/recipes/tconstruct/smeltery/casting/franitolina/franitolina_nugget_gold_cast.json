@@ -4,7 +4,7 @@
     	"tag": "tconstruct:casts/multi_use/nugget"
   	},
   	"fluid": {
-    	"name": "oredium:molten_franitolina",
+    	"name": "oredium:franitolina_fluid",
     	"amount": 16
   	},
   	"result": "oredium:franitolina_nugget",

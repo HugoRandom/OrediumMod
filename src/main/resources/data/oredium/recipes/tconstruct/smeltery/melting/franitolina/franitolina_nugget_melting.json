@@ -4,7 +4,7 @@
     	"tag": "forge:nuggets/franitolina"
   	},
   	"result": {
-    	"fluid": "oredium:molten_franitolina",
+    	"fluid": "oredium:franitolina_fluid",
     	"amount": 16
   	},
   	"temperature": 1000,

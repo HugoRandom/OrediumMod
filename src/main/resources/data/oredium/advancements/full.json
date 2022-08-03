@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "item": "oredium:axidita_helmet",
+      "nbt": "{Enchantments:[{id:\\\"mending\\\",lvl:1}]}"
+    },
+    "title": {
+      "translate": "advancement.full_title"
+    },
+    "description": {
+      "translate": "advancement.full_desc"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "oredium:armors",
+  "criteria": {
+    "axidita_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:axidita_helmet"
+            ]
+          },
+          {
+            "items": [
+              "oredium:axidita_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "oredium:axidita_leggings"
+            ]
+          },
+          {
+            "items": [
+              "oredium:axidita_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "axidita_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

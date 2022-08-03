@@ -9,7 +9,7 @@
   	},
   	"byproducts": [
     	{
-      	"fluid": "oredium:molten_cesarita",
+      	"fluid": "oredium:cesarita_fluid",
       	"amount": 64
     	}
   	],	

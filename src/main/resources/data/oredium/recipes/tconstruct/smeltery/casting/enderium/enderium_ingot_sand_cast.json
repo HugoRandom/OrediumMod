@@ -5,7 +5,7 @@
   	},
   	"cast_consumed": true,
   	"fluid": {
-   		"name": "oredium:molten_enderium",
+   		"name": "oredium:enderium_fluid",
     	"amount": 144
   	},
   	"result": "oredium:enderium_ingot",

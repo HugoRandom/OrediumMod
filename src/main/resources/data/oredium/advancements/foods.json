@@ -1,0 +1,141 @@
+{
+  "display": {
+    "icon": {
+      "item": "oredium:enderium_apple"
+    },
+    "title": {
+      "translate": "advancement.foods_title"
+    },
+    "description": {
+      "translate": "advancement.foods_desc"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "oredium:start",
+  "criteria": {
+    "shine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:shine_cupcake"
+            ]
+          }
+        ]
+      }
+    },
+    "caballerita": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:caballerita_cake"
+            ]
+          }
+        ]
+      }
+    },
+    "axidita": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:clorets"
+            ]
+          }
+        ]
+      }
+    },
+    "cesarita": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:blue_clorets"
+            ]
+          }
+        ]
+      }
+    },
+    "franitolina": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:fraopu"
+            ]
+          }
+        ]
+      }
+    },
+    "enderium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:enderium_apple"
+            ]
+          }
+        ]
+      }
+    },
+    "alezarita": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:alezarita_chicken"
+            ]
+          }
+        ]
+      }
+    },
+    "hugodium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:hugodium_smoothie"
+            ]
+          }
+        ]
+      }
+    },
+    "miguelitio": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:pepenne"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+		"shine",
+		"caballerita",
+		"axidita",
+		"cesarita",
+		"franitolina",
+		"enderium",
+		"alezarita",
+		"hugodium",
+		"miguelitio"
+    ]
+  ]
+}

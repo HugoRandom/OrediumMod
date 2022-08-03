@@ -4,7 +4,7 @@
     	"tag": "forge:ingots/caballerita"
   	},
   	"result": {
-    	"fluid": "oredium:molten_caballerita",
+    	"fluid": "oredium:caballerita_fluid",
     	"amount": 144
   	},
   	"temperature": 1000,

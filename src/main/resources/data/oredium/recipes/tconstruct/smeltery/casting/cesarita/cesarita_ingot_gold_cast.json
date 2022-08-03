@@ -4,7 +4,7 @@
     	"tag": "tconstruct:casts/multi_use/ingot"
   	},
   	"fluid": {
-   		"name": "oredium:molten_cesarita",
+   		"name": "oredium:cesarita_fluid",
     	"amount": 144
   	},
   	"result": "oredium:cesarita_ingot",

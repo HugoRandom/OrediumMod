@@ -25,7 +25,7 @@
   	],
   	"inputs": [
 	    {
-	      	"name": "oredium:molten_miguelitio",
+	      	"name": "oredium:miguelitio_fluid",
 	      	"amount": 64
 	    },	    
 	    {

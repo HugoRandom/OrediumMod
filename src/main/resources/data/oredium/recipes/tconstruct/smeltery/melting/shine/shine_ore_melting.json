@@ -4,7 +4,7 @@
     	"tag": "forge:ores/shine"
   	},
   	"result": {
-    	"fluid": "oredium:molten_shine",
+    	"fluid": "oredium:shine_fluid",
     	"amount": 144
   	},
   	"byproducts": [

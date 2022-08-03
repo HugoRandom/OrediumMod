@@ -4,7 +4,7 @@
     	"tag": "forge:storage_blocks/miguelitio"
   	},
   	"result": {
-    	"fluid": "oredium:molten_miguelitio",
+    	"fluid": "oredium:miguelitio_fluid",
     	"amount": 1296
   	},
   	"temperature": 1500,

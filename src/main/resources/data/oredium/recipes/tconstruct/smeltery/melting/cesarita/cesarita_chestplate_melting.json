@@ -6,7 +6,7 @@
     	}    	
   	],
   	"result": {
-    	"fluid": "oredium:molten_cesarita",
+    	"fluid": "oredium:cesarita_fluid",
     	"amount": 1152
   	},  	
   	"temperature": 1000,

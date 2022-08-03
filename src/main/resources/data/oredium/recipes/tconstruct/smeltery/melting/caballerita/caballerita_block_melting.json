@@ -4,7 +4,7 @@
     	"tag": "forge:storage_blocks/caballerita"
   	},
   	"result": {
-    	"fluid": "oredium:molten_caballerita",
+    	"fluid": "oredium:caballerita_fluid",
     	"amount": 1296
   	},
   	"temperature": 1000,

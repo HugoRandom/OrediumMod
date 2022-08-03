@@ -4,7 +4,7 @@
     	"tag": "forge:storage_blocks/axidita"
   	},
   	"result": {
-    	"fluid": "oredium:molten_axidita",
+    	"fluid": "oredium:axidita_fluid",
     	"amount": 1296
   	},
   	"temperature": 1000,

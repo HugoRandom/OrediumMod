@@ -4,7 +4,7 @@
     	"tag": "forge:nuggets/miguelitio"
   	},
   	"result": {
-    	"fluid": "oredium:molten_miguelitio",
+    	"fluid": "oredium:miguelitio_fluid",
     	"amount": 16
   	},
   	"temperature": 1500,

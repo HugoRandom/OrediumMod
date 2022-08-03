@@ -11,7 +11,7 @@
   	],
   	"inputs": [
 	    {
-	      	"name": "oredium:molten_cesarita",
+	      	"name": "oredium:cesarita_fluid",
 	      	"amount": 432
 	    },
 	    {

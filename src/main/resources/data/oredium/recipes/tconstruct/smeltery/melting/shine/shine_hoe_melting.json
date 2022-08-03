@@ -6,7 +6,7 @@
     	}    	
   	],
   	"result": {
-    	"fluid": "oredium:molten_shine",
+    	"fluid": "oredium:shine_fluid",
     	"amount": 288
   	},
   	"temperature": 800,

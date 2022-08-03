@@ -11,7 +11,7 @@
   	],
   	"inputs": [
 	    {
-	      	"name": "oredium:molten_shine",
+	      	"name": "oredium:shine_fluid",
 	      	"amount": 576
 	    },
 	    {

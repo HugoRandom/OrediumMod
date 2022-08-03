@@ -4,7 +4,7 @@
     	"tag": "tconstruct:casts/multi_use/nugget"
   	},
   	"fluid": {
-    	"name": "oredium:molten_miguelitio",
+    	"name": "oredium:miguelitio_fluid",
     	"amount": 16
   	},
   	"result": "oredium:miguelitio_nugget",

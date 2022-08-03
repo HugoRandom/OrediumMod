@@ -4,7 +4,7 @@
     	"tag": "forge:ores/cesarita"
   	},
   	"result": {
-    	"fluid": "oredium:molten_cesarita",
+    	"fluid": "oredium:cesarita_fluid",
     	"amount": 144
   	},
   	"byproducts": [

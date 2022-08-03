@@ -1,4 +1,7 @@
 {
-  "fallback": "metal",
-  "color": "F4232B"
+  "fallbacks": [
+    "metal"
+  ],
+  "color": "F4232B",
+  "luminosity": 10
 }

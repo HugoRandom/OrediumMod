@@ -4,7 +4,7 @@
     	"tag": "tconstruct:casts/multi_use/ingot"
   	},
   	"fluid": {
-   		"name": "oredium:molten_alezarita",
+   		"name": "oredium:alezarita_fluid",
     	"amount": 144
   	},
   	"result": "oredium:alezarita_ingot",

@@ -11,7 +11,7 @@
   	],
   	"inputs": [
 	    {
-	      	"name": "oredium:molten_axidita",
+	      	"name": "oredium:axidita_fluid",
 	      	"amount": 288
 	    },
 	    {

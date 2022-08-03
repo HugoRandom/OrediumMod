@@ -5,7 +5,7 @@
     	"amount": 50
   	},
   	"duration": 250,
-  	"temperature": 2500,
+  	"temperature": 2000,
   	"conditions": [
       	{
           	"type": "forge:mod_loaded",

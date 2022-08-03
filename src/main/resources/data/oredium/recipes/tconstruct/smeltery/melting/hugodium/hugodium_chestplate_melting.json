@@ -6,7 +6,7 @@
     	}    	
   	],
   	"result": {
-    	"fluid": "oredium:molten_hugodium",
+    	"fluid": "oredium:hugodium_fluid",
     	"amount": 144
   	},
   	"byproducts":

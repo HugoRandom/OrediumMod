@@ -1,7 +1,7 @@
 {
   	"type": "tconstruct:casting_basin",
   	"fluid": {
-    	"name": "oredium:molten_franitolina",
+    	"name": "oredium:franitolina_fluid",
     	"amount": 1296
   	},
   	"result": "oredium:franitolina_block",

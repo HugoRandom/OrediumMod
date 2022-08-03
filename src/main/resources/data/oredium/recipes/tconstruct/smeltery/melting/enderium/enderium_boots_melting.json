@@ -6,9 +6,15 @@
     	}    	
   	],
   	"result": {
-    	"fluid": "oredium:molten_enderium",
+    	"fluid": "oredium:enderium_fluid",
     	"amount": 576
   	},
+	"byproducts": [
+		{
+			"fluid": "tconstruct:molten_iron",
+			"amount": 432
+		}
+	],
   	"temperature": 1500,
   	"time": 200,
   	"conditions": [

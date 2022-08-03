@@ -5,7 +5,7 @@
   	},
   	"cast_consumed": true,
   	"fluid": {
-   		"name": "oredium:molten_franitolina",
+   		"name": "oredium:franitolina_fluid",
     	"amount": 144
   	},
   	"result": "oredium:franitolina_ingot",

@@ -4,7 +4,7 @@
     	"tag": "forge:ingots/hugodium"
   	},
   	"result": {
-    	"fluid": "oredium:molten_hugodium",
+    	"fluid": "oredium:hugodium_fluid",
     	"amount": 144
   	},
   	"temperature": 1500,

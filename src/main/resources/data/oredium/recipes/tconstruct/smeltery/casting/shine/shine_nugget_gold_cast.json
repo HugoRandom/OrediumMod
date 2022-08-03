@@ -4,7 +4,7 @@
     	"tag": "tconstruct:casts/multi_use/nugget"
   	},
   	"fluid": {
-    	"name": "oredium:molten_shine",
+    	"name": "oredium:shine_fluid",
     	"amount": 16
   	},
   	"result": "oredium:shine_nugget",

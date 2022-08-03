@@ -1,0 +1,110 @@
+{
+  "display": {
+    "icon": {
+      "item": "oredium:enderium_ingot"
+    },
+    "title": {
+      "translate": "advancement.ingots_title"
+    },
+    "description": {
+      "translate": "advancement.ingots_desc"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "oredium:start",
+  "criteria": {
+    "enderium_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oredium:enderium_ingot"
+          }
+        ]
+      }
+    },
+    "alezarita_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oredium:alezarita_ingot"
+          }
+        ]
+      }
+    },
+    "axidita_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oredium:axidita_ingot"
+          }
+        ]
+      }
+    },
+    "caballerita_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oredium:caballerita_ingot"
+          }
+        ]
+      }
+    },
+    "cesarita_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oredium:cesarita_ingot"
+          }
+        ]
+      }
+    },
+    "franitolina_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oredium:franitolina_ingot"
+          }
+        ]
+      }
+    },
+    "hugodium_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oredium:hugodium_ingot"
+          }
+        ]
+      }
+    },
+    "miguelitio_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oredium:miguelitio_ingot"
+          }
+        ]
+      }
+    },
+    "shine_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "oredium:shine_ingot"
+          }
+        ]
+      }
+    }
+  } 
+}

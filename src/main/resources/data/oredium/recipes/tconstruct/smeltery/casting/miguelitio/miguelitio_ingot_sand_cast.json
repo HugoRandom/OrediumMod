@@ -5,7 +5,7 @@
   	},
   	"cast_consumed": true,
   	"fluid": {
-   		"name": "oredium:molten_miguelitio",
+   		"name": "oredium:miguelitio_fluid",
     	"amount": 144
   	},
   	"result": "oredium:miguelitio_ingot",

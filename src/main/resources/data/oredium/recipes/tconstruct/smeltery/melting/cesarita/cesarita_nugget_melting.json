@@ -4,7 +4,7 @@
     	"tag": "forge:nuggets/cesarita"
   	},
   	"result": {
-    	"fluid": "oredium:molten_cesarita",
+    	"fluid": "oredium:cesarita_fluid",
     	"amount": 16
   	},
   	"temperature": 1000,

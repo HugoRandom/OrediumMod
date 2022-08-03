@@ -4,7 +4,7 @@
     	"tag": "forge:nuggets/shine"
   	},
   	"result": {
-    	"fluid": "oredium:molten_shine",
+    	"fluid": "oredium:shine_fluid",
     	"amount": 16
   	},
   	"temperature": 800,

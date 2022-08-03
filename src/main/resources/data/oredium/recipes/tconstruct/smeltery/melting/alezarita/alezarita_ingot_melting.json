@@ -4,7 +4,7 @@
     	"tag": "forge:ingots/alezarita"
   	},
   	"result": {
-    	"fluid": "oredium:molten_alezarita",
+    	"fluid": "oredium:alezarita_fluid",
     	"amount": 144
   	},
   	"temperature": 1500,

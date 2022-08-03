@@ -4,7 +4,7 @@
     	"tag": "forge:storage_blocks/hugodium"
   	},
   	"result": {
-    	"fluid": "oredium:molten_hugodium",
+    	"fluid": "oredium:hugodium_fluid",
     	"amount": 1296
   	},
   	"temperature": 1500,
