@@ -1,9 +1,22 @@
 {
+	"condition": {
+		"values": [
+			{
+				"prop": "force_integration_materials",
+				"type": "tconstruct:config"
+			},
+			{
+				"value": {
+					"tag": "forge:ingots/enderium",
+					"type": "forge:tag_empty"
+				},
+				"type": "forge:not"
+			}
+		],
+		"type": "forge:or"
+	},
 	"craftable": false,
 	"tier": 3,
 	"sortOrder": 3,
-	"fluid": "oredium:enderium_fluid",
-	"fluidPerUnit": 144,
-	"textColor": "#8827B4",
-	"temperature": 1200
+	"hidden": false
 }

@@ -1,6 +1,7 @@
 {
   	"replace": false,
   	"values": [
-    	"oredium:franitolina_block"
+    	"oredium:franitolina_block",
+		"oredium:raw_franitolina_block"
   	]
 }

@@ -1,9 +1,22 @@
 {
+	"condition": {
+		"values": [
+			{
+				"prop": "force_integration_materials",
+				"type": "tconstruct:config"
+			},
+			{
+				"value": {
+					"tag": "forge:ingots/hugodium",
+					"type": "forge:tag_empty"
+				},
+				"type": "forge:not"
+			}
+		],
+		"type": "forge:or"
+	},
 	"craftable": false,
 	"tier": 3,
 	"sortOrder": 7,
-	"fluid": "oredium:hugodium_fluid",
-	"fluidPerUnit": 144,
-	"textColor": "#F4232B",
-	"temperature": 1500
+	"hidden": false
 }

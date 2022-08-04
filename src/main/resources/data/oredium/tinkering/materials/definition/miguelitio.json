@@ -1,9 +1,22 @@
 {
+	"condition": {
+		"values": [
+			{
+				"prop": "force_integration_materials",
+				"type": "tconstruct:config"
+			},
+			{
+				"value": {
+					"tag": "forge:ingots/miguelitio",
+					"type": "forge:tag_empty"
+				},
+				"type": "forge:not"
+			}
+		],
+		"type": "forge:or"
+	},
 	"craftable": false,
 	"tier": 3,
 	"sortOrder": 7,
-	"fluid": "oredium:miguelitio_fluid",
-	"fluidPerUnit": 144,
-	"textColor": "#0FEDD9",
-	"temperature": 1500
+	"hidden": false
 }

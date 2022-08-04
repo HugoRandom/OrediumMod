@@ -1,9 +1,22 @@
 {
+	"condition": {
+		"values": [
+			{
+				"prop": "force_integration_materials",
+				"type": "tconstruct:config"
+			},
+			{
+				"value": {
+					"tag": "forge:ingots/franitolina",
+					"type": "forge:tag_empty"
+				},
+				"type": "forge:not"
+			}
+		],
+		"type": "forge:or"
+	},
 	"craftable": false,
 	"tier": 3,
 	"sortOrder": 3,
-	"fluid": "oredium:franitolina_fluid",
-	"fluidPerUnit": 144,
-	"textColor": "#ED810F",
-	"temperature": 1000
+	"hidden": false
 }

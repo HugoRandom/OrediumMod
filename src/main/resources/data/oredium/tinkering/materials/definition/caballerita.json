@@ -1,9 +1,22 @@
 {
+	"condition": {
+		"values": [
+			{
+				"prop": "force_integration_materials",
+				"type": "tconstruct:config"
+			},
+			{
+				"value": {
+					"tag": "forge:ingots/caballerita",
+					"type": "forge:tag_empty"
+				},
+				"type": "forge:not"
+			}
+		],
+		"type": "forge:or"
+	},
 	"craftable": false,
 	"tier": 2,
 	"sortOrder": 3,
-	"fluid": "oredium:caballerita_fluid",
-	"fluidPerUnit": 144,
-	"textColor": "#EBD530",
-	"temperature": 1000
+	"hidden": false
 }
