@@ -249,6 +249,7 @@
 	"tooltip.oredium.umc": "§cADVERTENCIA: §fAltamente explosivo",
 
 	"itemGroup.oredium_tab_items": "Oredium - Objetos",
+	"itemGroup.oredium_tab_blocks": "Oredium - Bloques",
 	"itemGroup.oredium_tab_tools": "Oredium - Herramientas",
 
 	"sounds.oredium.upgrading_sound": "Sonido de Mejora",
@@ -299,14 +300,14 @@
 	"item.oredium.enderium_bucket": "Cubeta de Enderium Fundido",
 	"item.oredium.infernum_bucket": "Cubeta de Infernum",
 
-	"fluid.oredium.hugodium": "Hugodium fundido",
-	"fluid.oredium.alezarita": "MAlezarita fundida",
-	"fluid.oredium.axidita": "Axidita fundida",
-	"fluid.oredium.franitolina": "Franitolina fundida",
-	"fluid.oredium.miguelitio": "Miguelitio fundido",
-	"fluid.oredium.shine": "Shine fundido",
-	"fluid.oredium.cesarita": "Cesarita fundida",
-	"fluid.oredium.caballerita": "Caballerita fundida",
-	"fluid.oredium.enderium": "Enderium fundido",
-	"fluid.oredium.infernum": "Infernum"
+	"fluid.oredium.hugodium_fluid": "Hugodium Fundido",
+	"fluid.oredium.alezarita_fluid": "Alezarita Fundida",
+	"fluid.oredium.axidita_fluid": " Axidita Fundida",
+	"fluid.oredium.franitolina_fluid": "Franitolina Fundida",
+	"fluid.oredium.miguelitio_fluid": "Miguelitio Fundido",
+	"fluid.oredium.shine_fluid": "Shine Fundido",
+	"fluid.oredium.cesarita_fluid": "Cesarita Fundida",
+	"fluid.oredium.caballerita_fluid": "Caballerita Fundida",
+	"fluid.oredium.enderium_fluid": "Enderium Fundido",
+	"fluid.oredium.infernum_fluid": "Infernum"
 }

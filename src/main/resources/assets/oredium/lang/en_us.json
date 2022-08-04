@@ -249,6 +249,7 @@
 	"tooltip.oredium.umc": "§cWARNING: §fHighly explosive",
 
 	"itemGroup.oredium_tab_items": "Oredium - Items",
+	"itemGroup.oredium_tab_blocks": "Oredium - Blocks",
 	"itemGroup.oredium_tab_tools": "Oredium - Tools",
 
 	"sounds.oredium.upgrading_sound": "Upgrading Sound",
@@ -299,14 +300,14 @@
 	"item.oredium.enderium_bucket": "Molten Enderium Bucket",
 	"item.oredium.infernum_bucket": "Infernum Bucket",
 
-	"fluid.oredium.hugodium": "Molten Hugodium",
-	"fluid.oredium.alezarita": "Molten Alezarita",
-	"fluid.oredium.axidita": "Molten Axidita",
-	"fluid.oredium.franitolina": "Molten Franitolina",
-	"fluid.oredium.miguelitio": "Molten Miguelitio",
-	"fluid.oredium.shine": "Molten Shine",
-	"fluid.oredium.cesarita": "Molten Cesarita",
-	"fluid.oredium.caballerita": "Molten Caballerita",
-	"fluid.oredium.enderium": "Molten Enderium",
-	"fluid.oredium.infernum": "Infernum"
+	"fluid.oredium.hugodium_fluid": "Molten Hugodium",
+	"fluid.oredium.alezarita_fluid": "Molten Alezarita",
+	"fluid.oredium.axidita_fluid": "Molten Axidita",
+	"fluid.oredium.franitolina_fluid": "Molten Franitolina",
+	"fluid.oredium.miguelitio_fluid": "Molten Miguelitio",
+	"fluid.oredium.shine_fluid": "Molten Shine",
+	"fluid.oredium.cesarita_fluid": "Molten Cesarita",
+	"fluid.oredium.caballerita_fluid": "Molten Caballerita",
+	"fluid.oredium.enderium_fluid": "Molten Enderium",
+	"fluid.oredium.infernum_fluid": "Infernum"
 }

@@ -29,7 +29,7 @@ public class UpgradingScreen extends AbstractContainerScreen<UpgradingMenu> {
 
         if(menu.isCrafting()){
             this.blit(pPoseStack, x + 51, y + 35, 176, 0, menu.getScaledProgress(), 13);
-            this.blit(pPoseStack, x + 105, y + 35, 176, 13, menu.getScaledProgress(), 13);
+            this.blit(pPoseStack, x + 125 - menu.getScaledProgress(), y + 35, 196 - menu.getScaledProgress(), 13, menu.getScaledProgress(), 13);
         }
     }
 

@@ -10,7 +10,7 @@
     "tconstruct:head": {
       "durability": 1896,
       "miningSpeed": 8.5,
-      "harvestLevel": 4,
+      "harvestTier": "minecraft:netherite",
       "attack": 3.5
     }
   }
