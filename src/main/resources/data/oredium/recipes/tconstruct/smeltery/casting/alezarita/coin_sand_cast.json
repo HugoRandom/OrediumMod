@@ -1,0 +1,21 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+      "tag": "tconstruct:casts/single_use/coin"
+    },
+  "cast_consumed": true,
+    "fluid": {
+        "name": "oredium:alezarita_fluid",
+        "amount": 30
+    },
+    "result": {
+      "tag": "forge:coins/alezarita"
+    },
+    "cooling_time": 46,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "tconstruct"
+      }
+    ]
+}

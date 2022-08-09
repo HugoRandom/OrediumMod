@@ -1,0 +1,21 @@
+{
+    "type": "tconstruct:melting",
+    "conditions": [
+      {
+        "value": {
+          "tag": "forge:coins/alezarita",
+          "type": "forge:tag_empty"
+        },
+        "type": "forge:not"
+      }
+    ],
+    "ingredient": {
+      "tag": "forge:coins/alezarita"
+    },
+    "result": {
+      "fluid": "oredium:alezarita_fluid",
+      "amount": 30
+    },
+    "temperature": 1300,
+    "time": 50
+}

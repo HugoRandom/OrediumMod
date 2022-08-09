@@ -8,7 +8,7 @@
       "attackDamage": 1.0
     },
     "tconstruct:head": {
-      "durability": 1101,
+      "durability": 321,
       "miningSpeed": 7.0,
       "harvestTier": "minecraft:iron",
       "attack": 2.5

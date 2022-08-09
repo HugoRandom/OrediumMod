@@ -1,0 +1,20 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "tconstruct:casts/multi_use/coin"
+    },
+    "fluid": {
+        "name": "oredium:axidita_fluid",
+        "amount": 30
+    },
+    "result": {
+      "tag": "forge:coins/axidita"
+    },
+    "cooling_time": 46,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "tconstruct"
+      }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "item": "oredium:shine_sword"
+    },
+    "title": {
+      "translate": "advancement.kill_title"
+    },
+    "description": {
+      "translate": "advancement.kill_desc"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "oredium:swords",
+  "criteria": {
+    "shine_killer": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "killer",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "oredium:shine_sword"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:villager",
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:white_banner"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "shine_killer"
+    ]
+  ]
+}

@@ -12,20 +12,20 @@
   	"inputs": [
 	    {
 	      	"name": "oredium:axidita_fluid",
-	      	"amount": 288
+	      	"amount": 360
 	    },
 	    {
 	      	"tag": "minecraft:water",
-	      	"amount": 250
+	      	"amount": 500
 	    },
 	    {
-	      	"name": "tconstruct:molten_aluminum",
-	      	"amount": 288
+	      	"name": "tconstruct:molten_amethyst",
+	      	"amount": 450
 	    }
   	],
   	"result": {
     	"fluid": "tconstruct:molten_emerald",
-    	"amount": 144
+    	"amount": 180
   	},
   	"temperature": 1500
 }

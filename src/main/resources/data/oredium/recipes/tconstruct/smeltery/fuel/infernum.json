@@ -1,0 +1,15 @@
+{
+  	"type": "tconstruct:melting_fuel",
+  	"fluid": {
+    	"name": "oredium:infernum_fluid",
+    	"amount": 50
+  	},
+  	"duration": 200,
+  	"temperature": 2000,
+  	"conditions": [
+      	{
+          	"type": "forge:mod_loaded",
+          	"modid": "tconstruct"
+      	}
+  	]
+}

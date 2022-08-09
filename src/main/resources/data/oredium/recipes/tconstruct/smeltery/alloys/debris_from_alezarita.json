@@ -1,31 +1,22 @@
 {
   	"type": "tconstruct:alloy",
-  	"conditions": [
-    	{
-      		"value": {
-        		"tag": "forge:ingots/aluminum",
-        		"type": "forge:tag_empty"
-      		},
-      		"type": "forge:not"
-    	}
-  	],
   	"inputs": [
 	    {
 	      	"name": "oredium:alezarita_fluid",
-	      	"amount": 432
+	      	"amount": 360
 	    },
 	    {
 	      	"name": "tconstruct:scorched_stone",
-	      	"amount": 576
+	      	"amount": 500
 	    },
 	    {
-	      	"name": "tconstruct:molten_aluminum",
-	      	"amount": 288
+	      	"name": "tconstruct:molten_copper",
+	      	"amount": 360
 	    }
   	],
   	"result": {
     	"fluid": "tconstruct:molten_debris",
-    	"amount": 144
+    	"amount": 90
   	},
   	"temperature": 1500
 }

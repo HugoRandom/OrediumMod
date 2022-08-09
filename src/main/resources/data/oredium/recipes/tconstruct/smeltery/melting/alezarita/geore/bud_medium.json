@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:geore_medium_buds/alezarita",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:geore_medium_buds/alezarita"
+  },
+  "result": {
+    "fluid": "oredium:alezarita_fluid",
+    "amount": 180
+  },
+  "temperature": 1300,
+  "time": 90
+}

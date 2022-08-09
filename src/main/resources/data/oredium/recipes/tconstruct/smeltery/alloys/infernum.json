@@ -3,23 +3,19 @@
   	"inputs": [
     {
       	"name": "minecraft:lava",
-      	"amount": 432
-    },
-    {
-      	"tag": "forge:magma",
       	"amount": 500
     },
     {
-      	"name": "oredium:hugodium_fluid",
-      	"amount": 144
+      	"tag": "forge:magma",
+      	"amount": 250
     },
     {
-      	"name": "tconstruct:liquid_soul",
-      	"amount": 250
+      	"name": "oredium:hugodium_fluid",
+      	"amount": 90
     }
   	],
   	"result": {
-    	"fluid": "oredium:infernum",
+    	"fluid": "oredium:infernum_fluid",
     	"amount": 500
   	},
   	"temperature": 1500
