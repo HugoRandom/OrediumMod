@@ -1,7 +1,6 @@
 {
   	"replace": false,
   	"values": [
-    	"oredium:shine_block",
-		"oredium:raw_shine_block"
+    	"oredium:shine_block"
   	]
 }

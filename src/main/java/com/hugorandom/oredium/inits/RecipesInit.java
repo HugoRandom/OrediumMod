@@ -1,7 +1,7 @@
 package com.hugorandom.oredium.inits;
 
 import com.hugorandom.oredium.Oredium;
-import com.hugorandom.oredium.recipes.UpgradingRecipe;
+import com.hugorandom.oredium.screens.slots.recipes.UpgradingRecipe;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "oredium:enderium_helmet_upgraded"
+      "item": "oredium:enderita_helmet_upgraded"
     },
     "title": {
       "translate": "advancement.upgraded_title"
@@ -175,42 +175,42 @@
         ]
       }
     },
-    "enderium_helmet_upgraded": {
+    "enderita_helmet_upgraded": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "oredium:enderium_helmet_upgraded"
+            "item": "oredium:enderita_helmet_upgraded"
           }
         ]
       }
     },
-    "enderium_chestplate_upgraded": {
+    "enderita_chestplate_upgraded": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "oredium:enderium_chestplate_upgraded"
+            "item": "oredium:enderita_chestplate_upgraded"
           }
         ]
       }
     },
-    "enderium_leggings_upgraded": {
+    "enderita_leggings_upgraded": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "oredium:enderium_leggings_upgraded"
+            "item": "oredium:enderita_leggings_upgraded"
           }
         ]
       }
     },
-    "enderium_boots_upgraded": {
+    "enderita_boots_upgraded": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "oredium:enderium_boots_upgraded"
+            "item": "oredium:enderita_boots_upgraded"
           }
         ]
       }
@@ -394,10 +394,10 @@
       "cesarita_chestplate_upgraded",
       "cesarita_leggings_upgraded",
       "cesarita_boots_upgraded",
-      "enderium_helmet_upgraded",
-      "enderium_chestplate_upgraded",
-      "enderium_leggings_upgraded",
-      "enderium_boots_upgraded",
+      "enderita_helmet_upgraded",
+      "enderita_chestplate_upgraded",
+      "enderita_leggings_upgraded",
+      "enderita_boots_upgraded",
       "franitolina_helmet_upgraded",
       "franitolina_chestplate_upgraded",
       "franitolina_leggings_upgraded",

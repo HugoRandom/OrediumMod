@@ -1,7 +1,6 @@
 {
   	"replace": false,
   	"values": [
-    	"oredium:miguelitio_block",
-		"oredium:raw_miguelitio_block"
+    	"oredium:miguelitio_block"
   	]
 }

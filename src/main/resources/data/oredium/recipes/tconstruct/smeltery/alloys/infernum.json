@@ -10,12 +10,12 @@
       	"amount": 250
     },
     {
-      	"name": "oredium:hugodium_fluid",
+      	"name": "oredium:molten_hugodium",
       	"amount": 90
     }
   	],
   	"result": {
-    	"fluid": "oredium:infernum_fluid",
+    	"fluid": "oredium:molten_infernum",
     	"amount": 500
   	},
   	"temperature": 1500

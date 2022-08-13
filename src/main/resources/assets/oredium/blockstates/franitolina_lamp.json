@@ -1,5 +1,12 @@
 {
     "variants": {
-        "": { "model": "oredium:block/franitolina_lamp" }
+        "lit=false":
+        {
+            "model": "oredium:block/franitolina_lamp_off"
+        },
+        "lit=true":
+        {
+            "model": "oredium:block/franitolina_lamp_on"
+        }
     }
 }

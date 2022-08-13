@@ -4,7 +4,7 @@
     	"tag": "tconstruct:casts/multi_use/nugget"
   	},
   	"fluid": {
-    	"name": "oredium:axidita_fluid",
+    	"name": "oredium:molten_axidita",
     	"amount": 10
   	},
   	"result": "oredium:axidita_nugget",

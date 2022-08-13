@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "oredium:enderium_apple"
+      "item": "oredium:enderita_apple"
     },
     "title": {
       "translate": "advancement.foods_title"
@@ -76,13 +76,13 @@
         ]
       }
     },
-    "enderium": {
+    "enderita": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:enderium_apple"
+              "oredium:enderita_apple"
             ]
           }
         ]
@@ -132,7 +132,7 @@
 		"axidita",
 		"cesarita",
 		"franitolina",
-		"enderium",
+		"enderita",
 		"alezarita",
 		"hugodium",
 		"miguelitio"

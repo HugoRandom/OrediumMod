@@ -23,4 +23,6 @@ public class ParticlesInit {
             PARTICLE_TYPES.register("shine_particle", () -> new SimpleParticleType(true));
     public static final RegistryObject<SimpleParticleType> FRANITOLINA_PARTICLE =
             PARTICLE_TYPES.register("franitolina_particle", () -> new SimpleParticleType(true));
+    public static final RegistryObject<SimpleParticleType> MIGUELITIO_PARTICLE =
+            PARTICLE_TYPES.register("miguelitio_particle", () -> new SimpleParticleType(true));
 }

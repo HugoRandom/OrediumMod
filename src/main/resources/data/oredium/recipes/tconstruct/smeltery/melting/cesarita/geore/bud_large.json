@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:geore_large_buds/cesarita",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:geore_large_buds/cesarita"
+  },
+  "result": {
+    "fluid": "oredium:molten_cesarita",
+    "amount": 270
+  },
+  "temperature": 950,
+  "time": 130
+}

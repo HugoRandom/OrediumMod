@@ -1,5 +1,12 @@
 {
     "variants": {
-        "": { "model": "oredium:block/miguelitio_lamp" }
+        "lit=false":
+        {
+            "model": "oredium:block/miguelitio_lamp_off"
+        },
+        "lit=true":
+        {
+            "model": "oredium:block/miguelitio_lamp_on"
+        }
     }
 }

@@ -4,7 +4,7 @@
     	"tag": "forge:nuggets/alezarita"
   	},
   	"result": {
-    	"fluid": "oredium:alezarita_fluid",
+    	"fluid": "oredium:molten_alezarita",
     	"amount": 10
   	},
   	"temperature": 1200,

@@ -1,0 +1,26 @@
+{
+  	"type": "tconstruct:damagable_melting",
+  	"ingredient": [
+    	{
+      		"item": "oredium:franitolina_chestplate"
+    	}    	
+  	],
+  	"result": {
+    	"fluid": "oredium:molten_franitolina",
+    	"amount": 90
+  	},
+	"byproducts":[
+		{
+			"fluid": "tconstruct:molten_iron",
+			"amount": 720
+		}
+	],
+  	"temperature": 950,
+  	"time": 175,
+  	"conditions": [
+		{
+	    	"type": "forge:mod_loaded",
+	    	"modid": "tconstruct"
+	    }
+  	]
+}

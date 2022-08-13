@@ -4,7 +4,7 @@
     	"tag": "forge:storage_blocks/alezarita"
   	},
   	"result": {
-    	"fluid": "oredium:alezarita_fluid",
+    	"fluid": "oredium:molten_alezarita",
     	"amount": 810
   	},
   	"temperature": 1200,

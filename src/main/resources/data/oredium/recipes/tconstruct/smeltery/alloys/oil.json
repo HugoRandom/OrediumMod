@@ -1,0 +1,22 @@
+{
+  	"type": "tconstruct:alloy",
+  	"inputs": [
+	    {
+	      	"name": "oredium:molten_cesarita",
+	      	"amount": 360
+	    },
+	    {
+	      	"name": "tconstruct:molten_iron",
+	      	"amount": 90
+	    },
+		{
+			"name": "oredium:molten_shine",
+			"amount": 90
+		}
+  	],
+  	"result": {
+    	"fluid": "beyond_earth:oil",
+    	"amount": 500
+  	},
+  	"temperature": 1000
+}

@@ -1,7 +1,6 @@
 {
   	"replace": false,
   	"values": [
-    	"oredium:alezarita_block",
-		"oredium:raw_alezarita_block"
+    	"oredium:alezarita_block"
   	]
 }

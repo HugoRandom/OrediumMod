@@ -1,0 +1,14 @@
+{
+  "type": "oredium:upgrading",
+  "ingredients": [
+    {
+      "item": "oredium:enderita_gem"
+    },
+    {
+      "item": "oredium:enderita_helmet"
+    }
+  ],
+  "output": {
+    "item": "oredium:enderita_helmet_upgraded"
+  }
+}

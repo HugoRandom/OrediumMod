@@ -1,5 +1,12 @@
 {
     "variants": {
-        "": { "model": "oredium:block/axidita_lamp" }
+        "lit=false":
+        {
+            "model": "oredium:block/axidita_lamp_off"
+        },
+        "lit=true":
+        {
+            "model": "oredium:block/axidita_lamp_on"
+        }
     }
 }

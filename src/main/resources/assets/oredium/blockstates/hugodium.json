@@ -1,7 +1,7 @@
 {
   	"variants": {
     	"": {
-      		"model": "oredium:block/fluid/hugodium"
+      		"model": "oredium:block/fluid/hugodium_fluid"
     	}
   	}
 }

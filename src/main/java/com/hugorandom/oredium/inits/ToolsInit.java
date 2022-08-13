@@ -3,7 +3,6 @@ package com.hugorandom.oredium.inits;
 import com.hugorandom.oredium.Oredium;
 import com.hugorandom.oredium.tools.*;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -26,8 +25,10 @@ public class ToolsInit {
             () -> new Sword(ToolsTier.CESARITA));
     public static final RegistryObject<Item> FRANITOLINA_SWORD = TOOLS.register("franitolina_sword",
             () -> new Sword(ToolsTier.FRANITOLINA));
-    public static final RegistryObject<Item> ENDERIUM_SWORD = TOOLS.register("enderium_sword",
-            () -> new Sword(ToolsTier.ENDERIUM));
+    public static final RegistryObject<Item> MELUNA_SWORD = TOOLS.register("meluna_sword",
+            () -> new Sword(ToolsTier.MELUNA));
+    public static final RegistryObject<Item> ENDERITA_SWORD = TOOLS.register("enderita_sword",
+            () -> new Sword(ToolsTier.ENDERITA));
     public static final RegistryObject<Item> ALEZARITA_SWORD = TOOLS.register("alezarita_sword",
             () -> new Sword(ToolsTier.ALEZARITA));
     public static final RegistryObject<Item> HUGODIUM_SWORD = TOOLS.register("hugodium_sword",
@@ -46,8 +47,10 @@ public class ToolsInit {
             () -> new PickAxe(ToolsTier.CESARITA));
     public static final RegistryObject<Item> FRANITOLINA_PICKAXE = TOOLS.register("franitolina_pickaxe",
             () -> new PickAxe(ToolsTier.FRANITOLINA));
-    public static final RegistryObject<Item> ENDERIUM_PICKAXE = TOOLS.register("enderium_pickaxe",
-            () -> new PickAxe(ToolsTier.ENDERIUM));
+    public static final RegistryObject<Item> MELUNA_PICKAXE = TOOLS.register("meluna_pickaxe",
+            () -> new PickAxe(ToolsTier.MELUNA));
+    public static final RegistryObject<Item> ENDERITA_PICKAXE = TOOLS.register("enderita_pickaxe",
+            () -> new PickAxe(ToolsTier.ENDERITA));
     public static final RegistryObject<Item> ALEZARITA_PICKAXE = TOOLS.register("alezarita_pickaxe",
             () -> new PickAxe(ToolsTier.ALEZARITA));
     public static final RegistryObject<Item> HUGODIUM_PICKAXE = TOOLS.register("hugodium_pickaxe",
@@ -66,8 +69,10 @@ public class ToolsInit {
             () -> new Axe(ToolsTier.CESARITA));
     public static final RegistryObject<Item> FRANITOLINA_AXE = TOOLS.register("franitolina_axe",
             () -> new Axe(ToolsTier.FRANITOLINA));
-    public static final RegistryObject<Item> ENDERIUM_AXE = TOOLS.register("enderium_axe",
-            () -> new Axe(ToolsTier.ENDERIUM));
+    public static final RegistryObject<Item> MELUNA_AXE = TOOLS.register("meluna_axe",
+            () -> new Axe(ToolsTier.MELUNA));
+    public static final RegistryObject<Item> ENDERITA_AXE = TOOLS.register("enderita_axe",
+            () -> new Axe(ToolsTier.ENDERITA));
     public static final RegistryObject<Item> ALEZARITA_AXE = TOOLS.register("alezarita_axe",
             () -> new Axe(ToolsTier.ALEZARITA));
     public static final RegistryObject<Item> HUGODIUM_AXE = TOOLS.register("hugodium_axe",
@@ -86,8 +91,10 @@ public class ToolsInit {
             () -> new Shovel(ToolsTier.CESARITA));
     public static final RegistryObject<Item> FRANITOLINA_SHOVEL = TOOLS.register("franitolina_shovel",
             () -> new Shovel(ToolsTier.FRANITOLINA));
-    public static final RegistryObject<Item> ENDERIUM_SHOVEL = TOOLS.register("enderium_shovel",
-            () -> new Shovel(ToolsTier.ENDERIUM));
+    public static final RegistryObject<Item> MELUNA_SHOVEL = TOOLS.register("meluna_shovel",
+            () -> new Shovel(ToolsTier.MELUNA));
+    public static final RegistryObject<Item> ENDERITA_SHOVEL = TOOLS.register("enderita_shovel",
+            () -> new Shovel(ToolsTier.ENDERITA));
     public static final RegistryObject<Item> ALEZARITA_SHOVEL = TOOLS.register("alezarita_shovel",
             () -> new Shovel(ToolsTier.ALEZARITA));
     public static final RegistryObject<Item> HUGODIUM_SHOVEL = TOOLS.register("hugodium_shovel",
@@ -106,8 +113,10 @@ public class ToolsInit {
             () -> new Hoe(ToolsTier.CESARITA));
     public static final RegistryObject<Item> FRANITOLINA_HOE = TOOLS.register("franitolina_hoe",
             () -> new Hoe(ToolsTier.FRANITOLINA));
-    public static final RegistryObject<Item> ENDERIUM_HOE = TOOLS.register("enderium_hoe",
-            () -> new Hoe(ToolsTier.ENDERIUM));
+    public static final RegistryObject<Item> MELUNA_HOE = TOOLS.register("meluna_hoe",
+            () -> new Hoe(ToolsTier.MELUNA));
+    public static final RegistryObject<Item> ENDERITA_HOE = TOOLS.register("enderita_hoe",
+            () -> new Hoe(ToolsTier.ENDERITA));
     public static final RegistryObject<Item> ALEZARITA_HOE = TOOLS.register("alezarita_hoe",
             () -> new Hoe(ToolsTier.ALEZARITA));
     public static final RegistryObject<Item> HUGODIUM_HOE = TOOLS.register("hugodium_hoe",

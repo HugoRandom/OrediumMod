@@ -4,7 +4,7 @@
     	"tag": "tconstruct:casts/multi_use/gem"
   	},
   	"fluid": {
-   		"name": "oredium:axidita_fluid",
+   		"name": "oredium:molten_axidita",
     	"amount": 90
   	},
   	"result": "oredium:axidita",

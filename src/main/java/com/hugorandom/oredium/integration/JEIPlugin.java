@@ -1,7 +1,7 @@
 package com.hugorandom.oredium.integration;
 
 import com.hugorandom.oredium.Oredium;
-import com.hugorandom.oredium.recipes.UpgradingRecipe;
+import com.hugorandom.oredium.screens.slots.recipes.UpgradingRecipe;
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.JeiPlugin;
 import mezz.jei.api.recipe.RecipeType;

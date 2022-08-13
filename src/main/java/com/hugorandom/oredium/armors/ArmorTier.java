@@ -7,7 +7,6 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.LazyLoadedValue;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
@@ -26,12 +25,15 @@ public enum ArmorTier implements ArmorMaterial {
     CABALLERITA("caballerita", 26, new int[]{3, 6, 8, 3}, 30,
             SoundEvents.ARMOR_EQUIP_DIAMOND, 0.0F, 0.0F,
             () -> {return Ingredient.of(ItemsInit.CABALLERITA_INGOT.get()); }),
-    ENDERIUM("enderium", 50, new int[]{3, 6, 8, 3}, 18,
+    ENDERITA("enderita", 50, new int[]{3, 6, 8, 3}, 18,
             SoundEvents.ARMOR_EQUIP_NETHERITE, 0.0F, 0.1F,
-            () -> { return Ingredient.of(ItemsInit.ENDERIUM_INGOT.get()); }),
+            () -> { return Ingredient.of(ItemsInit.ENDERITA_INGOT.get()); }),
     FRANITOLINA("franitolina", 30, new int[]{3, 6, 8, 3}, 15,
             SoundEvents.ARMOR_EQUIP_DIAMOND, 1.0F, 0.1F,
             () -> { return Ingredient.of(ItemsInit.FRANITOLINA_INGOT.get()); }),
+    MELUNA("meluna", 40, new int[]{3, 6, 8, 3}, 21,
+            SoundEvents.ARMOR_EQUIP_DIAMOND, 1.5F, 0.0F,
+            () -> { return Ingredient.of(ItemsInit.MELUNA_INGOT.get()); }),
     HUGODIUM("hugodium", 35, new int[]{3, 6, 8, 3}, 13,
             SoundEvents.ARMOR_EQUIP_NETHERITE, 2.5F, 0.1F,
             () -> { return Ingredient.of(ItemsInit.HUGODIUM_INGOT.get()); }),
@@ -53,12 +55,15 @@ public enum ArmorTier implements ArmorMaterial {
     CABALLERITA_UPGRADED("caballerita", 29, new int[]{4, 7, 9, 4}, 32,
             SoundEvents.ARMOR_EQUIP_DIAMOND, 0.0F, 0.1F,
             () -> {return Ingredient.of(ItemsInit.CABALLERITA_INGOT.get()); }),
-    ENDERIUM_UPGRADED("enderium", 52, new int[]{4, 7, 9, 4}, 17,
+    ENDERITA_UPGRADED("enderita", 52, new int[]{4, 7, 9, 4}, 17,
             SoundEvents.ARMOR_EQUIP_NETHERITE, 0.0F, 0.2F,
-            () -> { return Ingredient.of(ItemsInit.ENDERIUM_INGOT.get()); }),
+            () -> { return Ingredient.of(ItemsInit.ENDERITA_INGOT.get()); }),
     FRANITOLINA_UPGRADED("franitolina", 33, new int[]{4, 7, 9, 4}, 17,
             SoundEvents.ARMOR_EQUIP_DIAMOND, 1.0F, 0.2F,
             () -> { return Ingredient.of(ItemsInit.FRANITOLINA_INGOT.get()); }),
+    MELUNA_UPGRADED("meluna", 38, new int[]{4, 7, 9, 4}, 25,
+            SoundEvents.ARMOR_EQUIP_DIAMOND, 1.5F, 0.2F,
+            () -> { return Ingredient.of(ItemsInit.MELUNA_INGOT.get()); }),
     HUGODIUM_UPGRADED("hugodium", 40, new int[]{4, 7, 9, 4}, 15,
             SoundEvents.ARMOR_EQUIP_NETHERITE, 2.5F, 0.2F,
             () -> { return Ingredient.of(ItemsInit.HUGODIUM_INGOT.get()); }),

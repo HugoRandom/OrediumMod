@@ -1,7 +1,7 @@
 {
   	"type": "tconstruct:melting_fuel",
   	"fluid": {
-    	"name": "oredium:infernum_fluid",
+    	"name": "oredium:molten_infernum",
     	"amount": 50
   	},
   	"duration": 200,

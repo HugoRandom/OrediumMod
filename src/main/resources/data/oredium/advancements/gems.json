@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "oredium:enderium_gem"
+      "item": "oredium:enderita_gem"
     },
     "title": {
       "translate": "advancement.gems_title"
@@ -16,12 +16,12 @@
   },
   "parent": "oredium:oredium_block",
   "criteria": {
-    "enderium_gem": {
+    "enderita_gem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "oredium:enderium_gem"
+            "item": "oredium:enderita_gem"
           }
         ]
       }

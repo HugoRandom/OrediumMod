@@ -1,0 +1,22 @@
+{
+  	"type": "tconstruct:alloy",
+  	"inputs": [
+	    {
+	      	"name": "oredium:molten_shine",
+	      	"amount": 360
+	    },
+	    {
+	      	"name": "tconstruct:molten_ender",
+	      	"amount": 90
+	    },
+		{
+			"name": "oredium:molten_miguelitio",
+			"amount": 90
+		}
+  	],
+  	"result": {
+    	"fluid": "oredium:molten_enderita",
+    	"amount": 270
+  	},
+  	"temperature": 1000
+}

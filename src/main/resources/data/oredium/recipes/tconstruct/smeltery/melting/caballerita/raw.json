@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:ore_melting",
+  "rate": "metal",
+  "ingredient": {
+    "tag": "forge:raw_materials/caballerita"
+  },
+  "result": {
+    "fluid": "oredium:molten_caballerita",
+    "amount": 90
+  },
+  "temperature": 900,
+  "time": 90,
+  "byproducts": [
+    {
+      "fluid": "tconstruct:molten_lead",
+      "amount": 90
+    }
+  ]
+}

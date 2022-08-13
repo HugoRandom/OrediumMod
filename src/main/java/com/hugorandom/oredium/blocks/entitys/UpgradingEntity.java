@@ -1,13 +1,9 @@
 package com.hugorandom.oredium.blocks.entitys;
 
-import ca.weblite.objc.Message;
-import com.hugorandom.oredium.inits.ArmorsInit;
 import com.hugorandom.oredium.inits.BlocksEntitiesInit;
-import com.hugorandom.oredium.inits.ItemsInit;
 import com.hugorandom.oredium.inits.SoundsInit;
-import com.hugorandom.oredium.recipes.UpgradingRecipe;
+import com.hugorandom.oredium.screens.slots.recipes.UpgradingRecipe;
 import com.hugorandom.oredium.screens.UpgradingMenu;
-import com.hugorandom.oredium.util.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
@@ -20,27 +16,21 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.ContainerData;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.alchemy.PotionUtils;
-import net.minecraft.world.item.alchemy.Potions;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.util.LazyOptional;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import org.jline.utils.Log;
 
 import java.util.Map;
 import java.util.Optional;
-import java.util.Random;
 
 public class UpgradingEntity extends BlockEntity implements MenuProvider {
 

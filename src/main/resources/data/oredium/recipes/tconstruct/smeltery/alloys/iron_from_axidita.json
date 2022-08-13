@@ -1,0 +1,31 @@
+{
+  	"type": "tconstruct:alloy",
+  	"conditions": [
+    	{
+      		"value": {
+        		"tag": "forge:ingots/aluminum",
+        		"type": "forge:tag_empty"
+      		},
+      		"type": "forge:not"
+    	}
+  	],
+  	"inputs": [
+	    {
+	      	"name": "oredium:molten_axidita",
+	      	"amount": 360
+	    },
+	    {
+	      	"tag": "minecraft:water",
+	      	"amount": 500
+	    },
+	    {
+	      	"name": "tconstruct:molten_amethyst",
+	      	"amount": 250
+	    }
+  	],
+  	"result": {
+    	"fluid": "tconstruct:molten_iron",
+    	"amount": 180
+  	},
+  	"temperature": 1500
+}

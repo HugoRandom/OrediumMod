@@ -4,7 +4,7 @@
     	"tag": "tconstruct:casts/multi_use/nugget"
   	},
   	"fluid": {
-    	"name": "oredium:caballerita_fluid",
+    	"name": "oredium:molten_caballerita",
     	"amount": 10
   	},
   	"result": "oredium:caballerita_nugget",

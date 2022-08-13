@@ -4,7 +4,7 @@
     	"tag": "tconstruct:casts/multi_use/ingot"
   	},
   	"fluid": {
-   		"name": "oredium:hugodium_fluid",
+   		"name": "oredium:molten_hugodium",
     	"amount": 90
   	},
   	"result": "oredium:hugodium_ingot",

@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "name": "oredium:molten_cesarita",
+    "amount": 90
+  },
+  "temperature": 950,
+  "output": "oredium:cesarita"
+}

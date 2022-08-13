@@ -1,7 +1,7 @@
 {
   	"variants": {
     	"": {
-      		"model": "oredium:block/fluid/axidita"
+      		"model": "oredium:block/fluid/axidita_fluid"
     	}
   	}
 }

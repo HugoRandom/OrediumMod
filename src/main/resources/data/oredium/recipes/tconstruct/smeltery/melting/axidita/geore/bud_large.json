@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:geore_large_buds/axidita",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:geore_large_buds/axidita"
+  },
+  "result": {
+    "fluid": "oredium:molten_axidita",
+    "amount": 270
+  },
+  "temperature": 800,
+  "time": 120
+}

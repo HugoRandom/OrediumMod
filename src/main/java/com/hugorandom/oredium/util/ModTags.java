@@ -11,7 +11,7 @@ import net.minecraft.world.level.block.Block;
 public class ModTags {
 
     public static class Blocks {
-        public static final TagKey<Block> OREDIUM_BLOCK_ENERGY = tag("oredium_block_energy");
+        public static final TagKey<Block> OREDIUM_ENERGY = tag("oredium_energy");
 
         private static TagKey<Block> tag(String name){
             return BlockTags.create(new ResourceLocation(Oredium.MOD_ID, name));
@@ -23,6 +23,8 @@ public class ModTags {
     }
 
     public static class Items {
+        public static final TagKey<Item> OREDIUM_INGOT = tag("oredium_ingots");
+
         private static TagKey<Item> tag(String name){
             return ItemTags.create(new ResourceLocation(Oredium.MOD_ID, name));
         }

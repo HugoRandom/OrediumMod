@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "oredium:miguelitio",
+  "temperature": 1200,
+  "result": {
+    "fluid": "oredium:molten_miguelitio",
+    "amount": 90
+  }
+}

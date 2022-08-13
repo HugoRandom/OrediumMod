@@ -1,0 +1,12 @@
+{
+  	"type": "tconstruct:material",
+  	"ingredient": {
+    	"tag": "forge:storage_blocks/miguelitio"
+  	},
+  	"value": 9,
+  	"needed": 1,
+  	"material": "oredium:miguelitio",
+  	"leftover": {
+		"tag": "forge:ingots/miguelitio"
+	}
+}

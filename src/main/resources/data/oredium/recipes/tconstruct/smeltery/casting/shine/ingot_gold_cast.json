@@ -4,7 +4,7 @@
     	"tag": "tconstruct:casts/multi_use/ingot"
   	},
   	"fluid": {
-   		"name": "oredium:shine_fluid",
+   		"name": "oredium:molten_shine",
     	"amount": 90
   	},
   	"result": "oredium:shine_ingot",

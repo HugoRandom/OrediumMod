@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:geore_shards/enderita",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:geore_shards/enderita"
+  },
+  "result": {
+    "fluid": "oredium:molten_enderita",
+    "amount": 90
+  },
+  "temperature": 1000,
+  "time": 70
+}

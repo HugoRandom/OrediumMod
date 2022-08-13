@@ -1,0 +1,12 @@
+{
+  	"type": "tconstruct:material",
+  	"ingredient": {
+    	"tag": "forge:storage_blocks/shine"
+  	},
+  	"value": 9,
+  	"needed": 1,
+  	"material": "oredium:shine",
+  	"leftover": {
+		"tag": "forge:ingots/shine"
+	}
+}

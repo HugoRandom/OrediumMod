@@ -23,15 +23,15 @@
     ]
   },
   "result": {
-    "fluid": "oredium:alezarita_fluid",
+    "fluid": "oredium:molten_alezarita",
     "amount": 540
   },
   "temperature": 1200,
-  "time": 340,
+  "time": 300,
   "byproducts": [
     {
       "fluid": "tconstruct:molten_aluminum",
-      "amount": 180
+      "amount": 540
     }
   ]
 }

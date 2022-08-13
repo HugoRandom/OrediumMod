@@ -1,0 +1,18 @@
+{
+  	"type": "tconstruct:melting",
+  	"ingredient": {
+    	"tag": "forge:ingots/enderita"
+  	},
+  	"result": {
+    	"fluid": "oredium:molten_enderita",
+    	"amount": 90
+  	},
+  	"temperature": 1000,
+  	"time": 65,
+  	"conditions": [
+      	{
+          	"type": "forge:mod_loaded",
+          	"modid": "tconstruct"
+      	}
+  	]
+}

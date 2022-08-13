@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "oredium:enderium_helmet"
+      "item": "oredium:enderita_helmet"
     },
     "title": {
       "translate": "advancement.armors_title"
@@ -174,42 +174,42 @@
         ]
       }
     },
-    "enderium_helmet": {
+    "enderita_helmet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "oredium:enderium_helmet"
+            "item": "oredium:enderita_helmet"
           }
         ]
       }
     },
-    "enderium_chestplate": {
+    "enderita_chestplate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "oredium:enderium_chestplate"
+            "item": "oredium:enderita_chestplate"
           }
         ]
       }
     },
-    "enderium_leggings": {
+    "enderita_leggings": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "oredium:enderium_leggings"
+            "item": "oredium:enderita_leggings"
           }
         ]
       }
     },
-    "enderium_boots": {
+    "enderita_boots": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "oredium:enderium_boots"
+            "item": "oredium:enderita_boots"
           }
         ]
       }
@@ -393,10 +393,10 @@
       "cesarita_chestplate",
       "cesarita_leggings",
       "cesarita_boots",
-      "enderium_helmet",
-      "enderium_chestplate",
-      "enderium_leggings",
-      "enderium_boots",
+      "enderita_helmet",
+      "enderita_chestplate",
+      "enderita_leggings",
+      "enderita_boots",
       "franitolina_helmet",
       "franitolina_chestplate",
       "franitolina_leggings",

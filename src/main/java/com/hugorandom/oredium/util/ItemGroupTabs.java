@@ -23,7 +23,7 @@ public class ItemGroupTabs {
     public static final CreativeModeTab OREDIUM_TOOLS = new CreativeModeTab("oredium_tab_tools"){
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ToolsInit.ENDERIUM_SWORD.get());
+            return new ItemStack(ToolsInit.ENDERITA_SWORD.get());
         }
     };
 }

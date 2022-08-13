@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:geore_clusters/hugodium",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:geore_clusters/hugodium"
+  },
+  "result": {
+    "fluid": "oredium:molten_hugodium",
+    "amount": 360
+  },
+  "temperature": 1200,
+  "time": 145
+}

@@ -25,56 +25,62 @@ public class ArmorEvents {
         ItemStack legs = event.getEntityLiving().getItemBySlot(EquipmentSlot.LEGS);
         ItemStack boots = event.getEntityLiving().getItemBySlot(EquipmentSlot.FEET);
 		
-        if (helmet.getItem() == ArmorsInit.ALEZARITA_HELMET.get() && chest.getItem() == ArmorsInit.ALEZARITA_CHESTPLATE.get()
-				&& legs.getItem() == ArmorsInit.ALEZARITA_LEGGINGS.get() && boots.getItem() == ArmorsInit.ALEZARITA_BOOTS.get()) {
-			if (!(event.getSource() == DamageSource.FALL || event.getSource() == DamageSource.LAVA)) {
+        if (helmet.getItem() == ArmorsInit.ALEZARITA_HELMET_UPGRADED.get() && chest.getItem() == ArmorsInit.ALEZARITA_CHESTPLATE_UPGRADED.get()
+				&& legs.getItem() == ArmorsInit.ALEZARITA_LEGGINGS_UPGRADED.get() && boots.getItem() == ArmorsInit.ALEZARITA_BOOTS_UPGRADED.get()) {
+			if (event.getSource() == DamageSource.FALL || event.getSource() == DamageSource.LAVA) {
 				player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 0));
 			}
 		}
-		else if (helmet.getItem() == ArmorsInit.AXIDITA_HELMET.get() && chest.getItem() == ArmorsInit.AXIDITA_CHESTPLATE.get()
-				&& legs.getItem() == ArmorsInit.AXIDITA_LEGGINGS.get() && boots.getItem() == ArmorsInit.AXIDITA_BOOTS.get()) {
+		else if (helmet.getItem() == ArmorsInit.AXIDITA_HELMET_UPGRADED.get() && chest.getItem() == ArmorsInit.AXIDITA_CHESTPLATE_UPGRADED.get()
+				&& legs.getItem() == ArmorsInit.AXIDITA_LEGGINGS_UPGRADED.get() && boots.getItem() == ArmorsInit.AXIDITA_BOOTS_UPGRADED.get()) {
 			if(event.getSource() == DamageSource.CACTUS || event.getSource() == DamageSource.SWEET_BERRY_BUSH) {
 				event.setCanceled(true);
 			}
 		}		
-		else if (helmet.getItem() == ArmorsInit.CABALLERITA_HELMET.get() && chest.getItem() == ArmorsInit.CABALLERITA_CHESTPLATE.get()
-				&& legs.getItem() == ArmorsInit.CABALLERITA_LEGGINGS.get() && boots.getItem() == ArmorsInit.CABALLERITA_BOOTS.get()) {
+		else if (helmet.getItem() == ArmorsInit.CABALLERITA_HELMET_UPGRADED.get() && chest.getItem() == ArmorsInit.CABALLERITA_CHESTPLATE_UPGRADED.get()
+				&& legs.getItem() == ArmorsInit.CABALLERITA_LEGGINGS_UPGRADED.get() && boots.getItem() == ArmorsInit.CABALLERITA_BOOTS_UPGRADED.get()) {
 			if(event.getSource() == DamageSource.IN_FIRE || event.getSource() == DamageSource.ON_FIRE || event.getSource() == DamageSource.HOT_FLOOR ) {
 				event.setCanceled(true);				
 			}							
 		}	
-		else if (helmet.getItem() == ArmorsInit.CESARITA_HELMET.get() && chest.getItem() == ArmorsInit.CESARITA_CHESTPLATE.get()
-				&& legs.getItem() == ArmorsInit.CESARITA_LEGGINGS.get() && boots.getItem() == ArmorsInit.CESARITA_BOOTS.get()) {
+		else if (helmet.getItem() == ArmorsInit.CESARITA_HELMET_UPGRADED.get() && chest.getItem() == ArmorsInit.CESARITA_CHESTPLATE_UPGRADED.get()
+				&& legs.getItem() == ArmorsInit.CESARITA_LEGGINGS_UPGRADED.get() && boots.getItem() == ArmorsInit.CESARITA_BOOTS_UPGRADED.get()) {
 			if(event.getSource() == DamageSource.WITHER) {
 				event.setCanceled(true);				
 			}							
 		}	
-		else if (helmet.getItem() == ArmorsInit.ENDERIUM_HELMET.get() && chest.getItem() == ArmorsInit.ENDERIUM_CHESTPLATE.get()
-				&& legs.getItem() == ArmorsInit.ENDERIUM_LEGGINGS.get() && boots.getItem() == ArmorsInit.ENDERIUM_BOOTS.get()) {
+		else if (helmet.getItem() == ArmorsInit.ENDERITA_HELMET_UPGRADED.get() && chest.getItem() == ArmorsInit.ENDERITA_CHESTPLATE_UPGRADED.get()
+				&& legs.getItem() == ArmorsInit.ENDERITA_LEGGINGS_UPGRADED.get() && boots.getItem() == ArmorsInit.ENDERITA_BOOTS_UPGRADED.get()) {
 			if(event.getSource() == DamageSource.DRAGON_BREATH || event.getSource() == DamageSource.FALL) {
 				event.setCanceled(true);				
 			}				
 		}
-		else if (helmet.getItem() == ArmorsInit.FRANITOLINA_HELMET.get() && chest.getItem() == ArmorsInit.FRANITOLINA_CHESTPLATE.get()
-				&& legs.getItem() == ArmorsInit.FRANITOLINA_LEGGINGS.get() && boots.getItem() == ArmorsInit.FRANITOLINA_BOOTS.get()) {
+		else if (helmet.getItem() == ArmorsInit.FRANITOLINA_HELMET_UPGRADED.get() && chest.getItem() == ArmorsInit.FRANITOLINA_CHESTPLATE_UPGRADED.get()
+				&& legs.getItem() == ArmorsInit.FRANITOLINA_LEGGINGS_UPGRADED.get() && boots.getItem() == ArmorsInit.FRANITOLINA_BOOTS_UPGRADED.get()) {
 			if(event.getSource() == DamageSource.IN_WALL || event.getSource() == DamageSource.ANVIL) {
 				event.setCanceled(true);				
 			}				
 		}
-		else if (helmet.getItem() == ArmorsInit.SHINE_HELMET.get() && chest.getItem() == ArmorsInit.SHINE_CHESTPLATE.get()
-				&& legs.getItem() == ArmorsInit.SHINE_LEGGINGS.get() && boots.getItem() == ArmorsInit.SHINE_BOOTS.get()) {
+		else if (helmet.getItem() == ArmorsInit.MELUNA_HELMET_UPGRADED.get() && chest.getItem() == ArmorsInit.MELUNA_CHESTPLATE_UPGRADED.get()
+				&& legs.getItem() == ArmorsInit.MELUNA_LEGGINGS_UPGRADED.get() && boots.getItem() == ArmorsInit.MELUNA_BOOTS_UPGRADED.get()) {
+			if(event.getAmount() < 2) {
+				event.setCanceled(true);
+			}
+		}
+		else if (helmet.getItem() == ArmorsInit.SHINE_HELMET_UPGRADED.get() && chest.getItem() == ArmorsInit.SHINE_CHESTPLATE_UPGRADED.get()
+				&& legs.getItem() == ArmorsInit.SHINE_LEGGINGS_UPGRADED.get() && boots.getItem() == ArmorsInit.SHINE_BOOTS_UPGRADED.get()) {
 			if(event.getSource().isMagic()) {
 				event.setCanceled(true);
 			}
 		}		
-		else if (helmet.getItem() == ArmorsInit.MIGUELITIO_HELMET.get() && chest.getItem() == ArmorsInit.MIGUELITIO_CHESTPLATE.get()
-				&& legs.getItem() == ArmorsInit.MIGUELITIO_LEGGINGS.get() && boots.getItem() == ArmorsInit.MIGUELITIO_BOOTS.get()) {
+		else if (helmet.getItem() == ArmorsInit.MIGUELITIO_HELMET_UPGRADED.get() && chest.getItem() == ArmorsInit.MIGUELITIO_CHESTPLATE_UPGRADED.get()
+				&& legs.getItem() == ArmorsInit.MIGUELITIO_LEGGINGS_UPGRADED.get() && boots.getItem() == ArmorsInit.MIGUELITIO_BOOTS_UPGRADED.get()) {
 			if(event.getSource() == DamageSource.LIGHTNING_BOLT || event.getSource() == DamageSource.FLY_INTO_WALL) {
 				event.setCanceled(true);
 			}
 		}
-		else if (helmet.getItem() == ArmorsInit.HUGODIUM_HELMET.get() && chest.getItem() == ArmorsInit.HUGODIUM_CHESTPLATE.get()
-				&& legs.getItem() == ArmorsInit.HUGODIUM_LEGGINGS.get() && boots.getItem() == ArmorsInit.HUGODIUM_BOOTS.get()) {
+		else if (helmet.getItem() == ArmorsInit.HUGODIUM_HELMET_UPGRADED.get() && chest.getItem() == ArmorsInit.HUGODIUM_CHESTPLATE_UPGRADED.get()
+				&& legs.getItem() == ArmorsInit.HUGODIUM_LEGGINGS_UPGRADED.get() && boots.getItem() == ArmorsInit.HUGODIUM_BOOTS_UPGRADED.get()) {
 			if(player.getHealth() < 5) {
 				player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 400, 0));
 			}

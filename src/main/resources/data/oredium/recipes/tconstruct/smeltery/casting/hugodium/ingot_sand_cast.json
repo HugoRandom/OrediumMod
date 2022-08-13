@@ -5,7 +5,7 @@
   	},
   	"cast_consumed": true,
   	"fluid": {
-   		"name": "oredium:hugodium_fluid",
+   		"name": "oredium:molten_hugodium",
     	"amount": 90
   	},
   	"result": "oredium:hugodium_ingot",

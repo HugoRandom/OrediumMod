@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:geore_medium_buds/caballerita",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:geore_medium_buds/caballerita"
+  },
+  "result": {
+    "fluid": "oredium:molten_caballerita",
+    "amount": 180
+  },
+  "temperature": 900,
+  "time": 90
+}

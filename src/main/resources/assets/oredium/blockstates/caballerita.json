@@ -1,7 +1,7 @@
 {
   	"variants": {
     	"": {
-			"model": "oredium:block/fluid/caballerita"
+			"model": "oredium:block/fluid/caballerita_fluid"
     	}
   	}
 }

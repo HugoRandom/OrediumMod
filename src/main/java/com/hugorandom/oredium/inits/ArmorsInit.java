@@ -4,7 +4,6 @@ import com.hugorandom.oredium.Oredium;
 import com.hugorandom.oredium.armors.Armor;
 import com.hugorandom.oredium.armors.ArmorTier;
 import com.hugorandom.oredium.armors.ArmorU;
-import com.hugorandom.oredium.items.GemItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -29,8 +28,10 @@ public class ArmorsInit {
             () -> new Armor(ArmorTier.CESARITA, EquipmentSlot.HEAD));
     public static final RegistryObject<Item> FRANITOLINA_HELMET = ARMORS.register("franitolina_helmet",
             () -> new Armor(ArmorTier.FRANITOLINA, EquipmentSlot.HEAD));
-    public static final RegistryObject<Item> ENDERIUM_HELMET = ARMORS.register("enderium_helmet",
-            () -> new Armor(ArmorTier.ENDERIUM, EquipmentSlot.HEAD));
+    public static final RegistryObject<Item> MELUNA_HELMET = ARMORS.register("meluna_helmet",
+            () -> new Armor(ArmorTier.MELUNA, EquipmentSlot.HEAD));
+    public static final RegistryObject<Item> ENDERITA_HELMET = ARMORS.register("enderita_helmet",
+            () -> new Armor(ArmorTier.ENDERITA, EquipmentSlot.HEAD));
     public static final RegistryObject<Item> ALEZARITA_HELMET = ARMORS.register("alezarita_helmet",
             () -> new Armor(ArmorTier.ALEZARITA, EquipmentSlot.HEAD));
     public static final RegistryObject<Item> HUGODIUM_HELMET = ARMORS.register("hugodium_helmet",
@@ -49,8 +50,10 @@ public class ArmorsInit {
             () -> new Armor(ArmorTier.CESARITA, EquipmentSlot.CHEST));
     public static final RegistryObject<Item> FRANITOLINA_CHESTPLATE = ARMORS.register("franitolina_chestplate",
             () -> new Armor(ArmorTier.FRANITOLINA, EquipmentSlot.CHEST));
-    public static final RegistryObject<Item> ENDERIUM_CHESTPLATE = ARMORS.register("enderium_chestplate",
-            () -> new Armor(ArmorTier.ENDERIUM, EquipmentSlot.CHEST));
+    public static final RegistryObject<Item> MELUNA_CHESTPLATE = ARMORS.register("meluna_chestplate",
+            () -> new Armor(ArmorTier.MELUNA, EquipmentSlot.CHEST));
+    public static final RegistryObject<Item> ENDERITA_CHESTPLATE = ARMORS.register("enderita_chestplate",
+            () -> new Armor(ArmorTier.ENDERITA, EquipmentSlot.CHEST));
     public static final RegistryObject<Item> ALEZARITA_CHESTPLATE = ARMORS.register("alezarita_chestplate",
             () -> new Armor(ArmorTier.ALEZARITA, EquipmentSlot.CHEST));
     public static final RegistryObject<Item> HUGODIUM_CHESTPLATE = ARMORS.register("hugodium_chestplate",
@@ -70,8 +73,10 @@ public class ArmorsInit {
             () -> new Armor(ArmorTier.CESARITA, EquipmentSlot.LEGS));
     public static final RegistryObject<Item> FRANITOLINA_LEGGINGS = ARMORS.register("franitolina_leggings",
             () -> new Armor(ArmorTier.FRANITOLINA, EquipmentSlot.LEGS));
-    public static final RegistryObject<Item> ENDERIUM_LEGGINGS = ARMORS.register("enderium_leggings",
-            () -> new Armor(ArmorTier.ENDERIUM, EquipmentSlot.LEGS));
+    public static final RegistryObject<Item> MELUNA_LEGGINGS = ARMORS.register("meluna_leggings",
+            () -> new Armor(ArmorTier.MELUNA, EquipmentSlot.LEGS));
+    public static final RegistryObject<Item> ENDERITA_LEGGINGS = ARMORS.register("enderita_leggings",
+            () -> new Armor(ArmorTier.ENDERITA, EquipmentSlot.LEGS));
     public static final RegistryObject<Item> ALEZARITA_LEGGINGS = ARMORS.register("alezarita_leggings",
             () -> new Armor(ArmorTier.ALEZARITA, EquipmentSlot.LEGS));
     public static final RegistryObject<Item> HUGODIUM_LEGGINGS = ARMORS.register("hugodium_leggings",
@@ -90,8 +95,10 @@ public class ArmorsInit {
             () -> new Armor(ArmorTier.CESARITA, EquipmentSlot.FEET));
     public static final RegistryObject<Item> FRANITOLINA_BOOTS = ARMORS.register("franitolina_boots",
             () -> new Armor(ArmorTier.FRANITOLINA, EquipmentSlot.FEET));
-    public static final RegistryObject<Item> ENDERIUM_BOOTS = ARMORS.register("enderium_boots",
-            () -> new Armor(ArmorTier.ENDERIUM, EquipmentSlot.FEET));
+    public static final RegistryObject<Item> MELUNA_BOOTS = ARMORS.register("meluna_boots",
+            () -> new Armor(ArmorTier.MELUNA, EquipmentSlot.FEET));
+    public static final RegistryObject<Item> ENDERITA_BOOTS = ARMORS.register("enderita_boots",
+            () -> new Armor(ArmorTier.ENDERITA, EquipmentSlot.FEET));
     public static final RegistryObject<Item> ALEZARITA_BOOTS = ARMORS.register("alezarita_boots",
             () -> new Armor(ArmorTier.ALEZARITA, EquipmentSlot.FEET));
     public static final RegistryObject<Item> HUGODIUM_BOOTS = ARMORS.register("hugodium_boots",
@@ -110,8 +117,10 @@ public class ArmorsInit {
             () -> new ArmorU(ArmorTier.CESARITA_UPGRADED, EquipmentSlot.HEAD));
     public static final RegistryObject<Item> FRANITOLINA_HELMET_UPGRADED = ARMORS.register("franitolina_helmet_upgraded",
             () -> new ArmorU(ArmorTier.FRANITOLINA_UPGRADED, EquipmentSlot.HEAD));
-    public static final RegistryObject<Item> ENDERIUM_HELMET_UPGRADED = ARMORS.register("enderium_helmet_upgraded",
-            () -> new ArmorU(ArmorTier.ENDERIUM_UPGRADED, EquipmentSlot.HEAD));
+    public static final RegistryObject<Item> MELUNA_HELMET_UPGRADED = ARMORS.register("meluna_helmet_upgraded",
+            () -> new ArmorU(ArmorTier.MELUNA_UPGRADED, EquipmentSlot.HEAD));
+    public static final RegistryObject<Item> ENDERITA_HELMET_UPGRADED = ARMORS.register("enderita_helmet_upgraded",
+            () -> new ArmorU(ArmorTier.ENDERITA_UPGRADED, EquipmentSlot.HEAD));
     public static final RegistryObject<Item> ALEZARITA_HELMET_UPGRADED = ARMORS.register("alezarita_helmet_upgraded",
             () -> new ArmorU(ArmorTier.ALEZARITA_UPGRADED, EquipmentSlot.HEAD));
     public static final RegistryObject<Item> HUGODIUM_HELMET_UPGRADED = ARMORS.register("hugodium_helmet_upgraded",
@@ -130,8 +139,10 @@ public class ArmorsInit {
             () -> new ArmorU(ArmorTier.CESARITA_UPGRADED, EquipmentSlot.CHEST));
     public static final RegistryObject<Item> FRANITOLINA_CHESTPLATE_UPGRADED = ARMORS.register("franitolina_chestplate_upgraded",
             () -> new ArmorU(ArmorTier.FRANITOLINA_UPGRADED, EquipmentSlot.CHEST));
-    public static final RegistryObject<Item> ENDERIUM_CHESTPLATE_UPGRADED = ARMORS.register("enderium_chestplate_upgraded",
-            () -> new ArmorU(ArmorTier.ENDERIUM_UPGRADED, EquipmentSlot.CHEST));
+    public static final RegistryObject<Item> MELUNA_CHESTPLATE_UPGRADED = ARMORS.register("meluna_chestplate_upgraded",
+            () -> new ArmorU(ArmorTier.MELUNA_UPGRADED, EquipmentSlot.CHEST));
+    public static final RegistryObject<Item> ENDERITA_CHESTPLATE_UPGRADED = ARMORS.register("enderita_chestplate_upgraded",
+            () -> new ArmorU(ArmorTier.ENDERITA_UPGRADED, EquipmentSlot.CHEST));
     public static final RegistryObject<Item> ALEZARITA_CHESTPLATE_UPGRADED = ARMORS.register("alezarita_chestplate_upgraded",
             () -> new ArmorU(ArmorTier.ALEZARITA_UPGRADED, EquipmentSlot.CHEST));
     public static final RegistryObject<Item> HUGODIUM_CHESTPLATE_UPGRADED = ARMORS.register("hugodium_chestplate_upgraded",
@@ -151,8 +162,10 @@ public class ArmorsInit {
             () -> new ArmorU(ArmorTier.CESARITA_UPGRADED, EquipmentSlot.LEGS));
     public static final RegistryObject<Item> FRANITOLINA_LEGGINGS_UPGRADED = ARMORS.register("franitolina_leggings_upgraded",
             () -> new ArmorU(ArmorTier.FRANITOLINA_UPGRADED, EquipmentSlot.LEGS));
-    public static final RegistryObject<Item> ENDERIUM_LEGGINGS_UPGRADED = ARMORS.register("enderium_leggings_upgraded",
-            () -> new ArmorU(ArmorTier.ENDERIUM_UPGRADED, EquipmentSlot.LEGS));
+    public static final RegistryObject<Item> MELUNA_LEGGINGS_UPGRADED = ARMORS.register("meluna_leggings_upgraded",
+            () -> new ArmorU(ArmorTier.MELUNA_UPGRADED, EquipmentSlot.LEGS));
+    public static final RegistryObject<Item> ENDERITA_LEGGINGS_UPGRADED = ARMORS.register("enderita_leggings_upgraded",
+            () -> new ArmorU(ArmorTier.ENDERITA_UPGRADED, EquipmentSlot.LEGS));
     public static final RegistryObject<Item> ALEZARITA_LEGGINGS_UPGRADED = ARMORS.register("alezarita_leggings_upgraded",
             () -> new ArmorU(ArmorTier.ALEZARITA_UPGRADED, EquipmentSlot.LEGS));
     public static final RegistryObject<Item> HUGODIUM_LEGGINGS_UPGRADED = ARMORS.register("hugodium_leggings_upgraded",
@@ -171,8 +184,10 @@ public class ArmorsInit {
             () -> new ArmorU(ArmorTier.CESARITA_UPGRADED, EquipmentSlot.FEET));
     public static final RegistryObject<Item> FRANITOLINA_BOOTS_UPGRADED = ARMORS.register("franitolina_boots_upgraded",
             () -> new ArmorU(ArmorTier.FRANITOLINA_UPGRADED, EquipmentSlot.FEET));
-    public static final RegistryObject<Item> ENDERIUM_BOOTS_UPGRADED = ARMORS.register("enderium_boots_upgraded",
-            () -> new ArmorU(ArmorTier.ENDERIUM_UPGRADED, EquipmentSlot.FEET));
+    public static final RegistryObject<Item> MELUNA_BOOTS_UPGRADED = ARMORS.register("meluna_boots_upgraded",
+            () -> new ArmorU(ArmorTier.MELUNA_UPGRADED, EquipmentSlot.FEET));
+    public static final RegistryObject<Item> ENDERITA_BOOTS_UPGRADED = ARMORS.register("enderita_boots_upgraded",
+            () -> new ArmorU(ArmorTier.ENDERITA_UPGRADED, EquipmentSlot.FEET));
     public static final RegistryObject<Item> ALEZARITA_BOOTS_UPGRADED = ARMORS.register("alezarita_boots_upgraded",
             () -> new ArmorU(ArmorTier.ALEZARITA_UPGRADED, EquipmentSlot.FEET));
     public static final RegistryObject<Item> HUGODIUM_BOOTS_UPGRADED = ARMORS.register("hugodium_boots_upgraded",

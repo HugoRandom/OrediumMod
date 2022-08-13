@@ -1,7 +1,7 @@
 {
   	"type": "tconstruct:casting_basin",
   	"fluid": {
-    	"name": "oredium:caballerita_fluid",
+    	"name": "oredium:molten_caballerita",
     	"amount": 810
   	},
   	"result": "oredium:caballerita_block",

@@ -13,9 +13,9 @@
     "tag": "forge:geore_small_buds/alezarita"
   },
   "result": {
-    "fluid": "oredium:alezarita_fluid",
+    "fluid": "oredium:molten_alezarita",
     "amount": 90
   },
-  "temperature": 1300,
+  "temperature": 1200,
   "time": 61
 }

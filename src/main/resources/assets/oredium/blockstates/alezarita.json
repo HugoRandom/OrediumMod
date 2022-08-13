@@ -1,7 +1,7 @@
 {
   	"variants": {
     	"": {
-      		"model": "oredium:block/fluid/alezarita"
+      		"model": "oredium:block/fluid/alezarita_fluid"
     	}
   	}
 }

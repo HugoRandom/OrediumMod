@@ -1,7 +1,7 @@
 {
   	"variants": {
     	"": {
-      		"model": "oredium:block/fluid/cesarita"
+      		"model": "oredium:block/fluid/cesarita_fluid"
     	}
   	}
 }

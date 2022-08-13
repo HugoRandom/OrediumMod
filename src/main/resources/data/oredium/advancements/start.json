@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "oredium:enderium_ingot"
+      "item": "oredium:enderita_ingot"
     },
     "title": {
       "translate": "advancement.start_title"
@@ -64,13 +64,13 @@
         ]
       }
     },
-    "enderium_ingot": {
+    "enderita_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-				"oredium:enderium_ingot"
+				"oredium:enderita_ingot"
 			]
           }
         ]
@@ -131,7 +131,7 @@
       "axidita_ingot",
       "caballerita_ingot",
       "cesarita_ingot",
-      "enderium_ingot",
+      "enderita_ingot",
       "franitolina_ingot",
       "hugodium_ingot",
       "miguelitio_ingot",

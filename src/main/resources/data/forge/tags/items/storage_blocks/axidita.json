@@ -1,7 +1,6 @@
 {
   	"replace": false,
   	"values": [
-    	"oredium:axidita_block",
-		"oredium:raw_axidita_block"
+    	"oredium:axidita_block"
   	]
 }

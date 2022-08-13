@@ -1,7 +1,7 @@
 {
   	"type": "tconstruct:casting_basin",
   	"fluid": {
-    	"name": "oredium:axidita_fluid",
+    	"name": "oredium:molten_axidita",
     	"amount": 810
   	},
   	"result": "oredium:axidita_block",

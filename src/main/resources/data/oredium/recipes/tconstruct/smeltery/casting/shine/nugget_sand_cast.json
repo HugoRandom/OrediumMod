@@ -5,7 +5,7 @@
   	},
   	"cast_consumed": true,
   	"fluid": {
-    	"name": "oredium:shine_fluid",
+    	"name": "oredium:molten_shine",
     	"amount": 10
   	},
   	"result": "oredium:shine_nugget",

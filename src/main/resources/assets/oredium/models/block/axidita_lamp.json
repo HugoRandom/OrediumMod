@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "oredium:blocks/axidita_lamp"
+        "all": "oredium:blocks/axidita_lamp_off"
     }
 }

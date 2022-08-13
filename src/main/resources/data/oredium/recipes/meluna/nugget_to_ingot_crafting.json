@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "oredium:meluna_nugget"
+        }
+    },
+    "result": {
+        "item": "oredium:meluna_ingot",
+        "count": 1
+    }
+}

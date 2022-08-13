@@ -1,0 +1,20 @@
+{
+  	"type": "tconstruct:damagable_melting",
+  	"ingredient": [
+    	{
+      		"item": "oredium:meluna_shovel"
+    	}    	
+  	],
+  	"result": {
+    	"fluid": "oredium:molten_meluna",
+    	"amount": 90
+  	},
+  	"temperature": 1000,
+  	"time": 80,
+  	"conditions": [
+		{
+	    	"type": "forge:mod_loaded",
+	    	"modid": "tconstruct"
+	    }
+  	]
+}

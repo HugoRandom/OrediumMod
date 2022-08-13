@@ -4,7 +4,7 @@
     	"tag": "tconstruct:casts/multi_use/ingot"
   	},
   	"fluid": {
-   		"name": "oredium:miguelitio_fluid",
+   		"name": "oredium:molten_miguelitio",
     	"amount": 90
   	},
   	"result": "oredium:miguelitio_ingot",

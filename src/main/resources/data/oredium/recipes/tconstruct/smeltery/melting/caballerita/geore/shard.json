@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:geore_shards/caballerita",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:geore_shards/caballerita"
+  },
+  "result": {
+    "fluid": "oredium:molten_caballerita",
+    "amount": 90
+  },
+  "temperature": 900,
+  "time": 60
+}

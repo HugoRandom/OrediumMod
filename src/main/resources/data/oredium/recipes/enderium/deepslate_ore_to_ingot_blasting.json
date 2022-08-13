@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:blasting",
-    "ingredient": {
-        "item": "oredium:deepslate_enderium_ore"
-    },
-    "result": "oredium:enderium_ingot",
-    "experience": 1,
-    "cookingtime": 100
-}

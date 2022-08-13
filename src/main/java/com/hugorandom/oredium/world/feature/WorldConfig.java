@@ -8,7 +8,6 @@ import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
-import net.minecraft.world.level.levelgen.feature.configurations.RandomFeatureConfiguration;
 import net.minecraft.world.level.levelgen.feature.configurations.RandomPatchConfiguration;
 import net.minecraft.world.level.levelgen.feature.configurations.SimpleBlockConfiguration;
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
@@ -37,8 +36,8 @@ public class WorldConfig {
             OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, BlocksInit.FRANITOLINA_ORE.get().defaultBlockState()),
             OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, BlocksInit.DEEPSLATE_FRANITOLINA_ORE.get().defaultBlockState())
     );
-    public static final List<OreConfiguration.TargetBlockState> ENDERIUM_SPAWN = List.of(
-            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, BlocksInit.DEEPSLATE_ENDERIUM_ORE.get().defaultBlockState())
+    public static final List<OreConfiguration.TargetBlockState> ENDERITA_SPAWN = List.of(
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, BlocksInit.DEEPSLATE_ENDERITA_ORE.get().defaultBlockState())
     );
     public static final List<OreConfiguration.TargetBlockState> ALEZARITA_SPAWN = List.of(
             OreConfiguration.target(OreFeatures.NETHERRACK, BlocksInit.ALEZARITA_ORE.get().defaultBlockState())
@@ -66,13 +65,13 @@ public class WorldConfig {
             FeatureUtils.register("caballerita_ore", Feature.ORE, new OreConfiguration(CABALLERITA_SPAWN, 6));
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> FRANITOLINA_ORE =
             FeatureUtils.register("franitolina_ore", Feature.ORE, new OreConfiguration(FRANITOLINA_SPAWN, 6));
-    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> ENDERIUM_ORE =
-            FeatureUtils.register("enderium_ore", Feature.ORE, new OreConfiguration(ENDERIUM_SPAWN, 5));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> ENDERITA_ORE =
+            FeatureUtils.register("enderita_ore", Feature.ORE, new OreConfiguration(ENDERITA_SPAWN, 5));
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> ALEZARITA_ORE =
             FeatureUtils.register("alezarita_ore", Feature.ORE, new OreConfiguration(ALEZARITA_SPAWN, 5));
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> HUGODIUM_ORE =
-            FeatureUtils.register("hugodium_ore", Feature.ORE, new OreConfiguration(HUGODIUM_SPAWN, 5));
+            FeatureUtils.register("hugodium_ore", Feature.ORE, new OreConfiguration(HUGODIUM_SPAWN, 4));
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> MIGUELITIO_ORE =
-            FeatureUtils.register("miguelitio_ore", Feature.ORE, new OreConfiguration(MIGUELITIO_SPAWN, 6));
+            FeatureUtils.register("miguelitio_ore", Feature.ORE, new OreConfiguration(MIGUELITIO_SPAWN, 3));
 }
 

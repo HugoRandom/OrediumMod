@@ -5,7 +5,7 @@
   	},
   	"cast_consumed": true,
   	"fluid": {
-   		"name": "oredium:caballerita_fluid",
+   		"name": "oredium:molten_caballerita",
     	"amount": 90
   	},
   	"result": "oredium:caballerita_ingot",

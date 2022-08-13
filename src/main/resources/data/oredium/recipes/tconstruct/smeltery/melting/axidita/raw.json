@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:ore_melting",
+  "rate": "metal",
+  "ingredient": {
+    "tag": "forge:raw_materials/axidita"
+  },
+  "result": {
+    "fluid": "oredium:molten_axidita",
+    "amount": 90
+  },
+  "temperature": 800,
+  "time": 90,
+  "byproducts": [
+    {
+      "fluid": "tconstruct:molten_emerald",
+      "amount": 90
+    }
+  ]
+}

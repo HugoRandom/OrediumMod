@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:geore_large_buds/hugodium",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:geore_large_buds/hugodium"
+  },
+  "result": {
+    "fluid": "oredium:molten_hugodium",
+    "amount": 270
+  },
+  "temperature": 1200,
+  "time": 123
+}

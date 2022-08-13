@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:geore_clusters/shine",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:geore_clusters/shine"
+  },
+  "result": {
+    "fluid": "oredium:molten_shine",
+    "amount": 360
+  },
+  "temperature": 750,
+  "time": 130
+}

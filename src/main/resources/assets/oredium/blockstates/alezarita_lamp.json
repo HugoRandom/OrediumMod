@@ -1,5 +1,12 @@
 {
     "variants": {
-        "": { "model": "oredium:block/alezarita_lamp" }
+        "lit=false":
+        {
+            "model": "oredium:block/alezarita_lamp_off"
+        },
+        "lit=true":
+        {
+            "model": "oredium:block/alezarita_lamp_on"
+        }
     }
 }

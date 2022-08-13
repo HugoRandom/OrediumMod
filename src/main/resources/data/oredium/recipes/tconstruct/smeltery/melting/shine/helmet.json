@@ -1,0 +1,20 @@
+{
+  	"type": "tconstruct:damagable_melting",
+  	"ingredient": [
+    	{
+      		"item": "oredium:shine_helmet"
+    	}    	
+  	],
+  	"result": {
+    	"fluid": "oredium:molten_shine",
+    	"amount": 450
+  	},
+  	"temperature": 750,
+  	"time": 120,
+  	"conditions": [
+		{
+	    	"type": "forge:mod_loaded",
+	    	"modid": "tconstruct"
+	    }
+  	]
+}

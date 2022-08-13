@@ -1,7 +1,7 @@
 {
   	"variants": {
     	"": {
-      		"model": "oredium:block/fluid/franitolina"
+      		"model": "oredium:block/fluid/franitolina_fluid"
     	}
   	}
 }

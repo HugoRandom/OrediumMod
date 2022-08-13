@@ -1,7 +1,6 @@
 {
   	"replace": false,
   	"values": [
-    	"oredium:hugodium_block",
-		"oredium:raw_hugodium_block"
+    	"oredium:hugodium_block"
   	]
 }

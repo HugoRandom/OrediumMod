@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:ore_melting",
+  "rate": "metal",
+  "ingredient": {
+    "tag": "forge:storage_blocks/raw_shine"
+  },
+  "result": {
+    "fluid": "oredium:molten_shine",
+    "amount": 810
+  },
+  "temperature": 750,
+  "time": 340,
+  "byproducts": [
+    {
+      "fluid": "tconstruct:molten_iron",
+      "amount": 810
+    }
+  ]
+}

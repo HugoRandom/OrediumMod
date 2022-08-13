@@ -3,7 +3,7 @@ package com.hugorandom.oredium.events;
 import com.hugorandom.oredium.Oredium;
 import com.hugorandom.oredium.inits.ParticlesInit;
 import com.hugorandom.oredium.particles.NormalParticle;
-import com.hugorandom.oredium.recipes.UpgradingRecipe;
+import com.hugorandom.oredium.screens.slots.recipes.UpgradingRecipe;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.Registry;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -25,5 +25,6 @@ public class BusEvents {
         Minecraft.getInstance().particleEngine.register(ParticlesInit.OREDIUM_PARTICLE.get(), NormalParticle.Provider::new);
         Minecraft.getInstance().particleEngine.register(ParticlesInit.SHINE_PARTICLE.get(), NormalParticle.Provider::new);
         Minecraft.getInstance().particleEngine.register(ParticlesInit.FRANITOLINA_PARTICLE.get(), NormalParticle.Provider::new);
+        Minecraft.getInstance().particleEngine.register(ParticlesInit.MIGUELITIO_PARTICLE.get(), NormalParticle.Provider::new);
     }
 }

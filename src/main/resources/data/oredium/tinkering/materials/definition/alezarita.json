@@ -1,22 +1,7 @@
 {
-	"condition": {
-		"values": [
-			{
-				"prop": "force_integration_materials",
-				"type": "tconstruct:config"
-			},
-			{
-				"value": {
-					"tag": "forge:ingots/alezarita",
-					"type": "forge:tag_empty"
-				},
-				"type": "forge:not"
-			}
-		],
-		"type": "forge:or"
-	},
 	"craftable": false,
 	"tier": 3,
 	"sortOrder": 7,
+	"textColor": "#1352b0",
 	"hidden": false
 }

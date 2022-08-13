@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "oredium:axidita",
+  "temperature": 800,
+  "result": {
+    "fluid": "oredium:molten_axidita",
+    "amount": 90
+  }
+}

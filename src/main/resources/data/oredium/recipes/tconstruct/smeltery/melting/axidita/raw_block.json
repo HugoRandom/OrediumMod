@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:ore_melting",
+  "rate": "metal",
+  "ingredient": {
+    "tag": "forge:storage_blocks/raw_axidita"
+  },
+  "result": {
+    "fluid": "oredium:molten_axidita",
+    "amount": 810
+  },
+  "temperature": 800,
+  "time": 360,
+  "byproducts": [
+    {
+      "fluid": "tconstruct:molten_emerald",
+      "amount": 810
+    }
+  ]
+}

@@ -6,7 +6,8 @@
         "oredium:axidita_block",
         "oredium:cesarita_block",
         "oredium:franitolina_block",
-        "oredium:enderium_block",
+        "oredium:meluna_block",
+        "oredium:enderita_block",
         "oredium:alezarita_block",
         "oredium:hugodium_block",
         "oredium:miguelitio_block",
@@ -23,6 +24,7 @@
         "oredium:raw_axidita_block",
         "oredium:raw_cesarita_block",
         "oredium:raw_franitolina_block",
+        "oredium:raw_enderita_block",
         "oredium:raw_alezarita_block",
         "oredium:raw_hugodium_block",
         "oredium:raw_miguelitio_block",
@@ -31,7 +33,8 @@
         "oredium:axidita_lamp",
         "oredium:cesarita_lamp",
         "oredium:franitolina_lamp",
-        "oredium:enderium_lamp",
+        "oredium:meluna_lamp",
+        "oredium:enderita_lamp",
         "oredium:alezarita_lamp",
         "oredium:hugodium_lamp",
         "oredium:miguelitio_lamp",
@@ -41,6 +44,6 @@
         "oredium:deepslate_axidita_ore",
         "oredium:deepslate_cesarita_ore",
         "oredium:deepslate_franitolina_ore",
-        "oredium:deepslate_enderium_ore"
+        "oredium:deepslate_enderita_ore"
     ]
 }

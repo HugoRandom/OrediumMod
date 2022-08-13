@@ -1,0 +1,14 @@
+{
+  "type": "oredium:upgrading",
+  "ingredients": [
+    {
+      "item": "oredium:meluna_gem"
+    },
+    {
+      "item": "oredium:meluna_leggings"
+    }
+  ],
+  "output": {
+    "item": "oredium:meluna_leggings_upgraded"
+  }
+}

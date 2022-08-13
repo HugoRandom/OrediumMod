@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "name": "oredium:molten_alezarita",
+    "amount": 90
+  },
+  "temperature": 1200,
+  "output": "oredium:alezarita"
+}

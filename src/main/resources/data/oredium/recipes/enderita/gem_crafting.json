@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " i ",
+        "gSn",
+        " E "
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "g": {
+            "item": "oredium:enderita_ingot"
+        },
+        "S": {
+            "item": "oredium:umc"
+        },
+        "n": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "E": {
+            "item": "minecraft:ender_pearl"
+        }
+    },
+    "result": {
+        "item": "oredium:enderita_gem",
+        "count": 1
+    }
+}

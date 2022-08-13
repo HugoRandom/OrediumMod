@@ -19,7 +19,7 @@ public class OreGen {
         base.add(OrePlaced.CABALLERITA_PLACED);
         base.add(OrePlaced.CESARITA_PLACED);
         base.add(OrePlaced.FRANITOLINA_PLACED);
-        base.add(OrePlaced.ENDERIUM_PLACED);
+        base.add(OrePlaced.ENDERITA_PLACED);
         base.add(OrePlaced.ALEZARITA_PLACED);
         base.add(OrePlaced.HUGODIUM_PLACED);
         base.add(OrePlaced.MIGUELITIO_PLACED);

@@ -1,7 +1,7 @@
 {
   	"variants": {
     	"": {
-      		"model": "oredium:block/fluid/miguelitio"
+      		"model": "oredium:block/fluid/miguelitio_fluid"
     	}
   	}
 }

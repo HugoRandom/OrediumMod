@@ -6,11 +6,11 @@
     	}    	
   	],
   	"result": {
-    	"fluid": "oredium:alezarita_fluid",
+    	"fluid": "oredium:molten_alezarita",
     	"amount": 90
   	},
   	"temperature": 1200,
-  	"time": 100,
+  	"time": 80,
   	"conditions": [
 		{
 	    	"type": "forge:mod_loaded",

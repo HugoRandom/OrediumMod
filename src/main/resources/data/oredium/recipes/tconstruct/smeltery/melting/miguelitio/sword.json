@@ -1,0 +1,26 @@
+{
+  	"type": "tconstruct:damagable_melting",
+  	"ingredient": [
+    	{
+      		"item": "oredium:miguelitio_sword"
+    	}    	
+  	],
+  	"result": {
+    	"fluid": "oredium:molten_miguelitio",
+    	"amount": 180
+  	},
+	"byproducts":[
+		{
+			"fluid": "tconstruct:molten_diamond",
+			"amount": 180
+		}
+	],
+  	"temperature": 1200,
+  	"time": 110,
+  	"conditions": [
+		{
+	    	"type": "forge:mod_loaded",
+	    	"modid": "tconstruct"
+	    }
+  	]
+}

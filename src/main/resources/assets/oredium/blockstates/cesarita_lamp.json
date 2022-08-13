@@ -1,5 +1,12 @@
 {
     "variants": {
-        "": { "model": "oredium:block/cesarita_lamp" }
+        "lit=false":
+        {
+            "model": "oredium:block/cesarita_lamp_off"
+        },
+        "lit=true":
+        {
+            "model": "oredium:block/cesarita_lamp_on"
+        }
     }
 }

@@ -11,7 +11,7 @@
       "durability": 175,
       "miningSpeed": 4.5,
       "harvestTier": "minecraft:stone",
-      "attack": 3.0
+      "attack": 1.75
     }
   }
 }

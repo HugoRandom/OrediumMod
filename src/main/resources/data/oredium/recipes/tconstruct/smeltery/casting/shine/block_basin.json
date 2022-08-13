@@ -1,7 +1,7 @@
 {
   	"type": "tconstruct:casting_basin",
   	"fluid": {
-    	"name": "oredium:shine_fluid",
+    	"name": "oredium:molten_shine",
     	"amount": 810
   	},
   	"result": "oredium:shine_block",

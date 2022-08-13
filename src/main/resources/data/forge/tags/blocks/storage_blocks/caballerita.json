@@ -1,7 +1,6 @@
 {
   	"replace": false,
   	"values": [
-    	"oredium:caballerita_block",
-		"oredium:raw_caballerita_block"
+    	"oredium:caballerita_block"
   	]
 }

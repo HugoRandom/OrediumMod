@@ -1,0 +1,18 @@
+{
+  	"type": "tconstruct:melting",
+  	"ingredient": {
+    	"tag": "forge:storage_blocks/axidita"
+  	},
+  	"result": {
+    	"fluid": "oredium:molten_axidita",
+    	"amount": 810
+  	},
+  	"temperature": 800,
+  	"time": 160,
+  	"conditions": [
+      	{
+          	"type": "forge:mod_loaded",
+          	"modid": "tconstruct"
+      	}
+  	]
+}

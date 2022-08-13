@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "oredium:blocks/hugodium_lamp"
+        "all": "oredium:blocks/hugodium_lamp_off"
     }
 }

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "oredium:enderium_sword"
+      "item": "oredium:enderita_sword"
     },
     "title": {
       "translate": "advancement.swords_title"
@@ -15,12 +15,12 @@
   },
   "parent": "oredium:start",
   "criteria": {
-    "enderium_sword": {
+    "enderita_sword": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "oredium:enderium_sword"
+            "item": "oredium:enderita_sword"
           }
         ]
       }
@@ -112,7 +112,7 @@
       "axidita_sword",
       "caballerita_sword",
       "cesarita_sword",
-      "enderium_sword",
+      "enderita_sword",
       "franitolina_sword",
       "hugodium_sword",
       "miguelitio_sword",

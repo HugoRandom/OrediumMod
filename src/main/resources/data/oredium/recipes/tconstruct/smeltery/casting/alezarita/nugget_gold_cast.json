@@ -4,7 +4,7 @@
     	"tag": "tconstruct:casts/multi_use/nugget"
   	},
   	"fluid": {
-    	"name": "oredium:alezarita_fluid",
+    	"name": "oredium:molten_alezarita",
     	"amount": 10
   	},
   	"result": "oredium:alezarita_nugget",

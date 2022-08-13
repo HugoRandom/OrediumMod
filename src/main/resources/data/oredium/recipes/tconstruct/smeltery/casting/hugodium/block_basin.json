@@ -1,7 +1,7 @@
 {
   	"type": "tconstruct:casting_basin",
   	"fluid": {
-    	"name": "oredium:hugodium_fluid",
+    	"name": "oredium:molten_hugodium",
     	"amount": 810
   	},
   	"result": "oredium:hugodium_block",

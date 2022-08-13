@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "oredium:cesarita",
+  "temperature": 950,
+  "result": {
+    "fluid": "oredium:molten_cesarita",
+    "amount": 90
+  }
+}

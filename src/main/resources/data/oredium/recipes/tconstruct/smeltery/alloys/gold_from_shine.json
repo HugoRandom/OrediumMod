@@ -2,8 +2,8 @@
   	"type": "tconstruct:alloy",
   	"inputs": [
 	    {
-	      	"name": "oredium:shine_fluid",
-	      	"amount": 450
+	      	"name": "oredium:molten_shine",
+	      	"amount": 360
 	    },
 	    {
 	      	"name": "minecraft:milk",
