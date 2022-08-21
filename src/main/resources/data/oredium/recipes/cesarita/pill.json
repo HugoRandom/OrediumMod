@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "#G#",
+    "SNS"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar"
+    },
+    "G": {
+      "item": "oredium:cesarita_dust"
+    },
+    "S": {
+      "tag": "forge:slimeballs"
+    },
+    "N": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "oredium:cesarita_pill",
+    "count": 4
+  }
+}

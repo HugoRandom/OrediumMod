@@ -12,7 +12,7 @@ public class AlezaritaChicken extends BowItem {
 	public AlezaritaChicken() {
 		super(new Properties()							
 				.food(ALEZARITA_CHICKEN)
-				.tab(ItemGroupTabs.OREDIUM_ITEMS));
+				.tab(ItemGroupTabs.OREDIUM_FOODS));
 	}
 	
 	public static final FoodProperties ALEZARITA_CHICKEN = new FoodProperties.Builder()

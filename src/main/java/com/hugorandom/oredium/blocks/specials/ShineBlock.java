@@ -1,7 +1,7 @@
 package com.hugorandom.oredium.blocks.specials;
 
 import com.hugorandom.oredium.blocks.MetalBlock;
-import com.hugorandom.oredium.inits.ParticlesInit;
+import com.hugorandom.oredium.particles.ParticlesInit;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;

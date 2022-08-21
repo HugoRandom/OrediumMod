@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "# #",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "tag": "oredium:pills"
+    }
+  },
+  "result": {
+    "item": "oredium:random_pill",
+    "count": 4
+  }
+}

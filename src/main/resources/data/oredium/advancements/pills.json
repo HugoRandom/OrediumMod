@@ -1,0 +1,154 @@
+{
+  "display": {
+    "icon": {
+      "item": "oredium:enderita_pill"
+    },
+    "title": {
+      "translate": "advancement.pills_title"
+    },
+    "description": {
+      "translate": "advancement.pills_desc"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "oredium:start",
+  "criteria": {
+    "alezarita_pill": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+				"oredium:alezarita_pill" 
+			]
+          }
+        ]
+      }
+    },
+    "axidita_pill": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+				"oredium:axidita_pill"
+			]
+          }
+        ]
+      }
+    },
+    "caballerita_pill": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+				"oredium:caballerita_pill"
+			]
+          }
+        ]
+      }
+    },
+    "cesarita_pill": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+				"oredium:cesarita_pill"
+			]
+          }
+        ]
+      }
+    },
+    "enderita_pill": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+				"oredium:enderita_pill"
+			]
+          }
+        ]
+      }
+    },
+    "franitolina_pill": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+				"oredium:franitolina_pill"
+			]
+          }
+        ]
+      }
+    },
+    "hugodium_pill": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+				"oredium:hugodium_pill"
+			]
+          }
+        ]
+      }
+    },
+    "miguelitio_pill": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+				"oredium:miguelitio_pill"
+			]
+          }
+        ]
+      }
+    },
+    "shine_pill": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+				"oredium:shine_pill"
+			]
+          }
+        ]
+      }
+    },
+    "blank_pill": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:blank_pill"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "alezarita_pill",
+      "axidita_pill",
+      "caballerita_pill",
+      "cesarita_pill",
+      "enderita_pill",
+      "franitolina_pill",
+      "hugodium_pill",
+      "miguelitio_pill",
+      "shine_pill",
+      "blank_pill"
+    ]
+  ]
+}

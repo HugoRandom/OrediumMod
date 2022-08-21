@@ -1,6 +1,6 @@
 package com.hugorandom.oredium.tools;
 
-import com.hugorandom.oredium.inits.ItemsInit;
+import com.hugorandom.oredium.items.ItemsInit;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.ForgeTier;

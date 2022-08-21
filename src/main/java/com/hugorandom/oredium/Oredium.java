@@ -1,8 +1,20 @@
 package com.hugorandom.oredium;
 
+import com.hugorandom.oredium.armors.ArmorsInit;
+import com.hugorandom.oredium.blocks.BlockFluidsInit;
+import com.hugorandom.oredium.blocks.BlocksInit;
+import com.hugorandom.oredium.blocks.entitys.BlocksEntitiesInit;
+import com.hugorandom.oredium.fluids.FluidsInit;
+import com.hugorandom.oredium.foods.FoodsInit;
+import com.hugorandom.oredium.items.ItemsInit;
+import com.hugorandom.oredium.items.BucketsInit;
+import com.hugorandom.oredium.particles.ParticlesInit;
+import com.hugorandom.oredium.screens.MenusInit;
+import com.hugorandom.oredium.screens.slots.recipes.RecipesInit;
+import com.hugorandom.oredium.tools.ToolsInit;
 import com.hugorandom.oredium.world.WoldEvents;
-import com.hugorandom.oredium.inits.*;
-import com.hugorandom.oredium.inits.DimensionsInit;
+import com.hugorandom.oredium.others.*;
+import com.hugorandom.oredium.world.dimension.DimensionsInit;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.common.MinecraftForge;
@@ -28,7 +40,7 @@ public class Oredium
         FoodsInit.register(eventBus);
         FluidsInit.register(eventBus);
         BlockFluidsInit.register(eventBus);
-        ItemsRareInit.register(eventBus);
+        BucketsInit.register(eventBus);
         BlocksEntitiesInit.register(eventBus);
         ToolsInit.register(eventBus);
         ArmorsInit.register(eventBus);

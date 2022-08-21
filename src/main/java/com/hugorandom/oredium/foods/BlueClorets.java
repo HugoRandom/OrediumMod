@@ -11,7 +11,7 @@ public class BlueClorets extends Item {
 	public BlueClorets() {
 		super(new Properties()							
 				.food(BLUE_CLORETS)
-				.tab(ItemGroupTabs.OREDIUM_ITEMS));
+				.tab(ItemGroupTabs.OREDIUM_FOODS));
 	}
 	
 	public static final FoodProperties BLUE_CLORETS = new FoodProperties.Builder()

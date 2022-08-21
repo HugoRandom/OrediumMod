@@ -15,7 +15,7 @@ public class HugodiumSmoothie extends Item {
 	public HugodiumSmoothie() {
 		super(new Properties()							
 				.food(HUGODIUM_SMOOTHIE)
-				.tab(ItemGroupTabs.OREDIUM_ITEMS));
+				.tab(ItemGroupTabs.OREDIUM_FOODS));
 	}
 	public static final FoodProperties HUGODIUM_SMOOTHIE = new FoodProperties.Builder()
 			.effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 200, 0), 1.0f)

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#N#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "oredium:miguelitio_pill"
+    },
+    "N": {
+      "item": "minecraft:nether_wart"
+    }
+  },
+  "result": {
+    "item": "oredium:p2_pill",
+    "count": 4
+  }
+}

@@ -1,8 +1,7 @@
 package com.hugorandom.oredium.screens;
 
 import com.hugorandom.oredium.blocks.entitys.UpgradingEntity;
-import com.hugorandom.oredium.inits.BlocksInit;
-import com.hugorandom.oredium.inits.MenusInit;
+import com.hugorandom.oredium.blocks.BlocksInit;
 import com.hugorandom.oredium.screens.slots.ResultSlot;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.world.entity.player.Inventory;

@@ -14,7 +14,7 @@ public class Apples extends Item {
 		super(new Properties()
 				.rarity(Rarity.UNCOMMON)
 				.food(APPLES(effect, duration, amplifier))
-				.tab(ItemGroupTabs.OREDIUM_ITEMS));
+				.tab(ItemGroupTabs.OREDIUM_FOODS));
 	}
 	public static final FoodProperties APPLES(MobEffect pEffect, int duration, int amplifier){
 		FoodProperties build = new FoodProperties.Builder()

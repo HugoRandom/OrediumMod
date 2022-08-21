@@ -1,7 +1,7 @@
 package com.hugorandom.oredium.integration;
 
 import com.hugorandom.oredium.Oredium;
-import com.hugorandom.oredium.inits.BlocksInit;
+import com.hugorandom.oredium.blocks.BlocksInit;
 import com.hugorandom.oredium.screens.slots.recipes.UpgradingRecipe;
 import com.mojang.blaze3d.vertex.PoseStack;
 import mezz.jei.api.constants.VanillaTypes;

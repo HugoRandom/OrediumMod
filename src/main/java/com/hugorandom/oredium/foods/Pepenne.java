@@ -14,7 +14,7 @@ public class Pepenne extends Item {
 	public Pepenne() {
 		super(new Properties()							
 				.food(PEPENNE)
-				.tab(ItemGroupTabs.OREDIUM_ITEMS));
+				.tab(ItemGroupTabs.OREDIUM_FOODS));
 	}
 	
 	public static final FoodProperties PEPENNE = new FoodProperties.Builder()

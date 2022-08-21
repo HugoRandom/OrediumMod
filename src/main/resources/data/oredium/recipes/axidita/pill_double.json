@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#N#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "oredium:axidita_pill"
+    },
+    "N": {
+      "item": "minecraft:nether_wart"
+    }
+  },
+  "result": {
+    "item": "oredium:b32_pill",
+    "count": 4
+  }
+}

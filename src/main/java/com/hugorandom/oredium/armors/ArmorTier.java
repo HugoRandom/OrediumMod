@@ -1,7 +1,7 @@
 package com.hugorandom.oredium.armors;
 
 import com.hugorandom.oredium.Oredium;
-import com.hugorandom.oredium.inits.ItemsInit;
+import com.hugorandom.oredium.items.ItemsInit;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.LazyLoadedValue;

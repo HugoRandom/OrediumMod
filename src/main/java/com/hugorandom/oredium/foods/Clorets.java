@@ -11,7 +11,7 @@ public class Clorets extends Item {
 	public Clorets() {
 		super(new Properties()							
 				.food(CLORETS)
-				.tab(ItemGroupTabs.OREDIUM_ITEMS));
+				.tab(ItemGroupTabs.OREDIUM_FOODS));
 	}
 	
 	public static final FoodProperties CLORETS = new FoodProperties.Builder()

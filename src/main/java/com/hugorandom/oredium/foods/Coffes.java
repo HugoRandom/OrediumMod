@@ -13,7 +13,7 @@ public class Coffes extends Item {
 	public Coffes(int nutricion, int saturacion) {
 		super(new Properties()							
 				.food(COFFE_PROPERTIES(nutricion, saturacion))
-				.tab(ItemGroupTabs.OREDIUM_ITEMS));
+				.tab(ItemGroupTabs.OREDIUM_FOODS));
 	}
 	public static final FoodProperties COFFE_PROPERTIES(int nutricion, int saturacion) {
 		return new FoodProperties.Builder()

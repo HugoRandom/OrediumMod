@@ -11,7 +11,7 @@ public class CaballeritaCake extends Item {
 	public CaballeritaCake() {
 		super(new Properties()							
 				.food(CABALLERITA_CAKE)
-				.tab(ItemGroupTabs.OREDIUM_ITEMS));
+				.tab(ItemGroupTabs.OREDIUM_FOODS));
 	}
 	
 	public static final FoodProperties CABALLERITA_CAKE = new FoodProperties.Builder()

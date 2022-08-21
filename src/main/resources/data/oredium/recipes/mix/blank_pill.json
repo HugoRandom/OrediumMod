@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "# #",
+    "SNS"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar"
+    },
+    "S": {
+      "tag": "forge:slimeballs"
+    },
+    "N": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "oredium:blank_pill",
+    "count": 4
+  }
+}

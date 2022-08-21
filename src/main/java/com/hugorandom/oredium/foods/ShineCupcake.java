@@ -11,7 +11,7 @@ public class ShineCupcake extends Item {
 	public ShineCupcake() {
 		super(new Properties()								
 				.food(SHINE_CUPCAKE)
-				.tab(ItemGroupTabs.OREDIUM_ITEMS));
+				.tab(ItemGroupTabs.OREDIUM_FOODS));
 	}
 	
 	public static final FoodProperties SHINE_CUPCAKE = new FoodProperties.Builder()

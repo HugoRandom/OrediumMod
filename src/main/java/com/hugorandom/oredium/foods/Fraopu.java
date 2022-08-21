@@ -11,7 +11,7 @@ public class Fraopu extends Item {
 	public Fraopu() {
 		super(new Properties()							
 				.food(FRAOPU)
-				.tab(ItemGroupTabs.OREDIUM_ITEMS));
+				.tab(ItemGroupTabs.OREDIUM_FOODS));
 	}
 	
 	public static final FoodProperties FRAOPU = new FoodProperties.Builder()
