@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "oredium:cesarita_ingot"
+        },
+        {
+            "item": "oredium:cesarita_ingot"
+        }
+    ],
+    "result": {
+        "item": "oredium:cesarita_dust",
+        "count": 2
+    }
+}

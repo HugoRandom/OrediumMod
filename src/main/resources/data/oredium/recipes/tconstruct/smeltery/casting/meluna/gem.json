@@ -1,0 +1,19 @@
+{
+  	"type": "tconstruct:casting_table",
+  	"cast": {
+    	"item": "oredium:umc"
+  	},
+  	"cast_consumed": true,
+  	"fluid": {
+    	"name": "oredium:molten_meluna",
+    	"amount": 360
+  	},
+  	"result": "oredium:meluna_gem",
+  	"cooling_time": 200,
+  	"conditions": [
+      	{
+          	"type": "forge:mod_loaded",
+          	"modid": "tconstruct"
+      	}
+  	]
+}

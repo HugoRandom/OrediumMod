@@ -2,24 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         " i ",
-        "gSn",
-        " E "
+        "iSi",
+        " i "
     ],
     "key": {
         "i": {
-            "item": "minecraft:iron_ingot"
-        },
-        "g": {
             "item": "oredium:enderita_ingot"
         },
         "S": {
             "item": "oredium:umc"
-        },
-        "n": {
-            "item": "minecraft:amethyst_shard"
-        },
-        "E": {
-            "item": "minecraft:ender_pearl"
         }
     },
     "result": {

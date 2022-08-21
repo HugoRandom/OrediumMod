@@ -2,24 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         " i ",
-        "gSn",
-        " E "
+        "iSi",
+        " i "
     ],
     "key": {
         "i": {
-            "item": "minecraft:iron_ingot"
-        },
-        "g": {
             "item": "oredium:axidita_ingot"
         },
         "S": {
             "item": "oredium:umc"
-        },
-        "n": {
-            "item": "minecraft:flint"
-        },
-        "E": {
-            "item": "minecraft:emerald"
         }
     },
     "result": {

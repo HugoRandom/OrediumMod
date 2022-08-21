@@ -1,0 +1,154 @@
+{
+  "display": {
+    "icon": {
+      "item": "oredium:enderita_block"
+    },
+    "title": {
+      "translate": "advancement.blocks_title"
+    },
+    "description": {
+      "translate": "advancement.blocks_desc"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "oredium:ingots",
+  "criteria": {
+    "enderita_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:enderita_block"
+            ]
+          }
+        ]
+      }
+    },
+    "alezarita_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:alezarita_block"
+            ]
+          }
+        ]
+      }
+    },
+    "axidita_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:axidita_block"
+            ]
+          }
+        ]
+      }
+    },
+    "caballerita_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:caballerita_block"
+            ]
+          }
+        ]
+      }
+    },
+    "cesarita_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:cesarita_block"
+            ]
+          }
+        ]
+      }
+    },
+    "franitolina_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:franitolina_block"
+            ]
+          }
+        ]
+      }
+    },
+    "hugodium_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:hugodium_block"
+            ]
+          }
+        ]
+      }
+    },
+    "miguelitio_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:miguelitio_block"
+            ]
+          }
+        ]
+      }
+    },
+    "shine_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:shine_block"
+            ]
+          }
+        ]
+      }
+    },
+    "meluna_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:meluna_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "alezarita_block",
+      "axidita_block",
+      "caballerita_block",
+      "cesarita_block",
+      "enderita_block",
+      "franitolina_block",
+      "hugodium_block",
+      "miguelitio_block",
+      "shine_block",
+      "meluna_block"
+    ]
+  ]
+}

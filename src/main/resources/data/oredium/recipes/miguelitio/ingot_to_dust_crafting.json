@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "oredium:miguelitio_ingot"
+        },
+        {
+            "item": "oredium:miguelitio_ingot"
+        }
+    ],
+    "result": {
+        "item": "oredium:miguelitio_dust",
+        "count": 2
+    }
+}

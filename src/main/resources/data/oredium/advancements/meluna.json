@@ -1,37 +1,32 @@
 {
   "display": {
     "icon": {
-      "item": "oredium:oredium_amulet"
+      "item": "oredium:meluna_ingot"
     },
     "title": {
-      "translate": "advancement.amulet_title"
+      "translate": "advancement.meluna_title"
     },
     "description": {
-      "translate": "advancement.amulet_desc"
+      "translate": "advancement.meluna_desc"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": false,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
-  "parent": "oredium:ingots",
+  "parent": "oredium:start",
   "criteria": {
-    "amulet": {
+    "enderita_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:oredium_amulet"
+              "oredium:meluna_ingot"
             ]
           }
         ]
       }
     }
-  },
-  "requirements": [
-    [
-      "amulet"
-    ]
-  ]
+  } 
 }

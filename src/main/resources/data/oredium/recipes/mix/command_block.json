@@ -2,37 +2,28 @@
   "group": "special",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "#EA",
+    "ENE",
+    "GEP"
   ],
   "key": {
-    "0": {
-      "item": "minecraft:nether_star"
-    },
-    "1": {
-      "tag": "forge:heads"
-    },
-    "2": {
-      "item": "minecraft:nether_star"
-    },
-    "3": {
-      "item": "minecraft:sponge"
-    },
-    "4": {
-      "item": "minecraft:nether_star"
-    },
-    "5": {
-      "item": "minecraft:dragon_breath"
-    },
-    "6": {
-      "item": "minecraft:nether_star"
-    },
-    "7": {
+    "#": {
       "item": "minecraft:heart_of_the_sea"
     },
-    "8": {
+    "E": {
+      "item": "minecraft:end_crystal"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "N": {
       "item": "minecraft:nether_star"
+    },
+    "G": {
+      "item": "minecraft:golden_apple"
+    },
+    "P": {
+      "item": "minecraft:popped_chorus_fruit"
     }
   },
   "result": {

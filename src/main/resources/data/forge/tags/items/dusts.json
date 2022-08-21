@@ -1,0 +1,16 @@
+{
+  	"replace": false,
+  	"values": [
+	    "#forge:ingots/alezarita",
+	    "#forge:ingots/axidita",
+	    "#forge:ingots/caballerita",
+	    "#forge:ingots/cesarita",
+	    "#forge:ingots/caballerita",
+	    "#forge:ingots/enderita",
+	    "#forge:ingots/franitolina",
+		"#forge:ingots/meluna",
+	    "#forge:ingots/hugodium",
+	    "#forge:ingots/miguelitio",
+	    "#forge:ingots/shine"    
+	]
+}

@@ -21,7 +21,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:enderita_gem"
+            "items": [
+              "oredium:enderita_gem"
+            ]
           }
         ]
       }
@@ -31,7 +33,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:alezarita_gem"
+            "items": [
+              "oredium:alezarita_gem"
+            ]
           }
         ]
       }
@@ -41,7 +45,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:axidita_gem"
+            "items": [
+              "oredium:axidita_gem"
+            ]
           }
         ]
       }
@@ -51,7 +57,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:caballerita_gem"
+            "items": [
+              "oredium:caballerita_gem"
+            ]
           }
         ]
       }
@@ -61,7 +69,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:cesarita_gem"
+            "items": [
+              "oredium:cesarita_gem"
+            ]
           }
         ]
       }
@@ -71,7 +81,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:franitolina_gem"
+            "items": [
+              "oredium:franitolina_gem"
+            ]
           }
         ]
       }
@@ -81,7 +93,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:hugodium_gem"
+            "items": [
+              "oredium:hugodium_gem"
+            ]
           }
         ]
       }
@@ -91,7 +105,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:miguelitio_gem"
+            "items": [
+              "oredium:miguelitio_gem"
+            ]
           }
         ]
       }
@@ -101,10 +117,38 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:shine_gem"
+            "items": [
+              "oredium:shine_gem"
+            ]
+          }
+        ]
+      }
+    },
+    "meluna_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:meluna_gem"
+            ]
           }
         ]
       }
     }
-  } 
+  },
+  "requirements": [
+    [
+      "alezarita_gem",
+      "axidita_gem",
+      "caballerita_gem",
+      "cesarita_gem",
+      "enderita_gem",
+      "franitolina_gem",
+      "hugodium_gem",
+      "miguelitio_gem",
+      "shine_gem",
+      "meluna_gem"
+    ]
+  ]
 }

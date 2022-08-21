@@ -20,7 +20,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:alezarita_helmet"
+            "items": [
+              "oredium:alezarita_helmet"
+            ]
           }
         ]
       }
@@ -30,7 +32,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:alezarita_chestplate"
+            "items": [
+              "oredium:alezarita_chestplate"
+            ]
           }
         ]
       }
@@ -40,7 +44,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:alezarita_leggings"
+            "items": [
+              "oredium:alezarita_leggings"
+            ]
           }
         ]
       }
@@ -50,7 +56,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:alezarita_boots"
+            "items": [
+              "oredium:alezarita_boots"
+            ]
           }
         ]
       }
@@ -60,7 +68,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:axidita_helmet"
+            "items": [
+              "oredium:axidita_helmet"
+            ]
           }
         ]
       }
@@ -70,7 +80,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:axidita_chestplate"
+            "items": [
+              "oredium:axidita_chestplate"
+            ]
           }
         ]
       }
@@ -80,7 +92,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:axidita_leggings"
+            "items": [
+              "oredium:axidita_leggings"
+            ]
           }
         ]
       }
@@ -90,7 +104,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:axidita_boots"
+            "items": [
+              "oredium:axidita_boots"
+            ]
           }
         ]
       }
@@ -99,7 +115,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:caballerita_helmet"
+            "items": [
+              "oredium:caballerita_helmet"
+            ]
           }
         ]
       }
@@ -109,7 +127,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:caballerita_chestplate"
+            "items": [
+              "oredium:caballerita_chestplate"
+            ]
           }
         ]
       }
@@ -119,7 +139,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:caballerita_leggings"
+            "items": [
+              "oredium:caballerita_leggings"
+            ]
           }
         ]
       }
@@ -129,7 +151,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:caballerita_boots"
+            "items": [
+              "oredium:caballerita_boots"
+            ]
           }
         ]
       }
@@ -139,7 +163,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:cesarita_helmet"
+            "items": [
+              "oredium:cesarita_helmet"
+            ]
           }
         ]
       }
@@ -149,7 +175,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:cesarita_chestplate"
+            "items": [
+              "oredium:cesarita_chestplate"
+            ]
           }
         ]
       }
@@ -159,7 +187,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:cesarita_leggings"
+            "items": [
+              "oredium:cesarita_leggings"
+            ]
           }
         ]
       }
@@ -169,7 +199,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:cesarita_boots"
+            "items": [
+              "oredium:cesarita_boots"
+            ]
           }
         ]
       }
@@ -179,7 +211,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:enderita_helmet"
+            "items": [
+              "oredium:enderita_helmet"
+            ]
           }
         ]
       }
@@ -189,7 +223,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:enderita_chestplate"
+            "items": [
+              "oredium:enderita_chestplate"
+            ]
           }
         ]
       }
@@ -199,7 +235,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:enderita_leggings"
+            "items": [
+              "oredium:enderita_leggings"
+            ]
           }
         ]
       }
@@ -209,7 +247,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:enderita_boots"
+            "items": [
+              "oredium:enderita_boots"
+            ]
           }
         ]
       }
@@ -219,7 +259,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:franitolina_helmet"
+            "items": [
+              "oredium:franitolina_helmet"
+            ]
           }
         ]
       }
@@ -229,7 +271,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:franitolina_chestplate"
+            "items": [
+              "oredium:franitolina_chestplate"
+            ]
           }
         ]
       }
@@ -239,7 +283,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:franitolina_leggings"
+            "items": [
+              "oredium:franitolina_leggings"
+            ]
           }
         ]
       }
@@ -249,7 +295,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:franitolina_boots"
+            "items": [
+              "oredium:franitolina_boots"
+            ]
           }
         ]
       }
@@ -259,7 +307,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:hugodium_helmet"
+            "items": [
+              "oredium:hugodium_helmet"
+            ]
           }
         ]
       }
@@ -269,7 +319,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:hugodium_chestplate"
+            "items": [
+              "oredium:hugodium_chestplate"
+            ]
           }
         ]
       }
@@ -279,7 +331,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:hugodium_leggings"
+            "items": [
+              "oredium:hugodium_leggings"
+            ]
           }
         ]
       }
@@ -289,7 +343,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:hugodium_boots"
+            "items": [
+              "oredium:hugodium_boots"
+            ]
           }
         ]
       }
@@ -299,7 +355,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:miguelitio_helmet"
+            "items": [
+              "oredium:miguelitio_helmet"
+            ]
           }
         ]
       }
@@ -309,7 +367,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:miguelitio_chestplate"
+            "items": [
+              "oredium:miguelitio_chestplate"
+            ]
           }
         ]
       }
@@ -319,7 +379,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:miguelitio_leggings"
+            "items": [
+              "oredium:miguelitio_leggings"
+            ]
           }
         ]
       }
@@ -329,7 +391,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:miguelitio_boots"
+            "items": [
+              "oredium:miguelitio_boots"
+            ]
           }
         ]
       }
@@ -339,7 +403,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:shine_helmet"
+            "items": [
+              "oredium:shine_helmet"
+            ]
           }
         ]
       }
@@ -349,7 +415,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:shine_chestplate"
+            "items": [
+              "oredium:shine_chestplate"
+            ]
           }
         ]
       }
@@ -359,7 +427,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:shine_leggings"
+            "items": [
+              "oredium:shine_leggings"
+            ]
           }
         ]
       }
@@ -369,11 +439,61 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:shine_boots"
+            "items": [
+              "oredium:shine_boots"
+            ]
           }
         ]
       }
-    }    
+    },
+    "meluna_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:meluna_helmet"
+            ]
+          }
+        ]
+      }
+    },
+    "meluna_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:meluna_chestplate"
+            ]
+          }
+        ]
+      }
+    },
+    "meluna_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:meluna_leggings"
+            ]
+          }
+        ]
+      }
+    },
+    "meluna_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:meluna_boots"
+            ]
+          }
+        ]
+      }
+    }
   }, 
   "requirements": [
     [
@@ -412,7 +532,11 @@
       "shine_helmet",
       "shine_chestplate",
       "shine_leggings",
-      "shine_boots"
+      "shine_boots",
+      "meluna_helmet",
+      "meluna_chestplate",
+      "meluna_leggings",
+      "meluna_boots"
     ]
   ]
 }

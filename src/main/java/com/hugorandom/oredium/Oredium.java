@@ -2,7 +2,7 @@ package com.hugorandom.oredium;
 
 import com.hugorandom.oredium.world.WoldEvents;
 import com.hugorandom.oredium.inits.*;
-import com.mojang.logging.LogUtils;
+import com.hugorandom.oredium.inits.DimensionsInit;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.common.MinecraftForge;
@@ -10,7 +10,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Oredium.MOD_ID)
@@ -38,6 +37,7 @@ public class Oredium
         MenusInit.register(eventBus);
         RecipesInit.register(eventBus);
         ParticlesInit.register(eventBus);
+        DimensionsInit.register();
 
         eventBus.addListener(this::setup);
 

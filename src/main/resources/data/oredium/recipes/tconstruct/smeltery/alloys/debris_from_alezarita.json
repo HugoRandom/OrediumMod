@@ -11,12 +11,12 @@
 	    },
 	    {
 	      	"name": "tconstruct:molten_copper",
-	      	"amount": 360
+	      	"amount": 180
 	    }
   	],
   	"result": {
     	"fluid": "tconstruct:molten_debris",
     	"amount": 90
   	},
-  	"temperature": 1500
+  	"temperature": 1750
 }

@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "oredium:blocks/meluna_lamp_on"
+    }
+}

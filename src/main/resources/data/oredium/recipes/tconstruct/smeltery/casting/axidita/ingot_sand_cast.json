@@ -8,7 +8,7 @@
    		"name": "oredium:molten_axidita",
     	"amount": 90
   	},
-  	"result": "oredium:axidita",
+  	"result": "oredium:axidita_ingot",
   	"cooling_time": 70,
   	"conditions": [
       	{

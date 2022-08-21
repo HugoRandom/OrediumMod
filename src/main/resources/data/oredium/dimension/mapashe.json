@@ -1,0 +1,12 @@
+{
+  "type": "oredium:mapashe",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 8508358887255150516,
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "preset": "minecraft:overworld"
+    }
+  }
+}

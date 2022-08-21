@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "oredium:axidita_helmet",
-      "nbt": "{Enchantments:[{id:\\\"mending\\\",lvl:1}]}"
+      "item": "oredium:axidita_helmet"
     },
     "title": {
       "translate": "advancement.full_title"

@@ -1,15 +1,15 @@
 {
   "display": {
     "icon": {
-      "item": "oredium:umc"
+      "item": "oredium:solima"
     },
     "title": {
-      "translate": "advancements.dimension_title"
+      "translate": "advancement.dimension_title"
     },
     "description": {
-      "translate": "advancements.dimension_desc"
+      "translate": "advancement.dimension_desc"
     },
-    "frame": "task",
+    "frame": "challenge",
     "show_toast": false,
     "announce_to_chat": true,
     "hidden": false

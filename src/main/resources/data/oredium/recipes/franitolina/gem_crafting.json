@@ -2,24 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         " i ",
-        "gSn",
-        " E "
+        "iSi",
+        " i "
     ],
     "key": {
         "i": {
-            "item": "minecraft:glowstone_dust"
-        },
-        "g": {
             "item": "oredium:franitolina_ingot"
         },
         "S": {
             "item": "oredium:umc"
-        },
-        "n": {
-            "item": "minecraft:golden_carrot"
-        },
-        "E": {
-            "item": "minecraft:gold_ingot"
         }
     },
     "result": {

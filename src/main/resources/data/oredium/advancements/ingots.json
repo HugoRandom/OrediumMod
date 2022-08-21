@@ -21,7 +21,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:enderita_ingot"
+            "items": [
+              "oredium:enderita_ingot"
+            ]
           }
         ]
       }
@@ -31,7 +33,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:alezarita_ingot"
+            "items": [
+              "oredium:alezarita_ingot"
+            ]
           }
         ]
       }
@@ -41,7 +45,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:axidita_ingot"
+            "items": [
+              "oredium:axidita_ingot"
+            ]
           }
         ]
       }
@@ -51,7 +57,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:caballerita_ingot"
+            "items": [
+              "oredium:caballerita_ingot"
+            ]
           }
         ]
       }
@@ -61,7 +69,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:cesarita_ingot"
+            "items": [
+              "oredium:cesarita_ingot"
+            ]
           }
         ]
       }
@@ -71,7 +81,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:franitolina_ingot"
+            "items": [
+              "oredium:franitolina_ingot"
+            ]
           }
         ]
       }
@@ -81,7 +93,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:hugodium_ingot"
+            "items": [
+              "oredium:hugodium_ingot"
+            ]
           }
         ]
       }
@@ -91,7 +105,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:miguelitio_ingot"
+            "items": [
+              "oredium:miguelitio_ingot"
+            ]
           }
         ]
       }
@@ -101,7 +117,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:shine_ingot"
+            "items": [
+              "oredium:shine_ingot"
+            ]
           }
         ]
       }

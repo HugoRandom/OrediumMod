@@ -21,7 +21,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:alezarita_helmet_upgraded"
+            "items": [
+              "oredium:alezarita_helmet_upgraded"
+            ]
           }
         ]
       }
@@ -31,7 +33,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:alezarita_chestplate_upgraded"
+            "items": [
+              "oredium:alezarita_chestplate_upgraded"
+            ]
           }
         ]
       }
@@ -41,7 +45,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:alezarita_leggings_upgraded"
+            "items": [
+              "oredium:alezarita_leggings_upgraded"
+            ]
           }
         ]
       }
@@ -51,7 +57,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:alezarita_boots_upgraded"
+            "items": [
+              "oredium:alezarita_boots_upgraded"
+            ]
           }
         ]
       }
@@ -61,7 +69,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:axidita_helmet_upgraded"
+            "items": [
+              "oredium:axidita_helmet_upgraded"
+            ]
           }
         ]
       }
@@ -71,7 +81,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:axidita_chestplate_upgraded"
+            "items": [
+              "oredium:axidita_chestplate_upgraded"
+            ]
           }
         ]
       }
@@ -81,7 +93,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:axidita_leggings_upgraded"
+            "items": [
+              "oredium:axidita_leggings_upgraded"
+            ]
           }
         ]
       }
@@ -91,7 +105,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:axidita_boots_upgraded"
+            "items": [
+              "oredium:axidita_boots_upgraded"
+            ]
           }
         ]
       }
@@ -100,7 +116,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:caballerita_helmet_upgraded"
+            "items": [
+              "oredium:caballerita_helmet_upgraded"
+            ]
           }
         ]
       }
@@ -110,7 +128,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:caballerita_chestplate_upgraded"
+            "items": [
+              "oredium:caballerita_chestplate_upgraded"
+            ]
           }
         ]
       }
@@ -120,7 +140,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:caballerita_leggings_upgraded"
+            "items": [
+              "oredium:caballerita_leggings_upgraded"
+            ]
           }
         ]
       }
@@ -130,7 +152,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:caballerita_boots_upgraded"
+            "items": [
+              "oredium:caballerita_boots_upgraded"
+            ]
           }
         ]
       }
@@ -140,7 +164,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:cesarita_helmet_upgraded"
+            "items": [
+              "oredium:cesarita_helmet_upgraded"
+            ]
           }
         ]
       }
@@ -150,7 +176,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:cesarita_chestplate_upgraded"
+            "items": [
+              "oredium:cesarita_chestplate_upgraded"
+            ]
           }
         ]
       }
@@ -160,7 +188,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:cesarita_leggings_upgraded"
+            "items": [
+              "oredium:cesarita_leggings_upgraded"
+            ]
           }
         ]
       }
@@ -170,7 +200,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:cesarita_boots_upgraded"
+            "items": [
+              "oredium:cesarita_boots_upgraded"
+            ]
           }
         ]
       }
@@ -180,7 +212,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:enderita_helmet_upgraded"
+            "items": [
+              "oredium:enderita_helmet_upgraded"
+            ]
           }
         ]
       }
@@ -190,7 +224,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:enderita_chestplate_upgraded"
+            "items": [
+              "oredium:enderita_chestplate_upgraded"
+            ]
           }
         ]
       }
@@ -200,7 +236,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:enderita_leggings_upgraded"
+            "items": [
+              "oredium:enderita_leggings_upgraded"
+            ]
           }
         ]
       }
@@ -210,7 +248,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:enderita_boots_upgraded"
+            "items": [
+              "oredium:enderita_boots_upgraded"
+            ]
           }
         ]
       }
@@ -220,7 +260,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:franitolina_helmet_upgraded"
+            "items": [
+              "oredium:franitolina_helmet_upgraded"
+            ]
           }
         ]
       }
@@ -230,7 +272,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:franitolina_chestplate_upgraded"
+            "items": [
+              "oredium:franitolina_chestplate_upgraded"
+            ]
           }
         ]
       }
@@ -240,7 +284,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:franitolina_leggings_upgraded"
+            "items": [
+              "oredium:franitolina_leggings_upgraded"
+            ]
           }
         ]
       }
@@ -250,7 +296,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:franitolina_boots_upgraded"
+            "items": [
+              "oredium:franitolina_boots_upgraded"
+            ]
           }
         ]
       }
@@ -260,7 +308,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:hugodium_helmet_upgraded"
+            "items": [
+              "oredium:hugodium_helmet_upgraded"
+            ]
           }
         ]
       }
@@ -270,7 +320,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:hugodium_chestplate_upgraded"
+            "items": [
+              "oredium:hugodium_chestplate_upgraded"
+            ]
           }
         ]
       }
@@ -280,7 +332,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:hugodium_leggings_upgraded"
+            "items": [
+              "oredium:hugodium_leggings_upgraded"
+            ]
           }
         ]
       }
@@ -290,7 +344,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:hugodium_boots_upgraded"
+            "items": [
+              "oredium:hugodium_boots_upgraded"
+            ]
           }
         ]
       }
@@ -300,7 +356,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:miguelitio_helmet_upgraded"
+            "items": [
+              "oredium:miguelitio_helmet_upgraded"
+            ]
           }
         ]
       }
@@ -310,7 +368,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:miguelitio_chestplate_upgraded"
+            "items": [
+              "oredium:miguelitio_chestplate_upgraded"
+            ]
           }
         ]
       }
@@ -320,7 +380,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:miguelitio_leggings_upgraded"
+            "items": [
+              "oredium:miguelitio_leggings_upgraded"
+            ]
           }
         ]
       }
@@ -330,7 +392,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:miguelitio_boots_upgraded"
+            "items": [
+              "oredium:miguelitio_boots_upgraded"
+            ]
           }
         ]
       }
@@ -340,7 +404,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:shine_helmet_upgraded"
+            "items": [
+              "oredium:shine_helmet_upgraded"
+            ]
           }
         ]
       }
@@ -350,7 +416,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:shine_chestplate_upgraded"
+            "items": [
+              "oredium:shine_chestplate_upgraded"
+            ]
           }
         ]
       }
@@ -360,7 +428,9 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:shine_leggings_upgraded"
+            "items": [
+              "oredium:shine_leggings_upgraded"
+            ]
           }
         ]
       }
@@ -370,11 +440,61 @@
       "conditions": {
         "items": [
           {
-            "item": "oredium:shine_boots_upgraded"
+            "items": [
+              "oredium:shine_boots_upgraded"
+            ]
           }
         ]
       }
-    }    
+    },
+    "meluna_helmet_upgraded": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:meluna_helmet_upgraded"
+            ]
+          }
+        ]
+      }
+    },
+    "meluna_chestplate_upgraded": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:meluna_chestplate_upgraded"
+            ]
+          }
+        ]
+      }
+    },
+    "meluna_leggings_upgraded": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:meluna_leggings_upgraded"
+            ]
+          }
+        ]
+      }
+    },
+    "meluna_boots_upgraded": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oredium:meluna_boots_upgraded"
+            ]
+          }
+        ]
+      }
+    }
   }, 
   "requirements": [
     [
@@ -413,7 +533,11 @@
       "shine_helmet_upgraded",
       "shine_chestplate_upgraded",
       "shine_leggings_upgraded",
-      "shine_boots_upgraded"
+      "shine_boots_upgraded",
+      "meluna_helmet_upgraded",
+      "meluna_chestplate_upgraded",
+      "meluna_leggings_upgraded",
+      "meluna_boots_upgraded"
     ]
   ]
 }

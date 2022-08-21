@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "oredium:amulet",
+  "parent": "oredium:umc",
   "criteria": {
     "oredium_block": {
       "trigger": "minecraft:inventory_changed",

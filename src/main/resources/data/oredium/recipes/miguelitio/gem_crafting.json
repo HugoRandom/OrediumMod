@@ -2,24 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         " i ",
-        "gSn",
-        " E "
+        "iSi",
+        " i "
     ],
     "key": {
         "i": {
-            "item": "oredium:axidita_ingot"
-        },
-        "g": {
             "item": "oredium:miguelitio_ingot"
         },
         "S": {
             "item": "oredium:umc"
-        },
-        "n": {
-            "item": "minecraft:clay_ball"
-        },
-        "E": {
-            "item": "minecraft:copper_ingot"
         }
     },
     "result": {

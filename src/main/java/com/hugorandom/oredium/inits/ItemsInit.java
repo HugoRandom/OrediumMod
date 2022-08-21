@@ -51,6 +51,18 @@ public class ItemsInit {
     public static final RegistryObject<Item> RAW_HUGODIUM = ITEMS.register("raw_hugodium", CommonItem::new);
     public static final RegistryObject<Item> RAW_MIGUELITIO = ITEMS.register("raw_miguelitio", CommonItem::new);
 
+    // Polvos No españoles
+    public static final RegistryObject<Item> SHINE_DUST = ITEMS.register("shine_dust", CommonItem::new);
+    public static final RegistryObject<Item> CABALLERITA_DUST = ITEMS.register("caballerita_dust", CommonItem::new);
+    public static final RegistryObject<Item> AXIDITA_DUST = ITEMS.register("axidita_dust", CommonItem::new);
+    public static final RegistryObject<Item> CESARITA_DUST = ITEMS.register("cesarita_dust", CommonItem::new);
+    public static final RegistryObject<Item> FRANITOLINA_DUST = ITEMS.register("franitolina_dust", CommonItem::new);
+    public static final RegistryObject<Item> MELUNA_DUST = ITEMS.register("meluna_dust", CommonItem::new);
+    public static final RegistryObject<Item> ENDERITA_DUST = ITEMS.register("enderita_dust", CommonItem::new);
+    public static final RegistryObject<Item> ALEZARITA_DUST = ITEMS.register("alezarita_dust", CommonItem::new);
+    public static final RegistryObject<Item> HUGODIUM_DUST = ITEMS.register("hugodium_dust", CommonItem::new);
+    public static final RegistryObject<Item> MIGUELITIO_DUST = ITEMS.register("miguelitio_dust", CommonItem::new);
+
     // Gemas
     public static final RegistryObject<Item> SHINE_GEM = ITEMS.register("shine_gem", GemItem::new);
     public static final RegistryObject<Item> CABALLERITA_GEM = ITEMS.register("caballerita_gem", GemItem::new);

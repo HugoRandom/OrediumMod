@@ -2,24 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         " i ",
-        "gSn",
-        " E "
+        "iSi",
+        " i "
     ],
     "key": {
         "i": {
-            "item": "minecraft:gold_ingot"
-        },
-        "g": {
             "item": "oredium:shine_ingot"
         },
         "S": {
             "item": "oredium:umc"
-        },
-        "n": {
-            "item": "minecraft:honeycomb"
-        },
-        "E": {
-            "item": "minecraft:blue_dye"
         }
     },
     "result": {

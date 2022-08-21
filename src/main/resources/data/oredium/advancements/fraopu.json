@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "item": "oredium:fraopu"
+      "item": "oredium:franitolina_block"
     },
     "title": {
-      "translate": "advancements.fraopu_title"
+      "translate": "advancement.fraopu_title"
     },
     "description": {
-      "translate": "advancements.fraopu_desc"
+      "translate": "advancement.fraopu_desc"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": false,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "oredium:foods",
+  "parent": "oredium:blocks",
   "criteria": {
     "use_lodestone": {
       "trigger": "minecraft:item_used_on_block",

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "oredium:axidita_dust"
+        },
+        {
+            "item": "oredium:axidita_dust"
+        },
+        {
+            "item": "minecraft:ender_pearl"
+        },
+        {
+            "item": "oredium:miguelitio_dust"
+        },
+        {
+            "item": "oredium:miguelitio_dust"
+        }
+    ],
+    "result": {
+        "item": "oredium:enderita_dust",
+        "count": 2
+    }
+}
