@@ -3,6 +3,7 @@ package com.hugorandom.oredium.blocks;
 import com.hugorandom.oredium.blocks.entitys.UpgradingEntity;
 import com.hugorandom.oredium.init.BlocksEntitiesInit;
 import com.hugorandom.oredium.init.ParticlesInit;
+import com.hugorandom.oredium.util.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
@@ -97,5 +98,9 @@ public class OrediumBlock extends BaseEntityBlock {
 			pLevel.addParticle(ParticlesInit.OREDIUM_PARTICLE.get(), (double)pos.getX() + rand.nextDouble(),
 					(double)pos.getY() + 1.1D, (double)pos.getZ() + rand.nextDouble(), 0.0D, 0.0D, 0.0D);
 		}
+	}
+
+	private boolean isEnergyBlock(BlockState state) {
+		return state.is(ModTags.Blocks.OREDIUM_ENERGY);
 	}
 }

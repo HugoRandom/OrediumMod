@@ -32,18 +32,4 @@ public class MiguelitioBlock extends MetalBlock {
                     (double)pos.getY() + 1.1D, (double)pos.getZ() + rand.nextDouble(), 0.0D, 0.0D, 0.0D);
         }
     }
-
-    @Override
-    public InteractionResult use(BlockState pState, Level worldIn, BlockPos pos, Player player, InteractionHand pHand, BlockHitResult pHit) {
-        if(!worldIn.isClientSide) {
-            if (player.getMainHandItem().getItem() == ItemsInit.MIGUELITIO_GEM.get()) {
-                EntityType.LIGHTNING_BOLT.spawn((ServerLevel) worldIn, null, player, pos,
-                        MobSpawnType.TRIGGERED.TRIGGERED, true, true);
-            }
-            else {
-                worldIn.playSound(null, pos, SoundEvents.METAL_HIT, SoundSource.BLOCKS, 0.6f, 1f);
-            }
-        }
-        return InteractionResult.SUCCESS;
-    }
 }
