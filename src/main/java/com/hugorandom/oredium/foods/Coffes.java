@@ -17,8 +17,8 @@ public class Coffes extends Item {
 	}
 	public static final FoodProperties COFFE_PROPERTIES(int nutricion, int saturacion) {
 		return new FoodProperties.Builder()
-				.nutrition(6)
-				.saturationMod(0.7f)
+				.nutrition(nutricion)
+				.saturationMod(saturacion)
 				.build();
 	}
 

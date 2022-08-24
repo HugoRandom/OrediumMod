@@ -32,8 +32,8 @@ public class PillRandom extends Item {
                 .effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 1200, 1), 0.05f)
                 .effect(() -> new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 2400, 0), 0.05f)
                 .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 1200, 1), 0.05f)
-                .nutrition(3)
-                .saturationMod(0.3f)
+                .nutrition(2)
+                .saturationMod(0.4f)
                 .alwaysEat()
                 .fast()
                 .build();

@@ -10,9 +10,9 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.UseAnim;
 
-public class HugodiumSmoothie extends Item {
+public class Smoothie extends Item {
 
-	public HugodiumSmoothie() {
+	public Smoothie() {
 		super(new Properties()							
 				.food(HUGODIUM_SMOOTHIE)
 				.tab(ItemGroupTabs.OREDIUM_FOODS));

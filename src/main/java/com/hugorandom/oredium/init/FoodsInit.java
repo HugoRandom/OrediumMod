@@ -17,22 +17,22 @@ public class FoodsInit {
     }
 
     // Comidas iniciales
-    public static final RegistryObject<Item> SHINE_CUPCAKE = FOODS.register("shine_cupcake",
-            ShineCupcake::new);
-    public static final RegistryObject<Item> CABALLERITA_CAKE = FOODS.register("caballerita_cake",
-            CaballeritaCake::new);
+    public static final RegistryObject<Item> SHINE_CUPCAKE = FOODS.register("shine_cupcake", () ->
+            new EffectFood(MobEffects.WATER_BREATHING, 600, 0, 8, 0.5f));
+    public static final RegistryObject<Item> CABALLERITA_CAKE = FOODS.register("caballerita_cake",() ->
+            new EffectFood(MobEffects.FIRE_RESISTANCE, 600, 0, 10, 0.6f));
     public static final RegistryObject<Item> CLORETS = FOODS.register("clorets",
             Clorets::new);
     public static final RegistryObject<Item> BLUE_CLORETS = FOODS.register("blue_clorets",
-            BlueClorets::new);
-    public static final RegistryObject<Item> FRAOPU = FOODS.register("fraopu",
-            Fraopu::new);
+            Clorets::new);
+    public static final RegistryObject<Item> FRAOPU = FOODS.register("fraopu",() ->
+            new EffectFood(MobEffects.REGENERATION, 400, 0, 6, 1.0f));
     public static final RegistryObject<Item> ENDERITA_APPLE = FOODS.register("enderita_apple", () ->
             new Apples(MobEffects.REGENERATION, 300, 2));
-    public static final RegistryObject<Item> ALEZARITA_CHICKEN = FOODS.register("alezarita_chicken",
-            AlezaritaChicken::new);
+    public static final RegistryObject<Item> ALEZARITA_CHICKEN = FOODS.register("alezarita_chicken",() ->
+            new EffectFood(MobEffects.FIRE_RESISTANCE, 600, 0, 11, 0.9f));
     public static final RegistryObject<Item> HUGODIUM_SMOOTHIE = FOODS.register("hugodium_smoothie",
-            HugodiumSmoothie::new);
+            Smoothie::new);
     public static final RegistryObject<Item> PEPENNE = FOODS.register("pepenne",
             Pepenne::new);
 

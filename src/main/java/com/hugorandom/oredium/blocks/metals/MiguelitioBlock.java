@@ -1,4 +1,4 @@
-package com.hugorandom.oredium.blocks.specials;
+package com.hugorandom.oredium.blocks.metals;
 
 import com.hugorandom.oredium.blocks.MetalBlock;
 import com.hugorandom.oredium.init.ItemsInit;

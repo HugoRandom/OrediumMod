@@ -2,9 +2,9 @@ package com.hugorandom.oredium.init;
 
 import com.hugorandom.oredium.Oredium;
 import com.hugorandom.oredium.blocks.*;
-import com.hugorandom.oredium.blocks.specials.FranitolinaBlock;
-import com.hugorandom.oredium.blocks.specials.MiguelitioBlock;
-import com.hugorandom.oredium.blocks.specials.ShineBlock;
+import com.hugorandom.oredium.blocks.metals.FranitolinaBlock;
+import com.hugorandom.oredium.blocks.metals.MiguelitioBlock;
+import com.hugorandom.oredium.blocks.metals.ShineBlock;
 import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
