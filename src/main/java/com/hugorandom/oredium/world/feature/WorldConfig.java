@@ -1,6 +1,6 @@
 package com.hugorandom.oredium.world.feature;
 
-import com.hugorandom.oredium.blocks.BlocksInit;
+import com.hugorandom.oredium.init.BlocksInit;
 import net.minecraft.core.Holder;
 import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.data.worldgen.features.OreFeatures;

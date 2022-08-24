@@ -1,6 +1,7 @@
-package com.hugorandom.oredium.foods;
+package com.hugorandom.oredium.init;
 
 import com.hugorandom.oredium.Oredium;
+import com.hugorandom.oredium.foods.*;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;

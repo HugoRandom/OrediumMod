@@ -1,4 +1,4 @@
-package com.hugorandom.oredium.particles;
+package com.hugorandom.oredium.init;
 
 import com.hugorandom.oredium.Oredium;
 import net.minecraft.core.particles.ParticleType;

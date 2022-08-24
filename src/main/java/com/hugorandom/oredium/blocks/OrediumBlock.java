@@ -1,8 +1,8 @@
 package com.hugorandom.oredium.blocks;
 
 import com.hugorandom.oredium.blocks.entitys.UpgradingEntity;
-import com.hugorandom.oredium.blocks.entitys.BlocksEntitiesInit;
-import com.hugorandom.oredium.particles.ParticlesInit;
+import com.hugorandom.oredium.init.BlocksEntitiesInit;
+import com.hugorandom.oredium.init.ParticlesInit;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;

@@ -1,10 +1,10 @@
 package com.hugorandom.oredium.events;
 
 import com.hugorandom.oredium.Oredium;
-import com.hugorandom.oredium.blocks.BlockFluidsInit;
-import com.hugorandom.oredium.blocks.BlocksInit;
-import com.hugorandom.oredium.fluids.FluidsInit;
-import com.hugorandom.oredium.screens.MenusInit;
+import com.hugorandom.oredium.init.BlockFluidsInit;
+import com.hugorandom.oredium.init.BlocksInit;
+import com.hugorandom.oredium.init.FluidsInit;
+import com.hugorandom.oredium.init.MenusInit;
 import com.hugorandom.oredium.screens.UpgradingScreen;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;

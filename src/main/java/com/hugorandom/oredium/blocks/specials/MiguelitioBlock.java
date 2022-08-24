@@ -1,8 +1,8 @@
 package com.hugorandom.oredium.blocks.specials;
 
 import com.hugorandom.oredium.blocks.MetalBlock;
-import com.hugorandom.oredium.items.ItemsInit;
-import com.hugorandom.oredium.particles.ParticlesInit;
+import com.hugorandom.oredium.init.ItemsInit;
+import com.hugorandom.oredium.init.ParticlesInit;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;

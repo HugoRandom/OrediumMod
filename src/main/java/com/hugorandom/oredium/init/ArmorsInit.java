@@ -1,4 +1,4 @@
-package com.hugorandom.oredium.armors;
+package com.hugorandom.oredium.init;
 
 import com.hugorandom.oredium.Oredium;
 import com.hugorandom.oredium.armors.Armor;

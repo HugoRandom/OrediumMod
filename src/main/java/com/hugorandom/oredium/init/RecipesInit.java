@@ -1,4 +1,4 @@
-package com.hugorandom.oredium.screens.slots.recipes;
+package com.hugorandom.oredium.init;
 
 import com.hugorandom.oredium.Oredium;
 import com.hugorandom.oredium.screens.slots.recipes.UpgradingRecipe;

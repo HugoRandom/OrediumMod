@@ -1,9 +1,9 @@
 package com.hugorandom.oredium.util;
 
-import com.hugorandom.oredium.blocks.BlocksInit;
-import com.hugorandom.oredium.foods.FoodsInit;
-import com.hugorandom.oredium.items.BucketsInit;
-import com.hugorandom.oredium.tools.ToolsInit;
+import com.hugorandom.oredium.init.BlocksInit;
+import com.hugorandom.oredium.init.FoodsInit;
+import com.hugorandom.oredium.init.BucketsInit;
+import com.hugorandom.oredium.init.ToolsInit;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 

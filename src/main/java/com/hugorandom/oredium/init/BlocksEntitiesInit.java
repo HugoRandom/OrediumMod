@@ -1,8 +1,8 @@
-package com.hugorandom.oredium.blocks.entitys;
+package com.hugorandom.oredium.init;
 
 import com.hugorandom.oredium.Oredium;
-import com.hugorandom.oredium.blocks.BlocksInit;
 import com.hugorandom.oredium.blocks.entitys.UpgradingEntity;
+import com.hugorandom.oredium.init.BlocksInit;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

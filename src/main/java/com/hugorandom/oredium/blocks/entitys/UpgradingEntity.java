@@ -1,6 +1,7 @@
 package com.hugorandom.oredium.blocks.entitys;
 
-import com.hugorandom.oredium.others.SoundsInit;
+import com.hugorandom.oredium.init.BlocksEntitiesInit;
+import com.hugorandom.oredium.init.SoundsInit;
 import com.hugorandom.oredium.screens.slots.recipes.UpgradingRecipe;
 import com.hugorandom.oredium.screens.UpgradingMenu;
 import net.minecraft.core.BlockPos;

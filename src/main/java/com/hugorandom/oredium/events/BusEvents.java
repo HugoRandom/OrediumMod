@@ -1,7 +1,7 @@
 package com.hugorandom.oredium.events;
 
 import com.hugorandom.oredium.Oredium;
-import com.hugorandom.oredium.particles.ParticlesInit;
+import com.hugorandom.oredium.init.ParticlesInit;
 import com.hugorandom.oredium.particles.NormalParticle;
 import com.hugorandom.oredium.screens.slots.recipes.UpgradingRecipe;
 import net.minecraft.client.Minecraft;

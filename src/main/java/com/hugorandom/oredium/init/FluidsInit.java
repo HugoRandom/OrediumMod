@@ -1,8 +1,6 @@
-package com.hugorandom.oredium.fluids;
+package com.hugorandom.oredium.init;
 
 import com.hugorandom.oredium.Oredium;
-import com.hugorandom.oredium.blocks.BlockFluidsInit;
-import com.hugorandom.oredium.items.BucketsInit;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.level.material.Fluid;

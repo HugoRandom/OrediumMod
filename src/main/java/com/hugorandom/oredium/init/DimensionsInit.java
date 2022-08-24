@@ -1,4 +1,4 @@
-package com.hugorandom.oredium.world.dimension;
+package com.hugorandom.oredium.init;
 
 import com.hugorandom.oredium.Oredium;
 import net.minecraft.core.Registry;

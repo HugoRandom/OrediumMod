@@ -1,6 +1,6 @@
 package com.hugorandom.oredium.items;
 
-import com.hugorandom.oredium.others.SoundsInit;
+import com.hugorandom.oredium.init.SoundsInit;
 import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;

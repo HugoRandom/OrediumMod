@@ -1,7 +1,9 @@
-package com.hugorandom.oredium.items;
+package com.hugorandom.oredium.init;
 
 import com.hugorandom.oredium.Oredium;
-import com.hugorandom.oredium.fluids.FluidsInit;
+import com.hugorandom.oredium.init.FluidsInit;
+import com.hugorandom.oredium.items.AmuletItem;
+import com.hugorandom.oredium.items.UMCItem;
 import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;

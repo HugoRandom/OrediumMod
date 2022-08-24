@@ -1,7 +1,7 @@
 package com.hugorandom.oredium.events;
 
 import com.hugorandom.oredium.Oredium;
-import com.hugorandom.oredium.armors.ArmorsInit;
+import com.hugorandom.oredium.init.ArmorsInit;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;

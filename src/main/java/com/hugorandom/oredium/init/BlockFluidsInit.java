@@ -1,7 +1,6 @@
-package com.hugorandom.oredium.blocks;
+package com.hugorandom.oredium.init;
 
 import com.hugorandom.oredium.Oredium;
-import com.hugorandom.oredium.fluids.FluidsInit;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;

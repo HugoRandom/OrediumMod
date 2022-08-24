@@ -1,4 +1,4 @@
-package com.hugorandom.oredium.others;
+package com.hugorandom.oredium.init;
 
 import com.hugorandom.oredium.Oredium;
 import net.minecraft.resources.ResourceLocation;
