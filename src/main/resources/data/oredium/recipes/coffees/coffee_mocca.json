@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SMS",
+    "C#C",
+    " G "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "C": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "#": {
+      "item": "oredium:coffee_chemical"
+    },
+    "G": {
+      "item": "oredium:coffee_cup"
+    }
+  },
+  "result": {
+    "item": "oredium:coffee_mocca",
+    "count": 1
+  }
+}

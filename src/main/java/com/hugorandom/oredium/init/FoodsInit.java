@@ -41,25 +41,25 @@ public class FoodsInit {
     public static final RegistryObject<Item> BLANK_PILL = FOODS.register("blank_pill", ()->
             new Pill(MobEffects.HUNGER, 600, 0));
     public static final RegistryObject<Item> SHINE_PILL = FOODS.register("shine_pill", ()->
-            new Pill(MobEffects.GLOWING, 1200, 0));
+            new Pill(MobEffects.REGENERATION, 200, 0));
     public static final RegistryObject<Item> CABALLERITA_PILL = FOODS.register("caballerita_pill", ()->
-            new Pill(MobEffects.GLOWING, 1200, 0));
+            new Pill(MobEffects.REGENERATION, 200, 0));
     public static final RegistryObject<Item> AXIDITA_PILL = FOODS.register("axidita_pill", ()->
-            new Pill(MobEffects.GLOWING, 1200, 0));
+            new Pill(MobEffects.REGENERATION, 200, 0));
     public static final RegistryObject<Item> CESARITA_PILL = FOODS.register("cesarita_pill", ()->
-            new Pill(MobEffects.GLOWING, 1200, 0));
+            new Pill(MobEffects.REGENERATION, 200, 0));
     public static final RegistryObject<Item> FRANITOLINA_PILL = FOODS.register("franitolina_pill", ()->
-            new Pill(MobEffects.GLOWING, 1200, 0));
+            new Pill(MobEffects.REGENERATION, 200, 0));
     public static final RegistryObject<Item> MELUNA_PILL = FOODS.register("meluna_pill", ()->
-            new Pill(MobEffects.GLOWING, 1200, 0));
+            new Pill(MobEffects.REGENERATION, 200, 0));
     public static final RegistryObject<Item> ENDERITA_PILL = FOODS.register("enderita_pill", ()->
-            new Pill(MobEffects.GLOWING, 1200, 0));
+            new Pill(MobEffects.REGENERATION, 200, 0));
     public static final RegistryObject<Item> ALEZARITA_PILL = FOODS.register("alezarita_pill", ()->
-            new Pill(MobEffects.GLOWING, 1200, 0));
+            new Pill(MobEffects.REGENERATION, 200, 0));
     public static final RegistryObject<Item> HUGODIUM_PILL = FOODS.register("hugodium_pill", ()->
-            new Pill(MobEffects.GLOWING, 1200, 0));
+            new Pill(MobEffects.REGENERATION, 200, 0));
     public static final RegistryObject<Item> MIGUELITIO_PILL = FOODS.register("miguelitio_pill", ()->
-            new Pill(MobEffects.GLOWING, 1200, 0));
+            new Pill(MobEffects.REGENERATION, 200, 0));
 
     // Pildoras fuertes
     public static final RegistryObject<Item> A12_PILL = FOODS.register("a12_pill", ()->
@@ -88,4 +88,30 @@ public class FoodsInit {
             new PillRandom(MobEffects.GLOWING, 600, 0));
     public static final RegistryObject<Item> OREDIUM_PILL = FOODS.register("oredium_pill", ()->
             new PillDoble(MobEffects.POISON, 600, 0));
+
+    // Cafes
+    public static final RegistryObject<Item> COFFEE_CHEMICAL = FOODS.register("coffee_chemical", ()->
+            new Coffees(1, 0.1F));
+    public static final RegistryObject<Item> COFFEE_CUP = FOODS.register("coffee_cup", ()->
+            new EffectFood(MobEffects.POISON, 100, 0,1, 0.1F));
+    public static final RegistryObject<Item> COFFEE_ESPRESSO = FOODS.register("coffee_espresso", ()->
+            new Coffees(6, 0.5F));
+    public static final RegistryObject<Item> COFFEE_AMERICANO = FOODS.register("coffee_americano", ()->
+            new Coffees(7, 0.5F));
+    public static final RegistryObject<Item> COFFEE_LATTE = FOODS.register("coffee_latte", ()->
+            new Coffees(8, 0.6F));
+    public static final RegistryObject<Item> COFFEE_LUNGO = FOODS.register("coffee_lungo", ()->
+            new Coffees(8, 0.6F));
+    public static final RegistryObject<Item> COFFEE_CAPPUCCINO = FOODS.register("coffee_cappuccino", ()->
+            new Coffees(9, 0.6F));
+    public static final RegistryObject<Item> COFFEE_BOMBON = FOODS.register("coffee_bombon", ()->
+            new Coffees(6, 0.8F));
+    public static final RegistryObject<Item> COFFEE_CAFELECHE = FOODS.register("coffee_cafeleche", ()->
+            new Coffees(7, 0.6F));
+    public static final RegistryObject<Item> COFFEE_IRISH = FOODS.register("coffee_irish", ()->
+            new Coffees(9, 0.7F));
+    public static final RegistryObject<Item> COFFEE_MOCCA = FOODS.register("coffee_mocca", ()->
+            new Coffees(10, 0.9F));
+    public static final RegistryObject<Item> COFFEE_CARAJILLO = FOODS.register("coffee_carajillo", ()->
+            new Coffees(7, 0.8F));
 }

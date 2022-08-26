@@ -6,7 +6,7 @@ import com.hugorandom.oredium.init.BlocksInit;
 import com.hugorandom.oredium.init.BlocksEntitiesInit;
 import com.hugorandom.oredium.init.FluidsInit;
 import com.hugorandom.oredium.init.FoodsInit;
-import com.hugorandom.oredium.init.ItemsInit;
+import com.hugorandom.oredium.init.Items1Init;
 import com.hugorandom.oredium.init.Items2Init;
 import com.hugorandom.oredium.init.ParticlesInit;
 import com.hugorandom.oredium.init.MenusInit;
@@ -35,7 +35,7 @@ public class Oredium
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ItemsInit.register(eventBus);
+        Items1Init.register(eventBus);
         BlocksInit.register(eventBus);
         FoodsInit.register(eventBus);
         FluidsInit.register(eventBus);

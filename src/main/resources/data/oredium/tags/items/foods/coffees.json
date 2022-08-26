@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "oredium:coffee_espresso",
+    "oredium:coffee_latte",
+    "oredium:coffee_americano",
+    "oredium:coffee_lungo",
+    "oredium:coffee_cappuccino",
+    "oredium:coffee_bombon",
+    "oredium:coffee_cafeleche",
+    "oredium:coffee_irish",
+    "oredium:coffee_mocca",
+    "oredium:coffee_carajillo"
+  ]
+}

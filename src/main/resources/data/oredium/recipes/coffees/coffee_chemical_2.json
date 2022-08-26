@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#G#",
+    "SSS"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:crops"
+    },
+    "G": {
+      "tag": "oredium:dusts"
+    },
+    "S": {
+      "item": "minecraft:sugar_cane"
+    }
+  },
+  "result": {
+    "item": "oredium:coffee_chemical",
+    "count": 16
+  }
+}

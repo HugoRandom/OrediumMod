@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    "#S#",
+    " G "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "M": {
+      "item": "minecraft:honey_bottle"
+    },
+    "#": {
+      "item": "oredium:coffee_chemical"
+    },
+    "G": {
+      "item": "oredium:coffee_cup"
+    }
+  },
+  "result": {
+    "item": "oredium:coffee_carajillo",
+    "count": 1
+  }
+}

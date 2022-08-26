@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "oredium:solima"
+      "item": "oredium:dimensional_resonator"
     },
     "title": {
       "translate": "advancement.dimension_title"
@@ -19,7 +19,7 @@
     "oredium_dim": {
       "trigger": "minecraft:changed_dimension",
       "conditions": {
-        "to": "oredium:oredium_dim"
+        "to": "oredium:mapashe"
       }
     }
   },

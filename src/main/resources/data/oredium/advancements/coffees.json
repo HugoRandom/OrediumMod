@@ -1,29 +1,29 @@
 {
   "display": {
     "icon": {
-      "item": "oredium:enderita_apple"
+      "item": "oredium:coffee_cafeleche"
     },
     "title": {
-      "translate": "advancement.foods_title"
+      "translate": "advancement.coffees_title"
     },
     "description": {
-      "translate": "advancement.foods_desc"
+      "translate": "advancement.coffees_desc"
     },
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "oredium:start",
+  "parent": "oredium:foods",
   "criteria": {
-    "consume_food": {
-      "trigger": "minecraft:inventory_changed",
+    "consume_coffee": {
+      "trigger": "minecraft:consume_item",
       "conditions": {
         "item": [
           {
             "tag": [
-              "oredium:foods"
-            ]
+				"oredium:foods/coffees"
+			]
           }
         ]
       }
@@ -31,7 +31,7 @@
   },
   "requirements": [
     [
-		"consume_food"
+      "consume_coffee"
     ]
   ]
 }

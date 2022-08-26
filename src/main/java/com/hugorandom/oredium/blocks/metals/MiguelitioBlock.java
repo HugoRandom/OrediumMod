@@ -1,20 +1,10 @@
 package com.hugorandom.oredium.blocks.metals;
 
 import com.hugorandom.oredium.blocks.MetalBlock;
-import com.hugorandom.oredium.init.ItemsInit;
 import com.hugorandom.oredium.init.ParticlesInit;
 import net.minecraft.core.BlockPos;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.sounds.SoundEvents;
-import net.minecraft.sounds.SoundSource;
-import net.minecraft.world.InteractionHand;
-import net.minecraft.world.InteractionResult;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.MobSpawnType;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.phys.BlockHitResult;
 
 import java.util.Random;
 

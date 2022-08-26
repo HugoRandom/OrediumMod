@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:seeds"
+    },
+    {
+      "tag": "oredium:nuggets"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:seeds"
+    }
+  ],
+  "result": {
+    "item": "oredium:coffee_chemical",
+    "count": 2
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " G "
+  ],
+  "key": {
+    "#": {
+      "item": "oredium:coffee_chemical"
+    },
+    "G": {
+      "item": "oredium:coffee_cup"
+    }
+  },
+  "result": {
+    "item": "oredium:coffee_espresso",
+    "count": 1
+  }
+}

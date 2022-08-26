@@ -101,6 +101,6 @@ public class OrediumBlock extends BaseEntityBlock {
 	}
 
 	private boolean isEnergyBlock(BlockState state) {
-		return state.is(ModTags.Blocks.OREDIUM_ENERGY);
+		return state.is(ModTags.Blocks.ENERGY);
 	}
 }

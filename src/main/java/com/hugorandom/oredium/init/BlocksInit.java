@@ -34,7 +34,7 @@ public class BlocksInit {
         return BLOCKS.register(name, block);
     }
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block){
-        return ItemsInit.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(ItemGroupTabs.OREDIUM_BLOCKS)));
+        return Items1Init.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(ItemGroupTabs.OREDIUM_BLOCKS)));
     }
 
     public static void register(IEventBus eventBus){

@@ -337,13 +337,15 @@
 	"advancement.oredium_block_title": "Ahora se viene lo Chido",
 	"advancement.oredium_block_desc": "Consigue un bloque de Oredium",
 	"advancement.dimension_title": "Dimension desconocida...",
-	"advancement.dimension_desc": "TEP - NO LISTO AUN",
+	"advancement.dimension_desc": "Bienvenido al sufrimiento",
 	"advancement.gems_title": "Necesitamos mejorar",
 	"advancement.gems_desc": "Consigue una gema de mejoras",
 	"advancement.upgraded_title": "MegaEvolucion",
 	"advancement.upgraded_desc": "Consigue una armadura mejorada",
 	"advancement.pills_title": "Anti-Anti-Vacunas",
 	"advancement.pills_desc": "Conoce los beneficios de las vitaminas",
+	"advancement.coffees_title": "Es que me dio sed",
+	"advancement.coffees_desc": "Tomate un cafesito turbocontaminado",
 
 	"item.oredium.hugodium_bucket": "Cubeta de Hugodium Fundido",
 	"item.oredium.alezarita_bucket": "Cubeta de Alezarita Fundido",
@@ -372,5 +374,20 @@
 	"item.oredium.dimensional_resonator": "Resonador dimensional",
 	"tooltip.oredium.teleporter": "§5Tiene poderes de teleportacion",
 	"text.oredium.overworld": "Vuelta a la normalidad",
-	"text.oredium.mapashe": "En un mundo extraño..."
+	"text.oredium.mapashe": "En un mundo extraño...",
+
+	"item.oredium.coffee_chemical": "Café Quimico",
+	"item.oredium.coffee_cup": "Taza de Café",
+	"item.oredium.coffee_espresso": "Espresso",
+	"item.oredium.coffee_latte": "Latte",
+	"item.oredium.coffee_americano": "Americano",
+	"item.oredium.coffee_lungo": "Lungo",
+	"item.oredium.coffee_cappuccino": "Cappuccino",
+	"item.oredium.coffee_bombon": "Bombon",
+	"item.oredium.coffee_cafeleche": "Café con Leche",
+	"item.oredium.coffee_irish": "Irish",
+	"item.oredium.coffee_mocca": "Mocca",
+	"item.oredium.coffee_carajillo": "Carajillo",
+
+	"tooltip.oredium.coffee_chemical": "Hecho por humanos no naturalmente"
 }

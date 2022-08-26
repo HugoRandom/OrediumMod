@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    " M ",
+    " G "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:water_bucket"
+    },
+    "#": {
+      "item": "oredium:coffee_chemical"
+    },
+    "G": {
+      "item": "oredium:coffee_cup"
+    }
+  },
+  "result": {
+    "item": "oredium:coffee_americano",
+    "count": 1
+  }
+}

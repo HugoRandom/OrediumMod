@@ -1,0 +1,27 @@
+{
+  "group": "special",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "H#H",
+    "PEP",
+    " E "
+  ],
+  "key": {
+    "E": {
+      "item": "oredium:enderita_ingot"
+    },
+    "#": {
+      "item": "oredium:umc"
+    },
+    "H": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "oredium:dimensional_resonator",
+    "count": 1
+  }
+}
