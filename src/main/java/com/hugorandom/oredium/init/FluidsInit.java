@@ -32,7 +32,7 @@ public class FluidsInit {
     			.overlay(HUGODIUM_STILL).luminosity(15).density(3000).viscosity(6000).temperature(1500)
     			.sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
     			.explosionResistance(1000.0f).tickRate(20).levelDecreasePerBlock(2)
-				.bucket(BucketsInit.HUGODIUM_BUCKET).block(BlockFluidsInit.MOLTEN_HUGODIUM_BLOCK);
+				.bucket(Items2Init.HUGODIUM_BUCKET).block(BlockFluidsInit.MOLTEN_HUGODIUM_BLOCK);
     
     // Alezarita
     public static final ResourceLocation ALEZARITA_STILL = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/alezarita_still");
@@ -47,7 +47,7 @@ public class FluidsInit {
     			.overlay(ALEZARITA_STILL).luminosity(15).density(3000).viscosity(6000).temperature(1500)
     			.sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
     			.explosionResistance(1000.0f).tickRate(20).levelDecreasePerBlock(2)
-				.bucket(BucketsInit.ALEZARITA_BUCKET).block(BlockFluidsInit.MOLTEN_ALEZARITA_BLOCK);
+				.bucket(Items2Init.ALEZARITA_BUCKET).block(BlockFluidsInit.MOLTEN_ALEZARITA_BLOCK);
     
     // Axidita
 	public static final ResourceLocation AXIDITA_STILL = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/axidita_still");
@@ -62,7 +62,7 @@ public class FluidsInit {
 			.overlay(AXIDITA_STILL).luminosity(15).density(3000).viscosity(6000).temperature(1000)
 			.sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
 			.explosionResistance(1000.0f).tickRate(20).levelDecreasePerBlock(2)
-			.bucket(BucketsInit.AXIDITA_BUCKET).block(BlockFluidsInit.MOLTEN_AXIDITA_BLOCK);
+			.bucket(Items2Init.AXIDITA_BUCKET).block(BlockFluidsInit.MOLTEN_AXIDITA_BLOCK);
     
     // Franitolina
 	public static final ResourceLocation FRANITOLINA_STILL = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/franitolina_still");
@@ -77,7 +77,7 @@ public class FluidsInit {
 			.overlay(FRANITOLINA_STILL).luminosity(15).density(3000).viscosity(6000).temperature(1000)
 			.sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
 			.explosionResistance(1000.0f).tickRate(20).levelDecreasePerBlock(2)
-			.bucket(BucketsInit.FRANITOLINA_BUCKET).block(BlockFluidsInit.MOLTEN_FRANITOLINA_BLOCK);
+			.bucket(Items2Init.FRANITOLINA_BUCKET).block(BlockFluidsInit.MOLTEN_FRANITOLINA_BLOCK);
     
     // Miguelitio
 	public static final ResourceLocation MIGUELITIO_STILL = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/miguelitio_still");
@@ -92,7 +92,7 @@ public class FluidsInit {
 			.overlay(MIGUELITIO_STILL).luminosity(15).density(3000).viscosity(6000).temperature(1500)
 			.sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
 			.explosionResistance(1000.0f).tickRate(20).levelDecreasePerBlock(2)
-			.bucket(BucketsInit.MIGUELITIO_BUCKET).block(BlockFluidsInit.MOLTEN_MIGUELITIO_BLOCK);
+			.bucket(Items2Init.MIGUELITIO_BUCKET).block(BlockFluidsInit.MOLTEN_MIGUELITIO_BLOCK);
     
     // Shine
 	public static final ResourceLocation SHINE_STILL = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/shine_still");
@@ -107,7 +107,7 @@ public class FluidsInit {
 			.overlay(SHINE_STILL).luminosity(15).density(3000).viscosity(6000).temperature(800)
 			.sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
 			.explosionResistance(1000.0f).tickRate(20).levelDecreasePerBlock(2)
-			.bucket(BucketsInit.SHINE_BUCKET).block(BlockFluidsInit.MOLTEN_SHINE_BLOCK);
+			.bucket(Items2Init.SHINE_BUCKET).block(BlockFluidsInit.MOLTEN_SHINE_BLOCK);
     
     // Cesarita
 	public static final ResourceLocation CESARITA_STILL = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/cesarita_still");
@@ -122,7 +122,7 @@ public class FluidsInit {
 			.overlay(CESARITA_STILL).luminosity(15).density(3000).viscosity(6000).temperature(1000)
 			.sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
 			.explosionResistance(1000.0f).tickRate(20).levelDecreasePerBlock(2)
-			.bucket(BucketsInit.CESARITA_BUCKET).block(BlockFluidsInit.MOLTEN_CESARITA_BLOCK);
+			.bucket(Items2Init.CESARITA_BUCKET).block(BlockFluidsInit.MOLTEN_CESARITA_BLOCK);
     
     // Caballerita
 	public static final ResourceLocation CABALLERITA_STILL = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/caballerita_still");
@@ -137,7 +137,7 @@ public class FluidsInit {
 			.overlay(CABALLERITA_STILL).luminosity(15).density(3000).viscosity(6000).temperature(1000)
 			.sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
 			.explosionResistance(1000.0f).tickRate(20).levelDecreasePerBlock(2)
-			.bucket(BucketsInit.CABALLERITA_BUCKET).block(BlockFluidsInit.MOLTEN_CABALLERITA_BLOCK);
+			.bucket(Items2Init.CABALLERITA_BUCKET).block(BlockFluidsInit.MOLTEN_CABALLERITA_BLOCK);
     
     // Enderita
 	public static final ResourceLocation ENDERITA_STILL = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/enderita_still");
@@ -152,7 +152,7 @@ public class FluidsInit {
 			.overlay(ENDERITA_STILL).luminosity(15).density(3000).viscosity(6000).temperature(1200)
 			.sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
 			.explosionResistance(1000.0f).tickRate(20).levelDecreasePerBlock(2)
-			.bucket(BucketsInit.ENDERITA_BUCKET).block(BlockFluidsInit.MOLTEN_ENDERITA_BLOCK);
+			.bucket(Items2Init.ENDERITA_BUCKET).block(BlockFluidsInit.MOLTEN_ENDERITA_BLOCK);
     
     // Infernum
 
@@ -168,7 +168,7 @@ public class FluidsInit {
 			.overlay(INFERNUM_STILL).luminosity(15).density(3000).viscosity(6000).temperature(2500)
 			.sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
 			.explosionResistance(1000.0f).tickRate(20).levelDecreasePerBlock(2)
-			.bucket(BucketsInit.INFERNUM_BUCKET).block(BlockFluidsInit.INFERNUM_BLOCK);
+			.bucket(Items2Init.INFERNUM_BUCKET).block(BlockFluidsInit.INFERNUM_BLOCK);
 
 	// Meluna
 	public static final ResourceLocation MELUNA_STILL = new ResourceLocation(Oredium.MOD_ID, "blocks/fluids/meluna_still");
@@ -183,5 +183,5 @@ public class FluidsInit {
 			.overlay(MELUNA_STILL).luminosity(15).density(3000).viscosity(6000).temperature(1000)
 			.sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA))
 			.explosionResistance(1000.0f).tickRate(20).levelDecreasePerBlock(2)
-			.bucket(BucketsInit.MELUNA_BUCKET).block(BlockFluidsInit.MOLTEN_MELUNA_BLOCK);
+			.bucket(Items2Init.MELUNA_BUCKET).block(BlockFluidsInit.MOLTEN_MELUNA_BLOCK);
 }

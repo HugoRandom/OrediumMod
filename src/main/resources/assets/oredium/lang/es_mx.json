@@ -367,5 +367,10 @@
 	"fluid.oredium.molten_cesarita": "Cesarita Fundida",
 	"fluid.oredium.molten_caballerita": "Caballerita Fundida",
 	"fluid.oredium.molten_enderita": "Enderita Fundido",
-	"fluid.oredium.molten_infernum": "Infernum"
+	"fluid.oredium.molten_infernum": "Infernum",
+
+	"item.oredium.dimensional_resonator": "Resonador dimensional",
+	"tooltip.oredium.teleporter": "§5Tiene poderes de teleportacion",
+	"text.oredium.overworld": "Vuelta a la normalidad",
+	"text.oredium.mapashe": "En un mundo extraño..."
 }

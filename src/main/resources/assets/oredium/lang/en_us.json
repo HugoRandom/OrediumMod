@@ -367,5 +367,10 @@
 	"fluid.oredium.molten_alezarita": "Molten Alezarita",
 	"fluid.oredium.molten_hugodium": "Molten Hugodium",
 	"fluid.oredium.molten_miguelitio": "Molten Miguelitio",
-	"fluid.oredium.molten_infernum": "Infernum"
+	"fluid.oredium.molten_infernum": "Infernum",
+
+	"item.oredium.dimensional_resonator": "Dimensional Resonator",
+	"tooltip.oredium.teleporter": "Has teleportation power",
+	"text.oredium.overworld": "Back to the Normality",
+	"text.oredium.mapashe": "The strange World..."
 }

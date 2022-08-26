@@ -7,7 +7,7 @@ import com.hugorandom.oredium.init.BlocksEntitiesInit;
 import com.hugorandom.oredium.init.FluidsInit;
 import com.hugorandom.oredium.init.FoodsInit;
 import com.hugorandom.oredium.init.ItemsInit;
-import com.hugorandom.oredium.init.BucketsInit;
+import com.hugorandom.oredium.init.Items2Init;
 import com.hugorandom.oredium.init.ParticlesInit;
 import com.hugorandom.oredium.init.MenusInit;
 import com.hugorandom.oredium.init.RecipesInit;
@@ -40,7 +40,7 @@ public class Oredium
         FoodsInit.register(eventBus);
         FluidsInit.register(eventBus);
         BlockFluidsInit.register(eventBus);
-        BucketsInit.register(eventBus);
+        Items2Init.register(eventBus);
         BlocksEntitiesInit.register(eventBus);
         ToolsInit.register(eventBus);
         ArmorsInit.register(eventBus);
