@@ -332,7 +332,7 @@
 	"advancement.umc_desc": "Prepara el Catalizador Urente Monocloroacético",
 	"advancement.foods_title": "Pa no tener hambre",
 	"advancement.foods_desc": "Consigue un alimento del Oredium",
-	"advancement.caballerita_cake_title": "Fatto di fatica",
+	"advancement.caballerita_cake_title": "Tengo frio bro",
 	"advancement.caballerita_cake_desc": "Come un Pastel de Caballerita, en el Nether",
 	"advancement.oredium_block_title": "Ahora se viene lo Chido",
 	"advancement.oredium_block_desc": "Consigue un bloque de Oredium",
@@ -345,7 +345,7 @@
 	"advancement.pills_title": "Anti-Anti-Vacunas",
 	"advancement.pills_desc": "Conoce los beneficios de las vitaminas",
 	"advancement.coffees_title": "Es que me dio sed",
-	"advancement.coffees_desc": "Tomate un cafesito turbocontaminado",
+	"advancement.coffees_desc": "Consigue un cafesito turbocontaminado",
 
 	"item.oredium.hugodium_bucket": "Cubeta de Hugodium Fundido",
 	"item.oredium.alezarita_bucket": "Cubeta de Alezarita Fundido",
@@ -389,5 +389,26 @@
 	"item.oredium.coffee_mocca": "Mocca",
 	"item.oredium.coffee_carajillo": "Carajillo",
 
-	"tooltip.oredium.coffee_chemical": "Hecho por humanos no naturalmente"
+	"tooltip.oredium.alezarita_chicken": "§1¿Sabe a pollo?",
+	"tooltip.oredium.clorets": "§a$0.05",
+	"tooltip.oredium.caballerita_cake": "§eSabroso, supongo",
+	"tooltip.oredium.blue_clorets": "§9$0.05",
+	"tooltip.oredium.enderita_apple": "§dManzana generica #47854",
+	"tooltip.oredium.fraopu": "§6Corazones para el Rey",
+	"tooltip.oredium.hugodium_smoothie": "§cSi, la copa es comestible",
+	"tooltip.oredium.pepenne": "§bFatto di Fatida",
+	"tooltip.oredium.shine_cupcake": "§9Inserte texto aqui xd",
+
+	"tooltip.oredium.coffee_chemical": "§2Hecho por humanos no naturalmente",
+	"tooltip.oredium.coffee_cup": "§6Comestible, pero no recomendado",
+	"tooltip.oredium.coffee_espresso": "§9Listo para empezar el dia",
+	"tooltip.oredium.coffee_latte": "§aTarde para el trabajo",
+	"tooltip.oredium.coffee_americano": "§eHecho en America",
+	"tooltip.oredium.coffee_lungo": "§8Big Chungus",
+	"tooltip.oredium.coffee_cappuccino": "§6Pappumania",
+	"tooltip.oredium.coffee_bombon": "§dYa me quedé sin ideas",
+	"tooltip.oredium.coffee_cafeleche": "§dClasico",
+	"tooltip.oredium.coffee_irish": "§1Semi-Alcoholico",
+	"tooltip.oredium.coffee_mocca": "§cContra extra azucar",
+	"tooltip.oredium.coffee_carajillo": "§bIgual al dueño"
 }

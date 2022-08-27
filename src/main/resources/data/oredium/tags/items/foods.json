@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "oredium:foods/basic",
-    "oredium:foods/pills",
-    "oredium:foods/double_pills",
-    "oredium:foods/coffees"
+    "#oredium:foods/basic",
+    "#oredium:foods/pills",
+    "#oredium:foods/double_pills",
+    "#oredium:foods/coffees"
   ]
 }

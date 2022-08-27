@@ -20,7 +20,6 @@ public class PillDoble extends Item {
     public static final FoodProperties PILLS(MobEffect pEffect, int duration, int amplifier){
         FoodProperties build = new FoodProperties.Builder()
                 .effect(() -> new MobEffectInstance(pEffect, duration, amplifier), 1.0f)
-                .effect(() -> new MobEffectInstance(MobEffects.GLOWING, duration, 0), 1.0f)
                 .nutrition(2)
                 .saturationMod(0.2f)
                 .alwaysEat()

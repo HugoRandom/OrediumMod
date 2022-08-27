@@ -275,7 +275,7 @@
 	"item.oredium.miguelitio_boots_upgraded": "Miguelitio Boots Upgraded",	
 	"item.oredium.shine_boots_upgraded": "Shine Boots Upgraded",	
 
-	"item.oredium.alezarita_chicken": "Alezarita Chicken",	
+	"item.oredium.alezarita_chicken": "Alezarita Chicken",
 	"item.oredium.clorets": "Clorets",	
 	"item.oredium.caballerita_cake": "Caballeria Cake",	
 	"item.oredium.blue_clorets": "Blue Clorets",
@@ -332,7 +332,7 @@
 	"advancement.umc_desc": "Prepare the Urent Monochloroacetic Catalyst",
 	"advancement.foods_title": "To not go hungry",
 	"advancement.foods_desc": "Get a Oredium food",	
-	"advancement.caballerita_cake_title": "Fatto di fatica",
+	"advancement.caballerita_cake_title": "I´m cool Bro",
 	"advancement.caballerita_cake_desc": "Eat a Caballerita Cake, in the Nether",	
 	"advancement.oredium_block_title": "Now the fun begins",
 	"advancement.oredium_block_desc": "Get a Oredium Block",
@@ -345,7 +345,7 @@
 	"advancement.pills_title": "Anti-Anti-Vaxxers",
 	"advancement.pills_desc": "Known the benefits of the vitamins",
 	"advancement.coffees_title": "I want a drink",
-	"advancement.coffees_desc": "Drink a good coffee?",
+	"advancement.coffees_desc": "Get a good coffee?",
 
 	"item.oredium.shine_bucket": "Molten Shine Bucket",
 	"item.oredium.axidita_bucket": "Molten Axidita Bucket",
@@ -389,5 +389,26 @@
 	"item.oredium.coffee_mocca": "Mocca",
 	"item.oredium.coffee_carajillo": "Carajillo",
 
-	"tooltip.oredium.coffee_chemical": "Made by humans unnaturally"
+	"tooltip.oredium.alezarita_chicken": "§1Taste like chicken?",
+	"tooltip.oredium.clorets": "§a$0.05",
+	"tooltip.oredium.caballerita_cake": "§eTasty, I guess",
+	"tooltip.oredium.blue_clorets": "§9$0.05",
+	"tooltip.oredium.enderita_apple": "§dGeneric Apple #47854",
+	"tooltip.oredium.fraopu": "§6Hearts to the King",
+	"tooltip.oredium.hugodium_smoothie": "§cYes, the cup is edible",
+	"tooltip.oredium.pepenne": "§bFatto di Fatida",
+	"tooltip.oredium.shine_cupcake": "§9Sample Text xd",
+
+	"tooltip.oredium.coffee_chemical": "§2Made by humans unnaturally",
+	"tooltip.oredium.coffee_cup": "§6Edible, but not recommended",
+	"tooltip.oredium.coffee_espresso": "§9Get ready to start the day",
+	"tooltip.oredium.coffee_latte": "§aLate to work",
+	"tooltip.oredium.coffee_americano": "§eMade in America",
+	"tooltip.oredium.coffee_lungo": "§8Big Chungus",
+	"tooltip.oredium.coffee_cappuccino": "§6Pappumania",
+	"tooltip.oredium.coffee_bombon": "§dI don´t have more ideas xd",
+	"tooltip.oredium.coffee_cafeleche": "§dClassic",
+	"tooltip.oredium.coffee_irish": "§1Semi-Alcoholic",
+	"tooltip.oredium.coffee_mocca": "§cWith extra-sugar",
+	"tooltip.oredium.coffee_carajillo": "§bSame as the owner"
 }

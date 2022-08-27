@@ -16,14 +16,12 @@
   },
   "parent": "oredium:foods",
   "criteria": {
-    "consume_pills": {
-      "trigger": "minecraft:consume_item",
+    "pills": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "item": [
+        "items": [
           {
-            "tag": [
-               "oredium:foods/pills"
-            ]
+            "tag": "oredium:foods/pills"
           }
         ]
       }
@@ -31,7 +29,7 @@
   },
   "requirements": [
     [
-      "consume_pills"
+      "pills"
     ]
   ]
 }

@@ -16,14 +16,12 @@
   },
   "parent": "oredium:start",
   "criteria": {
-    "consume_food": {
+    "foods": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "item": [
+        "items": [
           {
-            "tag": [
-              "oredium:foods"
-            ]
+            "tag": "oredium:foods"
           }
         ]
       }
@@ -31,7 +29,7 @@
   },
   "requirements": [
     [
-		"consume_food"
+      "foods"
     ]
   ]
 }

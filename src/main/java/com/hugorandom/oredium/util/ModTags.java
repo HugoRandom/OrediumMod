@@ -25,6 +25,11 @@ public class ModTags {
     public static class Items {
         public static final TagKey<Item> OREDIUM_INGOTS_TAG = tag("ingots");
         public static final TagKey<Item> OREDIUM_NUGGETS_TAG = tag("nuggets");
+        public static final TagKey<Item> OREDIUM_FOODS_TAG = tag("foods");
+        public static final TagKey<Item> OREDIUM_BASIC_TAG = tag("foods/basic");
+        public static final TagKey<Item> OREDIUM_PILLS_TAG = tag("foods/pills");
+        public static final TagKey<Item> OREDIUM_DOUBLE_PILLS_TAG = tag("foods/double_pills");
+        public static final TagKey<Item> OREDIUM_COFFEES_TAG = tag("foods/coffees");
 
         private static TagKey<Item> tag(String name){
             return ItemTags.create(new ResourceLocation(Oredium.MOD_ID, name));

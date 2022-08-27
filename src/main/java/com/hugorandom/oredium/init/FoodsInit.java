@@ -91,7 +91,7 @@ public class FoodsInit {
 
     // Cafes
     public static final RegistryObject<Item> COFFEE_CHEMICAL = FOODS.register("coffee_chemical", ()->
-            new Coffees(1, 0.1F));
+            new EffectFood(MobEffects.CONFUSION, 80, 0, 1, 0.1F));
     public static final RegistryObject<Item> COFFEE_CUP = FOODS.register("coffee_cup", ()->
             new EffectFood(MobEffects.POISON, 100, 0,1, 0.1F));
     public static final RegistryObject<Item> COFFEE_ESPRESSO = FOODS.register("coffee_espresso", ()->

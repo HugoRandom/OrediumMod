@@ -1,6 +1,5 @@
 package com.hugorandom.oredium.foods;
 
-import com.hugorandom.oredium.init.FoodsInit;
 import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
@@ -20,15 +19,15 @@ import java.util.List;
 
 public class Coffees extends Item {
 
-	public Coffees(int nutricion, float saturacion) {
+	public Coffees(int nutrition, float saturation) {
 		super(new Properties()							
-				.food(COFFEE_PROPERTIES(nutricion, saturacion))
+				.food(COFFEE_PROPERTIES(nutrition, saturation))
 				.tab(ItemGroupTabs.OREDIUM_FOODS));
 	}
-	public static final FoodProperties COFFEE_PROPERTIES(int nutricion, float saturacion) {
+	public static final FoodProperties COFFEE_PROPERTIES(int nutrition, float saturation) {
 		return new FoodProperties.Builder()
-				.nutrition(nutricion)
-				.saturationMod(saturacion)
+				.nutrition(nutrition)
+				.saturationMod(saturation)
 				.build();
 	}
 
@@ -53,8 +52,6 @@ public class Coffees extends Item {
 
 	@Override
 	public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-		if (pStack.getItem() == FoodsInit.COFFEE_CHEMICAL.get()){
-			pTooltipComponents.add(new TranslatableComponent("tooltip.oredium.coffee_chemical"));
-		}
+		pTooltipComponents.add(new TranslatableComponent("tooltip.oredium." + pStack.getItem().asItem()));
 	}
 }
