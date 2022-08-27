@@ -17,13 +17,11 @@
   "parent": "oredium:foods",
   "criteria": {
     "pills": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:consume_item",
       "conditions": {
-        "items": [
-          {
-            "tag": "oredium:foods/pills"
-          }
-        ]
+        "item": {
+          "tag": "oredium:foods/pills"
+        }
       }
     }
   },

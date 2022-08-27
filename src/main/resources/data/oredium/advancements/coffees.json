@@ -17,13 +17,11 @@
   "parent": "oredium:foods",
   "criteria": {
     "coffee": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:consume_item",
       "conditions": {
-        "items": [
-          {
-            "tag": "oredium:foods/coffees"
-          }
-        ]
+        "item": {
+          "tag": "oredium:foods/coffees"
+        }
       }
     }
   },
