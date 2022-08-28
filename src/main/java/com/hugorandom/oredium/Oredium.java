@@ -15,6 +15,7 @@ import com.hugorandom.oredium.init.ToolsInit;
 import com.hugorandom.oredium.world.WoldEvents;
 import com.hugorandom.oredium.init.*;
 import com.hugorandom.oredium.init.DimensionsInit;
+import com.hugorandom.oredium.world.structure.StructuresInit;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.common.MinecraftForge;
@@ -22,6 +23,8 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Oredium.MOD_ID)
@@ -29,6 +32,7 @@ public class Oredium
 {
     // Directly reference a slf4j logger
     public static final String MOD_ID = "oredium";
+    public static final Logger LOGGER = LogManager.getLogger();
 
     public Oredium()
     {
@@ -49,6 +53,7 @@ public class Oredium
         MenusInit.register(eventBus);
         RecipesInit.register(eventBus);
         ParticlesInit.register(eventBus);
+        StructuresInit.register(eventBus);
         DimensionsInit.register();
 
         eventBus.addListener(this::setup);

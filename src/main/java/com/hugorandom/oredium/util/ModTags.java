@@ -1,12 +1,14 @@
 package com.hugorandom.oredium.util;
 
 import com.hugorandom.oredium.Oredium;
+import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.levelgen.feature.ConfiguredStructureFeature;
 
 public class ModTags {
 
@@ -37,6 +39,13 @@ public class ModTags {
 
         private static TagKey<Item> forgeTag(String name){
             return ItemTags.create(new ResourceLocation("forge", name));
+        }
+    }
+    public static class ConfiguredStructureFeatures {
+        public static final TagKey<ConfiguredStructureFeature<?, ?>> CUSTOM_STRUCTURE_TAG = tag("custom_structure_tag");
+
+        private static TagKey<ConfiguredStructureFeature<?, ?>> tag(String name) {
+            return TagKey.create(Registry.CONFIGURED_STRUCTURE_FEATURE_REGISTRY, new ResourceLocation(Oredium.MOD_ID, name));
         }
     }
 }
