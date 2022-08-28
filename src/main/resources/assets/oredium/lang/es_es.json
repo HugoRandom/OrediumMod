@@ -346,6 +346,10 @@
 	"advancement.pills_desc": "Conoce los beneficios de las vitaminas",
 	"advancement.coffees_title": "Es que me dio sed",
 	"advancement.coffees_desc": "Consigue un cafesito turbocontaminado",
+	"advancement.random_pill_title": "-20% heterosexual",
+	"advancement.random_pill_desc": "Come una pastilla arcoiris",
+	"advancement.oredium_pill_title": "¿Mas pildoras? Sep",
+	"advancement.oredium_pill_desc": "Comete cuidadosamente una pildora de oredium",
 
 	"item.oredium.hugodium_bucket": "Cubeta de Hugodium Fundido",
 	"item.oredium.alezarita_bucket": "Cubeta de Alezarita Fundido",

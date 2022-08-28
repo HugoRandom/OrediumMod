@@ -1,16 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "oredium:foods/pills"
-    },
-    {
-      "item": "minecraft:blaze_powder"
-    },
-    {
-      "tag": "oredium:foods/pills"
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "PBP",
+    " # "
   ],
+  "key": {
+    "#": {
+      "tag": "oredium:dusts"
+    },
+    "P": {
+      "item": "oredium:blank_pill"
+    },
+    "B": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
   "result": {
     "item": "oredium:oredium_pill",
     "count": 2

@@ -346,6 +346,10 @@
 	"advancement.pills_desc": "Known the benefits of the vitamins",
 	"advancement.coffees_title": "I want a drink",
 	"advancement.coffees_desc": "Get a good coffee?",
+	"advancement.random_pill_title": "-20% Straight",
+	"advancement.random_pill_desc": "Eat a Random Pill",
+	"advancement.oredium_pill_title": "More pills? Yes",
+	"advancement.oredium_pill_desc": "Eat carefully a Oredium Pill",
 
 	"item.oredium.shine_bucket": "Molten Shine Bucket",
 	"item.oredium.axidita_bucket": "Molten Axidita Bucket",

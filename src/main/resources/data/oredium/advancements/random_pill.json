@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "oredium:random_pill"
+    },
+    "title": {
+      "translate": "advancement.random_pill_title"
+    },
+    "description": {
+      "translate": "advancement.random_pill_desc"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "oredium:pills",
+  "criteria": {
+    "random_pill": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "oredium:random_pill"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "random_pill"
+    ]
+  ]
+}
