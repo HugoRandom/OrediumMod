@@ -1,5 +1,5 @@
 {
-  "type": "oredium:mapashe",
+  "type": "minecraft:overworld",
   "generator": {
     "type": "minecraft:noise",
     "seed": 8508358887255150516,
