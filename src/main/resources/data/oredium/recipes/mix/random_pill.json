@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "D#D",
-    "# #",
+    "#G#",
     "D#D"
   ],
   "key": {
@@ -11,6 +11,9 @@
     },
     "D": {
       "tag": "oredium:dusts"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
     }
   },
   "result": {

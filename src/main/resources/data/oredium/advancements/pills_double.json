@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "oredium:e4_pill"
+    },
+    "title": {
+      "translate": "advancement.pills_double_title"
+    },
+    "description": {
+      "translate": "advancement.pills_double_desc"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "oredium:pills",
+  "criteria": {
+    "double_pills": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "tag": "oredium:foods/double_pills"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "double_pills"
+    ]
+  ]
+}

@@ -56,7 +56,7 @@
 	"item.oredium.a12_pill": "Pildora A12",
 	"item.oredium.golden_pill": "Pildora Dorada",
 	"item.oredium.random_pill": "Pildora Arcoiris",
-	"item.oredium.oredium_pill": "¿Pildora de Oredium?",
+	"item.oredium.oredium_pill": "Pildora Rara",
 
 	"item.oredium.raw_alezarita": "Alezarita en bruto",
 	"item.oredium.raw_axidita": "Axidita en bruto",
@@ -344,12 +344,14 @@
 	"advancement.upgraded_desc": "Consigue una armadura mejorada",
 	"advancement.pills_title": "Anti-Anti-Vacunas",
 	"advancement.pills_desc": "Conoce los beneficios de las vitaminas",
+	"advancement.double_pills_title": "Mas es mejor",
+	"advancement.double_pills_desc": "Come una pildora fuerte",
 	"advancement.coffees_title": "Es que me dio sed",
 	"advancement.coffees_desc": "Consigue un cafesito turbocontaminado",
 	"advancement.random_pill_title": "-20% heterosexual",
 	"advancement.random_pill_desc": "Come una pastilla arcoiris",
 	"advancement.oredium_pill_title": "¿Mas pildoras? Sep",
-	"advancement.oredium_pill_desc": "Comete cuidadosamente una pildora de oredium",
+	"advancement.oredium_pill_desc": "Usa cuidadosamente una pildora de oredium",
 
 	"item.oredium.hugodium_bucket": "Cubeta de Hugodium Fundido",
 	"item.oredium.alezarita_bucket": "Cubeta de Alezarita Fundido",
@@ -411,8 +413,28 @@
 	"tooltip.oredium.coffee_lungo": "§8Big Chungus",
 	"tooltip.oredium.coffee_cappuccino": "§6Pappumania",
 	"tooltip.oredium.coffee_bombon": "§dYa me quedé sin ideas",
-	"tooltip.oredium.coffee_cafeleche": "§dClasico",
+	"tooltip.oredium.coffee_cafeleche": "§5Clasico",
 	"tooltip.oredium.coffee_irish": "§1Semi-Alcoholico",
 	"tooltip.oredium.coffee_mocca": "§cContra extra azucar",
-	"tooltip.oredium.coffee_carajillo": "§bIgual al dueño"
+	"tooltip.oredium.coffee_carajillo": "§bIgual al dueño",
+
+	"tooltip.oredium.a24_pill": "§1Velocidad 2",
+	"tooltip.oredium.b32_pill": "§aAbsorción",
+	"tooltip.oredium.c42_pill": "§eResistencia al fuego",
+	"tooltip.oredium.d13_pill": "§8Vision nocturna",
+	"tooltip.oredium.e4_pill": "§5Resistencia 2",
+	"tooltip.oredium.l7_pill": "§6Suerte 2",
+	"tooltip.oredium.i12_pill": "§dSaturación",
+	"tooltip.oredium.f50_pill": "§cPrisa minera 2",
+	"tooltip.oredium.p2_pill": "§bGracia del delfin",
+	"tooltip.oredium.a12_pill": "§9Respiración",
+
+	"tooltip.oredium.random_pill": "§cP§6i§el§ad§bo§9r§1a §5a§dz§7a§8r",
+
+	"tooltip.oredium.golden_pill": "§6Regeneración 2",
+	"tooltip.oredium.oredium_pill": "§7Depende de la dimensión",
+
+	"effect.oredium.unstable": "Inestable",
+
+	"death.attack.unstable": "%1$s murió por inestabilidad."
 }

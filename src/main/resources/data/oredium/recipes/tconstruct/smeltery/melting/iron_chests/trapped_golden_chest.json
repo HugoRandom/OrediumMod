@@ -1,0 +1,24 @@
+{
+  	"type": "tconstruct:melting",
+  	"ingredient": {
+    	"item": "ironchest:trapped_gold_chest"
+  	},
+  	"result": {
+    	"fluid": "oredium:molten_gold",
+    	"amount": 720
+  	},
+	"byproducts": [
+		{
+			"fluid": "tconstruct:molten_iron",
+			"amount": 760
+		}
+	],
+  	"temperature": 800,
+  	"time": 85,
+  	"conditions": [
+      	{
+          	"type": "forge:mod_loaded",
+          	"modid": "tconstruct"
+      	}
+  	]
+}

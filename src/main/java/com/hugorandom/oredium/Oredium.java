@@ -39,6 +39,7 @@ public class Oredium
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        EffectsInit.register(eventBus);
         Items1Init.register(eventBus);
         BlocksInit.register(eventBus);
         FoodsInit.register(eventBus);

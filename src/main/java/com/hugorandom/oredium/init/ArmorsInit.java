@@ -15,7 +15,7 @@ public class ArmorsInit {
 
     public static final DeferredRegister<Item> ARMORS = DeferredRegister.create(ForgeRegistries.ITEMS, Oredium.MOD_ID);
 
-    public static void register(IEventBus eventBus){ ARMORS.register(eventBus); };
+    public static void register(IEventBus eventBus){ ARMORS.register(eventBus); }
 
     // Cascos - Helmets
     public static final RegistryObject<Item> SHINE_HELMET = ARMORS.register("shine_helmet",

@@ -1,7 +1,10 @@
 package com.hugorandom.oredium.items;
 
+import com.hugorandom.oredium.init.BlocksInit;
 import com.hugorandom.oredium.init.DimensionsInit;
+import com.hugorandom.oredium.init.ParticlesInit;
 import com.hugorandom.oredium.util.ItemGroupTabs;
+import com.hugorandom.oredium.util.ModTags;
 import com.hugorandom.oredium.world.Teleporter;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -22,6 +25,7 @@ import net.minecraft.world.level.block.Blocks;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
+import java.util.Random;
 
 public class TeleporterItem extends Item {
 
@@ -40,7 +44,15 @@ public class TeleporterItem extends Item {
 
     @Override
     public InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer, InteractionHand pUsedHand) {
-        pLevel.playSound(null, pPlayer.getOnPos(), SoundEvents.RESPAWN_ANCHOR_CHARGE, SoundSource.PLAYERS, 0.55f, 0.95f);
+        BlockPos pos = pPlayer.getOnPos();
+        Random rand = new Random();
+
+        pLevel.playSound(null, pos, SoundEvents.RESPAWN_ANCHOR_CHARGE, SoundSource.PLAYERS, 0.55f, 0.95f);
+        if (rand.nextInt(10) == 0) {
+            pLevel.addParticle(ParticlesInit.OREDIUM_PARTICLE.get(), (double)pos.getX() + rand.nextDouble(),
+                    (double)pos.getY() + 1.25D, (double)pos.getZ() + rand.nextDouble(), 0.0D, 0.0D, 0.0D);
+        }
+
         return ItemUtils.startUsingInstantly(pLevel, pPlayer, pUsedHand);
     }
 
@@ -112,6 +124,6 @@ public class TeleporterItem extends Item {
     }
 
     private void stopUsing(LivingEntity pUser) {
-        pUser.playSound(SoundEvents.RESPAWN_ANCHOR_DEPLETE, 0.8F, 1.0F);
+        pUser.playSound(SoundEvents.RESPAWN_ANCHOR_DEPLETE, 0.7F, 1.1F);
     }
 }

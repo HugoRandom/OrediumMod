@@ -56,7 +56,7 @@
 	"item.oredium.a12_pill": "A12 Pill",
 	"item.oredium.golden_pill": "Golden Pill",
 	"item.oredium.random_pill": "Random Pill",
-	"item.oredium.oredium_pill": "Oredium Pill?",
+	"item.oredium.oredium_pill": "Strange Pill",
 
 	"item.oredium.raw_alezarita": "Raw Alezarita",
 	"item.oredium.raw_axidita": "Raw Axidita",
@@ -344,12 +344,14 @@
 	"advancement.upgraded_desc": "Get one oredium armor upgraded",
 	"advancement.pills_title": "Anti-Anti-Vaxxers",
 	"advancement.pills_desc": "Known the benefits of the vitamins",
+	"advancement.double_pills_title": "More is Better",
+	"advancement.double_pills_desc": "Consume a Hard Pill",
 	"advancement.coffees_title": "I want a drink",
 	"advancement.coffees_desc": "Get a good coffee?",
 	"advancement.random_pill_title": "-20% Straight",
 	"advancement.random_pill_desc": "Eat a Random Pill",
 	"advancement.oredium_pill_title": "More pills? Yes",
-	"advancement.oredium_pill_desc": "Eat carefully a Oredium Pill",
+	"advancement.oredium_pill_desc": "Use carefully a Oredium Pill",
 
 	"item.oredium.shine_bucket": "Molten Shine Bucket",
 	"item.oredium.axidita_bucket": "Molten Axidita Bucket",
@@ -397,7 +399,7 @@
 	"tooltip.oredium.clorets": "§a$0.05",
 	"tooltip.oredium.caballerita_cake": "§eTasty, I guess",
 	"tooltip.oredium.blue_clorets": "§9$0.05",
-	"tooltip.oredium.enderita_apple": "§dGeneric Apple #47854",
+	"tooltip.oredium.enderita_apple": "§5Generic Apple #47854",
 	"tooltip.oredium.fraopu": "§6Hearts to the King",
 	"tooltip.oredium.hugodium_smoothie": "§cYes, the cup is edible",
 	"tooltip.oredium.pepenne": "§bFatto di Fatida",
@@ -411,8 +413,28 @@
 	"tooltip.oredium.coffee_lungo": "§8Big Chungus",
 	"tooltip.oredium.coffee_cappuccino": "§6Pappumania",
 	"tooltip.oredium.coffee_bombon": "§dI don´t have more ideas xd",
-	"tooltip.oredium.coffee_cafeleche": "§dClassic",
+	"tooltip.oredium.coffee_cafeleche": "§5Classic",
 	"tooltip.oredium.coffee_irish": "§1Semi-Alcoholic",
 	"tooltip.oredium.coffee_mocca": "§cWith extra-sugar",
-	"tooltip.oredium.coffee_carajillo": "§bSame as the owner"
+	"tooltip.oredium.coffee_carajillo": "§bSame as the owner",
+
+	"tooltip.oredium.a24_pill": "§1Speed 2",
+	"tooltip.oredium.b32_pill": "§aAbsorption",
+	"tooltip.oredium.c42_pill": "§eFire Resistance",
+	"tooltip.oredium.d13_pill": "§8Night Vision",
+	"tooltip.oredium.e4_pill": "§5Resistance 2",
+	"tooltip.oredium.l7_pill": "§6Luck 2",
+	"tooltip.oredium.i12_pill": "§dSaturation",
+	"tooltip.oredium.f50_pill": "§cHaste 2",
+	"tooltip.oredium.p2_pill": "§bDolphin Grace",
+	"tooltip.oredium.a12_pill": "§9Water Breathing",
+
+	"tooltip.oredium.random_pill": "§cR§6a§en§ad§bo§9m §1P§5i§dl§7l",
+
+	"tooltip.oredium.golden_pill": "§6Regeneration 2",
+	"tooltip.oredium.oredium_pill": "§7Depends of the dimension",
+
+	"effect.oredium.unstable": "Unstable",
+
+	"death.attack.unstable": "%1$s got too much unstable"
 }

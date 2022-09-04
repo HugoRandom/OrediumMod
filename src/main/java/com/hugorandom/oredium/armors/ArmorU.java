@@ -30,4 +30,9 @@ public class ArmorU extends ArmorItem {
     public int getEntityLifespan(ItemStack itemStack, Level level) {
         return 12000;
     }
+
+    @Override
+    public boolean isFireResistant() {
+        return true;
+    }
 }

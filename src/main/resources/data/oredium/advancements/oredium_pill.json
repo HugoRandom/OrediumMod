@@ -14,15 +14,23 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "oredium:pills",
+  "parent": "oredium:oredium_dim",
   "criteria": {
     "oredium_pill": {
-      "trigger": "minecraft:consume_item",
+      "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "item": {
           "items": [
             "oredium:oredium_pill"
           ]
+        },
+        "location": {
+          "dimension": "oredium:mapashe",
+          "block": {
+            "blocks": [
+              "oredium:oredium_block"
+            ]
+          }
         }
       }
     }

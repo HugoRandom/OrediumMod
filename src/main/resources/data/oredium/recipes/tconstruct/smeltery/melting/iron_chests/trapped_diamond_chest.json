@@ -1,0 +1,32 @@
+{
+  	"type": "tconstruct:melting",
+  	"ingredient": {
+    	"item": "ironchest:trapped_diamond_chest"
+  	},
+  	"result": {
+    	"fluid": "tconstruct:molten_glass",
+    	"amount": 6000
+  	},
+	"byproducts": [
+		{
+			"fluid": "tconstruct:molten_gold",
+			"amount": 720
+		},
+		{
+			"fluid": "tconstruct:molten_iron",
+			"amount": 760
+		},
+		{
+			"fluid": "tconstruct:molten_diamond",
+			"amount": 200
+		}
+	],
+  	"temperature": 1450,
+  	"time": 95,
+  	"conditions": [
+      	{
+          	"type": "forge:mod_loaded",
+          	"modid": "tconstruct"
+      	}
+  	]
+}

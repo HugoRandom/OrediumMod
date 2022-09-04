@@ -2,6 +2,7 @@ package com.hugorandom.oredium.init;
 
 import com.hugorandom.oredium.Oredium;
 import com.hugorandom.oredium.foods.*;
+import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -63,31 +64,30 @@ public class FoodsInit {
 
     // Pildoras fuertes
     public static final RegistryObject<Item> A12_PILL = FOODS.register("a12_pill", ()->
-            new PillDoble(MobEffects.MOVEMENT_SPEED, 1200, 1));
+            new PillDoble(MobEffects.MOVEMENT_SPEED, 1200, 1));     // Shine
     public static final RegistryObject<Item> B32_PILL = FOODS.register("b32_pill", ()->
-            new PillDoble(MobEffects.ABSORPTION, 600, 0));
+            new PillDoble(MobEffects.ABSORPTION, 600, 0));          // Axidita
     public static final RegistryObject<Item> C42_PILL = FOODS.register("c42_pill", ()->
-            new PillDoble(MobEffects.FIRE_RESISTANCE, 1200, 0));
+            new PillDoble(MobEffects.FIRE_RESISTANCE, 1200, 0));    // Caballerita
     public static final RegistryObject<Item> D13_PILL = FOODS.register("d13_pill", ()->
-            new PillDoble(MobEffects.NIGHT_VISION, 1200, 0));
+            new PillDoble(MobEffects.NIGHT_VISION, 1200, 0));       // Cesarita
     public static final RegistryObject<Item> L7_PILL = FOODS.register("l7_pill", ()->
-            new PillDoble(MobEffects.LUCK, 2400, 1));
+            new PillDoble(MobEffects.LUCK, 2400, 1));               // Franitolina
     public static final RegistryObject<Item> I12_PILL = FOODS.register("i12_pill", ()->
-            new PillDoble(MobEffects.SATURATION, 600, 0));
+            new PillDoble(MobEffects.SATURATION, 600, 0));          // Meluna
     public static final RegistryObject<Item> E4_PILL = FOODS.register("e4_pill", ()->
-            new PillDoble(MobEffects.DAMAGE_RESISTANCE, 600, 1));
+            new PillDoble(MobEffects.DAMAGE_RESISTANCE, 600, 1));   // Enderita
     public static final RegistryObject<Item> A24_PILL = FOODS.register("a24_pill", ()->
-            new PillDoble(MobEffects.WATER_BREATHING, 1200, 0));
+            new PillDoble(MobEffects.WATER_BREATHING, 1200, 0));    // Alezarita
     public static final RegistryObject<Item> F50_PILL = FOODS.register("f50_pill", ()->
-            new PillDoble(MobEffects.DIG_SPEED, 600, 1));
+            new PillDoble(MobEffects.DIG_SPEED, 600, 1));           // Hugodium
     public static final RegistryObject<Item> P2_PILL = FOODS.register("p2_pill", ()->
-            new PillDoble(MobEffects.DOLPHINS_GRACE, 1200, 0));
+            new PillDoble(MobEffects.DOLPHINS_GRACE, 1200, 0));     // Miguelitio
     public static final RegistryObject<Item> GOLDEN_PILL = FOODS.register("golden_pill", ()->
-            new PillDoble(MobEffects.REGENERATION, 600, 0));
+            new PillDoble(MobEffects.REGENERATION, 1200, 2));       // Oredium ->
     public static final RegistryObject<Item> RANDOM_PILL = FOODS.register("random_pill", ()->
-            new PillRandom(MobEffects.GLOWING, 600, 0));
-    public static final RegistryObject<Item> OREDIUM_PILL = FOODS.register("oredium_pill", ()->
-            new PillDoble(MobEffects.POISON, 600, 0));
+            new PillRandom(MobEffects.GLOWING, 600, 0));            // Bruh
+    public static final RegistryObject<Item> OREDIUM_PILL = FOODS.register("oredium_pill", PillOredium::new);
 
     // Cafes
     public static final RegistryObject<Item> COFFEE_CHEMICAL = FOODS.register("coffee_chemical", ()->
@@ -95,23 +95,23 @@ public class FoodsInit {
     public static final RegistryObject<Item> COFFEE_CUP = FOODS.register("coffee_cup", ()->
             new EffectFood(MobEffects.POISON, 100, 0,1, 0.1F));
     public static final RegistryObject<Item> COFFEE_ESPRESSO = FOODS.register("coffee_espresso", ()->
-            new Coffees(6, 0.5F));
-    public static final RegistryObject<Item> COFFEE_AMERICANO = FOODS.register("coffee_americano", ()->
-            new Coffees(7, 0.5F));
-    public static final RegistryObject<Item> COFFEE_LATTE = FOODS.register("coffee_latte", ()->
-            new Coffees(8, 0.6F));
-    public static final RegistryObject<Item> COFFEE_LUNGO = FOODS.register("coffee_lungo", ()->
-            new Coffees(8, 0.6F));
-    public static final RegistryObject<Item> COFFEE_CAPPUCCINO = FOODS.register("coffee_cappuccino", ()->
-            new Coffees(9, 0.6F));
-    public static final RegistryObject<Item> COFFEE_BOMBON = FOODS.register("coffee_bombon", ()->
-            new Coffees(6, 0.8F));
-    public static final RegistryObject<Item> COFFEE_CAFELECHE = FOODS.register("coffee_cafeleche", ()->
             new Coffees(7, 0.6F));
-    public static final RegistryObject<Item> COFFEE_IRISH = FOODS.register("coffee_irish", ()->
+    public static final RegistryObject<Item> COFFEE_AMERICANO = FOODS.register("coffee_americano", ()->
+            new Coffees(8, 0.6F));
+    public static final RegistryObject<Item> COFFEE_LATTE = FOODS.register("coffee_latte", ()->
             new Coffees(9, 0.7F));
+    public static final RegistryObject<Item> COFFEE_LUNGO = FOODS.register("coffee_lungo", ()->
+            new Coffees(9, 0.8F));
+    public static final RegistryObject<Item> COFFEE_CAPPUCCINO = FOODS.register("coffee_cappuccino", ()->
+            new Coffees(10, 0.7F));
+    public static final RegistryObject<Item> COFFEE_BOMBON = FOODS.register("coffee_bombon", ()->
+            new Coffees(7, 0.9F));
+    public static final RegistryObject<Item> COFFEE_CAFELECHE = FOODS.register("coffee_cafeleche", ()->
+            new Coffees(8, 0.7F));
+    public static final RegistryObject<Item> COFFEE_IRISH = FOODS.register("coffee_irish", ()->
+            new Coffees(10, 0.8F));
     public static final RegistryObject<Item> COFFEE_MOCCA = FOODS.register("coffee_mocca", ()->
-            new Coffees(10, 0.9F));
+            new Coffees(11, 1F));
     public static final RegistryObject<Item> COFFEE_CARAJILLO = FOODS.register("coffee_carajillo", ()->
-            new Coffees(7, 0.8F));
+            new Coffees(8, 0.9F));
 }
