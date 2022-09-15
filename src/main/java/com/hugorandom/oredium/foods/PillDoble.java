@@ -1,5 +1,6 @@
 package com.hugorandom.oredium.foods;
 
+import com.hugorandom.oredium.init.EffectsInit;
 import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;

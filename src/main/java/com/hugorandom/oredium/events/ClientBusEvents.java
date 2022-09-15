@@ -6,10 +6,15 @@ import com.hugorandom.oredium.init.BlocksInit;
 import com.hugorandom.oredium.init.FluidsInit;
 import com.hugorandom.oredium.init.MenusInit;
 import com.hugorandom.oredium.screens.UpgradingScreen;
+import com.hugorandom.oredium.util.KeyBindings;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.ClientRegistry;
+import net.minecraftforge.client.extensions.IForgeKeyMapping;
+import net.minecraftforge.client.settings.IKeyConflictContext;
+import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -56,6 +61,10 @@ public class ClientBusEvents {
         ItemBlockRenderTypes.setRenderLayer(FluidsInit.MOLTEN_MELUNA_FLOWING.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(BlockFluidsInit.MOLTEN_MELUNA_BLOCK.get(), RenderType.translucent());
 
+        // Menu de Mejoras de Armaduras
         MenuScreens.register(MenusInit.UPGRADING_MENU.get(), UpgradingScreen::new);
+
+        // Registro de Tecla
+        ClientRegistry.registerKeyBinding(KeyBindings.VITAMINS_KEY);
     }
 }

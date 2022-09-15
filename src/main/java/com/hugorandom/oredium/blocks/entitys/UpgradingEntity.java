@@ -164,8 +164,12 @@ public class UpgradingEntity extends BlockEntity implements MenuProvider {
 
 		if(match.isPresent()) {
 			ItemStack output = new ItemStack(match.get().getResultItem().getItem());
-			Map<Enchantment, Integer> enchants = EnchantmentHelper.getEnchantments(entity.itemHandler.getStackInSlot(0));
-			for(Map.Entry<Enchantment, Integer> mapEntry : enchants.entrySet()){
+			Map<Enchantment, Integer> enchants0 = EnchantmentHelper.getEnchantments(entity.itemHandler.getStackInSlot(0));
+			for(Map.Entry<Enchantment, Integer> mapEntry : enchants0.entrySet()){
+				output.enchant(mapEntry.getKey(), mapEntry.getValue());
+			}
+			Map<Enchantment, Integer> enchants1 = EnchantmentHelper.getEnchantments(entity.itemHandler.getStackInSlot(1));
+			for(Map.Entry<Enchantment, Integer> mapEntry : enchants1.entrySet()){
 				output.enchant(mapEntry.getKey(), mapEntry.getValue());
 			}
 			entity.itemHandler.extractItem(0, 1, false);
