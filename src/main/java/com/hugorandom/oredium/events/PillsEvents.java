@@ -1,6 +1,7 @@
 package com.hugorandom.oredium.events;
 
 import com.hugorandom.oredium.Oredium;
+import com.hugorandom.oredium.capabilities.vitamins.PlayerVitaminsProvider;
 import com.hugorandom.oredium.init.ArmorsInit;
 import com.hugorandom.oredium.init.EffectsInit;
 import com.hugorandom.oredium.init.FoodsInit;
@@ -29,6 +30,10 @@ public class PillsEvents {
 		// Aplicar solamente si consume una Pildora buena
 		if(event.getItem().is(ModTags.Items.OREDIUM_PILLS_TAG) || event.getItem().is(ModTags.Items.OREDIUM_DOUBLE_PILLS_TAG))
 		{
+			// Se añade al conteo de pildoras
+			player.getCapability(PlayerVitaminsProvider.PLAYER_VITAMINS).ifPresent(playerVitamins -> {
+				playerVitamins.addVitamin(1);
+			});
 			// Al consumir una pastilla, da el efecto de Vitaminado + el acumulado anterior
 			if (player.hasEffect(EffectsInit.VITAMINIZED.get())){
 				int duration = player.getEffect(EffectsInit.VITAMINIZED.get()).getDuration();

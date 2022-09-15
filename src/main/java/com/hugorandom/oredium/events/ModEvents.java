@@ -1,14 +1,22 @@
-package com.hugorandom.oredium.events.loot;
+package com.hugorandom.oredium.events;
 
 import com.hugorandom.oredium.Oredium;
+import com.hugorandom.oredium.capabilities.vitamins.PlayerVitamins;
+import com.hugorandom.oredium.capabilities.vitamins.PlayerVitaminsProvider;
 import com.hugorandom.oredium.init.Items1Init;
 import com.hugorandom.oredium.init.ToolsInit;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.npc.VillagerTrades;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.trading.MerchantOffer;
+import net.minecraftforge.common.capabilities.RegisterCapabilitiesEvent;
+import net.minecraftforge.event.AttachCapabilitiesEvent;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.village.VillagerTradesEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -80,5 +88,29 @@ public class ModEvents {
             trades.get(5).add((trader, rand) -> new MerchantOffer(new ItemStack(Items.EMERALD, 17),
                     new ItemStack(ToolsInit.ALEZARITA_AXE.get(), 1), 4,7,-0.15F));
         }
+    }
+    @SubscribeEvent
+    public static void onAttachCapabilitiesPlayer(AttachCapabilitiesEvent<Entity> event){
+        if(event.getObject() instanceof Player){
+            if(!event.getObject().getCapability(PlayerVitaminsProvider.PLAYER_VITAMINS).isPresent()){
+                event.addCapability(new ResourceLocation(Oredium.MOD_ID, "properties"), new PlayerVitaminsProvider());
+            }
+        }
+    }
+
+    @SubscribeEvent
+    public static void onPlayerCloned(PlayerEvent.Clone event){
+        if(event.isWasDeath()){
+            event.getOriginal().getCapability(PlayerVitaminsProvider.PLAYER_VITAMINS).ifPresent(oldStore -> {
+                event.getOriginal().getCapability(PlayerVitaminsProvider.PLAYER_VITAMINS).ifPresent(newStore ->{
+                    newStore.copyFrom(oldStore);
+                });
+            });
+        }
+    }
+
+    @SubscribeEvent
+    public static void onRegisterCapabilities(RegisterCapabilitiesEvent event){
+        event.register(PlayerVitamins.class);
     }
 }

@@ -443,6 +443,6 @@
 	"key.category.oredium.oredium": "Oredium",
 	"key.oredium.vitamins": "Vitaminas",
 
-	"message.oredium.vitamins": "Has comido ADASD Pastillas",
+	"message.oredium.vitamins": "Pastillas consumidas: ",
 	"message.oredium.no_vitamins": "No has comido ninguna pastilla. Prueba alguna."
 }

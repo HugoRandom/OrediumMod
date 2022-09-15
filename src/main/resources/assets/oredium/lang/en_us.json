@@ -443,6 +443,6 @@
 	"key.category.oredium.oredium": "Oredium Mod",
 	"key.oredium.vitamins": "Vitamins",
 
-	"message.oredium.vitamins": "You have eaten ASDASD Pills",
+	"message.oredium.vitamins": "Pills eaten: ",
 	"message.oredium.no_vitamins": "You haven´t eaten any Pills. Try some"
 }
