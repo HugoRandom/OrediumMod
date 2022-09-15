@@ -435,6 +435,14 @@
 	"tooltip.oredium.oredium_pill": "§7Depends of the dimension",
 
 	"effect.oredium.unstable": "Unstable",
+	"effect.oredium.vitaminized": "Vitaminized",
 
-	"death.attack.unstable": "%1$s got too much unstable"
+	"death.attack.unstable": "%1$s got too much unstable",
+	"death.attack.vitaminized": "%1$s died from excess of vitamins",
+
+	"key.category.oredium.oredium": "Oredium Mod",
+	"key.oredium.vitamins": "Vitamins",
+
+	"message.oredium.vitamins": "You have eaten ASDASD Pills",
+	"message.oredium.no_vitamins": "You haven´t eaten any Pills. Try some"
 }

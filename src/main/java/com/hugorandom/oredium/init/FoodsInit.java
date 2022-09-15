@@ -83,10 +83,9 @@ public class FoodsInit {
             new PillDoble(MobEffects.DIG_SPEED, 600, 1));           // Hugodium
     public static final RegistryObject<Item> P2_PILL = FOODS.register("p2_pill", ()->
             new PillDoble(MobEffects.DOLPHINS_GRACE, 1200, 0));     // Miguelitio
-    public static final RegistryObject<Item> GOLDEN_PILL = FOODS.register("golden_pill", ()->
-            new PillDoble(MobEffects.REGENERATION, 1200, 2));       // Oredium ->
-    public static final RegistryObject<Item> RANDOM_PILL = FOODS.register("random_pill", ()->
-            new PillRandom(MobEffects.GLOWING, 600, 0));            // Bruh
+
+    public static final RegistryObject<Item> RANDOM_PILL = FOODS.register("random_pill", PillRandom::new);
+    public static final RegistryObject<Item> GOLDEN_PILL = FOODS.register("golden_pill", PillGolden::new);
     public static final RegistryObject<Item> OREDIUM_PILL = FOODS.register("oredium_pill", PillOredium::new);
 
     // Cafes

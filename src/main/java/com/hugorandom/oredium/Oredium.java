@@ -12,6 +12,7 @@ import com.hugorandom.oredium.init.ParticlesInit;
 import com.hugorandom.oredium.init.MenusInit;
 import com.hugorandom.oredium.init.RecipesInit;
 import com.hugorandom.oredium.init.ToolsInit;
+import com.hugorandom.oredium.network.OrediumPackets;
 import com.hugorandom.oredium.world.WoldEvents;
 import com.hugorandom.oredium.init.*;
 import com.hugorandom.oredium.init.DimensionsInit;
@@ -68,7 +69,10 @@ public class Oredium
     private void setup(final FMLCommonSetupEvent event)
     {
        event.enqueueWork(() -> {
+           OrediumPackets.register();
            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(BlocksInit.SOLIMA.getId(), BlocksInit.POTTED_SOLIMA);
        });
+
+
     }
 }

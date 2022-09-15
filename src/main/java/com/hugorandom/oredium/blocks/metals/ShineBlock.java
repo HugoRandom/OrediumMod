@@ -13,12 +13,20 @@ import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.material.Material;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.network.NetworkHooks;
 
+import java.awt.*;
 import java.util.Random;
 
 public class ShineBlock extends MetalBlock {
@@ -28,6 +36,7 @@ public class ShineBlock extends MetalBlock {
     }
 
     @Override
+    @OnlyIn(Dist.CLIENT)
     public void animateTick(BlockState pState, Level pLevel, BlockPos pos, Random rand) {
         super.animateTick(pState, pLevel, pos, rand);
         if (rand.nextInt(12) == 0) {

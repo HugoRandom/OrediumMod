@@ -435,6 +435,14 @@
 	"tooltip.oredium.oredium_pill": "§7Depende de la dimensión",
 
 	"effect.oredium.unstable": "Inestable",
+	"effect.oredium.vitaminized": "Vitaminado",
 
-	"death.attack.unstable": "%1$s murió por inestabilidad."
+	"death.attack.unstable": "%1$s murió por inestabilidad.",
+	"death.attack.vitaminized": "%1$s murió por exceso de vitaminas",
+
+	"key.category.oredium.oredium": "Oredium",
+	"key.oredium.vitamins": "Vitaminas",
+
+	"message.oredium.vitamins": "Has comido ADASD Pastillas",
+	"message.oredium.no_vitamins": "No has comido ninguna pastilla. Prueba alguna."
 }
