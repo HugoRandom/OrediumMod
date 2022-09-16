@@ -444,5 +444,26 @@
 	"key.oredium.vitamins": "Vitaminas",
 
 	"message.oredium.vitamins": "Pastillas consumidas: ",
-	"message.oredium.no_vitamins": "No has comido ninguna pastilla. Prueba alguna."
+	"message.oredium.no_vitamins": "No has comido ninguna pastilla. Prueba alguna.",
+
+	"item.oredium.alezarita_disc": "Elite Disc",
+	"item.oredium.alezarita_disc.desc": "Galar Champion Cup (Elite Four) - Remix Cover by Vetrom",
+	"item.oredium.axidita_disc": "Axidita Disc",
+	"item.oredium.axidita_disc.desc": "Axidita Disc Desc",
+	"item.oredium.caballerita_disc": "Caballerita Disc",
+	"item.oredium.caballerita_disc.desc": "Caballerita Disc Desc",
+	"item.oredium.cesarita_disc": "Cesarita Disc",
+	"item.oredium.cesarita_disc.desc": "Cesarita Disc Desc",
+	"item.oredium.enderita_disc": "Enderita Disc",
+	"item.oredium.enderita_disc.desc": "Enderita Disc Desc",
+	"item.oredium.franitolina_disc": "Franitolina Disc",
+	"item.oredium.franitolina_disc.desc": "Franitolina Disc Desc",
+	"item.oredium.meluna_disc": "Meluna Disc",
+	"item.oredium.meluna_disc.desc": "Meluna Disc Desc",
+	"item.oredium.hugodium_disc": "Jensation Disc",
+	"item.oredium.hugodium_disc.desc": "Jensation -  Joystick [NCS Release]",
+	"item.oredium.miguelitio_disc": "Miguelitio Disc",
+	"item.oredium.miguelitio_disc.desc": "Miguelitio Disc Desc",
+	"item.oredium.shine_disc": "Turbo Revenge Disc",
+	"item.oredium.shine_disc.desc": "Revenge - Eurobeat Remix by Turbo"
 }

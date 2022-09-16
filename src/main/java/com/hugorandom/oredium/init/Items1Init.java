@@ -1,8 +1,13 @@
 package com.hugorandom.oredium.init;
 
 import com.hugorandom.oredium.Oredium;
+import com.hugorandom.oredium.items.DiscItem;
 import com.hugorandom.oredium.items.GemItem;
 import com.hugorandom.oredium.items.CommonItem;
+import com.hugorandom.oredium.util.ItemGroupTabs;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.RecordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -74,7 +79,26 @@ public class Items1Init {
     public static final RegistryObject<net.minecraft.world.item.Item> HUGODIUM_GEM = ITEMS.register("hugodium_gem", GemItem::new);
     public static final RegistryObject<net.minecraft.world.item.Item> MIGUELITIO_GEM = ITEMS.register("miguelitio_gem", GemItem::new);
 
-
+    public static final RegistryObject<net.minecraft.world.item.Item> SHINE_DISC = ITEMS.register("shine_disc",
+            () -> new DiscItem(1, SoundsInit.SHINE_DISC));
+    public static final RegistryObject<net.minecraft.world.item.Item> CABALLERITA_DISC = ITEMS.register("caballerita_disc",
+            () -> new DiscItem(1, SoundsInit.CABALLERITA_DISC));
+    public static final RegistryObject<net.minecraft.world.item.Item> AXIDITA_DISC = ITEMS.register("axidita_disc",
+            () -> new DiscItem(1, SoundsInit.AXIDITA_DISC));
+    public static final RegistryObject<net.minecraft.world.item.Item> CESARITA_DISC = ITEMS.register("cesarita_disc",
+            () -> new DiscItem(1, SoundsInit.CESARITA_DISC));
+    public static final RegistryObject<net.minecraft.world.item.Item> FRANITOLINA_DISC = ITEMS.register("franitolina_disc",
+            () -> new DiscItem(1, SoundsInit.FRANITOLINA_DISC));
+    public static final RegistryObject<net.minecraft.world.item.Item> MELUNA_DISC = ITEMS.register("meluna_disc",
+            () -> new DiscItem(1, SoundsInit.MELUNA_DISC));
+    public static final RegistryObject<net.minecraft.world.item.Item> ENDERITA_DISC = ITEMS.register("enderita_disc",
+            () -> new DiscItem(1, SoundsInit.ENDERITA_DISC));
+    public static final RegistryObject<net.minecraft.world.item.Item> ALEZARITA_DISC = ITEMS.register("alezarita_disc",
+            () -> new DiscItem(1, SoundsInit.ALEZARITA_DISC));
+    public static final RegistryObject<net.minecraft.world.item.Item> HUGODIUM_DISC = ITEMS.register("hugodium_disc",
+            () -> new DiscItem(1, SoundsInit.HUGODIUM_DISC));
+    public static final RegistryObject<net.minecraft.world.item.Item> MIGUELITIO_DISC = ITEMS.register("miguelitio_disc",
+            () -> new DiscItem(1, SoundsInit.MIGUELITIO_DISC));
 
 
 }

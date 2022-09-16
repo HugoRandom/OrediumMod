@@ -4,5 +4,95 @@
         "sounds": [
             "oredium:upgrading_sound"
         ]
+    },
+    "shine_disc": {
+        "subtitle": "sounds.oredium.shine_disc",
+        "sounds": [
+            {
+                "name": "oredium:shine_disc",
+                "stream": true
+            }
+        ]
+    },
+    "caballerita_disc": {
+        "subtitle": "sounds.oredium.caballerita_disc",
+        "sounds": [
+            {
+                "name": "oredium:caballerita_disc",
+                "stream": true
+            }
+        ]
+    },
+    "axidita_disc": {
+        "subtitle": "sounds.oredium.axidita_disc",
+        "sounds": [
+            {
+                "name": "oredium:axidita_disc",
+                "stream": true
+            }
+        ]
+    },
+    "cesarita_disc": {
+        "subtitle": "sounds.oredium.cesarita_disc",
+        "sounds": [
+            {
+                "name": "oredium:cesarita_disc",
+                "stream": true
+            }
+        ]
+    },
+    "franitolina_disc": {
+        "subtitle": "sounds.oredium.franitolina_disc",
+        "sounds": [
+            {
+                "name": "oredium:franitolina_disc",
+                "stream": true
+            }
+        ]
+    },
+    "meluna_disc": {
+        "subtitle": "sounds.oredium.meluna_disc",
+        "sounds": [
+            {
+                "name": "oredium:meluna_disc",
+                "stream": true
+            }
+        ]
+    },
+    "enderita_disc": {
+        "subtitle": "sounds.oredium.enderita_disc",
+        "sounds": [
+            {
+                "name": "oredium:enderita_disc",
+                "stream": true
+            }
+        ]
+    },
+    "alezarita_disc": {
+        "subtitle": "sounds.oredium.alezarita_disc",
+        "sounds": [
+            {
+                "name": "oredium:alezarita_disc",
+                "stream": true
+            }
+        ]
+    },
+    "hugodium_disc": {
+        "subtitle": "sounds.oredium.hugodium_disc",
+        "sounds": [
+            {
+                "name": "oredium:hugodium_disc",
+                "stream": true
+            }
+        ]
+    },
+    "miguelitio_disc": {
+        "subtitle": "sounds.oredium.miguelitio_disc",
+        "sounds": [
+            {
+                "name": "oredium:miguelitio_disc",
+                "stream": true
+            }
+        ]
     }
 }

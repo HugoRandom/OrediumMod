@@ -1,18 +1,15 @@
 package com.hugorandom.oredium.items;
 
-import com.hugorandom.oredium.init.BlocksInit;
 import com.hugorandom.oredium.init.DimensionsInit;
 import com.hugorandom.oredium.init.ParticlesInit;
 import com.hugorandom.oredium.network.OrediumPackets;
 import com.hugorandom.oredium.network.packets.TeleporterChargeS2CPacket;
 import com.hugorandom.oredium.util.ItemGroupTabs;
-import com.hugorandom.oredium.util.ModTags;
 import com.hugorandom.oredium.world.Teleporter;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.TranslatableComponent;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
@@ -25,11 +22,9 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
-import java.util.Random;
 
 public class TeleporterItem extends Item {
 
@@ -95,54 +90,57 @@ public class TeleporterItem extends Item {
     public void releaseUsing(ItemStack pStack, Level pLevel, LivingEntity pLivingEntity, int pTimeCharged) {
         if (!pLevel.isClientSide()){
             Player pPlayer = (Player) pLivingEntity;
+
             if (pLivingEntity instanceof ServerPlayer player)
             {
                 OrediumPackets.sendToPlayer(new TeleporterChargeS2CPacket(0), player);
             }
             if (pTimeCharged < 10000){
-                // Variables
+
                 MinecraftServer minecraftServer = pPlayer.level.getServer();
                 BlockPos before = pPlayer.getOnPos();
                 double nX = before.getX();
                 double nY = before.getY();
                 double nZ = before.getZ();
                 boolean flag = false;
-                ResourceKey<Level> destination;
+                int addY = 0;
+                ServerLevel toDim;
                 String dim;
 
-                // Comprobar la dimension que se está, para transportar a la otra.
                 if (pPlayer.getLevel().dimension() == DimensionsInit.MAPASHE_DIM_KEY){
-                    destination = Level.OVERWORLD;
+                    toDim = minecraftServer.getLevel(Level.OVERWORLD);
                     dim = "text.oredium.overworld";
+                    Direction direction;
+                    if (pPlayer.getBedOrientation() == null){
+                        direction = pPlayer.getBedOrientation();
+                        nX = direction.getStepX();
+                        nY = direction.getStepY();
+                        nZ = direction.getStepZ();
+                    }
                 }
                 else{
-                    destination = DimensionsInit.MAPASHE_DIM_KEY;
+                    toDim = minecraftServer.getLevel(DimensionsInit.MAPASHE_DIM_KEY);
                     dim = "text.oredium.mapashe";
-                }
 
-                // TP a la otra Dim, verificando que haya aire
-                ServerLevel toDim = minecraftServer.getLevel(destination);
-                pPlayer.changeDimension(toDim, new Teleporter((ServerLevel) pPlayer.getLevel()));
-                int i = 0;
-                while (!flag){
-                    BlockPos c1 = new BlockPos(nX, nY + i, nZ);
-                    if (toDim.getLevel().getBlockState(c1).getBlock() == Blocks.AIR){
-                        BlockPos c2 = new BlockPos(nX, nY + i + 1, nZ);
-                        if (toDim.getLevel().getBlockState(new BlockPos(c2)).getBlock() == Blocks.AIR){
-                            BlockPos c3 = new BlockPos(nX, nY + i + 1, nZ);
-                            if (toDim.getLevel().getBlockState(new BlockPos(c3)).getBlock() == Blocks.AIR){
-                                flag = true;
+                    while (!flag){
+                        BlockPos c1 = new BlockPos(nX, nY + addY, nZ);
+                        if (toDim.getLevel().getBlockState(c1).getBlock() == Blocks.AIR){
+                            BlockPos c2 = new BlockPos(nX, nY + addY + 1, nZ);
+                            if (toDim.getLevel().getBlockState(c2).getBlock() == Blocks.AIR){
+                                BlockPos c3 = new BlockPos(nX, nY + addY + 2, nZ);
+                                if (toDim.getLevel().getBlockState(c3).getBlock() == Blocks.AIR){
+                                    flag = true;
+                                }
+                                else addY++;
                             }
-                            else i++;
+                            else addY++;
                         }
-                        else i++;
+                        else addY++;
                     }
-                    else i++;
                 }
-
-                // Ultimos toques para caer.
-                pPlayer.moveTo(nX, nY + i, nZ);
-                pPlayer.getCooldowns().addCooldown(this, 6000);
+                pPlayer.changeDimension(toDim, new Teleporter((ServerLevel) pPlayer.getLevel()));
+                pPlayer.moveTo(nX, nY + addY, nZ);
+                pPlayer.getCooldowns().addCooldown(this, 6);
                 pPlayer.sendMessage(new TranslatableComponent(dim), pPlayer.getUUID());
             }
         }
