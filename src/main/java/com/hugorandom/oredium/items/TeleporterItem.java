@@ -3,6 +3,8 @@ package com.hugorandom.oredium.items;
 import com.hugorandom.oredium.init.BlocksInit;
 import com.hugorandom.oredium.init.DimensionsInit;
 import com.hugorandom.oredium.init.ParticlesInit;
+import com.hugorandom.oredium.network.OrediumPackets;
+import com.hugorandom.oredium.network.packets.TeleporterChargeS2CPacket;
 import com.hugorandom.oredium.util.ItemGroupTabs;
 import com.hugorandom.oredium.util.ModTags;
 import com.hugorandom.oredium.world.Teleporter;
@@ -13,6 +15,7 @@ import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
@@ -22,6 +25,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -45,19 +49,33 @@ public class TeleporterItem extends Item {
     @Override
     public InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer, InteractionHand pUsedHand) {
         BlockPos pos = pPlayer.getOnPos();
-        Random rand = new Random();
 
         pLevel.playSound(null, pos, SoundEvents.RESPAWN_ANCHOR_CHARGE, SoundSource.PLAYERS, 0.55f, 0.95f);
-        if (rand.nextInt(10) == 0) {
-            pLevel.addParticle(ParticlesInit.OREDIUM_PARTICLE.get(), (double)pos.getX() + rand.nextDouble(),
-                    (double)pos.getY() + 1.25D, (double)pos.getZ() + rand.nextDouble(), 0.0D, 0.0D, 0.0D);
-        }
+
 
         return ItemUtils.startUsingInstantly(pLevel, pPlayer, pUsedHand);
     }
 
+    @Override
+    public void onUseTick(Level pLevel, LivingEntity pLivingEntity, ItemStack pStack, int pRemainingUseDuration) {
+        BlockPos pos = pLivingEntity.blockPosition();
+        if (pLivingEntity instanceof ServerPlayer player)
+        {
+            int charge = getUseDuration(pStack) - pRemainingUseDuration;
+            OrediumPackets.sendToPlayer(new TeleporterChargeS2CPacket(charge), player);
+        }
+        if (pLevel.random.nextDouble() > 0.1D) {
+            pLevel.addParticle(ParticlesInit.OREDIUM_PARTICLE.get(),
+                    (double)pos.getX() + pLevel.random.nextDouble(2) - 0.5D,
+                    (double)pos.getY() + pLevel.random.nextDouble(2) + 0.5D,
+                    (double)pos.getZ() + pLevel.random.nextDouble(2) - 0.5D,
+                    0.0D, 0.0D, 0.0D);
+        }
+        super.onUseTick(pLevel, pLivingEntity, pStack, pRemainingUseDuration);
+    }
+
     public int getUseDuration(ItemStack pStack) {
-        return 10030;
+        return 10060;
     }
 
     public UseAnim getUseAnimation(ItemStack pStack) {
@@ -65,6 +83,10 @@ public class TeleporterItem extends Item {
     }
 
     public ItemStack finishUsingItem(ItemStack pStack, Level pLevel, LivingEntity pLivingEntity) {
+        if (pLivingEntity instanceof ServerPlayer player)
+        {
+            OrediumPackets.sendToPlayer(new TeleporterChargeS2CPacket(0), player);
+        }
         this.stopUsing(pLivingEntity);
         return pStack;
     }
@@ -73,6 +95,10 @@ public class TeleporterItem extends Item {
     public void releaseUsing(ItemStack pStack, Level pLevel, LivingEntity pLivingEntity, int pTimeCharged) {
         if (!pLevel.isClientSide()){
             Player pPlayer = (Player) pLivingEntity;
+            if (pLivingEntity instanceof ServerPlayer player)
+            {
+                OrediumPackets.sendToPlayer(new TeleporterChargeS2CPacket(0), player);
+            }
             if (pTimeCharged < 10000){
                 // Variables
                 MinecraftServer minecraftServer = pPlayer.level.getServer();

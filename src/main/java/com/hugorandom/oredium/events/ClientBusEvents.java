@@ -1,6 +1,7 @@
 package com.hugorandom.oredium.events;
 
 import com.hugorandom.oredium.Oredium;
+import com.hugorandom.oredium.client.TeleporterChargeOverlay;
 import com.hugorandom.oredium.init.BlockFluidsInit;
 import com.hugorandom.oredium.init.BlocksInit;
 import com.hugorandom.oredium.init.FluidsInit;
@@ -12,9 +13,7 @@ import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.ClientRegistry;
-import net.minecraftforge.client.extensions.IForgeKeyMapping;
-import net.minecraftforge.client.settings.IKeyConflictContext;
-import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.client.gui.OverlayRegistry;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -66,5 +65,8 @@ public class ClientBusEvents {
 
         // Registro de Tecla
         ClientRegistry.registerKeyBinding(KeyBindings.VITAMINS_KEY);
+
+        // Registro de Overlays
+        OverlayRegistry.registerOverlayTop("telecharge", TeleporterChargeOverlay.TELEPORTER_CHARGE_HUD);
     }
 }

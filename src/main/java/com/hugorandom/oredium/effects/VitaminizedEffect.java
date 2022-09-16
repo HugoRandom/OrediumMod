@@ -4,6 +4,8 @@ import net.minecraft.client.player.AbstractClientPlayer;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
@@ -17,10 +19,8 @@ public class VitaminizedEffect extends MobEffect {
     @Override
     public void applyEffectTick(LivingEntity pLivingEntity, int pAmplifier) {
         if (!pLivingEntity.level.isClientSide()){
-            if (pAmplifier >= 9){
+            if (pAmplifier >= 8){
                 pLivingEntity.hurt(new DamageSource("vitaminized"), 8);
-                addAttributeModifier(Attributes.MOVEMENT_SPEED, "91AEAA56-376B-4498-935B-2F7F68070635",
-                        (double) 2.0F, AttributeModifier.Operation.MULTIPLY_TOTAL);
             }
         }
         super.applyEffectTick(pLivingEntity, pAmplifier);

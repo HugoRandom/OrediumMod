@@ -101,9 +101,11 @@ public class ModEvents {
     @SubscribeEvent
     public static void onPlayerCloned(PlayerEvent.Clone event){
         if(event.isWasDeath()){
+            event.getPlayer().reviveCaps();
             event.getOriginal().getCapability(PlayerVitaminsProvider.PLAYER_VITAMINS).ifPresent(oldStore -> {
                 event.getOriginal().getCapability(PlayerVitaminsProvider.PLAYER_VITAMINS).ifPresent(newStore ->{
                     newStore.copyFrom(oldStore);
+                    event.getPlayer().invalidateCaps();
                 });
             });
         }
@@ -113,4 +115,6 @@ public class ModEvents {
     public static void onRegisterCapabilities(RegisterCapabilitiesEvent event){
         event.register(PlayerVitamins.class);
     }
+
+
 }
