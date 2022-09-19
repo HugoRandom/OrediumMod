@@ -34,9 +34,6 @@ import java.util.Optional;
 
 public class TeleporterItem extends Item {
 
-    // Soy malo programando, asi que las NBT Tags no me funcionaron.
-    // private BlockPos Mapashe = null;
-    // private BlockPos Overworld = null;
     private final String Tag = "Mapashe";
 
     public TeleporterItem() {
@@ -48,12 +45,11 @@ public class TeleporterItem extends Item {
         pTooltipComponents.add(new TranslatableComponent("tooltip.oredium.teleporter"));
         if (pStack.hasTag()){
             if (pStack.getTagElement(this.Tag) != null){
-                BlockPos coords = NbtUtils.readBlockPos(pStack.getTagElement("Mapashe"));
+                BlockPos coords = NbtUtils.readBlockPos(Objects.requireNonNull(pStack.getTagElement(this.Tag)));
                 double X = coords.getX();
                 double Y = coords.getY();
                 double Z = coords.getZ();
-                String coordsM = "§6Mapashe: §f" + X + ", " + Y + ", " + Z;
-                pTooltipComponents.add(new TextComponent(coordsM));
+                pTooltipComponents.add(new TextComponent("§6Mapashe: §f" + X + ", " + Y + ", " + Z));
             }
         }
     }
@@ -61,8 +57,7 @@ public class TeleporterItem extends Item {
     @Override
     public InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer, InteractionHand pUsedHand) {
         ItemStack itemstack = pPlayer.getItemInHand(pUsedHand);
-        pLevel.playSound(null, pPlayer.getOnPos(), SoundEvents.RESPAWN_ANCHOR_CHARGE,
-                SoundSource.PLAYERS, 0.55f, 0.95f);
+        pLevel.playSound(null, pPlayer.getOnPos(), SoundEvents.RESPAWN_ANCHOR_CHARGE, SoundSource.PLAYERS, 0.55f, 0.95f);
         pPlayer.startUsingItem(pUsedHand);
         return InteractionResultHolder.success(itemstack);
     }
@@ -119,6 +114,7 @@ public class TeleporterItem extends Item {
                 OrediumPackets.sendToPlayer(new TeleporterChargeS2CPacket(0), player);
                 respawn = player.getRespawnPosition();
             }
+
             if (pTimeCharged < 10000){
                 MinecraftServer minecraftServer = pPlayer.level.getServer();
                 double nX = pPlayer.getOnPos().getX();
@@ -202,7 +198,7 @@ public class TeleporterItem extends Item {
                 pPlayer.playSound(SoundEvents.EXPERIENCE_ORB_PICKUP, 0.7F, 1.1F);
                 pPlayer.changeDimension(toDim, new Teleporter((ServerLevel) pPlayer.getLevel()));
                 pPlayer.moveTo(nX, nY + addY, nZ);
-                pPlayer.getCooldowns().addCooldown(this, 6);
+                pPlayer.getCooldowns().addCooldown(this, 6000);
                 pPlayer.sendMessage(new TranslatableComponent(dimension), pPlayer.getUUID());
             }
             else{

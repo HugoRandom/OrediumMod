@@ -439,6 +439,7 @@
 
 	"death.attack.unstable": "%1$s got too much unstable",
 	"death.attack.vitaminized": "%1$s died from excess of vitamins",
+	"death.attack.vitaminized.player": "%1$s died from excess of vitamins",
 
 	"key.category.oredium.oredium": "Oredium Mod",
 	"key.oredium.vitamins": "Vitamins",
