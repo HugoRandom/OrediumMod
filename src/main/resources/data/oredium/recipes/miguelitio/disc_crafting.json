@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " o ",
+        "oAo",
+        " o "
+    ],
+    "key": {
+        "o": {
+            "item": "oredium:miguelitio_nugget"
+        },
+        "A": {
+            "tag": "minecraft:music_discs"
+        }
+    },
+    "result": {
+        "item": "oredium:miguelitio_disc",
+        "count": 1
+    }
+}

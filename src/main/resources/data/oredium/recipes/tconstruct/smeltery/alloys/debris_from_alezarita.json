@@ -3,7 +3,7 @@
   	"inputs": [
 	    {
 	      	"name": "oredium:molten_alezarita",
-	      	"amount": 360
+	      	"amount": 270
 	    },
 	    {
 	      	"name": "tconstruct:scorched_stone",
@@ -11,12 +11,18 @@
 	    },
 	    {
 	      	"name": "tconstruct:molten_copper",
-	      	"amount": 180
+	      	"amount": 270
 	    }
   	],
   	"result": {
     	"fluid": "tconstruct:molten_debris",
     	"amount": 90
   	},
-  	"temperature": 1750
+  	"temperature": 1799,
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "tconstruct"
+		}
+	]
 }

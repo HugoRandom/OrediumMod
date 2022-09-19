@@ -1,14 +1,5 @@
 {
   	"type": "tconstruct:alloy",
-  	"conditions": [
-    	{
-      		"value": {
-        		"tag": "forge:ingots/aluminum",
-        		"type": "forge:tag_empty"
-      		},
-      		"type": "forge:not"
-    	}
-  	],
   	"inputs": [
 	    {
 	      	"name": "oredium:molten_axidita",
@@ -27,5 +18,11 @@
     	"fluid": "tconstruct:molten_iron",
     	"amount": 180
   	},
-  	"temperature": 1500
+  	"temperature": 1500,
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "tconstruct"
+		}
+	]
 }

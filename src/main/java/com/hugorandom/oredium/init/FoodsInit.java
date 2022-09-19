@@ -28,8 +28,6 @@ public class FoodsInit {
             Clorets::new);
     public static final RegistryObject<Item> FRAOPU = FOODS.register("fraopu",() ->
             new EffectFood(MobEffects.REGENERATION, 400, 0, 6, 1.0f));
-    public static final RegistryObject<Item> ENDERITA_APPLE = FOODS.register("enderita_apple", () ->
-            new Apples(MobEffects.REGENERATION, 300, 2));
     public static final RegistryObject<Item> ALEZARITA_CHICKEN = FOODS.register("alezarita_chicken",() ->
             new EffectFood(MobEffects.FIRE_RESISTANCE, 600, 0, 11, 0.9f));
     public static final RegistryObject<Item> HUGODIUM_SMOOTHIE = FOODS.register("hugodium_smoothie",
@@ -37,6 +35,27 @@ public class FoodsInit {
     public static final RegistryObject<Item> PEPENNE = FOODS.register("pepenne",
             Pepenne::new);
 
+    // Manzanas
+    public static final RegistryObject<Item> SHINE_APPLE = FOODS.register("shine_apple", () ->
+            new Apples(1200));
+    public static final RegistryObject<Item> CABALLERITA_APPLE = FOODS.register("caballerita_apple", () ->
+            new Apples(1500));
+    public static final RegistryObject<Item> AXIDITA_APPLE = FOODS.register("axidita_apple", () ->
+            new Apples(1500));
+    public static final RegistryObject<Item> CESARITA_APPLE = FOODS.register("cesarita_apple", () ->
+            new Apples(1800));
+    public static final RegistryObject<Item> FRANITOLINA_APPLE = FOODS.register("franitolina_apple", () ->
+            new Apples(1800));
+    public static final RegistryObject<Item> MELUNA_APPLE = FOODS.register("meluna_apple", () ->
+            new Apples(2400));
+    public static final RegistryObject<Item> ENDERITA_APPLE = FOODS.register("enderita_apple", () ->
+            new Apples(3600));
+    public static final RegistryObject<Item> ALEZARITA_APPLE = FOODS.register("alezarita_apple", () ->
+            new Apples(3000));
+    public static final RegistryObject<Item> HUGODIUM_APPLE = FOODS.register("hugodium_apple", () ->
+            new Apples(2400));
+    public static final RegistryObject<Item> MIGUELITIO_APPLE = FOODS.register("miguelitio_apple", () ->
+            new Apples(2000));
 
     // Pildoras normales
     public static final RegistryObject<Item> BLANK_PILL = FOODS.register("blank_pill", ()->

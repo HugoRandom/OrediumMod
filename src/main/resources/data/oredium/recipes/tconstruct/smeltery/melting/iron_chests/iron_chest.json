@@ -8,7 +8,7 @@
     	"amount": 720
   	},
   	"temperature": 800,
-  	"time": 45,
+  	"time": 105,
   	"conditions": [
       	{
           	"type": "forge:mod_loaded",

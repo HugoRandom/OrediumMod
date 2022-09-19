@@ -44,20 +44,4 @@ public class ShineBlock extends MetalBlock {
                     (double)pos.getY() + 1.1D, (double)pos.getZ() + rand.nextDouble(), 0.0D, 0.0D, 0.0D);
         }
     }
-
-    @Override
-    public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer, InteractionHand pHand, BlockHitResult pHit) {
-        if(!pLevel.isClientSide()){
-            if (pHand == InteractionHand.MAIN_HAND){
-                if (pPlayer.getItemInHand(pHand).is(FoodsInit.A12_PILL.get())) {
-                    pPlayer.getItemInHand(pHand).shrink(1);
-                    pLevel.addFreshEntity(new ItemEntity(pLevel, pPos.getX()+0.5, pPos.getY()+1, pPos.getZ()+0.5,
-                            new ItemStack(Items1Init.RAW_SHINE.get())));
-                    pLevel.playSound(null, pPos, SoundEvents.ITEM_FRAME_REMOVE_ITEM,
-                            SoundSource.BLOCKS, 0.85F, 2F);
-                }
-            }
-        }
-        return InteractionResult.sidedSuccess(pLevel.isClientSide);
-    }
 }

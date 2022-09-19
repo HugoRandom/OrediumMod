@@ -10,10 +10,10 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.levelgen.feature.ConfiguredStructureFeature;
 
-public class ModTags {
+public class OrediumTags {
 
     public static class Blocks {
-        public static final TagKey<Block> ENERGY = tag("energy");
+        public static final TagKey<Block> OREDIUM_BLOCKS = tag("blocks");
 
         private static TagKey<Block> tag(String name){
             return BlockTags.create(new ResourceLocation(Oredium.MOD_ID, name));
@@ -32,6 +32,7 @@ public class ModTags {
         public static final TagKey<Item> OREDIUM_PILLS_TAG = tag("foods/pills");
         public static final TagKey<Item> OREDIUM_DOUBLE_PILLS_TAG = tag("foods/double_pills");
         public static final TagKey<Item> OREDIUM_COFFEES_TAG = tag("foods/coffees");
+        public static final TagKey<Item> OREDIUM_APPLES_TAG = tag("foods/apples");
 
         private static TagKey<Item> tag(String name){
             return ItemTags.create(new ResourceLocation(Oredium.MOD_ID, name));

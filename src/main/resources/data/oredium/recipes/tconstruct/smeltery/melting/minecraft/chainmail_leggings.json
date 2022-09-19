@@ -1,0 +1,20 @@
+{
+  	"type": "tconstruct:damagable_melting",
+  	"ingredient": [
+    	{
+      		"item": "minecraft:chainmail_leggings"
+    	}    	
+  	],
+  	"result": {
+		"fluid": "tconstruct:molten_iron",
+    	"amount": 315
+  	},
+  	"temperature": 500,
+  	"time": 32,
+  	"conditions": [
+		{
+	    	"type": "forge:mod_loaded",
+	    	"modid": "tconstruct"
+	    }
+  	]
+}

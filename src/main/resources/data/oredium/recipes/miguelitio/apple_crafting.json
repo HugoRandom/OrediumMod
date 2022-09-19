@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ooo",
+        "oAo",
+        "ooo"
+    ],
+    "key": {
+        "o": {
+            "item": "oredium:miguelitio_ingot"
+        },
+        "A": {
+            "item": "minecraft:apple"
+        }
+    },
+    "result": {
+        "item": "oredium:miguelitio_apple",
+        "count": 1
+    }
+}

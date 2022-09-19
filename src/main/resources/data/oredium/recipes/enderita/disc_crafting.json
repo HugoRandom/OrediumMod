@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " o ",
+        "oAo",
+        " o "
+    ],
+    "key": {
+        "o": {
+            "item": "oredium:enderita_nugget"
+        },
+        "A": {
+            "tag": "minecraft:music_discs"
+        }
+    },
+    "result": {
+        "item": "oredium:enderita_disc",
+        "count": 1
+    }
+}

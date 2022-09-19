@@ -1,10 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#forge:molten_caballerita",
-    "#forge:molten_axidita",
-    "#forge:molten_cesarita",
-    "#forge:molten_franitolina",
-    "#forge:molten_meluna"
+    "#oredium:molten_caballerita",
+    "#oredium:molten_axidita",
+    "#oredium:molten_cesarita",
+    "#oredium:molten_franitolina"
   ]
 }

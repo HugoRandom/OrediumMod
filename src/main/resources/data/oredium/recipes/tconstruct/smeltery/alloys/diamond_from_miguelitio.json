@@ -10,7 +10,7 @@
 	      	"amount": 500
 	    },
 	    {
-	      	"name": "tconstruct:sky_slime",
+	      	"name": "tconstruct:slime",
 	      	"amount": 250
 	    }
   	],
@@ -18,5 +18,11 @@
     	"fluid": "tconstruct:molten_diamond",
     	"amount": 90
   	},
-  	"temperature": 2000
+  	"temperature": 2000,
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "tconstruct"
+		}
+	]
 }

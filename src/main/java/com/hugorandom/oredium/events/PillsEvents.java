@@ -5,7 +5,7 @@ import com.hugorandom.oredium.capabilities.vitamins.PlayerVitaminsProvider;
 import com.hugorandom.oredium.init.ArmorsInit;
 import com.hugorandom.oredium.init.EffectsInit;
 import com.hugorandom.oredium.init.FoodsInit;
-import com.hugorandom.oredium.util.ModTags;
+import com.hugorandom.oredium.util.OrediumTags;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -28,7 +28,7 @@ public class PillsEvents {
         ItemStack boots = player.getItemBySlot(EquipmentSlot.FEET);
 
 		// Aplicar solamente si consume una Pildora buena
-		if(event.getItem().is(ModTags.Items.OREDIUM_PILLS_TAG) || event.getItem().is(ModTags.Items.OREDIUM_DOUBLE_PILLS_TAG))
+		if(event.getItem().is(OrediumTags.Items.OREDIUM_PILLS_TAG) || event.getItem().is(OrediumTags.Items.OREDIUM_DOUBLE_PILLS_TAG))
 		{
 			// Se añade al conteo de pildoras
 			player.getCapability(PlayerVitaminsProvider.PLAYER_VITAMINS).ifPresent(playerVitamins -> {

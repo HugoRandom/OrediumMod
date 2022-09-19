@@ -22,7 +22,7 @@
 		}
 	],
   	"temperature": 1450,
-  	"time": 120,
+  	"time": 250,
   	"conditions": [
       	{
           	"type": "forge:mod_loaded",

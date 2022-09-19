@@ -1,9 +1,10 @@
 {
   "replace": false,
   "values": [
-    "#forge:molten_enderita",
-    "#forge:molten_alezarita",
-    "#forge:molten_hugodium",
-    "#forge:molten_miguelitio"
+    "#oredium:molten_enderita",
+    "#oredium:molten_alezarita",
+    "#oredium:molten_hugodium",
+    "#oredium:molten_miguelitio",
+    "#oredium:molten_meluna"
   ]
 }
