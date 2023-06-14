@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:blasting",
-    "ingredient": {
-        "item": "oredium:deepslate_cesarita_ore"
-    },
-    "result": "oredium:cesarita_ingot",
-    "experience": 0.75,
-    "cookingtime": 100
-}

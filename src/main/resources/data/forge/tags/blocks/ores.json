@@ -2,13 +2,10 @@
   	"replace": false,
   	"values": [
 	    "#forge:ores/alezarita",
-	    "#forge:ores/caballerita",
-	    "#forge:ores/cesarita",
-	    "#forge:ores/caballerita",
-	    "#forge:ores/enderita",
+	    "#forge:ores/disprosio",
+	    "#forge:ores/terium",
 	    "#forge:ores/franitolina",
-	    "#forge:ores/hugodium",
-	    "#forge:ores/miguelitio",
-	    "#forge:ores/shine"    
+	    "#forge:ores/halinox",
+	    "#forge:ores/miguelitio"
 	]
 }

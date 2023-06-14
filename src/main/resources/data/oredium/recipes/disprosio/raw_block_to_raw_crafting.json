@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "oredium:raw_disprosio_block"
+        }
+    ],
+    "result": {
+        "item": "oredium:raw_disprosio",
+        "count": 9
+    }
+}

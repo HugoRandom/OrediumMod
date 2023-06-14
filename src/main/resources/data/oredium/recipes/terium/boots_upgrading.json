@@ -1,0 +1,14 @@
+{
+  "type": "oredium:upgrading",
+  "ingredients": [
+    {
+      "item": "oredium:terium_gem"
+    },
+    {
+      "item": "oredium:terium_boots"
+    }
+  ],
+  "output": {
+    "item": "oredium:terium_boots_upgraded"
+  }
+}

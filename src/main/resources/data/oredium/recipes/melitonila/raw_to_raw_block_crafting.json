@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ooo",
+        "ooo",
+        "ooo"
+    ],
+    "key": {
+        "o": {
+            "item": "oredium:raw_melitonila"
+        }
+    },
+    "result": {
+        "item": "oredium:raw_melitonila_block",
+        "count": 1
+    }
+}

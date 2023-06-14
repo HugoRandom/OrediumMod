@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:blasting",
-    "ingredient": {
-        "item": "oredium:axidita_ore"
-    },
-    "result": "oredium:axidita_ingot",
-    "experience": 0.5,
-    "cookingtime": 100
-}

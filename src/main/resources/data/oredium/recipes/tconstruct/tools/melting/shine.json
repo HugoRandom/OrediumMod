@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_melting",
-  "input": "oredium:shine",
-  "temperature": 750,
-  "result": {
-    "fluid": "oredium:molten_shine",
-    "amount": 90
-  }
-}

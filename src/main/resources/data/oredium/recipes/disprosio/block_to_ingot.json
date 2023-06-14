@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "oredium:disprosio_block"
+        }
+    ],
+    "result": {
+        "item": "oredium:disprosio_ingot",
+        "count": 9
+    }
+}

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "oredium:enderita_helmet_upgraded"
+      "item": "oredium:terium_helmet_upgraded"
     },
     "title": {
       "translate": "advancement.upgraded_title"
@@ -64,192 +64,97 @@
         ]
       }
     },
-    "axidita_helmet_upgraded": {
+    "disprosio_helmet_upgraded": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:axidita_helmet_upgraded"
+              "oredium:disprosio_helmet_upgraded"
             ]
           }
         ]
       }
     },
-    "axidita_chestplate_upgraded": {
+    "disprosio_chestplate_upgraded": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:axidita_chestplate_upgraded"
+              "oredium:disprosio_chestplate_upgraded"
             ]
           }
         ]
       }
     },
-    "axidita_leggings_upgraded": {
+    "disprosio_leggings_upgraded": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:axidita_leggings_upgraded"
+              "oredium:disprosio_leggings_upgraded"
             ]
           }
         ]
       }
     },
-    "axidita_boots_upgraded": {
+    "disprosio_boots_upgraded": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:axidita_boots_upgraded"
-            ]
-          }
-        ]
-      }
-    },"caballerita_helmet_upgraded": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "oredium:caballerita_helmet_upgraded"
+              "oredium:disprosio_boots_upgraded"
             ]
           }
         ]
       }
     },
-    "caballerita_chestplate_upgraded": {
+    "terium_helmet_upgraded": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:caballerita_chestplate_upgraded"
+              "oredium:terium_helmet_upgraded"
             ]
           }
         ]
       }
     },
-    "caballerita_leggings_upgraded": {
+    "terium_chestplate_upgraded": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:caballerita_leggings_upgraded"
+              "oredium:terium_chestplate_upgraded"
             ]
           }
         ]
       }
     },
-    "caballerita_boots_upgraded": {
+    "terium_leggings_upgraded": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:caballerita_boots_upgraded"
+              "oredium:terium_leggings_upgraded"
             ]
           }
         ]
       }
     },
-    "cesarita_helmet_upgraded": {
+    "terium_boots_upgraded": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:cesarita_helmet_upgraded"
-            ]
-          }
-        ]
-      }
-    },
-    "cesarita_chestplate_upgraded": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "oredium:cesarita_chestplate_upgraded"
-            ]
-          }
-        ]
-      }
-    },
-    "cesarita_leggings_upgraded": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "oredium:cesarita_leggings_upgraded"
-            ]
-          }
-        ]
-      }
-    },
-    "cesarita_boots_upgraded": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "oredium:cesarita_boots_upgraded"
-            ]
-          }
-        ]
-      }
-    },
-    "enderita_helmet_upgraded": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "oredium:enderita_helmet_upgraded"
-            ]
-          }
-        ]
-      }
-    },
-    "enderita_chestplate_upgraded": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "oredium:enderita_chestplate_upgraded"
-            ]
-          }
-        ]
-      }
-    },
-    "enderita_leggings_upgraded": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "oredium:enderita_leggings_upgraded"
-            ]
-          }
-        ]
-      }
-    },
-    "enderita_boots_upgraded": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "oredium:enderita_boots_upgraded"
+              "oredium:terium_boots_upgraded"
             ]
           }
         ]
@@ -303,49 +208,49 @@
         ]
       }
     },
-    "hugodium_helmet_upgraded": {
+    "halinox_helmet_upgraded": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:hugodium_helmet_upgraded"
+              "oredium:halinox_helmet_upgraded"
             ]
           }
         ]
       }
     },
-    "hugodium_chestplate_upgraded": {
+    "halinox_chestplate_upgraded": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:hugodium_chestplate_upgraded"
+              "oredium:halinox_chestplate_upgraded"
             ]
           }
         ]
       }
     },
-    "hugodium_leggings_upgraded": {
+    "halinox_leggings_upgraded": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:hugodium_leggings_upgraded"
+              "oredium:halinox_leggings_upgraded"
             ]
           }
         ]
       }
     },
-    "hugodium_boots_upgraded": {
+    "halinox_boots_upgraded": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:hugodium_boots_upgraded"
+              "oredium:halinox_boots_upgraded"
             ]
           }
         ]
@@ -399,97 +304,49 @@
         ]
       }
     },
-    "shine_helmet_upgraded": {
+    "melitonila_helmet_upgraded": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:shine_helmet_upgraded"
+              "oredium:melitonila_helmet_upgraded"
             ]
           }
         ]
       }
     },
-    "shine_chestplate_upgraded": {
+    "melitonila_chestplate_upgraded": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:shine_chestplate_upgraded"
+              "oredium:melitonila_chestplate_upgraded"
             ]
           }
         ]
       }
     },
-    "shine_leggings_upgraded": {
+    "melitonila_leggings_upgraded": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:shine_leggings_upgraded"
+              "oredium:melitonila_leggings_upgraded"
             ]
           }
         ]
       }
     },
-    "shine_boots_upgraded": {
+    "melitonila_boots_upgraded": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:shine_boots_upgraded"
-            ]
-          }
-        ]
-      }
-    },
-    "meluna_helmet_upgraded": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "oredium:meluna_helmet_upgraded"
-            ]
-          }
-        ]
-      }
-    },
-    "meluna_chestplate_upgraded": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "oredium:meluna_chestplate_upgraded"
-            ]
-          }
-        ]
-      }
-    },
-    "meluna_leggings_upgraded": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "oredium:meluna_leggings_upgraded"
-            ]
-          }
-        ]
-      }
-    },
-    "meluna_boots_upgraded": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "oredium:meluna_boots_upgraded"
+              "oredium:melitonila_boots_upgraded"
             ]
           }
         ]
@@ -502,42 +359,30 @@
       "alezarita_chestplate_upgraded",
       "alezarita_leggings_upgraded",
       "alezarita_boots_upgraded",
-      "axidita_helmet_upgraded",
-      "axidita_chestplate_upgraded",
-      "axidita_leggings_upgraded",
-      "axidita_boots_upgraded",
-      "caballerita_helmet_upgraded",
-      "caballerita_chestplate_upgraded",
-      "caballerita_leggings_upgraded",
-      "caballerita_boots_upgraded",
-      "cesarita_helmet_upgraded",
-      "cesarita_chestplate_upgraded",
-      "cesarita_leggings_upgraded",
-      "cesarita_boots_upgraded",
-      "enderita_helmet_upgraded",
-      "enderita_chestplate_upgraded",
-      "enderita_leggings_upgraded",
-      "enderita_boots_upgraded",
+      "disprosio_helmet_upgraded",
+      "disprosio_chestplate_upgraded",
+      "disprosio_leggings_upgraded",
+      "disprosio_boots_upgraded",
+      "terium_helmet_upgraded",
+      "terium_chestplate_upgraded",
+      "terium_leggings_upgraded",
+      "terium_boots_upgraded",
       "franitolina_helmet_upgraded",
       "franitolina_chestplate_upgraded",
       "franitolina_leggings_upgraded",
       "franitolina_boots_upgraded",
-      "hugodium_helmet_upgraded",
-      "hugodium_chestplate_upgraded",
-      "hugodium_leggings_upgraded",
-      "hugodium_boots_upgraded",
+      "halinox_helmet_upgraded",
+      "halinox_chestplate_upgraded",
+      "halinox_leggings_upgraded",
+      "halinox_boots_upgraded",
       "miguelitio_helmet_upgraded",
       "miguelitio_chestplate_upgraded",
       "miguelitio_leggings_upgraded",
       "miguelitio_boots_upgraded",
-      "shine_helmet_upgraded",
-      "shine_chestplate_upgraded",
-      "shine_leggings_upgraded",
-      "shine_boots_upgraded",
-      "meluna_helmet_upgraded",
-      "meluna_chestplate_upgraded",
-      "meluna_leggings_upgraded",
-      "meluna_boots_upgraded"
+      "melitonila_helmet_upgraded",
+      "melitonila_chestplate_upgraded",
+      "melitonila_leggings_upgraded",
+      "melitonila_boots_upgraded"
     ]
   ]
 }

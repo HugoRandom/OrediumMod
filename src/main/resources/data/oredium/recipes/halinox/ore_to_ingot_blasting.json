@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "oredium:halinox_ore"
+    },
+    "result": "oredium:halinox_ingot",
+    "experience": 1,
+    "cookingtime": 100
+}

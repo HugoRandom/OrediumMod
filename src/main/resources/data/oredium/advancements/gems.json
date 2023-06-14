@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "oredium:enderita_gem"
+      "item": "oredium:terium_gem"
     },
     "title": {
       "translate": "advancement.gems_title"
@@ -16,13 +16,13 @@
   },
   "parent": "oredium:oredium_block",
   "criteria": {
-    "enderita_gem": {
+    "terium_gem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:enderita_gem"
+              "oredium:terium_gem"
             ]
           }
         ]
@@ -40,37 +40,13 @@
         ]
       }
     },
-    "axidita_gem": {
+    "disprosio_gem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:axidita_gem"
-            ]
-          }
-        ]
-      }
-    },
-    "caballerita_gem": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "oredium:caballerita_gem"
-            ]
-          }
-        ]
-      }
-    },
-    "cesarita_gem": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "oredium:cesarita_gem"
+              "oredium:disprosio_gem"
             ]
           }
         ]
@@ -88,13 +64,13 @@
         ]
       }
     },
-    "hugodium_gem": {
+    "halinox_gem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:hugodium_gem"
+              "oredium:halinox_gem"
             ]
           }
         ]
@@ -112,25 +88,13 @@
         ]
       }
     },
-    "shine_gem": {
+    "melitonila_gem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:shine_gem"
-            ]
-          }
-        ]
-      }
-    },
-    "meluna_gem": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "oredium:meluna_gem"
+              "oredium:melitonila_gem"
             ]
           }
         ]
@@ -140,15 +104,12 @@
   "requirements": [
     [
       "alezarita_gem",
-      "axidita_gem",
-      "caballerita_gem",
-      "cesarita_gem",
-      "enderita_gem",
+      "disprosio_gem",
+      "terium_gem",
       "franitolina_gem",
-      "hugodium_gem",
+      "halinox_gem",
       "miguelitio_gem",
-      "shine_gem",
-      "meluna_gem"
+      "melitonila_gem"
     ]
   ]
 }

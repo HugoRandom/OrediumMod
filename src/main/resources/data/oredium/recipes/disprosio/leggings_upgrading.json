@@ -1,0 +1,14 @@
+{
+  "type": "oredium:upgrading",
+  "ingredients": [
+    {
+      "item": "oredium:disprosio_gem"
+    },
+    {
+      "item": "oredium:disprosio_leggings"
+    }
+  ],
+  "output": {
+    "item": "oredium:disprosio_leggings_upgraded"
+  }
+}

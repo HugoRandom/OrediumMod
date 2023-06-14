@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "oredium:disprosio_ore"
+    },
+    "result": "oredium:disprosio_ingot",
+    "experience": 0.75,
+    "cookingtime": 200
+}

@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "oredium:shine_block",
-        "oredium:shine_ore",
-        "oredium:deepslate_shine_ore",
-        "oredium:raw_shine_block"
-    ]
-}

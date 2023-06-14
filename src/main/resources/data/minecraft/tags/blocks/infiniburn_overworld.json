@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-        "oredium:hugodium_block",
+        "oredium:halinox_block",
         "oredium:alezarita_block",
         "oredium:miguelitio_block"
     ]

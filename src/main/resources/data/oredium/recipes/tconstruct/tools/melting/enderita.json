@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_melting",
-  "input": "oredium:enderita",
-  "temperature": 1000,
-  "result": {
-    "fluid": "oredium:molten_enderita",
-    "amount": 90
-  }
-}

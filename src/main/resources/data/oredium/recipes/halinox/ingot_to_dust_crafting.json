@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "oredium:halinox_ingot"
+        },
+        {
+            "item": "oredium:halinox_ingot"
+        }
+    ],
+    "result": {
+        "item": "oredium:halinox_dust",
+        "count": 2
+    }
+}

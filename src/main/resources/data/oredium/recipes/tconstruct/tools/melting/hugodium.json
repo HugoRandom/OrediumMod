@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_melting",
-  "input": "oredium:hugodium",
-  "temperature": 1200,
-  "result": {
-    "fluid": "oredium:molten_hugodium",
-    "amount": 90
-  }
-}

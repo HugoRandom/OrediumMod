@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " O ",
+        "OTO",
+        " O "
+    ],
+    "key": {
+        "O": {
+            "item": "oredium:melitonila_nugget"
+        },
+        "T": {
+            "item": "minecraft:glowstone"
+        }
+    },
+    "result": {
+        "item": "oredium:melitonila_lamp",
+        "count": 1
+    }
+}

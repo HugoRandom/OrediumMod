@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "oredium:raw_melitonila"
+    },
+    "result": "oredium:melitonila_ingot",
+    "experience": 1,
+    "cookingtime": 100
+}

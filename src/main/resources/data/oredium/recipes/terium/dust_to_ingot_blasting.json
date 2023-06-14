@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "oredium:terium_dust"
+    },
+    "result": "oredium:terium_ingot",
+    "experience": 0.1,
+    "cookingtime": 100
+}

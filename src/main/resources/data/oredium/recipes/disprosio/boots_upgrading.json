@@ -1,0 +1,14 @@
+{
+  "type": "oredium:upgrading",
+  "ingredients": [
+    {
+      "item": "oredium:disprosio_gem"
+    },
+    {
+      "item": "oredium:disprosio_boots"
+    }
+  ],
+  "output": {
+    "item": "oredium:disprosio_boots_upgraded"
+  }
+}

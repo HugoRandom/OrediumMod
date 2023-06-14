@@ -2,11 +2,11 @@
     "variants": {
         "lit=false":
         {
-            "model": "oredium:block/meluna_lamp_off"
+            "model": "oredium:block/melitonila_lamp_off"
         },
         "lit=true":
         {
-            "model": "oredium:block/meluna_lamp_on"
+            "model": "oredium:block/melitonila_lamp_on"
         }
     }
 }

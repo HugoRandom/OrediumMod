@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ooo",
+        "ooo",
+        "ooo"
+    ],
+    "key": {
+        "o": {
+            "item": "oredium:halinox_ingot"
+        }
+    },
+    "result": {
+        "item": "oredium:halinox_block",
+        "count": 1
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " i ",
+        "iSi",
+        " i "
+    ],
+    "key": {
+        "i": {
+            "item": "oredium:terium_ingot"
+        },
+        "S": {
+            "item": "oredium:umc"
+        }
+    },
+    "result": {
+        "item": "oredium:terium_gem",
+        "count": 1
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " i ",
+        "iSi",
+        " i "
+    ],
+    "key": {
+        "i": {
+            "item": "oredium:melitonila_ingot"
+        },
+        "S": {
+            "item": "oredium:umc"
+        }
+    },
+    "result": {
+        "item": "oredium:melitonila_gem",
+        "count": 1
+    }
+}

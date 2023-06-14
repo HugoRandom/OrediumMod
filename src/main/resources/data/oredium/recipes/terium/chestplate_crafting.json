@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "i i",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "oredium:terium_ingot"
+        }
+    },
+    "result": {
+        "item": "oredium:terium_chestplate",
+        "count": 1
+    }
+}

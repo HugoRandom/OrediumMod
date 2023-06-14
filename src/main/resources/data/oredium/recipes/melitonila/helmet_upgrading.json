@@ -1,0 +1,14 @@
+{
+  "type": "oredium:upgrading",
+  "ingredients": [
+    {
+      "item": "oredium:melitonila_gem"
+    },
+    {
+      "item": "oredium:melitonila_helmet"
+    }
+  ],
+  "output": {
+    "item": "oredium:melitonila_helmet_upgraded"
+  }
+}

@@ -5,38 +5,11 @@
             "oredium:upgrading_sound"
         ]
     },
-    "shine_disc": {
-        "subtitle": "sounds.oredium.shine_disc",
+    "disprosio_disc": {
+        "subtitle": "sounds.oredium.disprosio_disc",
         "sounds": [
             {
-                "name": "oredium:shine_disc",
-                "stream": true
-            }
-        ]
-    },
-    "caballerita_disc": {
-        "subtitle": "sounds.oredium.caballerita_disc",
-        "sounds": [
-            {
-                "name": "oredium:caballerita_disc",
-                "stream": true
-            }
-        ]
-    },
-    "axidita_disc": {
-        "subtitle": "sounds.oredium.axidita_disc",
-        "sounds": [
-            {
-                "name": "oredium:axidita_disc",
-                "stream": true
-            }
-        ]
-    },
-    "cesarita_disc": {
-        "subtitle": "sounds.oredium.cesarita_disc",
-        "sounds": [
-            {
-                "name": "oredium:cesarita_disc",
+                "name": "oredium:disprosio_disc",
                 "stream": true
             }
         ]
@@ -50,20 +23,20 @@
             }
         ]
     },
-    "meluna_disc": {
-        "subtitle": "sounds.oredium.meluna_disc",
+    "melitonila_disc": {
+        "subtitle": "sounds.oredium.melitonila_disc",
         "sounds": [
             {
-                "name": "oredium:meluna_disc",
+                "name": "oredium:melitonila_disc",
                 "stream": true
             }
         ]
     },
-    "enderita_disc": {
-        "subtitle": "sounds.oredium.enderita_disc",
+    "terium_disc": {
+        "subtitle": "sounds.oredium.terium_disc",
         "sounds": [
             {
-                "name": "oredium:enderita_disc",
+                "name": "oredium:terium_disc",
                 "stream": true
             }
         ]
@@ -77,11 +50,11 @@
             }
         ]
     },
-    "hugodium_disc": {
-        "subtitle": "sounds.oredium.hugodium_disc",
+    "halinox_disc": {
+        "subtitle": "sounds.oredium.halinox_disc",
         "sounds": [
             {
-                "name": "oredium:hugodium_disc",
+                "name": "oredium:halinox_disc",
                 "stream": true
             }
         ]

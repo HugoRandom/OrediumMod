@@ -1,15 +1,12 @@
 {
   "replace": false,
   "values": [
-    "oredium:shine_block",
-    "oredium:caballerita_block",
-    "oredium:axidita_block",
-    "oredium:cesarita_block",
+    "oredium:disprosio_block",
     "oredium:franitolina_block",
-    "oredium:meluna_block",
-    "oredium:enderita_block",
+    "oredium:melitonila_block",
+    "oredium:terium_block",
     "oredium:alezarita_block",
-    "oredium:hugodium_block",
+    "oredium:halinox_block",
     "oredium:miguelitio_block"
   ]
 }

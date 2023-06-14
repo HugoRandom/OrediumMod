@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "oredium:cesarita_dust"
+            "item": "oredium:disprosio_dust"
         },
         {
             "item": "oredium:miguelitio_dust"

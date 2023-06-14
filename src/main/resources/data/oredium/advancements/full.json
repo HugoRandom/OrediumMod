@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "oredium:axidita_helmet"
+      "item": "oredium:terium_helmet"
     },
     "title": {
       "translate": "advancement.full_title"
@@ -16,28 +16,28 @@
   },
   "parent": "oredium:armors",
   "criteria": {
-    "axidita_armor": {
+    "terium_armor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:axidita_helmet"
+              "oredium:terium_helmet"
             ]
           },
           {
             "items": [
-              "oredium:axidita_chestplate"
+              "oredium:terium_chestplate"
             ]
           },
           {
             "items": [
-              "oredium:axidita_leggings"
+              "oredium:terium_leggings"
             ]
           },
           {
             "items": [
-              "oredium:axidita_boots"
+              "oredium:terium_boots"
             ]
           }
         ]
@@ -46,7 +46,7 @@
   },
   "requirements": [
     [
-      "axidita_armor"
+      "terium_armor"
     ]
   ],
   "rewards": {

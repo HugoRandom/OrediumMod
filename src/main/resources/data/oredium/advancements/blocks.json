@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "oredium:enderita_block"
+      "item": "oredium:terium_block"
     },
     "title": {
       "translate": "advancement.blocks_title"
@@ -16,13 +16,13 @@
   },
   "parent": "oredium:ingots",
   "criteria": {
-    "enderita_block": {
+    "terium_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:enderita_block"
+              "oredium:terium_block"
             ]
           }
         ]
@@ -39,43 +39,19 @@
           }
         ]
       }
-    },
-    "axidita_block": {
+    },    
+    "disprosio_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:axidita_block"
+              "oredium:disprosio_block"
             ]
           }
         ]
       }
-    },
-    "caballerita_block": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "oredium:caballerita_block"
-            ]
-          }
-        ]
-      }
-    },
-    "cesarita_block": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "oredium:cesarita_block"
-            ]
-          }
-        ]
-      }
-    },
+    },    
     "franitolina_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -88,13 +64,13 @@
         ]
       }
     },
-    "hugodium_block": {
+    "halinox_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:hugodium_block"
+              "oredium:halinox_block"
             ]
           }
         ]
@@ -111,26 +87,14 @@
           }
         ]
       }
-    },
-    "shine_block": {
+    },    
+    "melitonila_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:shine_block"
-            ]
-          }
-        ]
-      }
-    },
-    "meluna_block": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "oredium:meluna_block"
+              "oredium:melitonila_block"
             ]
           }
         ]
@@ -140,15 +104,12 @@
   "requirements": [
     [
       "alezarita_block",
-      "axidita_block",
-      "caballerita_block",
-      "cesarita_block",
-      "enderita_block",
+      "disprosio_block",
+      "terium_block",
       "franitolina_block",
-      "hugodium_block",
+      "halinox_block",
       "miguelitio_block",
-      "shine_block",
-      "meluna_block"
+      "melitonila_block"
     ]
   ]
 }

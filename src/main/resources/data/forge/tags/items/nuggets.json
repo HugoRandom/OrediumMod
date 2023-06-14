@@ -2,15 +2,11 @@
   	"replace": false,
   	"values": [
 	    "#forge:nuggets/alezarita",
-	    "#forge:nuggets/axidita",
-	    "#forge:nuggets/caballerita",
-	    "#forge:nuggets/cesarita",
-	    "#forge:nuggets/caballerita",
-	    "#forge:nuggets/enderita",
+	    "#forge:nuggets/disprosio",
+	    "#forge:nuggets/terium",
 	    "#forge:nuggets/franitolina",
-		"#forge:nuggets/meluna",
-	    "#forge:nuggets/hugodium",
-	    "#forge:nuggets/miguelitio",
-	    "#forge:nuggets/shine"    
+		"#forge:nuggets/melitonila",
+	    "#forge:nuggets/halinox",
+	    "#forge:nuggets/miguelitio"
 	]
 }

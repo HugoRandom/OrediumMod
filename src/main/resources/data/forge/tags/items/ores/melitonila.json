@@ -1,0 +1,7 @@
+{
+  	"replace": false,
+  	"values": [
+    	"oredium:melitonila_ore",
+		"oredium:deepslate_melitonila_ore"
+  	]
+}

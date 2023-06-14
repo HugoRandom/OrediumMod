@@ -1,15 +1,12 @@
 {
   	"replace": false,
   	"values": [
-    	"oredium:hugodium_ingot",
+    	"oredium:halinox_ingot",
 		"oredium:alezarita_ingot",
-		"oredium:axidita_ingot",
 		"oredium:franitolina_ingot",
-		"oredium:meluna_ingot",
+		"oredium:melitonila_ingot",
 		"oredium:miguelitio_ingot",
-		"oredium:shine_ingot",
-		"oredium:cesarita_ingot",
-		"oredium:caballerita_ingot",
-		"oredium:enderita_ingot"
+		"oredium:disprosio_ingot",
+		"oredium:terium_ingot"
   	]
 }

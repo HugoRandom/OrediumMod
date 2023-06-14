@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:smelting",
-    "ingredient": {
-        "item": "oredium:raw_shine"
-    },
-    "result": "oredium:shine_ingot",
-    "experience": 1,
-    "cookingtime": 200
-}

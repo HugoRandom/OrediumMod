@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_melting",
-  "input": "oredium:meluna",
-  "temperature": 1000,
-  "result": {
-    "fluid": "oredium:molten_meluna",
-    "amount": 90
-  }
-}

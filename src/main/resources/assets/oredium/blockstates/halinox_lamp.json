@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "lit=false":
+        {
+            "model": "oredium:block/halinox_lamp_off"
+        },
+        "lit=true":
+        {
+            "model": "oredium:block/halinox_lamp_on"
+        }
+    }
+}

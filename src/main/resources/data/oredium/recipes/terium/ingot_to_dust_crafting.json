@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "oredium:terium_ingot"
+        },
+        {
+            "item": "oredium:terium_ingot"
+        }
+    ],
+    "result": {
+        "item": "oredium:terium_dust",
+        "count": 2
+    }
+}

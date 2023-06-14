@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "oredium:enderita_ingot"
+      "item": "oredium:terium_ingot"
     },
     "title": {
       "translate": "advancement.ingots_title"
@@ -16,13 +16,13 @@
   },
   "parent": "oredium:start",
   "criteria": {
-    "enderita_ingot": {
+    "terium_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:enderita_ingot"
+              "oredium:terium_ingot"
             ]
           }
         ]
@@ -40,37 +40,13 @@
         ]
       }
     },
-    "axidita_ingot": {
+    "disprosio_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:axidita_ingot"
-            ]
-          }
-        ]
-      }
-    },
-    "caballerita_ingot": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "oredium:caballerita_ingot"
-            ]
-          }
-        ]
-      }
-    },
-    "cesarita_ingot": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "oredium:cesarita_ingot"
+              "oredium:disprosio_ingot"
             ]
           }
         ]
@@ -88,13 +64,13 @@
         ]
       }
     },
-    "hugodium_ingot": {
+    "halinox_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:hugodium_ingot"
+              "oredium:halinox_ingot"
             ]
           }
         ]
@@ -112,13 +88,13 @@
         ]
       }
     },
-    "shine_ingot": {
+    "melitonila_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "oredium:shine_ingot"
+              "oredium:melitonila_ingot"
             ]
           }
         ]

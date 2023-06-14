@@ -1,15 +1,28 @@
 {
     "replace": false,
     "values": [
-        "oredium:meluna_block",
-        "oredium:enderita_block",
+        "oredium:melitonila_block",
+        "oredium:terium_block",
         "oredium:alezarita_block",
-        "oredium:hugodium_block",
+        "oredium:halinox_block",
         "oredium:miguelitio_block",
-        "oredium:deepslate_enderita_ore",
+        "oredium:deepslate_terium_ore",
         "oredium:alezarita_ore",
-        "oredium:hugodium_ore",
+        "oredium:halinox_ore",
         "oredium:miguelitio_ore",
-        "oredium:oredium_block"
+        "oredium:oredium_block",		
+        "oredium:disprosio_block",
+        "oredium:franitolina_block",
+        "oredium:disprosio_ore",
+        "oredium:franitolina_ore",
+		"oredium:melitonila_ore",
+        "oredium:deepslate_disprosio_ore",
+        "oredium:deepslate_franitolina_ore",
+		"oredium:deepslate_melitonila_ore",
+        "oredium:raw_disprosio_block",
+        "oredium:raw_franitolina_block",
+        "oredium:raw_alezarita_block",
+        "oredium:raw_halinox_block",
+        "oredium:raw_miguelitio_block"
     ]
 }

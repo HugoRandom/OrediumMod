@@ -1,0 +1,14 @@
+{
+  "type": "oredium:upgrading",
+  "ingredients": [
+    {
+      "item": "oredium:melitonila_gem"
+    },
+    {
+      "item": "oredium:melitonila_chestplate"
+    }
+  ],
+  "output": {
+    "item": "oredium:melitonila_chestplate_upgraded"
+  }
+}
