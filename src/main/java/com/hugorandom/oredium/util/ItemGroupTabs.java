@@ -20,7 +20,7 @@ public class ItemGroupTabs {
     public static final CreativeModeTab OREDIUM_FOODS = new CreativeModeTab("oredium_tab_foods"){
         @Override
         public @NotNull ItemStack makeIcon() {
-            return new ItemStack(FoodsInit.ENDERITA_APPLE.get());
+            return new ItemStack(FoodsInit.TERIUM_APPLE.get());
         }
     };
 
@@ -34,7 +34,7 @@ public class ItemGroupTabs {
     public static final CreativeModeTab OREDIUM_TOOLS = new CreativeModeTab("oredium_tab_tools"){
         @Override
         public @NotNull ItemStack makeIcon() {
-            return new ItemStack(ToolsInit.ENDERITA_SWORD.get());
+            return new ItemStack(ToolsInit.TERIUM_SWORD.get());
         }
     };
 }

@@ -1,10 +1,8 @@
 package com.hugorandom.oredium;
 
 import com.hugorandom.oredium.init.ArmorsInit;
-import com.hugorandom.oredium.init.BlockFluidsInit;
 import com.hugorandom.oredium.init.BlocksInit;
 import com.hugorandom.oredium.init.BlocksEntitiesInit;
-import com.hugorandom.oredium.init.FluidsInit;
 import com.hugorandom.oredium.init.FoodsInit;
 import com.hugorandom.oredium.init.Items1Init;
 import com.hugorandom.oredium.init.Items2Init;

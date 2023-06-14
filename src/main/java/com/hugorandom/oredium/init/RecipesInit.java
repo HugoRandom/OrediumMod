@@ -10,7 +10,8 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class RecipesInit {
 
-    public static final DeferredRegister<RecipeSerializer<?>> SERIALIZERS = DeferredRegister.create(ForgeRegistries.RECIPE_SERIALIZERS, Oredium.MOD_ID);
+    public static final DeferredRegister<RecipeSerializer<?>> SERIALIZERS =
+            DeferredRegister.create(ForgeRegistries.RECIPE_SERIALIZERS, Oredium.MOD_ID);
 
     public static void register(IEventBus eventBus){
         SERIALIZERS.register(eventBus);

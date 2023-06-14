@@ -11,90 +11,112 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class Items1Init {
 
-    public static final DeferredRegister<net.minecraft.world.item.Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Oredium.MOD_ID);
+    public static final DeferredRegister<net.minecraft.world.item.Item> ITEMS = 
+            DeferredRegister.create(ForgeRegistries.ITEMS, Oredium.MOD_ID);
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
 
     // Lingotes - Ingots
-    public static final RegistryObject<net.minecraft.world.item.Item> SHINE_INGOT = ITEMS.register("shine_ingot", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> DISPROSIO_INGOT = ITEMS.register("caballerita_ingot", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> AXIDITA_INGOT = ITEMS.register("axidita_ingot", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> CESARITA_INGOT = ITEMS.register("cesarita_ingot", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> FRANITOLINA_INGOT = ITEMS.register("franitolina_ingot", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> MELITONILA_INGOT = ITEMS.register("meluna_ingot", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> TERIUM_INGOT = ITEMS.register("enderita_ingot", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> ALEZARITA_INGOT = ITEMS.register("alezarita_ingot", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> HALINOX_INGOT = ITEMS.register("hugodium_ingot", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> MIGUELITIO_INGOT = ITEMS.register("miguelitio_ingot", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> DISPROSIO_INGOT = 
+            ITEMS.register("disprosio_ingot", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> FRANITOLINA_INGOT = 
+            ITEMS.register("franitolina_ingot", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> MELITONILA_INGOT = 
+            ITEMS.register("melitonila_ingot", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> TERIUM_INGOT = 
+            ITEMS.register("terium_ingot", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> ALEZARITA_INGOT = 
+            ITEMS.register("alezarita_ingot", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> HALINOX_INGOT = 
+            ITEMS.register("halinox_ingot", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> MIGUELITIO_INGOT = 
+            ITEMS.register("miguelitio_ingot", CommonItem::new);
 
     // Pepitas
-    public static final RegistryObject<net.minecraft.world.item.Item> SHINE_NUGGET = ITEMS.register("shine_nugget", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> CABALLERITA_NUGGET = ITEMS.register("caballerita_nugget", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> AXIDITA_NUGGET = ITEMS.register("axidita_nugget", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> CESARITA_NUGGET = ITEMS.register("cesarita_nugget", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> FRANITOLINA_NUGGET = ITEMS.register("franitolina_nugget", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> MELUNA_NUGGET = ITEMS.register("meluna_nugget", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> ENDERITA_NUGGET = ITEMS.register("enderita_nugget", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> ALEZARITA_NUGGET = ITEMS.register("alezarita_nugget", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> HUGODIUM_NUGGET = ITEMS.register("hugodium_nugget", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> MIGUELITIO_NUGGET = ITEMS.register("miguelitio_nugget", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> DISPROSIO_NUGGET = 
+            ITEMS.register("disprosio_nugget", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> FRANITOLINA_NUGGET = 
+            ITEMS.register("franitolina_nugget", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> MELITONILA_NUGGET = 
+            ITEMS.register("melitonila_nugget", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> TERIUM_NUGGET = 
+            ITEMS.register("terium_nugget", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> ALEZARITA_NUGGET = 
+            ITEMS.register("alezarita_nugget", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> HALINOX_NUGGET = 
+            ITEMS.register("halinox_nugget", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> MIGUELITIO_NUGGET = 
+            ITEMS.register("miguelitio_nugget", CommonItem::new);
 
     // Mineral en Bruto - RAW
-    public static final RegistryObject<net.minecraft.world.item.Item> RAW_SHINE = ITEMS.register("raw_shine", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> RAW_CABALLERITA = ITEMS.register("raw_caballerita", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> RAW_AXIDITA = ITEMS.register("raw_axidita", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> RAW_CESARITA = ITEMS.register("raw_cesarita", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> RAW_FRANITOLINA = ITEMS.register("raw_franitolina", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> RAW_ENDERITA = ITEMS.register("raw_enderita", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> RAW_ALEZARITA = ITEMS.register("raw_alezarita", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> RAW_HUGODIUM = ITEMS.register("raw_hugodium", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> RAW_MIGUELITIO = ITEMS.register("raw_miguelitio", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> RAW_DISPROSIO = 
+            ITEMS.register("raw_disprosio", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> RAW_FRANITOLINA = 
+            ITEMS.register("raw_franitolina", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> RAW_MELITONILA = 
+            ITEMS.register("raw_melitonila", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> RAW_TERIUM = 
+            ITEMS.register("raw_terium", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> RAW_ALEZARITA = 
+            ITEMS.register("raw_alezarita", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> RAW_HALINOX = 
+            ITEMS.register("raw_halinox", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> RAW_MIGUELITIO = 
+            ITEMS.register("raw_miguelitio", CommonItem::new);
 
     // Polvos No españoles
-    public static final RegistryObject<net.minecraft.world.item.Item> SHINE_DUST = ITEMS.register("shine_dust", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> CABALLERITA_DUST = ITEMS.register("caballerita_dust", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> AXIDITA_DUST = ITEMS.register("axidita_dust", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> CESARITA_DUST = ITEMS.register("cesarita_dust", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> FRANITOLINA_DUST = ITEMS.register("franitolina_dust", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> MELUNA_DUST = ITEMS.register("meluna_dust", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> ENDERITA_DUST = ITEMS.register("enderita_dust", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> ALEZARITA_DUST = ITEMS.register("alezarita_dust", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> HUGODIUM_DUST = ITEMS.register("hugodium_dust", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> MIGUELITIO_DUST = ITEMS.register("miguelitio_dust", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> DISPROSIO_DUST = 
+            ITEMS.register("disprosio_dust", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> FRANITOLINA_DUST = 
+            ITEMS.register("franitolina_dust", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> MELITONILA_DUST = 
+            ITEMS.register("melitonila_dust", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> TERIUM_DUST = 
+            ITEMS.register("terium_dust", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> ALEZARITA_DUST = 
+            ITEMS.register("alezarita_dust", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> HALINOX_DUST = 
+            ITEMS.register("halinox_dust", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> MIGUELITIO_DUST = 
+            ITEMS.register("miguelitio_dust", CommonItem::new);
 
     // Gemas
-    public static final RegistryObject<net.minecraft.world.item.Item> SHINE_GEM = ITEMS.register("shine_gem", GemItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> CABALLERITA_GEM = ITEMS.register("caballerita_gem", GemItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> AXIDITA_GEM = ITEMS.register("axidita_gem", GemItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> CESARITA_GEM = ITEMS.register("cesarita_gem", GemItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> FRANITOLINA_GEM = ITEMS.register("franitolina_gem", GemItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> MELUNA_GEM = ITEMS.register("meluna_gem", GemItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> ENDERITA_GEM = ITEMS.register("enderita_gem", GemItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> ALEZARITA_GEM = ITEMS.register("alezarita_gem", GemItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> HUGODIUM_GEM = ITEMS.register("hugodium_gem", GemItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> MIGUELITIO_GEM = ITEMS.register("miguelitio_gem", GemItem::new);
-
-    public static final RegistryObject<net.minecraft.world.item.Item> SHINE_DISC = ITEMS.register("shine_disc",
-            () -> new DiscItem(1, SoundsInit.SHINE_DISC));
-    public static final RegistryObject<net.minecraft.world.item.Item> CABALLERITA_DISC = ITEMS.register("caballerita_disc",
-            () -> new DiscItem(1, SoundsInit.CABALLERITA_DISC));
-    public static final RegistryObject<net.minecraft.world.item.Item> AXIDITA_DISC = ITEMS.register("axidita_disc",
-            () -> new DiscItem(1, SoundsInit.AXIDITA_DISC));
-    public static final RegistryObject<net.minecraft.world.item.Item> CESARITA_DISC = ITEMS.register("cesarita_disc",
-            () -> new DiscItem(1, SoundsInit.CESARITA_DISC));
-    public static final RegistryObject<net.minecraft.world.item.Item> FRANITOLINA_DISC = ITEMS.register("franitolina_disc",
-            () -> new DiscItem(1, SoundsInit.FRANITOLINA_DISC));
-    public static final RegistryObject<net.minecraft.world.item.Item> MELUNA_DISC = ITEMS.register("meluna_disc",
-            () -> new DiscItem(1, SoundsInit.MELUNA_DISC));
-    public static final RegistryObject<net.minecraft.world.item.Item> ENDERITA_DISC = ITEMS.register("enderita_disc",
-            () -> new DiscItem(1, SoundsInit.ENDERITA_DISC));
-    public static final RegistryObject<net.minecraft.world.item.Item> ALEZARITA_DISC = ITEMS.register("alezarita_disc",
-            () -> new DiscItem(1, SoundsInit.ALEZARITA_DISC));
-    public static final RegistryObject<net.minecraft.world.item.Item> HUGODIUM_DISC = ITEMS.register("hugodium_disc",
-            () -> new DiscItem(1, SoundsInit.HUGODIUM_DISC));
-    public static final RegistryObject<net.minecraft.world.item.Item> MIGUELITIO_DISC = ITEMS.register("miguelitio_disc",
-            () -> new DiscItem(1, SoundsInit.MIGUELITIO_DISC));
-
-
+    public static final RegistryObject<net.minecraft.world.item.Item> DISPROSIO_GEM = 
+            ITEMS.register("disprosio_gem", GemItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> FRANITOLINA_GEM = 
+            ITEMS.register("franitolina_gem", GemItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> MELITONILA_GEM = 
+            ITEMS.register("melitonila_gem", GemItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> TERIUM_GEM = 
+            ITEMS.register("terium_gem", GemItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> ALEZARITA_GEM = 
+            ITEMS.register("alezarita_gem", GemItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> HALINOX_GEM =
+            ITEMS.register("halinox_gem", GemItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> MIGUELITIO_GEM = 
+            ITEMS.register("miguelitio_gem", GemItem::new);
+    
+    // Discos  
+    public static final RegistryObject<net.minecraft.world.item.Item> DISPROSIO_DISC = 
+            ITEMS.register("disprosio_disc",
+                    () -> new DiscItem(1, SoundsInit.DISPROSIO_DISC));
+    public static final RegistryObject<net.minecraft.world.item.Item> FRANITOLINA_DISC = 
+            ITEMS.register("franitolina_disc",
+                () -> new DiscItem(1, SoundsInit.FRANITOLINA_DISC));
+    public static final RegistryObject<net.minecraft.world.item.Item> MELITONILA_DISC = 
+            ITEMS.register("melitonila_disc",
+                () -> new DiscItem(1, SoundsInit.MELITONILA_DISC));
+    public static final RegistryObject<net.minecraft.world.item.Item> TERIUM_DISC = 
+            ITEMS.register("terium_disc",
+                () -> new DiscItem(1, SoundsInit.TERIUM_DISC));
+    public static final RegistryObject<net.minecraft.world.item.Item> ALEZARITA_DISC = 
+            ITEMS.register("alezarita_disc",
+                () -> new DiscItem(1, SoundsInit.ALEZARITA_DISC));
+    public static final RegistryObject<net.minecraft.world.item.Item> HALINOX_DISC = 
+            ITEMS.register("halinox_disc",
+                () -> new DiscItem(1, SoundsInit.HALINOX_DISC));
+    public static final RegistryObject<net.minecraft.world.item.Item> MIGUELITIO_DISC = 
+            ITEMS.register("miguelitio_disc",
+                () -> new DiscItem(1, SoundsInit.MIGUELITIO_DISC));
 }

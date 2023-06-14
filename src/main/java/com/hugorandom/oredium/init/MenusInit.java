@@ -19,9 +19,11 @@ public class MenusInit {
         MENUS.register(eventBus);
     }
 
-    private static <T extends AbstractContainerMenu>RegistryObject<MenuType<T>> registerMenuType(IContainerFactory<T> factory, String name){
+    private static <T extends AbstractContainerMenu>RegistryObject<MenuType<T>> registerMenuType(
+            IContainerFactory<T> factory, String name){
         return MENUS.register(name, () -> IForgeMenuType.create(factory));
     }
 
-    public static final RegistryObject<MenuType<UpgradingMenu>> UPGRADING_MENU = registerMenuType(UpgradingMenu::new, "upgrading_menu");
+    public static final RegistryObject<MenuType<UpgradingMenu>> UPGRADING_MENU =
+            registerMenuType(UpgradingMenu::new, "upgrading_menu");
 }
