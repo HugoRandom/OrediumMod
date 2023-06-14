@@ -56,6 +56,7 @@ public class TeleporterChargeOverlay {
     @SubscribeEvent
     public static void overlayEnableOrDisable(RenderGameOverlayEvent.PostLayer event){
         Player player = Minecraft.getInstance().player;
+        assert player != null;
         Item teleporter = player.getItemInHand(InteractionHand.MAIN_HAND).getItem();
 
         if(teleporter == Items2Init.DIMENSIONAL_RESONATOR.get()){

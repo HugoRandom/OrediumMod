@@ -2,7 +2,6 @@ package com.hugorandom.oredium.init;
 
 import com.hugorandom.oredium.Oredium;
 import com.hugorandom.oredium.foods.*;
-import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -83,25 +82,25 @@ public class FoodsInit {
 
     // Pildoras fuertes
     public static final RegistryObject<Item> A12_PILL = FOODS.register("a12_pill", ()->
-            new PillDoble(MobEffects.MOVEMENT_SPEED, 1200, 1));     // Shine
+            new PillDouble(MobEffects.MOVEMENT_SPEED, 1200, 1));     // Shine
     public static final RegistryObject<Item> B32_PILL = FOODS.register("b32_pill", ()->
-            new PillDoble(MobEffects.ABSORPTION, 600, 0));          // Axidita
+            new PillDouble(MobEffects.ABSORPTION, 600, 0));          // Axidita
     public static final RegistryObject<Item> C42_PILL = FOODS.register("c42_pill", ()->
-            new PillDoble(MobEffects.FIRE_RESISTANCE, 1200, 0));    // Caballerita
+            new PillDouble(MobEffects.FIRE_RESISTANCE, 1200, 0));    // Caballerita
     public static final RegistryObject<Item> D13_PILL = FOODS.register("d13_pill", ()->
-            new PillDoble(MobEffects.NIGHT_VISION, 1200, 0));       // Cesarita
+            new PillDouble(MobEffects.NIGHT_VISION, 1200, 0));       // Cesarita
     public static final RegistryObject<Item> L7_PILL = FOODS.register("l7_pill", ()->
-            new PillDoble(MobEffects.LUCK, 2400, 1));               // Franitolina
+            new PillDouble(MobEffects.LUCK, 2400, 1));               // Franitolina
     public static final RegistryObject<Item> I12_PILL = FOODS.register("i12_pill", ()->
-            new PillDoble(MobEffects.SATURATION, 600, 0));          // Meluna
+            new PillDouble(MobEffects.SATURATION, 600, 0));          // Meluna
     public static final RegistryObject<Item> E4_PILL = FOODS.register("e4_pill", ()->
-            new PillDoble(MobEffects.DAMAGE_RESISTANCE, 600, 1));   // Enderita
+            new PillDouble(MobEffects.DAMAGE_RESISTANCE, 600, 1));   // Enderita
     public static final RegistryObject<Item> A24_PILL = FOODS.register("a24_pill", ()->
-            new PillDoble(MobEffects.WATER_BREATHING, 1200, 0));    // Alezarita
+            new PillDouble(MobEffects.WATER_BREATHING, 1200, 0));    // Alezarita
     public static final RegistryObject<Item> F50_PILL = FOODS.register("f50_pill", ()->
-            new PillDoble(MobEffects.DIG_SPEED, 600, 1));           // Hugodium
+            new PillDouble(MobEffects.DIG_SPEED, 600, 1));           // Hugodium
     public static final RegistryObject<Item> P2_PILL = FOODS.register("p2_pill", ()->
-            new PillDoble(MobEffects.DOLPHINS_GRACE, 1200, 0));     // Miguelitio
+            new PillDouble(MobEffects.DOLPHINS_GRACE, 1200, 0));     // Miguelitio
 
     public static final RegistryObject<Item> RANDOM_PILL = FOODS.register("random_pill", PillRandom::new);
     public static final RegistryObject<Item> GOLDEN_PILL = FOODS.register("golden_pill", PillGolden::new);

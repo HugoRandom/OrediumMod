@@ -13,6 +13,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.level.Level;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -24,34 +25,35 @@ public class Coffees extends Item {
 				.food(COFFEE_PROPERTIES(nutrition, saturation))
 				.tab(ItemGroupTabs.OREDIUM_FOODS));
 	}
-	public static final FoodProperties COFFEE_PROPERTIES(int nutrition, float saturation) {
+	public static FoodProperties COFFEE_PROPERTIES(int nutrition, float saturation) {
 		return new FoodProperties.Builder()
 				.nutrition(nutrition)
 				.saturationMod(saturation)
 				.build();
 	}
 
-	public UseAnim getUseAnimation(ItemStack p_77661_1_) {
-		return UseAnim.DRINK.DRINK;
+	public @NotNull UseAnim getUseAnimation(@NotNull ItemStack p_77661_1_) {
+		return UseAnim.DRINK;
 	}
 
-	public SoundEvent getDrinkingSound() {
+	public @NotNull SoundEvent getDrinkingSound() {
 		return SoundEvents.HONEY_DRINK;
 	}
 
-	public SoundEvent getEatingSound() {
+	public @NotNull SoundEvent getEatingSound() {
 		return SoundEvents.HONEY_DRINK;
 	}
 
 	@Override
-	public ItemStack finishUsingItem(ItemStack pStack, Level pLevel, LivingEntity pLivingEntity) {
+	public @NotNull ItemStack finishUsingItem(@NotNull ItemStack pStack, Level pLevel, LivingEntity pLivingEntity) {
 		pLevel.playSound(null, pLivingEntity.getOnPos(), SoundEvents.WANDERING_TRADER_DRINK_MILK,
 				SoundSource.PLAYERS, 0.55f, 0.95f);
 		return super.finishUsingItem(pStack, pLevel, pLivingEntity);
 	}
 
 	@Override
-	public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
+	public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents,
+								@NotNull TooltipFlag pIsAdvanced) {
 		pTooltipComponents.add(new TranslatableComponent("tooltip.oredium." + pStack.getItem().asItem()));
 	}
 }

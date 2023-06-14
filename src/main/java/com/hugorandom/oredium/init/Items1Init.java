@@ -4,10 +4,6 @@ import com.hugorandom.oredium.Oredium;
 import com.hugorandom.oredium.items.DiscItem;
 import com.hugorandom.oredium.items.GemItem;
 import com.hugorandom.oredium.items.CommonItem;
-import com.hugorandom.oredium.util.ItemGroupTabs;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.RecordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -22,14 +18,14 @@ public class Items1Init {
 
     // Lingotes - Ingots
     public static final RegistryObject<net.minecraft.world.item.Item> SHINE_INGOT = ITEMS.register("shine_ingot", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> CABALLERITA_INGOT = ITEMS.register("caballerita_ingot", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> DISPROSIO_INGOT = ITEMS.register("caballerita_ingot", CommonItem::new);
     public static final RegistryObject<net.minecraft.world.item.Item> AXIDITA_INGOT = ITEMS.register("axidita_ingot", CommonItem::new);
     public static final RegistryObject<net.minecraft.world.item.Item> CESARITA_INGOT = ITEMS.register("cesarita_ingot", CommonItem::new);
     public static final RegistryObject<net.minecraft.world.item.Item> FRANITOLINA_INGOT = ITEMS.register("franitolina_ingot", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> MELUNA_INGOT = ITEMS.register("meluna_ingot", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> ENDERITA_INGOT = ITEMS.register("enderita_ingot", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> MELITONILA_INGOT = ITEMS.register("meluna_ingot", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> TERIUM_INGOT = ITEMS.register("enderita_ingot", CommonItem::new);
     public static final RegistryObject<net.minecraft.world.item.Item> ALEZARITA_INGOT = ITEMS.register("alezarita_ingot", CommonItem::new);
-    public static final RegistryObject<net.minecraft.world.item.Item> HUGODIUM_INGOT = ITEMS.register("hugodium_ingot", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> HALINOX_INGOT = ITEMS.register("hugodium_ingot", CommonItem::new);
     public static final RegistryObject<net.minecraft.world.item.Item> MIGUELITIO_INGOT = ITEMS.register("miguelitio_ingot", CommonItem::new);
 
     // Pepitas

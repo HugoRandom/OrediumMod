@@ -1,28 +1,23 @@
 package com.hugorandom.oredium.foods;
 
 import com.hugorandom.oredium.Oredium;
-import com.hugorandom.oredium.init.Items1Init;
 import com.hugorandom.oredium.util.ItemGroupTabs;
 import com.hugorandom.oredium.util.OrediumTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
-import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.*;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
-import org.jetbrains.annotations.Nullable;
-
-import java.util.List;
+import org.jetbrains.annotations.NotNull;
 
 public class Apples extends Item {
 
@@ -32,8 +27,8 @@ public class Apples extends Item {
 				.food(APPLES(duration))
 				.tab(ItemGroupTabs.OREDIUM_FOODS));
 	}
-	public static final FoodProperties APPLES(int duration){
-		FoodProperties build = new FoodProperties.Builder()
+	public static FoodProperties APPLES(int duration){
+		return new FoodProperties.Builder()
 				.effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, duration, 0), 1.0f)
 				.effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, duration, 0), 1.0f)
 				.effect(() -> new MobEffectInstance(MobEffects.REGENERATION, duration, 0), 1.0f)
@@ -41,7 +36,6 @@ public class Apples extends Item {
 				.saturationMod(1.0f)
 				.alwaysEat()
 				.build();
-		return build;
 	}
 
 	@Override
@@ -58,9 +52,11 @@ public class Apples extends Item {
 			CompoundTag nbtTag = new CompoundTag();
 			nbtTag.putBoolean(Oredium.MOD_ID + ".better", true);
 			appleU.setTag(nbtTag);
+			assert player != null;
 			if (!player.getAbilities().instabuild) apple.shrink(1);
 			if (!player.getInventory().add(appleU)) player.drop(appleU, false);
-			level.playSound(null, blockpos, SoundEvents.AZALEA_PLACE, SoundSource.PLAYERS, 0.9F, 0.9F);
+			level.playSound(null, blockpos, SoundEvents.AZALEA_PLACE,
+					SoundSource.PLAYERS, 0.9F, 0.9F);
 			return InteractionResult.sidedSuccess(level.isClientSide);
 		}
 	}
@@ -77,11 +73,11 @@ public class Apples extends Item {
 
 	@Override
 	public int getUseDuration(ItemStack pStack) {
-		return pStack.hasTag() ? 16 : 32;
+		return pStack.hasTag() ? 1600 : 3200;
 	}
 
 	@Override
-	public Rarity getRarity(ItemStack pStack) {
+	public @NotNull Rarity getRarity(ItemStack pStack) {
 		return pStack.hasTag() ? Rarity.UNCOMMON : Rarity.COMMON;
 	}
 }

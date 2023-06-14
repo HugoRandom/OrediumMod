@@ -14,14 +14,12 @@ public class OreGen {
         List<Holder<PlacedFeature>> base =
                 event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES);
 
-        base.add(OrePlaced.SHINE_PLACED);
-        base.add(OrePlaced.AXIDITA_PLACED);
-        base.add(OrePlaced.CABALLERITA_PLACED);
-        base.add(OrePlaced.CESARITA_PLACED);
+        base.add(OrePlaced.DISPROSIO_PLACED);
         base.add(OrePlaced.FRANITOLINA_PLACED);
-        base.add(OrePlaced.ENDERITA_PLACED);
+        base.add(OrePlaced.MELITONILA_PLACED);
+        base.add(OrePlaced.TERIUM_PLACED);
         base.add(OrePlaced.ALEZARITA_PLACED);
-        base.add(OrePlaced.HUGODIUM_PLACED);
+        base.add(OrePlaced.HALINOX_PLACED);
         base.add(OrePlaced.MIGUELITIO_PLACED);
     }
 }

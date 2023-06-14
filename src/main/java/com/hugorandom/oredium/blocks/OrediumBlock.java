@@ -30,6 +30,7 @@ import net.minecraft.world.phys.BlockHitResult;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.network.NetworkHooks;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.Random;
@@ -45,11 +46,11 @@ public class OrediumBlock extends BaseEntityBlock {
 				.requiresCorrectToolForDrops()
 				.strength(8.0f, 45.0f)
 				.lightLevel((state) -> state.getValue(OrediumBlock.ENERGY) ? 15 : 7));
-		this.registerDefaultState(this.defaultBlockState().setValue(ENERGY, Boolean.valueOf(false)));
+		this.registerDefaultState(this.defaultBlockState().setValue(ENERGY, Boolean.FALSE));
 	}
 
 	@Override
-	public RenderShape getRenderShape(BlockState pState) {
+	public @NotNull RenderShape getRenderShape(@NotNull BlockState pState) {
 		return RenderShape.MODEL;
 	}
 
@@ -59,7 +60,8 @@ public class OrediumBlock extends BaseEntityBlock {
 	}
 
 	@Override
-	public void onRemove(BlockState pState, Level pLevel, BlockPos pPos, BlockState pNewState, boolean pIsMoving) {
+	public void onRemove(BlockState pState, @NotNull Level pLevel, @NotNull BlockPos pPos,
+						 BlockState pNewState, boolean pIsMoving) {
 		if (pState.getBlock() != pNewState.getBlock()){
 			BlockEntity blockEntity = pLevel.getBlockEntity(pPos);
 			if (blockEntity instanceof UpgradingEntity){
@@ -70,7 +72,9 @@ public class OrediumBlock extends BaseEntityBlock {
 	}
 
 	@Override
-	public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer, InteractionHand pHand, BlockHitResult pHit) {
+	public InteractionResult use(@NotNull BlockState pState, Level pLevel, @NotNull BlockPos pPos,
+								 @NotNull Player pPlayer, @NotNull InteractionHand pHand,
+								 @NotNull BlockHitResult pHit) {
 		if(!pLevel.isClientSide()){
 			if (pHand == InteractionHand.MAIN_HAND){
 				if (pPlayer.getItemInHand(pHand).is(Items.AIR)){
@@ -79,21 +83,28 @@ public class OrediumBlock extends BaseEntityBlock {
 						NetworkHooks.openGui(((ServerPlayer) pPlayer), (UpgradingEntity)entity, pPos);
 					}
 					else{
-						throw new IllegalStateException("Pal lobby hermano");
+						throw new IllegalStateException("Hugo del Futuro, cagaste xd. Att Hugo del Pasado");
 					}
 				} else if (pPlayer.getItemInHand(pHand).is(FoodsInit.OREDIUM_PILL.get())) {
 					pPlayer.getItemInHand(pHand).shrink(1);
 					pLevel.playSound(null, pPos, SoundEvents.ITEM_FRAME_REMOVE_ITEM,
 							SoundSource.BLOCKS, 0.8F, 0.9F);
 					if (pPlayer.getLevel().dimension() == DimensionsInit.MAPASHE_DIM_KEY){
-						pLevel.addFreshEntity(new ItemEntity(pLevel, pPos.getX()+0.5, pPos.getY()+1, pPos.getZ()+0.5,
-								new ItemStack(Items1Init.ENDERITA_INGOT.get())));
+						pLevel.addFreshEntity(new ItemEntity(pLevel,
+								pPos.getX()+0.5,
+								pPos.getY()+1,
+								pPos.getZ()+0.5,
+								new ItemStack(Items1Init.TERIUM_INGOT.get())));
 					}
 					else{
-						pLevel.addFreshEntity(new ItemEntity(pLevel, pPos.getX()+0.5, pPos.getY()+1, pPos.getZ()+0.5,
+						pLevel.addFreshEntity(new ItemEntity(pLevel,
+								pPos.getX()+0.5,
+								pPos.getY()+1,
+								pPos.getZ()+0.5,
 								new ItemStack(FoodsInit.GOLDEN_PILL.get())));
 						if (!pState.getValue(ENERGY)){
-							pPlayer.addEffect(new MobEffectInstance(EffectsInit.UNSTABLE.get(), 100, 0));
+							pPlayer.addEffect(new MobEffectInstance(
+									EffectsInit.UNSTABLE.get(), 100, 0));
 						}
 					}
 				}
@@ -104,35 +115,41 @@ public class OrediumBlock extends BaseEntityBlock {
 
 	@Nullable
 	@Override
-	public BlockEntity newBlockEntity(BlockPos pPos, BlockState pState) {
+	public BlockEntity newBlockEntity(@NotNull BlockPos pPos, @NotNull BlockState pState) {
 		return new UpgradingEntity(pPos, pState);
 	}
 
 	@Nullable
 	@Override
-	public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level pLevel, BlockState pState, BlockEntityType<T> pBlockEntityType) {
-		return createTickerHelper(pBlockEntityType, BlocksEntitiesInit.OREDIUM_BLOCK_ENTITY.get(), UpgradingEntity::tick);
+	public <T extends BlockEntity> BlockEntityTicker<T> getTicker(@NotNull Level pLevel, @NotNull BlockState pState,
+																  @NotNull BlockEntityType<T> pBlockEntityType) {
+		return createTickerHelper(pBlockEntityType,
+				BlocksEntitiesInit.OREDIUM_BLOCK_ENTITY.get(), UpgradingEntity::tick);
 	}
 
 	@Override
 	@OnlyIn(Dist.CLIENT)
-	public void animateTick(BlockState pState, Level pLevel, BlockPos pPos, Random rand) {
+	public void animateTick(@NotNull BlockState pState, @NotNull Level pLevel, @NotNull BlockPos pPos, Random rand) {
 		if (rand.nextInt(10) == 0) {
-			pLevel.addParticle(ParticlesInit.OREDIUM_PARTICLE.get(), (double)pPos.getX() + rand.nextDouble(),
-					(double)pPos.getY() + 1.1D, (double)pPos.getZ() + rand.nextDouble(), 0.0D, 0.0D, 0.0D);
+			pLevel.addParticle(ParticlesInit.OREDIUM_PARTICLE.get(),
+					(double)pPos.getX() + rand.nextDouble(),
+					(double)pPos.getY() + 1.1D,
+					(double)pPos.getZ() + rand.nextDouble(),
+					0.0D, 0.0D, 0.0D);
 		}
 		super.animateTick(pState, pLevel, pPos, rand);
 	}
 
 	@Override
-	public void neighborChanged(BlockState pState, Level pLevel, BlockPos pPos, Block pBlock, BlockPos pFromPos, boolean pIsMoving) {
+	public void neighborChanged(@NotNull BlockState pState, Level pLevel, BlockPos pPos,
+								@NotNull Block pBlock, @NotNull BlockPos pFromPos, boolean pIsMoving) {
 		if (isEnergyBlock(pLevel.getBlockState(pPos.above()))) {
 			if (!pState.getValue(ENERGY)) {
-				pLevel.setBlock(pPos, pState.setValue(ENERGY, Boolean.valueOf(true)), 3);
+				pLevel.setBlock(pPos, pState.setValue(ENERGY, Boolean.TRUE), 3);
 			}
 		}
 		else{
-			pLevel.setBlock(pPos, pState.setValue(ENERGY, Boolean.valueOf(false)), 3);
+			pLevel.setBlock(pPos, pState.setValue(ENERGY, Boolean.FALSE), 3);
 		}
 		super.neighborChanged(pState, pLevel, pPos, pBlock, pFromPos, pIsMoving);
 	}

@@ -51,17 +51,17 @@ public class UpgradingEntity extends BlockEntity implements MenuProvider {
 		super(BlocksEntitiesInit.OREDIUM_BLOCK_ENTITY.get(), pPos, pBlockState);
 		this.data = new ContainerData() {
 			public int get(int index) {
-				switch (index) {
-					case 0: return UpgradingEntity.this.progress;
-					case 1: return UpgradingEntity.this.maxProgress;
-					default: return 0;
-				}
+				return switch (index) {
+					case 0 -> UpgradingEntity.this.progress;
+					case 1 -> UpgradingEntity.this.maxProgress;
+					default -> 0;
+				};
 			}
 
 			public void set(int index, int value) {
-				switch(index) {
-					case 0: UpgradingEntity.this.progress = value; break;
-					case 1: UpgradingEntity.this.maxProgress = value; break;
+				switch (index) {
+					case 0 -> UpgradingEntity.this.progress = value;
+					case 1 -> UpgradingEntity.this.maxProgress = value;
 				}
 			}
 
@@ -72,13 +72,14 @@ public class UpgradingEntity extends BlockEntity implements MenuProvider {
 	}
 
 	@Override
-	public Component getDisplayName() {
+	public @NotNull Component getDisplayName() {
 		return new TranslatableComponent("screen.oredium.upgrading");
 	}
 
 	@Nullable
 	@Override
-	public AbstractContainerMenu createMenu(int pContainerId, Inventory pPlayerInventory, Player pPlayer) {
+	public AbstractContainerMenu createMenu(int pContainerId, @NotNull Inventory pPlayerInventory,
+											@NotNull Player pPlayer) {
 		return new UpgradingMenu(pContainerId, pPlayerInventory, this, this.data);
 	}
 
@@ -111,7 +112,7 @@ public class UpgradingEntity extends BlockEntity implements MenuProvider {
 	}
 
 	@Override
-	public void load(CompoundTag nbt) {
+	public void load(@NotNull CompoundTag nbt) {
 		super.load(nbt);
 		itemHandler.deserializeNBT(nbt.getCompound("inventory"));
 		progress = nbt.getInt("upgrading.progress");
@@ -122,7 +123,7 @@ public class UpgradingEntity extends BlockEntity implements MenuProvider {
 		for (int i = 0; i < itemHandler.getSlots(); i++) {
 			inventory.setItem(i, itemHandler.getStackInSlot(i));
 		}
-
+		assert this.level != null;
 		Containers.dropContents(this.level, this.worldPosition, inventory);
 	}
 
@@ -145,7 +146,7 @@ public class UpgradingEntity extends BlockEntity implements MenuProvider {
 		for (int i = 0; i < entity.itemHandler.getSlots(); i++) {
 			inventory.setItem(i, entity.itemHandler.getStackInSlot(i));
 		}
-
+		assert level != null;
 		Optional<UpgradingRecipe> match = level.getRecipeManager()
 				.getRecipeFor(UpgradingRecipe.Type.INSTANCE, inventory, level);
 
@@ -158,24 +159,29 @@ public class UpgradingEntity extends BlockEntity implements MenuProvider {
 		for (int i = 0; i < entity.itemHandler.getSlots(); i++) {
 			inventory.setItem(i, entity.itemHandler.getStackInSlot(i));
 		}
-
+		assert level != null;
 		Optional<UpgradingRecipe> match = level.getRecipeManager()
 				.getRecipeFor(UpgradingRecipe.Type.INSTANCE, inventory, level);
-
 		if(match.isPresent()) {
 			ItemStack output = new ItemStack(match.get().getResultItem().getItem());
-			Map<Enchantment, Integer> enchants0 = EnchantmentHelper.getEnchantments(entity.itemHandler.getStackInSlot(0));
+			Map<Enchantment, Integer> enchants0 =
+					EnchantmentHelper.getEnchantments(entity.itemHandler.getStackInSlot(0));
 			for(Map.Entry<Enchantment, Integer> mapEntry : enchants0.entrySet()){
 				output.enchant(mapEntry.getKey(), mapEntry.getValue());
 			}
-			Map<Enchantment, Integer> enchants1 = EnchantmentHelper.getEnchantments(entity.itemHandler.getStackInSlot(1));
+			Map<Enchantment, Integer> enchants1 =
+					EnchantmentHelper.getEnchantments(entity.itemHandler.getStackInSlot(1));
 			for(Map.Entry<Enchantment, Integer> mapEntry : enchants1.entrySet()){
 				output.enchant(mapEntry.getKey(), mapEntry.getValue());
 			}
 			entity.itemHandler.extractItem(0, 1, false);
 			entity.itemHandler.extractItem(1, 1, false);
 			entity.itemHandler.insertItem(2, output , false);
-			entity.level.playSound(null, entity.getBlockPos(), SoundsInit.UPGRADING_SOUND.get(), SoundSource.BLOCKS, 0.7f, 0.7f);
+			assert entity.level != null;
+			entity.level.playSound(null, entity.getBlockPos(),
+					SoundsInit.UPGRADING_SOUND.get(),
+					SoundSource.BLOCKS,
+					0.7f, 0.7f);
 			entity.resetProgress();
 		}
 	}

@@ -8,71 +8,57 @@ import net.minecraft.util.LazyLoadedValue;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.crafting.Ingredient;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.function.Supplier;
 
 public enum ArmorTier implements ArmorMaterial {
-
-    ALEZARITA("alezarita", 33, new int[]{3, 6, 8, 3}, 12,
+    
+    // Armaduras Normaels - Standar Armors
+    DISPROSIO("disprosio", 34, new int[]{3, 6, 8, 3}, 20,
+            SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F,
+            () -> {return Ingredient.of(Items1Init.DISPROSIO_INGOT.get()); }),
+    FRANITOLINA("franitolina", 35, new int[]{3, 6, 8, 3}, 12,
+            SoundEvents.ARMOR_EQUIP_DIAMOND, 1.5F, 0.0F,
+            () -> { return Ingredient.of(Items1Init.FRANITOLINA_INGOT.get()); }),
+    MELITONILA("melitonila", 35, new int[]{3, 6, 8, 3}, 15,
+            SoundEvents.ARMOR_EQUIP_DIAMOND, 1.0F, 0.1F,
+            () -> { return Ingredient.of(Items1Init.MELITONILA_INGOT.get()); }),
+    TERIUM("terium", 36, new int[]{3, 6, 8, 3}, 18,
+            SoundEvents.ARMOR_EQUIP_DIAMOND, 1.0F, 0.0F,
+            () -> { return Ingredient.of(Items1Init.TERIUM_INGOT.get()); }),
+    ALEZARITA("alezarita", 37, new int[]{3, 6, 8, 3}, 15,
             SoundEvents.ARMOR_EQUIP_NETHERITE, 1.0F, 0.1F,
             () -> { return Ingredient.of(Items1Init.ALEZARITA_INGOT.get()); }),
-    AXIDITA("axidita", 20, new int[]{2, 5, 6, 2}, 15,
-            SoundEvents.ARMOR_EQUIP_DIAMOND, 0.5F, 0.0F,
-            () -> {return Ingredient.of(Items1Init.AXIDITA_INGOT.get()); }),
-    CESARITA("cesarita", 25, new int[]{3, 6, 8, 3}, 5,
-            SoundEvents.ARMOR_EQUIP_DIAMOND, 1.0F, 0.2F,
-            () -> { return Ingredient.of(Items1Init.CESARITA_INGOT.get()); }),
-    CABALLERITA("caballerita", 26, new int[]{3, 6, 8, 3}, 30,
-            SoundEvents.ARMOR_EQUIP_DIAMOND, 0.0F, 0.0F,
-            () -> {return Ingredient.of(Items1Init.CABALLERITA_INGOT.get()); }),
-    ENDERITA("enderita", 50, new int[]{3, 6, 8, 3}, 18,
-            SoundEvents.ARMOR_EQUIP_NETHERITE, 0.0F, 0.1F,
-            () -> { return Ingredient.of(Items1Init.ENDERITA_INGOT.get()); }),
-    FRANITOLINA("franitolina", 30, new int[]{3, 6, 8, 3}, 15,
-            SoundEvents.ARMOR_EQUIP_DIAMOND, 1.0F, 0.1F,
-            () -> { return Ingredient.of(Items1Init.FRANITOLINA_INGOT.get()); }),
-    MELUNA("meluna", 40, new int[]{3, 6, 8, 3}, 21,
-            SoundEvents.ARMOR_EQUIP_DIAMOND, 1.5F, 0.0F,
-            () -> { return Ingredient.of(Items1Init.MELUNA_INGOT.get()); }),
-    HUGODIUM("hugodium", 35, new int[]{3, 6, 8, 3}, 13,
+    HALINOX("halinox", 38, new int[]{3, 6, 8, 3}, 12,
             SoundEvents.ARMOR_EQUIP_NETHERITE, 2.5F, 0.1F,
-            () -> { return Ingredient.of(Items1Init.HUGODIUM_INGOT.get()); }),
-    MIGUELITIO("miguelitio", 40, new int[]{3, 6, 8, 3}, 20,
+            () -> { return Ingredient.of(Items1Init.HALINOX_INGOT.get()); }),
+    MIGUELITIO("miguelitio", 39, new int[]{3, 6, 8, 3}, 10,
             SoundEvents.ARMOR_EQUIP_NETHERITE, 2.0F, 0.2F,
             () -> {return Ingredient.of(Items1Init.MIGUELITIO_INGOT.get()); }),
-    SHINE("shine", 9, new int[]{2, 5, 6, 2}, 15,
-            SoundEvents.ARMOR_EQUIP_GOLD, 0.0F, 0.0F,
-            () -> {return Ingredient.of(Items1Init.SHINE_INGOT.get()); }),
-    ALEZARITA_UPGRADED("alezarita", 33, new int[]{4, 7, 9, 4}, 14,
-            SoundEvents.ARMOR_EQUIP_NETHERITE, 1.0F, 0.2F,
-            () -> { return Ingredient.of(Items1Init.ALEZARITA_INGOT.get()); }),
-    AXIDITA_UPGRADED("axidita", 23, new int[]{3, 6, 7, 3}, 17,
-            SoundEvents.ARMOR_EQUIP_DIAMOND, 0.5F, 0.1F,
-            () -> {return Ingredient.of(Items1Init.AXIDITA_INGOT.get()); }),
-    CESARITA_UPGRADED("cesarita", 28, new int[]{4, 7, 9, 4}, 7,
-            SoundEvents.ARMOR_EQUIP_DIAMOND, 1.0F, 0.3F,
-            () -> { return Ingredient.of(Items1Init.CESARITA_INGOT.get()); }),
-    CABALLERITA_UPGRADED("caballerita", 29, new int[]{4, 7, 9, 4}, 32,
-            SoundEvents.ARMOR_EQUIP_DIAMOND, 0.0F, 0.1F,
-            () -> {return Ingredient.of(Items1Init.CABALLERITA_INGOT.get()); }),
-    ENDERITA_UPGRADED("enderita", 52, new int[]{4, 7, 9, 4}, 17,
-            SoundEvents.ARMOR_EQUIP_NETHERITE, 0.0F, 0.2F,
-            () -> { return Ingredient.of(Items1Init.ENDERITA_INGOT.get()); }),
-    FRANITOLINA_UPGRADED("franitolina", 33, new int[]{4, 7, 9, 4}, 17,
-            SoundEvents.ARMOR_EQUIP_DIAMOND, 1.0F, 0.2F,
+
+    // Armaduras Mejoradas - Upgraded Armors
+    DISPROSIO_UPGRADED("disprosio_u", 37, new int[]{4, 7, 9, 4}, 25,
+            SoundEvents.ARMOR_EQUIP_DIAMOND, 3.0F, 0.1F,
+            () -> {return Ingredient.of(Items1Init.DISPROSIO_INGOT.get()); }),
+    FRANITOLINA_UPGRADED("franitolina_u", 37, new int[]{4, 7, 9, 4}, 15,
+            SoundEvents.ARMOR_EQUIP_DIAMOND, 3.0F, 0.2F,
             () -> { return Ingredient.of(Items1Init.FRANITOLINA_INGOT.get()); }),
-    MELUNA_UPGRADED("meluna", 38, new int[]{4, 7, 9, 4}, 25,
-            SoundEvents.ARMOR_EQUIP_DIAMOND, 1.5F, 0.2F,
-            () -> { return Ingredient.of(Items1Init.MELUNA_INGOT.get()); }),
-    HUGODIUM_UPGRADED("hugodium", 40, new int[]{4, 7, 9, 4}, 15,
-            SoundEvents.ARMOR_EQUIP_NETHERITE, 2.5F, 0.2F,
-            () -> { return Ingredient.of(Items1Init.HUGODIUM_INGOT.get()); }),
-    MIGUELITIO_UPGRADED("miguelitio", 42, new int[]{4, 7, 9, 4}, 22,
-            SoundEvents.ARMOR_EQUIP_NETHERITE, 2.0F, 0.3F,
-            () -> {return Ingredient.of(Items1Init.MIGUELITIO_INGOT.get()); }),
-    SHINE_UPGRADED("shine", 14, new int[]{3, 6, 7, 3}, 17,
-            SoundEvents.ARMOR_EQUIP_GOLD, 0.0F, 0.0F,
-            () -> {return Ingredient.of(Items1Init.SHINE_INGOT.get()); });
+    MELITONILA_UPGRADED("melitonila_u", 38, new int[]{4, 7, 9, 4}, 18,
+            SoundEvents.ARMOR_EQUIP_DIAMOND, 3.0F, 0.2F,
+            () -> { return Ingredient.of(Items1Init.MELITONILA_INGOT.get()); }),
+    TERIUM_UPGRADED("terium_u", 40, new int[]{4, 7, 9, 4}, 20,
+            SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F,
+            () -> { return Ingredient.of(Items1Init.TERIUM_INGOT.get()); }),
+    ALEZARITA_UPGRADED("alezarita_u", 40, new int[]{4, 7, 9, 4}, 18,
+            SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.2F,
+            () -> { return Ingredient.of(Items1Init.ALEZARITA_INGOT.get()); }),
+    HALINOX_UPGRADED("halinox_u", 40, new int[]{4, 7, 9, 4}, 15,
+            SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.2F,
+            () -> { return Ingredient.of(Items1Init.HALINOX_INGOT.get()); }),
+    MIGUELITIO_UPGRADED("miguelitio_u", 40, new int[]{4, 7, 9, 4}, 12,
+            SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.2F,
+            () -> {return Ingredient.of(Items1Init.MIGUELITIO_INGOT.get()); });
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
     private final String name;
@@ -84,7 +70,9 @@ public enum ArmorTier implements ArmorMaterial {
     private final float knockbackResistance;
     private final LazyLoadedValue<Ingredient> repairIngredient;
 
-    private ArmorTier(String pName, int pDurabilityMultiplier, int[] pSlotProtections, int pEnchantmentValue, SoundEvent pSound, float pToughness, float pKnockbackResistance, Supplier<Ingredient> pRepairIngredient) {
+    private ArmorTier(String pName, int pDurabilityMultiplier, int[] pSlotProtections,
+                      int pEnchantmentValue, SoundEvent pSound, float pToughness,
+                      float pKnockbackResistance, Supplier<Ingredient> pRepairIngredient) {
         this.name = pName;
         this.durabilityMultiplier = pDurabilityMultiplier;
         this.slotProtections = pSlotProtections;
@@ -107,15 +95,15 @@ public enum ArmorTier implements ArmorMaterial {
         return this.enchantmentValue;
     }
 
-    public SoundEvent getEquipSound() {
+    public @NotNull SoundEvent getEquipSound() {
         return this.sound;
     }
 
-    public Ingredient getRepairIngredient() {
+    public @NotNull Ingredient getRepairIngredient() {
         return this.repairIngredient.get();
     }
 
-    public String getName() {
+    public @NotNull String getName() {
         return Oredium.MOD_ID + ":" + this.name;
     }
 

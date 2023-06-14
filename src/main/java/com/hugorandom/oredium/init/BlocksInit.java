@@ -4,7 +4,6 @@ import com.hugorandom.oredium.Oredium;
 import com.hugorandom.oredium.blocks.*;
 import com.hugorandom.oredium.blocks.metals.FranitolinaBlock;
 import com.hugorandom.oredium.blocks.metals.MiguelitioBlock;
-import com.hugorandom.oredium.blocks.metals.ShineBlock;
 import com.hugorandom.oredium.util.ItemGroupTabs;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
@@ -99,7 +98,7 @@ public class BlocksInit {
     // Menas normales y profundas - Normal and deepslate Ores
     public static final RegistryObject<Block> SHINE_ORE = registerBlock("shine_ore",
             () -> new OreBlock(4f, 3f));
-    public static final RegistryObject<Block> CABALLERITA_ORE = registerBlock("caballerita_ore",
+    public static final RegistryObject<Block> DISPROSIO_ORE = registerBlock("caballerita_ore",
             () -> new OreBlock(5f, 4f));
     public static final RegistryObject<Block> AXIDITA_ORE = registerBlock("axidita_ore",
             () -> new OreBlock(4f, 3f));
@@ -107,17 +106,17 @@ public class BlocksInit {
             () -> new OreBlock(5f, 4f));
     public static final RegistryObject<Block> FRANITOLINA_ORE = registerBlock("franitolina_ore",
             () -> new OreBlock(5f, 5f));
-    public static final RegistryObject<Block> DEEPSLATE_ENDERITA_ORE = registerBlock("deepslate_enderita_ore",
+    public static final RegistryObject<Block> DEEPSLATE_TERIUM_ORE = registerBlock("deepslate_enderita_ore",
             () -> new DeepslateOreBlock(6f, 10f));
     public static final RegistryObject<Block> ALEZARITA_ORE = registerBlock("alezarita_ore",
             () -> new OreBlock(5f, 6f));
-    public static final RegistryObject<Block> HUGODIUM_ORE = registerBlock("hugodium_ore",
+    public static final RegistryObject<Block> HALINOX_ORE = registerBlock("hugodium_ore",
             () -> new OreBlock(6f, 7f));
     public static final RegistryObject<Block> MIGUELITIO_ORE = registerBlock("miguelitio_ore",
             () -> new OreBlock(4f, 8f));
     public static final RegistryObject<Block> DEEPSLATE_SHINE_ORE = registerBlock("deepslate_shine_ore",
             () -> new DeepslateOreBlock(4.5f, 3f));
-    public static final RegistryObject<Block> DEEPSLATE_CABALLERITA_ORE = registerBlock("deepslate_caballerita_ore",
+    public static final RegistryObject<Block> DEEPSLATE_DISPROSIO_ORE = registerBlock("deepslate_caballerita_ore",
             () -> new DeepslateOreBlock(5.5f, 4f));
     public static final RegistryObject<Block> DEEPSLATE_AXIDITA_ORE = registerBlock("deepslate_axidita_ore",
             () -> new DeepslateOreBlock(4.5f, 3f));

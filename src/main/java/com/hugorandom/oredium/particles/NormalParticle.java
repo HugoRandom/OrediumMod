@@ -5,12 +5,13 @@ import net.minecraft.client.particle.*;
 import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
+import org.jetbrains.annotations.NotNull;
 
 public class NormalParticle extends TextureSheetParticle {
 
-    protected NormalParticle(ClientLevel level, double xCoord, double yCoord, double zCoord, SpriteSet spriteSet,
+    protected NormalParticle(ClientLevel level, double xCord, double yCord, double zCord, SpriteSet spriteSet,
                              double xd, double yd, double zd) {
-        super(level, xCoord, yCoord, zCoord);
+        super(level, xCord, yCord, zCord);
         this.friction = 0.8F;
         this.xd = xd;
         this.yd = yd;
@@ -35,7 +36,7 @@ public class NormalParticle extends TextureSheetParticle {
     }
 
     @Override
-    public ParticleRenderType getRenderType() {
+    public @NotNull ParticleRenderType getRenderType() {
         return ParticleRenderType.PARTICLE_SHEET_TRANSLUCENT;
     }
 
@@ -47,7 +48,7 @@ public class NormalParticle extends TextureSheetParticle {
             this.sprites = spriteSet;
         }
 
-        public Particle createParticle(SimpleParticleType particleType, ClientLevel level,
+        public Particle createParticle(@NotNull SimpleParticleType particleType, @NotNull ClientLevel level,
                                        double x, double y, double z,
                                        double dx, double dy, double dz) {
             return new NormalParticle(level, x, y, z, this.sprites, dx, dy, dz);

@@ -7,14 +7,15 @@ import net.minecraftforge.common.util.ITeleporter;
 
 import java.util.function.Function;
 
-public class Teleporter implements ITeleporter {
+public class Teleport implements ITeleporter {
 
-    public Teleporter(ServerLevel world){
+    public Teleport(ServerLevel world){
         super();
     }
 
     @Override
-    public Entity placeEntity(Entity entity, ServerLevel currentWorld, ServerLevel destWorld, float yaw, Function<Boolean, Entity> repositionEntity) {
+    public Entity placeEntity(Entity entity, ServerLevel currentWorld, ServerLevel destWorld,
+                              float yaw, Function<Boolean, Entity> repositionEntity) {
         return repositionEntity.apply(true);
     }
 

@@ -14,6 +14,7 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -30,17 +31,18 @@ public class AmuletItem extends Item {
     }
 
     @Override
-    public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
+    public void appendHoverText(@NotNull ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents,
+                                @NotNull TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(new TranslatableComponent("tooltip.oredium.amulet"));
     }
 
     @Override
-    public InteractionResult useOn(UseOnContext pContext) {
+    public @NotNull InteractionResult useOn(UseOnContext pContext) {
         if (pContext.getLevel().isClientSide()){
             BlockPos positionClicked = pContext.getClickedPos();
             Player player = pContext.getPlayer();
-
-            pContext.getLevel().playSound(player, positionClicked, SoundsInit.UPGRADING_SOUND.get(), SoundSource.BLOCKS, 1f, 1f);
+            pContext.getLevel().playSound(player, positionClicked,
+                    SoundsInit.UPGRADING_SOUND.get(), SoundSource.BLOCKS, 1f, 1f);
         }
         return super.useOn(pContext);
     }

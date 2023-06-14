@@ -7,43 +7,31 @@ import net.minecraft.world.level.levelgen.placement.*;
 
 public class OrePlaced {
 
+    // Flores
     public static final Holder<PlacedFeature> SOLIMA_PLACED = PlacementUtils.register("solima_placed",
-            WorldConfig.FLOWER_SOLIMA, RarityFilter.onAverageOnceEvery(8),
+            WorldConfig.FLOWER_SOLIMA, RarityFilter.onAverageOnceEvery(4),
             InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome());
 
-    public static final Holder<PlacedFeature> SHINE_PLACED = PlacementUtils.register("shine_placed",
-            WorldConfig.SHINE_ORE, OreConfig.commonOrePlacement(18, HeightRangePlacement.triangle(
-                    VerticalAnchor.aboveBottom(-100),VerticalAnchor.absolute(256))));
-
-    public static final Holder<PlacedFeature> AXIDITA_PLACED = PlacementUtils.register("axidita_placed",
-            WorldConfig.AXIDITA_ORE, OreConfig.commonOrePlacement(7, HeightRangePlacement.uniform(
-                    VerticalAnchor.absolute(-60),VerticalAnchor.absolute(50))));
-
-    public static final Holder<PlacedFeature> CABALLERITA_PLACED = PlacementUtils.register("caballerita_placed",
-            WorldConfig.CABALLERITA_ORE, OreConfig.commonOrePlacement(10, HeightRangePlacement.triangle(
-                    VerticalAnchor.absolute(-60),VerticalAnchor.absolute(50))));
-
-    public static final Holder<PlacedFeature> CESARITA_PLACED = PlacementUtils.register("cesarita_placed",
-            WorldConfig.CESARITA_ORE, OreConfig.commonOrePlacement(10, HeightRangePlacement.triangle(
-                    VerticalAnchor.absolute(-60),VerticalAnchor.absolute(50))));
-
+    // Metales
+    public static final Holder<PlacedFeature> DISPROSIO_PLACED = PlacementUtils.register("disprosio_placed",
+            WorldConfig.DISPROSIO_ORE, OreConfig.commonOrePlacement(10, HeightRangePlacement.triangle(
+                    VerticalAnchor.absolute(-60),VerticalAnchor.absolute(10))));
     public static final Holder<PlacedFeature> FRANITOLINA_PLACED = PlacementUtils.register("franitolina_placed",
             WorldConfig.FRANITOLINA_ORE, OreConfig.commonOrePlacement(7, HeightRangePlacement.uniform(
-                    VerticalAnchor.absolute(-60),VerticalAnchor.absolute(64))));
-
-    public static final Holder<PlacedFeature> ENDERITA_PLACED = PlacementUtils.register("enderita_placed",
-            WorldConfig.ENDERITA_ORE, OreConfig.commonOrePlacement(6, HeightRangePlacement.triangle(
+                    VerticalAnchor.absolute(-60),VerticalAnchor.absolute(10))));
+    public static final Holder<PlacedFeature> MELITONILA_PLACED = PlacementUtils.register("melitonila_placed",
+            WorldConfig.MELITONILA_ORE, OreConfig.commonOrePlacement(7, HeightRangePlacement.uniform(
+                    VerticalAnchor.absolute(-60),VerticalAnchor.absolute(10))));
+    public static final Holder<PlacedFeature> TERIUM_PLACED = PlacementUtils.register("terium_placed",
+            WorldConfig.TERIUM_ORE, OreConfig.commonOrePlacement(6, HeightRangePlacement.triangle(
                     VerticalAnchor.aboveBottom(-80),VerticalAnchor.absolute(-10))));
-
     public static final Holder<PlacedFeature> ALEZARITA_PLACED = PlacementUtils.register("alezarita_placed",
-            WorldConfig.ALEZARITA_ORE, OreConfig.commonOrePlacement(10, HeightRangePlacement.uniform(
-                    VerticalAnchor.absolute(5),VerticalAnchor.absolute(115))));
-
-    public static final Holder<PlacedFeature> HUGODIUM_PLACED = PlacementUtils.register("hugodium_placed",
-                WorldConfig.HUGODIUM_ORE, OreConfig.commonOrePlacement(10, HeightRangePlacement.uniform(
-                    VerticalAnchor.absolute(5),VerticalAnchor.absolute(115))));
-
+            WorldConfig.ALEZARITA_ORE, OreConfig.commonOrePlacement(4, HeightRangePlacement.uniform(
+                    VerticalAnchor.absolute(10),VerticalAnchor.absolute(100))));
+    public static final Holder<PlacedFeature> HALINOX_PLACED = PlacementUtils.register("halinox_placed",
+                WorldConfig.HALINOX_ORE, OreConfig.commonOrePlacement(4, HeightRangePlacement.uniform(
+                    VerticalAnchor.absolute(10),VerticalAnchor.absolute(100))));
     public static final Holder<PlacedFeature> MIGUELITIO_PLACED = PlacementUtils.register("miguelitio_placed",
-            WorldConfig.MIGUELITIO_ORE, OreConfig.commonOrePlacement(9, HeightRangePlacement.triangle(
-                    VerticalAnchor.absolute(5),VerticalAnchor.absolute(100))));
+            WorldConfig.MIGUELITIO_ORE, OreConfig.commonOrePlacement(4, HeightRangePlacement.triangle(
+                    VerticalAnchor.absolute(10),VerticalAnchor.absolute(100))));
 }

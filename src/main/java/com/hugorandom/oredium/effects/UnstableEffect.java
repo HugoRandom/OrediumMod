@@ -1,7 +1,6 @@
 package com.hugorandom.oredium.effects;
 
 import com.hugorandom.oredium.init.EffectsInit;
-import net.minecraft.client.player.AbstractClientPlayer;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
@@ -9,7 +8,8 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.entity.player.Player;
+
+import java.util.Objects;
 
 public class UnstableEffect extends MobEffect {
 
@@ -21,13 +21,15 @@ public class UnstableEffect extends MobEffect {
     public void applyEffectTick(LivingEntity pLivingEntity, int pAmplifier) {
         if (!pLivingEntity.level.isClientSide()){
             if (pLivingEntity.hasEffect(EffectsInit.VITAMINIZED.get())) {
-                if(pLivingEntity.getEffect(EffectsInit.VITAMINIZED.get()).getAmplifier() == 0){
+                if(Objects.requireNonNull(pLivingEntity.getEffect(EffectsInit.VITAMINIZED.get())).getAmplifier() == 0){
                     pLivingEntity.removeEffect(EffectsInit.VITAMINIZED.get());
                 }
                 else{
                     pLivingEntity.addEffect(new MobEffectInstance(EffectsInit.VITAMINIZED.get(),
-                            pLivingEntity.getEffect(EffectsInit.VITAMINIZED.get()).getDuration() + 1,
-                            pLivingEntity.getEffect(EffectsInit.VITAMINIZED.get()).getAmplifier() - 1));
+                            Objects.requireNonNull(
+                                    pLivingEntity.getEffect(EffectsInit.VITAMINIZED.get())).getDuration() + 1,
+                            Objects.requireNonNull(
+                                    pLivingEntity.getEffect(EffectsInit.VITAMINIZED.get())).getAmplifier() - 1));
                 }
                 pLivingEntity.removeEffect(EffectsInit.UNSTABLE.get());
             }

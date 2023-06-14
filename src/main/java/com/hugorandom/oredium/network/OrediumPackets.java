@@ -1,7 +1,7 @@
 package com.hugorandom.oredium.network;
 
 import com.hugorandom.oredium.Oredium;
-import com.hugorandom.oredium.network.packets.TeleporterChargeS2CPacket;
+import com.hugorandom.oredium.network.packets.TeleportChargeS2CPacket;
 import com.hugorandom.oredium.network.packets.VitaminsC2SPacket;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
@@ -34,10 +34,10 @@ public class OrediumPackets {
                 .consumer(VitaminsC2SPacket::handle)
                 .add();
 
-        net.messageBuilder(TeleporterChargeS2CPacket.class, id(), NetworkDirection.PLAY_TO_CLIENT)
-                .decoder(TeleporterChargeS2CPacket::new)
-                .encoder(TeleporterChargeS2CPacket::toBytes)
-                .consumer(TeleporterChargeS2CPacket::handle)
+        net.messageBuilder(TeleportChargeS2CPacket.class, id(), NetworkDirection.PLAY_TO_CLIENT)
+                .decoder(TeleportChargeS2CPacket::new)
+                .encoder(TeleportChargeS2CPacket::toBytes)
+                .consumer(TeleportChargeS2CPacket::handle)
                 .add();
     }
 

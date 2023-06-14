@@ -22,9 +22,11 @@ public class BusEvents {
 
     @SubscribeEvent
     public static void registerParticleFactories(final ParticleFactoryRegisterEvent event){
-        Minecraft.getInstance().particleEngine.register(ParticlesInit.OREDIUM_PARTICLE.get(), NormalParticle.Provider::new);
-        Minecraft.getInstance().particleEngine.register(ParticlesInit.SHINE_PARTICLE.get(), NormalParticle.Provider::new);
-        Minecraft.getInstance().particleEngine.register(ParticlesInit.FRANITOLINA_PARTICLE.get(), NormalParticle.Provider::new);
-        Minecraft.getInstance().particleEngine.register(ParticlesInit.MIGUELITIO_PARTICLE.get(), NormalParticle.Provider::new);
+        Minecraft.getInstance().particleEngine.register(
+                ParticlesInit.OREDIUM_PARTICLE.get(), NormalParticle.Provider::new);
+        Minecraft.getInstance().particleEngine.register(
+                ParticlesInit.FRANITOLINA_PARTICLE.get(), NormalParticle.Provider::new);
+        Minecraft.getInstance().particleEngine.register(
+                ParticlesInit.MIGUELITIO_PARTICLE.get(), NormalParticle.Provider::new);
     }
 }

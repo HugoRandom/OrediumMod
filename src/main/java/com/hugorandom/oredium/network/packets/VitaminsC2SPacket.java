@@ -44,14 +44,14 @@ public class VitaminsC2SPacket {
             player.getCapability(PlayerVitaminsProvider.PLAYER_VITAMINS).ifPresent(vitamins -> {
                 int actualVitamins = vitamins.getVitamins();
                 if (actualVitamins > 0){
-                    player.sendMessage(new TranslatableComponent(VITAMINS_CONSUMED_MESSAGE).withStyle(ChatFormatting.LIGHT_PURPLE),
-                            player.getUUID());
-                    player.sendMessage(new TextComponent(String.valueOf(actualVitamins)).withStyle(ChatFormatting.LIGHT_PURPLE),
-                            player.getUUID());
+                    player.sendMessage(new TranslatableComponent(VITAMINS_CONSUMED_MESSAGE)
+                            .withStyle(ChatFormatting.LIGHT_PURPLE), player.getUUID());
+                    player.sendMessage(new TextComponent(String.valueOf(actualVitamins))
+                            .withStyle(ChatFormatting.LIGHT_PURPLE), player.getUUID());
                 }
                 else {
-                    player.sendMessage(new TranslatableComponent(VITAMINS_NO_CONSUMED_MESSAGE).withStyle(ChatFormatting.RED),
-                            player.getUUID());
+                    player.sendMessage(new TranslatableComponent(VITAMINS_NO_CONSUMED_MESSAGE)
+                            .withStyle(ChatFormatting.RED), player.getUUID());
                 }
             });
         });

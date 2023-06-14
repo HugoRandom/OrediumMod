@@ -13,6 +13,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.level.Level;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -21,30 +22,31 @@ public class Smoothie extends Item {
 
 	public Smoothie() {
 		super(new Properties()							
-				.food(HUGODIUM_SMOOTHIE)
+				.food(HALINOX_SMOOTHIE)
 				.tab(ItemGroupTabs.OREDIUM_FOODS));
 	}
-	public static final FoodProperties HUGODIUM_SMOOTHIE = new FoodProperties.Builder()
+	public static final FoodProperties HALINOX_SMOOTHIE = new FoodProperties.Builder()
 			.effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 200, 0), 1.0f)
 			.nutrition(6)
 			.saturationMod(0.7f)
 			.alwaysEat()
 			.build();
 
-	public UseAnim getUseAnimation(ItemStack p_77661_1_) {
-		return UseAnim.DRINK.DRINK;
+	public @NotNull UseAnim getUseAnimation(@NotNull ItemStack p_77661_1_) {
+		return UseAnim.DRINK;
 	}
 
-	public SoundEvent getDrinkingSound() {
+	public @NotNull SoundEvent getDrinkingSound() {
 		return SoundEvents.HONEY_DRINK;
 	}
 
-	public SoundEvent getEatingSound() {
+	public @NotNull SoundEvent getEatingSound() {
 		return SoundEvents.HONEY_DRINK;
 	}
 
 	@Override
-	public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
+	public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents,
+								@NotNull TooltipFlag pIsAdvanced) {
 		pTooltipComponents.add(new TranslatableComponent("tooltip.oredium." + pStack.getItem().asItem()));
 	}
 }

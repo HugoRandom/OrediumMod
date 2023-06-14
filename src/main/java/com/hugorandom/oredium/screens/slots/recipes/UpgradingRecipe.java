@@ -11,6 +11,7 @@ import net.minecraft.world.SimpleContainer;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.Level;
+import org.jetbrains.annotations.NotNull;
 
 import javax.annotation.Nullable;
 
@@ -27,25 +28,15 @@ public class UpgradingRecipe implements Recipe<SimpleContainer> {
     }
 
     @Override
-    public boolean matches(SimpleContainer pContainer, Level pLevel) {
+    public boolean matches(@NotNull SimpleContainer pContainer, @NotNull Level pLevel) {
         return doubleMatch(pContainer);
     }
 
     private boolean doubleMatch(SimpleContainer pContainer){
         if(recipeItems.get(0).test(pContainer.getItem(0))){
-            if (recipeItems.get(1).test(pContainer.getItem(1))) {
-                return true;
-            }
-            else {
-                return false;
-            }
+            return recipeItems.get(1).test(pContainer.getItem(1));
         } else if (recipeItems.get(0).test(pContainer.getItem(1))) {
-            if (recipeItems.get(1).test(pContainer.getItem(0))){
-                return true;
-            }
-            else {
-                return false;
-            }
+            return recipeItems.get(1).test(pContainer.getItem(0));
         }
         else {
             return false;
@@ -53,12 +44,12 @@ public class UpgradingRecipe implements Recipe<SimpleContainer> {
     }
 
     @Override
-    public NonNullList<Ingredient> getIngredients() {
+    public @NotNull NonNullList<Ingredient> getIngredients() {
         return recipeItems;
     }
 
     @Override
-    public ItemStack assemble(SimpleContainer pContainer) {
+    public @NotNull ItemStack assemble(@NotNull SimpleContainer pContainer) {
         return output;
     }
 
@@ -68,22 +59,22 @@ public class UpgradingRecipe implements Recipe<SimpleContainer> {
     }
 
     @Override
-    public ItemStack getResultItem() {
+    public @NotNull ItemStack getResultItem() {
         return output.copy();
     }
 
     @Override
-    public ResourceLocation getId() {
+    public @NotNull ResourceLocation getId() {
         return id;
     }
 
     @Override
-    public RecipeSerializer<?> getSerializer() {
+    public @NotNull RecipeSerializer<?> getSerializer() {
         return Serializer.INSTANCE;
     }
 
     @Override
-    public RecipeType<?> getType() {
+    public @NotNull RecipeType<?> getType() {
         return Type.INSTANCE;
     }
 
@@ -100,7 +91,7 @@ public class UpgradingRecipe implements Recipe<SimpleContainer> {
                 new ResourceLocation(Oredium.MOD_ID,"upgrading");
 
         @Override
-        public UpgradingRecipe fromJson(ResourceLocation id, JsonObject json) {
+        public @NotNull UpgradingRecipe fromJson(@NotNull ResourceLocation id, @NotNull JsonObject json) {
             ItemStack output = ShapedRecipe.itemStackFromJson(GsonHelper.getAsJsonObject(json, "output"));
 
             JsonArray ingredients = GsonHelper.getAsJsonArray(json, "ingredients");
@@ -114,12 +105,10 @@ public class UpgradingRecipe implements Recipe<SimpleContainer> {
         }
 
         @Override
-        public UpgradingRecipe fromNetwork(ResourceLocation id, FriendlyByteBuf buf) {
+        public UpgradingRecipe fromNetwork(@NotNull ResourceLocation id, FriendlyByteBuf buf) {
             NonNullList<Ingredient> inputs = NonNullList.withSize(buf.readInt(), Ingredient.EMPTY);
 
-            for (int i = 0; i < inputs.size(); i++) {
-                inputs.set(i, Ingredient.fromNetwork(buf));
-            }
+            inputs.replaceAll(ignored -> Ingredient.fromNetwork(buf));
 
             ItemStack output = buf.readItem();
             return new UpgradingRecipe(id, output, inputs);

@@ -8,6 +8,7 @@ import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Inventory;
+import org.jetbrains.annotations.NotNull;
 
 public class UpgradingScreen extends AbstractContainerScreen<UpgradingMenu> {
 
@@ -19,22 +20,27 @@ public class UpgradingScreen extends AbstractContainerScreen<UpgradingMenu> {
     }
 
     @Override
-    protected void renderBg(PoseStack pPoseStack, float pPartialTick, int pMouseX, int pMouseY) {
+    protected void renderBg(@NotNull PoseStack pPoseStack, float pPartialTick, int pMouseX, int pMouseY) {
         RenderSystem.setShader(GameRenderer::getPositionTexShader);
         RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
         RenderSystem.setShaderTexture(0, UPGRADING_SCREEN);
         int x = (width - imageWidth) / 2;
         int y = (height - imageHeight) / 2;
         this.blit(pPoseStack, x, y, 0, 0, imageWidth, imageHeight);
-
         if(menu.isCrafting()){
-            this.blit(pPoseStack, x + 51, y + 35, 176, 0, menu.getScaledProgress(), 13);
-            this.blit(pPoseStack, x + 125 - menu.getScaledProgress(), y + 35, 196 - menu.getScaledProgress(), 13, menu.getScaledProgress(), 13);
+            this.blit(pPoseStack,
+                    x + 51, y + 35,
+                    176, 0,
+                    menu.getScaledProgress(), 13);
+            this.blit(pPoseStack,
+                    x + 125 - menu.getScaledProgress(), y + 35,
+                    196 - menu.getScaledProgress(), 13,
+                    menu.getScaledProgress(), 13);
         }
     }
 
     @Override
-    public void render(PoseStack pPoseStack, int pMouseX, int pMouseY, float pPartialTick) {
+    public void render(@NotNull PoseStack pPoseStack, int pMouseX, int pMouseY, float pPartialTick) {
         renderBackground(pPoseStack);
         super.render(pPoseStack, pMouseX, pMouseY, pPartialTick);
         renderTooltip(pPoseStack, pMouseX, pMouseY);

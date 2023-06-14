@@ -12,7 +12,7 @@ public class ResultSlot extends SlotItemHandler {
     }
 
     @Override
-    public boolean mayPlace(ItemStack stack) {
+    public boolean mayPlace(@NotNull ItemStack stack) {
         return false;
     }
 }

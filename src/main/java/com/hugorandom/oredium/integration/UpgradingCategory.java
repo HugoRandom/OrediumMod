@@ -16,6 +16,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
+import org.jetbrains.annotations.NotNull;
 
 public class UpgradingCategory implements IRecipeCategory<UpgradingRecipe> {
 
@@ -34,40 +35,42 @@ public class UpgradingCategory implements IRecipeCategory<UpgradingRecipe> {
         this.arrowArmor = helper.createDrawable(TEXTURE, 176, 13, 20, 13);
     }
 
+    @SuppressWarnings("removal")
     @Override
-    public ResourceLocation getUid() {
+    public @NotNull ResourceLocation getUid() {
         return UID;
     }
-
+    @SuppressWarnings("removal")
     @Override
-    public Class<? extends UpgradingRecipe> getRecipeClass() {
+    public @NotNull Class<? extends UpgradingRecipe> getRecipeClass() {
         return UpgradingRecipe.class;
     }
 
     @Override
-    public Component getTitle() {
+    public @NotNull Component getTitle() {
         return new TranslatableComponent("jei.title.upgrading");
     }
 
     @Override
-    public IDrawable getBackground() {
+    public @NotNull IDrawable getBackground() {
         return this.background;
     }
 
     @Override
-    public IDrawable getIcon() {
+    public @NotNull IDrawable getIcon() {
         return this.icon;
     }
 
     @Override
-    public void setRecipe(IRecipeLayoutBuilder builder, UpgradingRecipe recipe, IFocusGroup focuses) {
+    public void setRecipe(IRecipeLayoutBuilder builder, UpgradingRecipe recipe, @NotNull IFocusGroup focuses) {
         builder.addSlot(RecipeIngredientRole.INPUT, 26, 33).addIngredients(recipe.getIngredients().get(0));
         builder.addSlot(RecipeIngredientRole.INPUT, 134, 33).addIngredients(recipe.getIngredients().get(1));
         builder.addSlot(RecipeIngredientRole.OUTPUT, 80, 33).addItemStack(recipe.getResultItem());
     }
 
     @Override
-    public void draw(UpgradingRecipe recipe, IRecipeSlotsView recipeSlotsView, PoseStack stack, double mouseX, double mouseY) {
+    public void draw(@NotNull UpgradingRecipe recipe, @NotNull IRecipeSlotsView recipeSlotsView,
+                     @NotNull PoseStack stack, double mouseX, double mouseY) {
         this.arrowUpgrader.draw(stack, 51, 35);
         this.arrowArmor.draw(stack, 105, 35);
     }
