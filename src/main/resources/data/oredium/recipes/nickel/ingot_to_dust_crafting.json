@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "oredium:nickel_ingot"
+        },
+        {
+            "item": "oredium:nickel_ingot"
+        }
+    ],
+    "result": {
+        "item": "oredium:nickel_dust",
+        "count": 2
+    }
+}

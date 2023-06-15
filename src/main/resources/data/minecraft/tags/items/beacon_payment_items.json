@@ -7,6 +7,13 @@
 		"oredium:melitonila_ingot",
 		"oredium:miguelitio_ingot",
 		"oredium:disprosio_ingot",
-		"oredium:terium_ingot"
+		"oredium:terium_ingot",
+		"oredium:tin_ingot",
+		"oredium:lead_ingot",
+		"oredium:silver_ingot",
+		"oredium:nickel_ingot",
+		"oredium:invar_ingot",
+		"oredium:electrum_ingot",
+		"oredium:constantan_ingot"
   	]
 }

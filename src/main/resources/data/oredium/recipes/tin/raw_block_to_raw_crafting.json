@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "oredium:raw_tin_block"
+        }
+    ],
+    "result": {
+        "item": "oredium:raw_tin",
+        "count": 9
+    }
+}

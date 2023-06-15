@@ -87,16 +87,16 @@ public class ArmorU extends ArmorItem {
             player.addEffect(new MobEffectInstance(mapStatusEffect.getEffect(),
                     mapStatusEffect.getDuration(), mapStatusEffect.getAmplifier()));
             // Si cualquier parte de la armadura tiene durabilidad menor al 25%, será inestable.
-            if (player.getInventory().getArmor(0).getUseDuration() <
+            if (player.getInventory().getArmor(0).getDamageValue() <
                         (player.getInventory().getArmor(0).getMaxDamage() * 0.25) ||
-                    player.getInventory().getArmor(1).getUseDuration() <
+                    player.getInventory().getArmor(1).getDamageValue() <
                             (player.getInventory().getArmor(1).getMaxDamage() * 0.25) ||
-                    player.getInventory().getArmor(2).getUseDuration() <
+                    player.getInventory().getArmor(2).getDamageValue() <
                             (player.getInventory().getArmor(2).getMaxDamage() * 0.25) ||
-                    player.getInventory().getArmor(3).getUseDuration() <
+                    player.getInventory().getArmor(3).getDamageValue() <
                             (player.getInventory().getArmor(3).getMaxDamage() * 0.25)){
                 player.addEffect(new MobEffectInstance(EffectsInit.UNSTABLE.get(), 200, 0));
-            };
+            }
         }
     }
 

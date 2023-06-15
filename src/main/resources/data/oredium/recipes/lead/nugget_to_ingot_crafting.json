@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "oredium:lead_nugget"
+        }
+    },
+    "result": {
+        "item": "oredium:lead_ingot",
+        "count": 1
+    }
+}

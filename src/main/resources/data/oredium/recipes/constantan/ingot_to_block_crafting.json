@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ooo",
+        "ooo",
+        "ooo"
+    ],
+    "key": {
+        "o": {
+            "item": "oredium:constantan_ingot"
+        }
+    },
+    "result": {
+        "item": "oredium:constantan_block",
+        "count": 1
+    }
+}

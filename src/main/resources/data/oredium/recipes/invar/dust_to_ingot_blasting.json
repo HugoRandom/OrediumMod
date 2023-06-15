@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "oredium:invar_dust"
+    },
+    "result": "oredium:invar_ingot",
+    "experience": 0.1,
+    "cookingtime": 100
+}

@@ -7,6 +7,10 @@
 	    "#forge:raw_materials/franitolina",
 		"#forge:raw_materials/melitonila",
 	    "#forge:raw_materials/halinox",
-	    "#forge:raw_materials/miguelitio"
+	    "#forge:raw_materials/miguelitio",
+		"#forge:raw_materials/tin",
+		"#forge:raw_materials/lead",
+		"#forge:raw_materials/silver",
+		"#forge:raw_materials/nickel"
 	]
 }

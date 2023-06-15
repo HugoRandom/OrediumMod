@@ -5,7 +5,6 @@ import com.hugorandom.oredium.init.EffectsInit;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Explosion;
@@ -22,16 +21,17 @@ public class UnstableEvent {
         if (event.getEntityLiving() instanceof Player){
             LivingEntity player = event.getEntityLiving();
             if (player.hasEffect(EffectsInit.UNSTABLE.get())){
-                float damage = (float) (event.getAmount() * 0.25);
                 player.sendMessage(new TextComponent(String.valueOf(event.getAmount()))
                         .withStyle(ChatFormatting.LIGHT_PURPLE), player.getUUID());
-                player.sendMessage(new TextComponent(String.valueOf(damage))
-                        .withStyle(ChatFormatting.LIGHT_PURPLE), player.getUUID());
-                if (damage >= 0.5){
-                    player.sendMessage(new TextComponent("Ouch")
+                float damage = event.getAmount();
+                float bonus = (float)(damage * 0.25);
+                if (bonus >= 0.5){
+                    player.sendMessage(new TextComponent(String.valueOf(damage))
                             .withStyle(ChatFormatting.LIGHT_PURPLE), player.getUUID());
-                    player.hurt(new DamageSource("unstable"), damage);
-                    player.playSound(SoundEvents.ZOMBIE_DEATH, 1.0F, 1.1F);
+                    player.playSound(SoundEvents.COW_HURT, 1.0F, 1.1F);
+                    event.setAmount(damage + bonus);
+                    player.sendMessage(new TextComponent(String.valueOf(event.getAmount()))
+                            .withStyle(ChatFormatting.LIGHT_PURPLE), player.getUUID());
                 }
             }
         }

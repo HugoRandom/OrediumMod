@@ -7,6 +7,13 @@
     "oredium:terium_nugget",
     "oredium:alezarita_nugget",
     "oredium:halinox_nugget",
-    "oredium:miguelitio_nugget"
+    "oredium:miguelitio_nugget",
+    "oredium:tin_nugget",
+    "oredium:lead_nugget",
+    "oredium:silver_nugget",
+    "oredium:nickel_nugget",
+    "oredium:invar_nugget",
+    "oredium:electrum_nugget",
+    "oredium:constantan_nugget"
   ]
 }

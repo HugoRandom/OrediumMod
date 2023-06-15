@@ -1,4 +1,4 @@
-package com.hugorandom.oredium.world;
+package com.hugorandom.oredium.events;
 
 import com.hugorandom.oredium.Oredium;
 import com.hugorandom.oredium.world.gen.FlowerGen;

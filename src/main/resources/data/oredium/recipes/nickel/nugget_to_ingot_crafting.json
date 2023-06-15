@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "oredium:nickel_nugget"
+        }
+    },
+    "result": {
+        "item": "oredium:nickel_ingot",
+        "count": 1
+    }
+}

@@ -11,7 +11,7 @@ import com.hugorandom.oredium.init.MenusInit;
 import com.hugorandom.oredium.init.RecipesInit;
 import com.hugorandom.oredium.init.ToolsInit;
 import com.hugorandom.oredium.network.OrediumPackets;
-import com.hugorandom.oredium.world.WoldEvents;
+import com.hugorandom.oredium.events.WoldEvents;
 import com.hugorandom.oredium.init.*;
 import com.hugorandom.oredium.init.DimensionsInit;
 import com.hugorandom.oredium.world.structure.StructuresInit;

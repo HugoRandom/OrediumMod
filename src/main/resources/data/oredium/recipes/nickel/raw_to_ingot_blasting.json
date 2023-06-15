@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "oredium:raw_nickel"
+    },
+    "result": "oredium:nickel_ingot",
+    "experience": 1,
+    "cookingtime": 100
+}

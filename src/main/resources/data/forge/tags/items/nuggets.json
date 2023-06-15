@@ -7,6 +7,13 @@
 	    "#forge:nuggets/franitolina",
 		"#forge:nuggets/melitonila",
 	    "#forge:nuggets/halinox",
-	    "#forge:nuggets/miguelitio"
+	    "#forge:nuggets/miguelitio",
+		"#forge:nuggets/tin",
+		"#forge:nuggets/lead",
+		"#forge:nuggets/silver",
+		"#forge:nuggets/nickel",
+		"#forge:nuggets/invar",
+		"#forge:nuggets/electrum",
+		"#forge:nuggets/constantan"
 	]
 }

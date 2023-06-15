@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "oredium:lead_ore",
+        "oredium:silver_ore",
+        "oredium:nickel_ore",
+        "oredium:deepslate_lead_ore",
+        "oredium:deepslate_silver_ore",
+        "oredium:deepslate_nickel_ore",
+        "oredium:lead_block",
+        "oredium:silver_block",
+        "oredium:nickel_block",
+        "oredium:raw_lead_block",
+        "oredium:raw_silver_block",
+        "oredium:raw_nickel_block"
+    ]
+}

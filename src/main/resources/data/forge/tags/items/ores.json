@@ -7,6 +7,10 @@
 	    "#forge:ores/franitolina",
 		"#forge:ores/melitonila",
 	    "#forge:ores/halinox",
-	    "#forge:ores/miguelitio" 
+	    "#forge:ores/miguelitio",
+		"#forge:ores/tin",
+		"#forge:ores/lead",
+		"#forge:ores/silver",
+		"#forge:ores/nickel"
 	]
 }

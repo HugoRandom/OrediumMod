@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ooo",
+        "ooo",
+        "ooo"
+    ],
+    "key": {
+        "o": {
+            "item": "oredium:electrum_ingot"
+        }
+    },
+    "result": {
+        "item": "oredium:electrum_block",
+        "count": 1
+    }
+}

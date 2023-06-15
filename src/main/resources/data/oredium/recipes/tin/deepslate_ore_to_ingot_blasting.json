@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "oredium:deepslate_tin_ore"
+    },
+    "result": "oredium:tin_ingot",
+    "experience": 0.7,
+    "cookingtime": 100
+}

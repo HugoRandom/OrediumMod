@@ -1,12 +1,19 @@
 {
   	"replace": false,
   	"values": [
-	    "#forge:ingots/alezarita",
-	    "#forge:ingots/disprosio",
-	    "#forge:ingots/terium",
-	    "#forge:ingots/franitolina",
-		"#forge:ingots/melitonila",
-	    "#forge:ingots/halinox",
-	    "#forge:ingots/miguelitio"
+	    "#forge:dusts/alezarita",
+	    "#forge:dusts/disprosio",
+	    "#forge:dusts/terium",
+	    "#forge:dusts/franitolina",
+		"#forge:dusts/melitonila",
+	    "#forge:dusts/halinox",
+	    "#forge:dusts/miguelitio",
+		"#forge:dusts/tin",
+		"#forge:dusts/lead",
+		"#forge:dusts/silver",
+		"#forge:dusts/nickel",
+		"#forge:dusts/invar",
+		"#forge:dusts/electrum",
+		"#forge:dusts/constantan"
 	]
 }

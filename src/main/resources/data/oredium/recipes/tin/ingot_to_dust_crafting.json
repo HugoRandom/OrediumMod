@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "oredium:tin_ingot"
+        },
+        {
+            "item": "oredium:tin_ingot"
+        }
+    ],
+    "result": {
+        "item": "oredium:tin_dust",
+        "count": 2
+    }
+}

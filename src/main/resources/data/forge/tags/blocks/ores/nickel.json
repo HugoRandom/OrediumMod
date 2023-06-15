@@ -1,0 +1,7 @@
+{
+  	"replace": false,
+  	"values": [
+    	"oredium:nickel_ore",
+		"oredium:deepslate_nickel_ore"
+  	]
+}

@@ -14,7 +14,7 @@ public class OrePlaced {
 
     // Metales
     public static final Holder<PlacedFeature> DISPROSIO_PLACED = PlacementUtils.register("disprosio_placed",
-            WorldConfig.DISPROSIO_ORE, OreConfig.commonOrePlacement(10, HeightRangePlacement.triangle(
+            WorldConfig.DISPROSIO_ORE, OreConfig.commonOrePlacement(10, HeightRangePlacement.uniform(
                     VerticalAnchor.absolute(-60),VerticalAnchor.absolute(10))));
     public static final Holder<PlacedFeature> FRANITOLINA_PLACED = PlacementUtils.register("franitolina_placed",
             WorldConfig.FRANITOLINA_ORE, OreConfig.commonOrePlacement(7, HeightRangePlacement.uniform(
@@ -34,4 +34,16 @@ public class OrePlaced {
     public static final Holder<PlacedFeature> MIGUELITIO_PLACED = PlacementUtils.register("miguelitio_placed",
             WorldConfig.MIGUELITIO_ORE, OreConfig.commonOrePlacement(4, HeightRangePlacement.triangle(
                     VerticalAnchor.absolute(10),VerticalAnchor.absolute(100))));
+    public static final Holder<PlacedFeature> TIN_PLACED = PlacementUtils.register("tin_placed",
+            WorldConfig.TIN_ORE, OreConfig.commonOrePlacement(6, HeightRangePlacement.uniform(
+                    VerticalAnchor.absolute(-60),VerticalAnchor.absolute(60))));
+    public static final Holder<PlacedFeature> LEAD_PLACED = PlacementUtils.register("lead_placed",
+            WorldConfig.LEAD_ORE, OreConfig.commonOrePlacement(5, HeightRangePlacement.triangle(
+                    VerticalAnchor.absolute(-60),VerticalAnchor.absolute(40))));
+    public static final Holder<PlacedFeature> SILVER_PLACED = PlacementUtils.register("silver_placed",
+            WorldConfig.SILVER_ORE, OreConfig.commonOrePlacement(5, HeightRangePlacement.triangle(
+                    VerticalAnchor.absolute(-60),VerticalAnchor.absolute(40))));
+    public static final Holder<PlacedFeature> NICKEL_PLACED = PlacementUtils.register("nickel_placed",
+            WorldConfig.NICKEL_ORE, OreConfig.commonOrePlacement(6, HeightRangePlacement.triangle(
+                    VerticalAnchor.absolute(-60),VerticalAnchor.absolute(60))));
 }

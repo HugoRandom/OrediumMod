@@ -7,6 +7,13 @@
 	    "#forge:ingots/franitolina",
 		"#forge:ingots/melitonila",
 	    "#forge:ingots/halinox",
-	    "#forge:ingots/miguelitio" 
+	    "#forge:ingots/miguelitio",
+		"#forge:ingots/tin",
+		"#forge:ingots/lead",
+		"#forge:ingots/silver",
+		"#forge:ingots/nickel",
+		"#forge:ingots/invar",
+		"#forge:ingots/electrum",
+		"#forge:ingots/constantan"
 	]
 }

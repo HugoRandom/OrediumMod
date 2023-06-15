@@ -1,10 +1,7 @@
 {
   "replace": false,
   "values": [
-    "oredium:a12_pill",
-    "oredium:b32_pill",
     "oredium:c42_pill",
-    "oredium:d13_pill",
     "oredium:l7_pill",
     "oredium:i12_pill",
     "oredium:e4_pill",

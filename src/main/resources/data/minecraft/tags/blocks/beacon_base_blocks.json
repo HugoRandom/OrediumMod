@@ -7,6 +7,13 @@
         "oredium:melitonila_block",
         "oredium:miguelitio_block",
         "oredium:disprosio_block",
-        "oredium:terium_block"
+        "oredium:terium_block",
+        "oredium:tin_block",
+        "oredium:lead_block",
+        "oredium:silver_block",
+        "oredium:nickel_block",
+        "oredium:invar_block",
+        "oredium:electrum_block",
+        "oredium:constantan_block"
     ]
 }

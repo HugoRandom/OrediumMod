@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "oredium:constantan_ingot"
+        }
+    ],
+    "result": {
+        "item": "oredium:constantan_nugget",
+        "count": 9
+    }
+}

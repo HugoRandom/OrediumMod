@@ -32,6 +32,20 @@ public class Items1Init {
             ITEMS.register("halinox_ingot", CommonItem::new);
     public static final RegistryObject<net.minecraft.world.item.Item> MIGUELITIO_INGOT = 
             ITEMS.register("miguelitio_ingot", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> TIN_INGOT =
+            ITEMS.register("tin_ingot", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> LEAD_INGOT =
+            ITEMS.register("lead_ingot", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> SILVER_INGOT =
+            ITEMS.register("silver_ingot", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> NICKEL_INGOT =
+            ITEMS.register("nickel_ingot", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> INVAR_INGOT =
+            ITEMS.register("invar_ingot", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> ELECTRUM_INGOT =
+            ITEMS.register("electrum_ingot", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> CONSTANTAN_INGOT =
+            ITEMS.register("constantan_ingot", CommonItem::new);
 
     // Pepitas
     public static final RegistryObject<net.minecraft.world.item.Item> DISPROSIO_NUGGET = 
@@ -48,6 +62,20 @@ public class Items1Init {
             ITEMS.register("halinox_nugget", CommonItem::new);
     public static final RegistryObject<net.minecraft.world.item.Item> MIGUELITIO_NUGGET = 
             ITEMS.register("miguelitio_nugget", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> TIN_NUGGET =
+            ITEMS.register("tin_nugget", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> LEAD_NUGGET =
+            ITEMS.register("lead_nugget", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> SILVER_NUGGET =
+            ITEMS.register("silver_nugget", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> NICKEL_NUGGET =
+            ITEMS.register("nickel_nugget", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> INVAR_NUGGET =
+            ITEMS.register("invar_nugget", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> ELECTRUM_NUGGET =
+            ITEMS.register("electrum_nugget", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> CONSTANTAN_NUGGET =
+            ITEMS.register("constantan_nugget", CommonItem::new);
 
     // Mineral en Bruto - RAW
     public static final RegistryObject<net.minecraft.world.item.Item> RAW_DISPROSIO = 
@@ -64,6 +92,14 @@ public class Items1Init {
             ITEMS.register("raw_halinox", CommonItem::new);
     public static final RegistryObject<net.minecraft.world.item.Item> RAW_MIGUELITIO = 
             ITEMS.register("raw_miguelitio", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> RAW_TIN =
+            ITEMS.register("raw_tin", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> RAW_LEAD =
+            ITEMS.register("raw_lead", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> RAW_SILVER =
+            ITEMS.register("raw_silver", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> RAW_NICKEL =
+            ITEMS.register("raw_nickel", CommonItem::new);
 
     // Polvos No españoles
     public static final RegistryObject<net.minecraft.world.item.Item> DISPROSIO_DUST = 
@@ -80,6 +116,20 @@ public class Items1Init {
             ITEMS.register("halinox_dust", CommonItem::new);
     public static final RegistryObject<net.minecraft.world.item.Item> MIGUELITIO_DUST = 
             ITEMS.register("miguelitio_dust", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> TIN_DUST =
+            ITEMS.register("tin_dust", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> LEAD_DUST =
+            ITEMS.register("lead_dust", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> SILVER_DUST =
+            ITEMS.register("silver_dust", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> NICKEL_DUST =
+            ITEMS.register("nickel_dust", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> INVAR_DUST =
+            ITEMS.register("invar_dust", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> ELECTRUM_DUST =
+            ITEMS.register("electrum_dust", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> CONSTANTAN_DUST =
+            ITEMS.register("constantan_dust", CommonItem::new);
 
     // Gemas
     public static final RegistryObject<net.minecraft.world.item.Item> DISPROSIO_GEM = 

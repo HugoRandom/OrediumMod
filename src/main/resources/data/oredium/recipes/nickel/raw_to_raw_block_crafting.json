@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ooo",
+        "ooo",
+        "ooo"
+    ],
+    "key": {
+        "o": {
+            "item": "oredium:raw_nickel"
+        }
+    },
+    "result": {
+        "item": "oredium:raw_nickel_block",
+        "count": 1
+    }
+}

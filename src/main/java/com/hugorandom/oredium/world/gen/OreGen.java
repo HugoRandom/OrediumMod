@@ -21,5 +21,9 @@ public class OreGen {
         base.add(OrePlaced.ALEZARITA_PLACED);
         base.add(OrePlaced.HALINOX_PLACED);
         base.add(OrePlaced.MIGUELITIO_PLACED);
+        base.add(OrePlaced.TIN_PLACED);
+        base.add(OrePlaced.LEAD_PLACED);
+        base.add(OrePlaced.SILVER_PLACED);
+        base.add(OrePlaced.NICKEL_PLACED);
     }
 }

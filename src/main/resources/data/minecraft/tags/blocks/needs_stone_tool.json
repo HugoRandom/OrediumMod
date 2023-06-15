@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "oredium:tin_ore",
+        "oredium:deepslate_tin_ore",
+        "oredium:tin_block",
+        "oredium:raw_tin_block"
+    ]
+}

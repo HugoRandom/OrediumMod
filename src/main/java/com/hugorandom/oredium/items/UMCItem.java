@@ -39,10 +39,10 @@ public class UMCItem extends Item {
     public @NotNull InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer,
                                                            @NotNull InteractionHand pUsedHand) {
         BlockPos pos = pPlayer.blockPosition();
-        pLevel.explode(null,
-                (double)pos.getX() + 0.5D,
-                (double)pos.getY() + 1.0D,
-                (double)pos.getZ() + 0.5D,
+        pLevel.explode(pPlayer,
+                (double)pos.getX() + 0.0D,
+                (double)pos.getY() + 0.75D,
+                (double)pos.getZ() + 0.0D,
                 1.0F, false,
                 Explosion.BlockInteraction.BREAK);
         return super.use(pLevel, pPlayer, pUsedHand);

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ooo",
+        "ooo",
+        "ooo"
+    ],
+    "key": {
+        "o": {
+            "item": "oredium:tin_ingot"
+        }
+    },
+    "result": {
+        "item": "oredium:tin_block",
+        "count": 1
+    }
+}

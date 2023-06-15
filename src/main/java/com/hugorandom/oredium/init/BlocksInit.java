@@ -57,6 +57,20 @@ public class BlocksInit {
             () -> new MetalBlock(6f, 8f));
     public static final RegistryObject<Block> MIGUELITIO_BLOCK = registerBlock("miguelitio_block",
             () -> new MiguelitioBlock(6f, 8f));
+    public static final RegistryObject<Block> TIN_BLOCK = registerBlock("tin_block",
+            () -> new MetalBlock(5f, 6f));
+    public static final RegistryObject<Block> LEAD_BLOCK = registerBlock("lead_block",
+            () -> new MetalBlock(5f, 6f));
+    public static final RegistryObject<Block> SILVER_BLOCK = registerBlock("silver_block",
+            () -> new MetalBlock(5f, 6f));
+    public static final RegistryObject<Block> NICKEL_BLOCK = registerBlock("nickel_block",
+            () -> new MetalBlock(5f, 6f));
+    public static final RegistryObject<Block> ELECTRUM_BLOCK = registerBlock("electrum_block",
+            () -> new MetalBlock(5f, 6f));
+    public static final RegistryObject<Block> INVAR_BLOCK = registerBlock("invar_block",
+            () -> new MetalBlock(5f, 6f));
+    public static final RegistryObject<Block> CONSTANTAN_BLOCK = registerBlock("constantan_block",
+            () -> new MetalBlock(5f, 6f));
 
     // Bloques de metal en bruto - Raw metal blocks
     public static final RegistryObject<Block> RAW_DISPROSIO_BLOCK = registerBlock("raw_disprosio_block",
@@ -73,6 +87,14 @@ public class BlocksInit {
             () -> new MetalBlock(6f, 7f));
     public static final RegistryObject<Block> RAW_MIGUELITIO_BLOCK = registerBlock("raw_miguelitio_block",
             () -> new MetalBlock(6f, 8f));
+    public static final RegistryObject<Block> RAW_TIN_BLOCK = registerBlock("raw_tin_block",
+            () -> new MetalBlock(5f, 6f));
+    public static final RegistryObject<Block> RAW_LEAD_BLOCK = registerBlock("raw_lead_block",
+            () -> new MetalBlock(5f, 6f));
+    public static final RegistryObject<Block> RAW_SILVER_BLOCK = registerBlock("raw_silver_block",
+            () -> new MetalBlock(5f, 6f));
+    public static final RegistryObject<Block> RAW_NICKEL_BLOCK = registerBlock("raw_nickel_block",
+            () -> new MetalBlock(5f, 6f));
 
     // Lamparas - Lamps
     public static final RegistryObject<Block> DISPROSIO_LAMP =
@@ -103,6 +125,14 @@ public class BlocksInit {
             () -> new OreBlock(6f, 6f));
     public static final RegistryObject<Block> MIGUELITIO_ORE = registerBlock("miguelitio_ore",
             () -> new OreBlock(7f, 6f));
+    public static final RegistryObject<Block> TIN_ORE = registerBlock("tin_ore",
+            () -> new OreBlock(3f, 3f));
+    public static final RegistryObject<Block> LEAD_ORE = registerBlock("lead_ore",
+            () -> new OreBlock(3f, 3f));
+    public static final RegistryObject<Block> SILVER_ORE = registerBlock("silver_ore",
+            () -> new OreBlock(3f, 3f));
+    public static final RegistryObject<Block> NICKEL_ORE = registerBlock("nickel_ore",
+            () -> new OreBlock(3f, 3f));
     public static final RegistryObject<Block> DEEPSLATE_DISPROSIO_ORE = registerBlock("deepslate_disprosio_ore",
             () -> new DeepslateOreBlock(5.5f, 6f));
     public static final RegistryObject<Block> DEEPSLATE_FRANITOLINA_ORE = registerBlock("deepslate_franitolina_ore",
@@ -111,6 +141,14 @@ public class BlocksInit {
             () -> new DeepslateOreBlock(5.5f, 6f));
     public static final RegistryObject<Block> DEEPSLATE_TERIUM_ORE = registerBlock("deepslate_terium_ore",
             () -> new DeepslateOreBlock(6f, 7f));
+    public static final RegistryObject<Block> DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore",
+            () -> new DeepslateOreBlock(4.5f, 4.5f));
+    public static final RegistryObject<Block> DEEPSLATE_LEAD_ORE = registerBlock("deepslate_lead_ore",
+            () -> new DeepslateOreBlock(4.5f, 4.5f));
+    public static final RegistryObject<Block> DEEPSLATE_SILVER_ORE = registerBlock("deepslate_silver_ore",
+            () -> new DeepslateOreBlock(4.5f, 4.5f));
+    public static final RegistryObject<Block> DEEPSLATE_NICKEL_ORE = registerBlock("deepslate_nickel_ore",
+            () -> new DeepslateOreBlock(4.5f, 4.5f));
 
     // Especiales - Specials
     public static final RegistryObject<Block> OREDIUM_BLOCK = registerBlock("oredium_block", OrediumBlock::new);

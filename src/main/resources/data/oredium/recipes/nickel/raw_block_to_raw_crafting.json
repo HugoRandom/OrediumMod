@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "oredium:raw_nickel_block"
+        }
+    ],
+    "result": {
+        "item": "oredium:raw_nickel",
+        "count": 9
+    }
+}

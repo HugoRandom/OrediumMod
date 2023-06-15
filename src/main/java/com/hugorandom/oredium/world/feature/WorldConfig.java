@@ -50,6 +50,30 @@ public class WorldConfig {
             OreConfiguration.target(OreFeatures.NETHERRACK,
                     BlocksInit.MIGUELITIO_ORE.get().defaultBlockState())
     );
+    public static final List<OreConfiguration.TargetBlockState> TIN_SPAWN = List.of(
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES,
+                    BlocksInit.TIN_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES,
+                    BlocksInit.DEEPSLATE_TIN_ORE.get().defaultBlockState())
+    );
+    public static final List<OreConfiguration.TargetBlockState> LEAD_SPAWN = List.of(
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES,
+                    BlocksInit.LEAD_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES,
+                    BlocksInit.DEEPSLATE_LEAD_ORE.get().defaultBlockState())
+    );
+    public static final List<OreConfiguration.TargetBlockState> SILVER_SPAWN = List.of(
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES,
+                    BlocksInit.SILVER_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES,
+                    BlocksInit.DEEPSLATE_SILVER_ORE.get().defaultBlockState())
+    );
+    public static final List<OreConfiguration.TargetBlockState> NICKEL_SPAWN = List.of(
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES,
+                    BlocksInit.NICKEL_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES,
+                    BlocksInit.DEEPSLATE_NICKEL_ORE.get().defaultBlockState())
+    );
     // Flores - Flowers
     public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> FLOWER_SOLIMA =
             FeatureUtils.register("flower_solima", Feature.FLOWER,
@@ -79,5 +103,17 @@ public class WorldConfig {
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> MIGUELITIO_ORE =
             FeatureUtils.register("miguelitio_ore", Feature.ORE,
                     new OreConfiguration(MIGUELITIO_SPAWN, 2));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TIN_ORE =
+            FeatureUtils.register("tin_ore", Feature.ORE,
+                    new OreConfiguration(TIN_SPAWN, 8));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> LEAD_ORE =
+            FeatureUtils.register("lead_ore", Feature.ORE,
+                    new OreConfiguration(LEAD_SPAWN, 8));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> SILVER_ORE =
+            FeatureUtils.register("silver_ore", Feature.ORE,
+                    new OreConfiguration(SILVER_SPAWN, 8));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> NICKEL_ORE =
+            FeatureUtils.register("nickel_ore", Feature.ORE,
+                    new OreConfiguration(NICKEL_SPAWN, 8));
 }
 

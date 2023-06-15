@@ -7,6 +7,13 @@
     "oredium:terium_dust",
     "oredium:alezarita_dust",
     "oredium:halinox_dust",
-    "oredium:miguelitio_dust"
+    "oredium:miguelitio_dust",
+    "oredium:tin_dust",
+    "oredium:lead_dust",
+    "oredium:silver_dust",
+    "oredium:nickel_dust",
+    "oredium:invar_dust",
+    "oredium:electrum_dust",
+    "oredium:constantan_dust"
   ]
 }

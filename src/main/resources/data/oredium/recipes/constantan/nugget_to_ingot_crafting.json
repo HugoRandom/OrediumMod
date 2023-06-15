@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "oredium:constantan_nugget"
+        }
+    },
+    "result": {
+        "item": "oredium:constantan_ingot",
+        "count": 1
+    }
+}

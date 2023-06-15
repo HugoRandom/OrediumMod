@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "oredium:raw_lead"
+    },
+    "result": "oredium:lead_ingot",
+    "experience": 1,
+    "cookingtime": 100
+}
