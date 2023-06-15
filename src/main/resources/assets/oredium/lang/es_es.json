@@ -344,7 +344,7 @@
 	"effect.oredium.vitaminized": "Vitaminado",
 	"effect.oredium.vitaminized.description": "Obtienes beneficios especiales, pero no consumas porque es malo para el cuerpo.",
 
-	"death.attack.unstable": "%1$s murió por inestabilidad.",
+	"death.attack.unstable": "%1$s murió a causa de la inestabilidad magica.",
 	"death.attack.vitaminized": "%1$s murió por exceso de vitaminas",
 	"death.attack.vitaminized.player": "%1$s murió por exceso de vitaminas",
 
