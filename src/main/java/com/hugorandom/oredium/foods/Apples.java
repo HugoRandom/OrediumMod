@@ -73,7 +73,7 @@ public class Apples extends Item {
 
 	@Override
 	public int getUseDuration(ItemStack pStack) {
-		return pStack.hasTag() ? 1600 : 3200;
+		return pStack.hasTag() ? 16 : 32;
 	}
 
 	@Override

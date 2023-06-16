@@ -39,7 +39,7 @@ public class TeleporterItem extends Item {
 
     public TeleporterItem() {
         super(new Item.Properties()
-                .tab(ItemGroupTabs.OREDIUM_TOOLS)
+                .tab(ItemGroupTabs.OREDIUM_ITEMS)
                 .rarity(Rarity.UNCOMMON)
                 .stacksTo(1)
                 .setNoRepair());

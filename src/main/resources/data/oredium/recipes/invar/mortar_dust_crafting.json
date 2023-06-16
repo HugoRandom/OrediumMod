@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "oredium:invar_ingot"
+            "tag": "oredium:mortars"
         },
         {
             "item": "oredium:invar_ingot"
@@ -10,6 +10,6 @@
     ],
     "result": {
         "item": "oredium:invar_dust",
-        "count": 2
+        "count": 1
     }
 }

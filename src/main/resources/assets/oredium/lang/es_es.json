@@ -414,5 +414,10 @@
 	"item.oredium.halinox_disc": "Disco Real",
 	"item.oredium.halinox_disc.desc": "The Only Thing I Know for Real / Eurobeat Remix by Turbo",
 	"item.oredium.miguelitio_disc": "Disc Jensational",
-	"item.oredium.miguelitio_disc.desc": "Jensation - Joystick [NCS Release]"
+	"item.oredium.miguelitio_disc.desc": "Jensation - Joystick [NCS Release]",
+
+	"item.oredium.wood_mortar": "Mortero de Madera",
+	"item.oredium.stone_mortar": "Mortero de Piedra",
+	"item.oredium.iron_mortar": "Mortero de Hierro",
+	"item.oredium.diamond_mortar": "Mortero de Diamante"
 }

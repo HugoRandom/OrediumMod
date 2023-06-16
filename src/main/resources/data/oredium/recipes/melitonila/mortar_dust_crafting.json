@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "oredium:melitonila_ingot"
+            "tag": "oredium:mortars"
         },
         {
             "item": "oredium:melitonila_ingot"
@@ -10,6 +10,6 @@
     ],
     "result": {
         "item": "oredium:melitonila_dust",
-        "count": 2
+        "count": 1
     }
 }

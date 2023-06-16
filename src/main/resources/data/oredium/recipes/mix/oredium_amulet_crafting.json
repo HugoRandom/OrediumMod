@@ -7,16 +7,16 @@
     ],
     "key": {
         "#": {
-            "item": "oredium:axidita_ingot"
+            "item": "oredium:tin_ingot"
         },
         "O": {
-            "item": "oredium:hugodium_ingot"
+            "item": "oredium:halinox_ingot"
         },
         "o": {
             "item": "oredium:franitolina_ingot"
         },
         "F": {
-            "item": "oredium:cesarita_ingot"
+            "item": "oredium:lead_ingot"
         },
         "A": {
             "item": "oredium:umc"
@@ -25,13 +25,13 @@
             "item": "oredium:alezarita_ingot"
         },
         "C": {
-            "item": "oredium:shine_ingot"
+            "item": "oredium:silver_ingot"
         },
         "W": {
             "item": "oredium:miguelitio_ingot"
         },
         "Z": {
-            "item": "oredium:caballerita_ingot"
+            "item": "oredium:disprosio_ingot"
         }
     },
     "result": {
