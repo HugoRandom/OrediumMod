@@ -6,7 +6,7 @@
         },
         "lit=true":
         {
-            "model": "oredium:block/enderita_lamp_on"
+            "model": "oredium:block/terium_lamp_on"
         }
     }
 }

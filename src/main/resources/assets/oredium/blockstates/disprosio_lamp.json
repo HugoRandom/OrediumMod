@@ -6,7 +6,7 @@
         },
         "lit=true":
         {
-            "model": "oredium:block/caballerita_lamp_on"
+            "model": "oredium:block/disprosio_lamp_on"
         }
     }
 }

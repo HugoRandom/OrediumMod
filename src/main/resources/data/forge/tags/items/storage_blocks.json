@@ -25,7 +25,6 @@
 		"#forge:storage_blocks/raw_tin",
 		"#forge:storage_blocks/raw_lead",
 		"#forge:storage_blocks/raw_silver",
-		"#forge:storage_blocks/raw_nickel",
-		"#forge:storage_blocks/raw_invar"
+		"#forge:storage_blocks/raw_nickel"
 	]
 }

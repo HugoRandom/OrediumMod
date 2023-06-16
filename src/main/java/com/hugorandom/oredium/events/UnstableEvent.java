@@ -17,27 +17,6 @@ import net.minecraftforge.fml.common.Mod;
 public class UnstableEvent {
 
     @SubscribeEvent
-    public static void playerUnstableHurt(LivingHurtEvent event){
-        if (event.getEntityLiving() instanceof Player){
-            LivingEntity player = event.getEntityLiving();
-            if (player.hasEffect(EffectsInit.UNSTABLE.get())){
-                player.sendMessage(new TextComponent(String.valueOf(event.getAmount()))
-                        .withStyle(ChatFormatting.LIGHT_PURPLE), player.getUUID());
-                float damage = event.getAmount();
-                float bonus = (float)(damage * 0.25);
-                if (bonus >= 0.5){
-                    player.sendMessage(new TextComponent(String.valueOf(damage))
-                            .withStyle(ChatFormatting.LIGHT_PURPLE), player.getUUID());
-                    player.playSound(SoundEvents.COW_HURT, 1.0F, 1.1F);
-                    event.setAmount(damage + bonus);
-                    player.sendMessage(new TextComponent(String.valueOf(event.getAmount()))
-                            .withStyle(ChatFormatting.LIGHT_PURPLE), player.getUUID());
-                }
-            }
-        }
-    }
-
-    @SubscribeEvent
     public static void playerUnstableDeath(LivingDeathEvent event){
         if (event.getEntity() instanceof Player player){
             if(player.hasEffect(EffectsInit.UNSTABLE.get())){

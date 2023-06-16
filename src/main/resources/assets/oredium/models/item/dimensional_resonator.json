@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"4": "oredium:blocks/cesarita_block",
-		"5": "oredium:blocks/enderita_block",
+		"4": "oredium:blocks/lead_block",
+		"5": "oredium:blocks/terium_block",
 		"7": "minecraft:block/iron_block",
-		"particle": "oredium:blocks/enderita_block"
+		"particle": "oredium:blocks/terium_block"
 	},
 	"elements": [
 		{
