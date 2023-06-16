@@ -17,8 +17,8 @@ public class ToolsTier {
             BlockTags.NEEDS_DIAMOND_TOOL,() -> Ingredient.of(Items1Init.TERIUM_INGOT.get()));
     public static final ForgeTier ALEZARITA = new ForgeTier(4, 1761, 8.5f, 4.0f, 15,
             BlockTags.NEEDS_DIAMOND_TOOL,() -> Ingredient.of(Items1Init.ALEZARITA_INGOT.get()));
-    public static final ForgeTier HALINOX = new ForgeTier(4, 1896, 8.0f, 4.0f, 12,
+    public static final ForgeTier HALINOX = new ForgeTier(4, 1896, 8.5f, 4.0f, 12,
             BlockTags.NEEDS_DIAMOND_TOOL,() -> Ingredient.of(Items1Init.HALINOX_INGOT.get()));
-    public static final ForgeTier MIGUELITIO = new ForgeTier(4, 1924, 8.0f, 4.0f, 10,
+    public static final ForgeTier MIGUELITIO = new ForgeTier(4, 1924, 8.5f, 4.0f, 10,
             BlockTags.NEEDS_DIAMOND_TOOL,() -> Ingredient.of(Items1Init.MIGUELITIO_INGOT.get()));
 }
