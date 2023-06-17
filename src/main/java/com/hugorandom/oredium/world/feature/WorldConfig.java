@@ -84,25 +84,25 @@ public class WorldConfig {
     // Minerales - Ores
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> DISPROSIO_ORE =
             FeatureUtils.register("disprosio_ore", Feature.ORE,
-                    new OreConfiguration(DISPROSIO_SPAWN, 3));
+                    new OreConfiguration(DISPROSIO_SPAWN, 4));
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> FRANITOLINA_ORE =
             FeatureUtils.register("franitolina_ore", Feature.ORE,
-                    new OreConfiguration(FRANITOLINA_SPAWN, 3));
+                    new OreConfiguration(FRANITOLINA_SPAWN, 4));
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> MELITONILA_ORE =
             FeatureUtils.register("melitonila_ore", Feature.ORE,
-                    new OreConfiguration(MELITONILA_SPAWN, 3));
+                    new OreConfiguration(MELITONILA_SPAWN, 4));
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TERIUM_ORE =
             FeatureUtils.register("terium_ore", Feature.ORE,
-                    new OreConfiguration(TERIUM_SPAWN, 2));
+                    new OreConfiguration(TERIUM_SPAWN, 3));
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> ALEZARITA_ORE =
             FeatureUtils.register("alezarita_ore", Feature.ORE,
-                    new OreConfiguration(ALEZARITA_SPAWN, 2));
+                    new OreConfiguration(ALEZARITA_SPAWN, 3));
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> HALINOX_ORE =
             FeatureUtils.register("halinox_ore", Feature.ORE,
-                    new OreConfiguration(HALINOX_SPAWN, 2));
+                    new OreConfiguration(HALINOX_SPAWN, 3));
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> MIGUELITIO_ORE =
             FeatureUtils.register("miguelitio_ore", Feature.ORE,
-                    new OreConfiguration(MIGUELITIO_SPAWN, 2));
+                    new OreConfiguration(MIGUELITIO_SPAWN, 3));
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TIN_ORE =
             FeatureUtils.register("tin_ore", Feature.ORE,
                     new OreConfiguration(TIN_SPAWN, 6));
