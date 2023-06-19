@@ -28,7 +28,7 @@ public class ClientBusEvents {
         MenuScreens.register(MenusInit.UPGRADING_MENU.get(), UpgradingScreen::new);
 
         // Registro de Tecla
-        ClientRegistry.registerKeyBinding(KeyBindings.VITAMINS_KEY);
+        // ClientRegistry.registerKeyBinding(KeyBindings.VITAMINS_KEY);
 
         // Registro de Overlays
         OverlayRegistry.registerOverlayTop("telecharge", TeleporterChargeOverlay.TELEPORTER_CHARGE_HUD);

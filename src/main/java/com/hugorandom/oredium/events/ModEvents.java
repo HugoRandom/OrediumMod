@@ -39,28 +39,6 @@ public class ModEvents {
                     new ItemStack(Items.EMERALD, 1),16,2,0.05F));
         }
     }
-    @SubscribeEvent
-    public static void onAttachCapabilitiesPlayer(AttachCapabilitiesEvent<Entity> event){
-        if(event.getObject() instanceof Player){
-            if(!event.getObject().getCapability(PlayerVitaminsProvider.PLAYER_VITAMINS).isPresent()){
-                event.addCapability(new ResourceLocation(Oredium.MOD_ID, "properties"),
-                        new PlayerVitaminsProvider());
-            }
-        }
-    }
-
-    @SubscribeEvent
-    public static void onPlayerCloned(PlayerEvent.Clone event){
-        if(event.isWasDeath()){
-            event.getPlayer().reviveCaps();
-            event.getOriginal().getCapability(PlayerVitaminsProvider.PLAYER_VITAMINS).ifPresent(oldStore -> {
-                event.getOriginal().getCapability(PlayerVitaminsProvider.PLAYER_VITAMINS).ifPresent(newStore ->{
-                    newStore.copyFrom(oldStore);
-                    event.getPlayer().invalidateCaps();
-                });
-            });
-        }
-    }
 
     @SubscribeEvent
     public static void onRegisterCapabilities(RegisterCapabilitiesEvent event){

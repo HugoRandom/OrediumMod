@@ -32,9 +32,9 @@ public class ArmorU extends ArmorItem {
                     .put(ArmorTier.DISPROSIO_UPGRADED, new MobEffectInstance(
                             MobEffects.FIRE_RESISTANCE, 200, 0))
                     .put(ArmorTier.FRANITOLINA_UPGRADED, new MobEffectInstance(
-                            MobEffects.REGENERATION, 200, 1))
+                            MobEffects.REGENERATION, 200, 0))
                     .put(ArmorTier.MELITONILA_UPGRADED, new MobEffectInstance(
-                            MobEffects.DAMAGE_BOOST, 200, 1))
+                            MobEffects.DAMAGE_BOOST, 200, 0))
                     .put(ArmorTier.TERIUM_UPGRADED, new MobEffectInstance(
                             MobEffects.DAMAGE_RESISTANCE, 200, 1))
                     .put(ArmorTier.ALEZARITA_UPGRADED, new MobEffectInstance(
