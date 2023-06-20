@@ -1,9 +1,9 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " i ",
+        "eie",
         "iSi",
-        " i "
+        "ini"
     ],
     "key": {
         "i": {
@@ -11,6 +11,12 @@
         },
         "S": {
             "item": "oredium:umc"
+        },
+        "e": {
+            "item": "minecraft:pufferfish"
+        },
+        "n": {
+            "item": "minecraft:tropical_fish"
         }
     },
     "result": {

@@ -13,25 +13,25 @@
             "item": "oredium:miguelitio_ingot"
         },
         "o": {
-            "item": "oredium:franitolina_ingot"
+            "item": "oredium:alezarita_ingot"
         },
         "F": {
-            "item": "oredium:lead_ingot"
+            "item": "oredium:terium_ingot"
         },
         "A": {
             "item": "oredium:umc"
         },
         "H": {
-            "item": "oredium:alezarita_ingot"
+            "item": "oredium:terium_ingot"
         },
         "C": {
-            "item": "oredium:silver_ingot"
+            "item": "oredium:franitolina_ingot"
         },
         "W": {
-            "item": "oredium:miguelitio_ingot"
+            "item": "oredium:halinox_ingot"
         },
         "Z": {
-            "item": "oredium:disprosio_ingot"
+            "item": "oredium:melitonila_ingot"
         }
     },
     "result": {

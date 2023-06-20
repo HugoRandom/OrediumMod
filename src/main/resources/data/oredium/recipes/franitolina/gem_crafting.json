@@ -1,7 +1,7 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " i ",
+        "gig",
         "iSi",
         " i "
     ],
@@ -11,6 +11,9 @@
         },
         "S": {
             "item": "oredium:umc"
+        },
+        "g": {
+            "item": "minecraft:glistering_melon_slice"
         }
     },
     "result": {
