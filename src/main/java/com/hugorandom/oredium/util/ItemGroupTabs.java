@@ -34,7 +34,7 @@ public class ItemGroupTabs {
     public static final CreativeModeTab OREDIUM_TOOLS = new CreativeModeTab("oredium_tab_tools"){
         @Override
         public @NotNull ItemStack makeIcon() {
-            return new ItemStack(ToolsInit.TERIUM_SWORD.get());
+            return new ItemStack(Items2Init.DIMENSIONAL_RESONATOR.get());
         }
     };
 }

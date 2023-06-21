@@ -1,9 +1,9 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " i ",
+        "gig",
         "iSi",
-        " i "
+        "nin"
     ],
     "key": {
         "i": {
@@ -11,6 +11,12 @@
         },
         "S": {
             "item": "oredium:umc"
+        },
+        "g": {
+            "item": "minecraft:magma_cream"
+        },
+        "n": {
+            "item": "minecraft:nether_wart"
         }
     },
     "result": {

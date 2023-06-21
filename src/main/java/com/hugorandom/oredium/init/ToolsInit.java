@@ -3,6 +3,8 @@ package com.hugorandom.oredium.init;
 import com.hugorandom.oredium.Oredium;
 import com.hugorandom.oredium.tools.*;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.TieredItem;
+import net.minecraftforge.common.ForgeTier;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -14,6 +16,10 @@ public class ToolsInit {
             DeferredRegister.create(ForgeRegistries.ITEMS, Oredium.MOD_ID);
 
     public static void register(IEventBus eventBus){ TOOLS.register(eventBus); };
+
+    // Martillos  PRUEBAS
+    public static final RegistryObject<Item> Hammer = TOOLS.register("hammer",
+            () -> new Hammer(ToolsTier.DISPROSIO, 3, 1));
 
     // Espadas - Swords
     public static final RegistryObject<Item> DISPROSIO_SWORD = TOOLS.register("disprosio_sword",

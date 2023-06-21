@@ -7,7 +7,7 @@ import net.minecraftforge.common.ForgeTier;
 
 public class ToolsTier {
 
-    public static final ForgeTier DISPROSIO = new ForgeTier(4, 1681, 8.0f, 4.0f, 20,
+    public static final ForgeTier DISPROSIO = new ForgeTier(4, 35, 8.0f, 4.0f, 20,
             BlockTags.NEEDS_DIAMOND_TOOL,() -> Ingredient.of(Items1Init.DISPROSIO_INGOT.get()));
     public static final ForgeTier FRANITOLINA = new ForgeTier(4, 1699, 8.0f, 4.0f, 12,
             BlockTags.NEEDS_DIAMOND_TOOL,() -> Ingredient.of(Items1Init.FRANITOLINA_INGOT.get()));
