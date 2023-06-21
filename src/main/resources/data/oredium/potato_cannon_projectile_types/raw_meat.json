@@ -1,0 +1,14 @@
+{
+  "items": [
+    "minecraft:porkchop",
+    "minecraft:beef",
+	"minecraft:chicken",
+	"minecraft:rabbit",
+	"minecraft:mutton"
+  ],
+  "reload_ticks": 10,
+  "knockback": 1,
+  "velocity_multiplier": 1,
+  "damage": 4,
+  "sound_pitch": -5
+}

@@ -1,0 +1,13 @@
+{
+  "items": [
+    "minecraft:cod",
+    "minecraft:salmon",
+	"minecraft:tropical_fish",
+	"minecraft:pufferfish"
+  ],
+  "reload_ticks": 50,
+  "knockback": 4,
+  "velocity_multiplier": 1,
+  "damage": 1,
+  "sound_pitch": 999
+}

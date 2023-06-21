@@ -1,16 +1,22 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " i ",
-        "iSi",
-        " i "
+        "eie",
+        "nSn",
+        "eie"
     ],
     "key": {
-        "i": {
+        "e": {
             "item": "oredium:halinox_ingot"
         },
         "S": {
             "item": "oredium:umc"
+        },
+        "i": {
+            "item": "minecraft:golden_apple"
+        },
+        "n": {
+            "item": "minecraft:nether_wart"
         }
     },
     "result": {

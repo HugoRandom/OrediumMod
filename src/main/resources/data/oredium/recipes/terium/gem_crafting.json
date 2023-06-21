@@ -1,9 +1,9 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " i ",
+        "cic",
         "iSi",
-        " i "
+        "nin"
     ],
     "key": {
         "i": {
@@ -11,6 +11,12 @@
         },
         "S": {
             "item": "oredium:umc"
+        },
+        "c": {
+            "item": "minecraft:chorus_fruit"
+        },
+        "n": {
+            "item": "minecraft:nether_wart"
         }
     },
     "result": {

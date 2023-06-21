@@ -1,9 +1,9 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " i ",
+        "aia",
         "iSi",
-        " i "
+        "nin"
     ],
     "key": {
         "i": {
@@ -11,6 +11,12 @@
         },
         "S": {
             "item": "oredium:umc"
+        },
+        "a": {
+            "item": "minecraft:glowstone_dust"
+        },
+        "n": {
+            "item": "minecraft:nether_wart"
         }
     },
     "result": {

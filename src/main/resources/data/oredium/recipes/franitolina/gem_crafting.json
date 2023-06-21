@@ -3,7 +3,7 @@
     "pattern": [
         "gig",
         "iSi",
-        " i "
+        "nin"
     ],
     "key": {
         "i": {
@@ -14,6 +14,9 @@
         },
         "g": {
             "item": "minecraft:glistering_melon_slice"
+        },
+        "n": {
+            "item": "minecraft:nether_wart"
         }
     },
     "result": {

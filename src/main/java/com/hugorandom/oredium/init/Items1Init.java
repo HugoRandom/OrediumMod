@@ -116,6 +116,14 @@ public class Items1Init {
             ITEMS.register("halinox_dust", CommonItem::new);
     public static final RegistryObject<net.minecraft.world.item.Item> MIGUELITIO_DUST = 
             ITEMS.register("miguelitio_dust", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> COPPER_DUST =
+            ITEMS.register("copper_dust", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> IRON_DUST =
+            ITEMS.register("iron_dust", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> GOLD_DUST =
+            ITEMS.register("gold_dust", CommonItem::new);
+    public static final RegistryObject<net.minecraft.world.item.Item> DIAMOND_DUST =
+            ITEMS.register("diamond_dust", CommonItem::new);
     public static final RegistryObject<net.minecraft.world.item.Item> TIN_DUST =
             ITEMS.register("tin_dust", CommonItem::new);
     public static final RegistryObject<net.minecraft.world.item.Item> LEAD_DUST =

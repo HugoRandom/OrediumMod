@@ -1,16 +1,19 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#B#",
+        "#S#",
         "BOB",
-        "#B#"
+        "#S#"
     ],
     "key": {
-        "B": {
+        "#": {
             "item": "oredium:terium_ingot"
         },        
-        "#": {
-            "item": "minecraft:iron_ingot"
+        "B": {
+            "item": "oredium:lead_ingot"
+        },
+        "S": {
+            "item": "oredium:silver_ingot"
         },
         "O": {
             "item": "oredium:oredium_amulet"

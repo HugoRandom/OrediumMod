@@ -1,9 +1,9 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " i ",
+        "dia",
         "iSi",
-        " i "
+        "nin"
     ],
     "key": {
         "i": {
@@ -11,6 +11,15 @@
         },
         "S": {
             "item": "oredium:umc"
+        },
+        "d": {
+            "item": "minecraft:diamond"
+        },
+        "a": {
+            "item": "minecraft:sugar"
+        },
+        "n": {
+            "item": "minecraft:nether_wart"
         }
     },
     "result": {

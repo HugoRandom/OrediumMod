@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:dusts/lead"
+        },
+        {
+            "tag": "forge:dusts/lead"
+        },
+        {
+            "tag": "forge:dusts/iron"
+        },
+        {
+            "tag": "forge:dusts/disprosio"
+        }
+    ],
+    "result": {
+        "item": "minecraft:gunpowder",
+        "count": 5
+    }
+}

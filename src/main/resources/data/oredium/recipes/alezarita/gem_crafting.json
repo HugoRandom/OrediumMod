@@ -3,7 +3,7 @@
     "pattern": [
         "eie",
         "iSi",
-        "ini"
+        "nin"
     ],
     "key": {
         "i": {
@@ -16,7 +16,7 @@
             "item": "minecraft:pufferfish"
         },
         "n": {
-            "item": "minecraft:tropical_fish"
+            "item": "minecraft:nether_wart"
         }
     },
     "result": {

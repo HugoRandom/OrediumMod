@@ -1,12 +1,12 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " # ",
+        "S S",
         "NGN",
-        "S#S"
+        "GBG"
     ],
     "key": {
-        "#": {
+        "B": {
             "item": "minecraft:blaze_powder"
         },
         "N": {
@@ -16,7 +16,7 @@
             "item": "minecraft:quartz"
         },
         "S": {
-            "item": "minecraft:gunpowder"
+            "item": "oredium:lead_nugget"
         }
     },
     "result": {

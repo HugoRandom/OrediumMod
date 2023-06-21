@@ -1,0 +1,13 @@
+{
+  "items": [
+    "minecraft:beetroot_soup",
+    "minecraft:mushroom_stew",
+	"minecraft:rabbit_stew",
+	"minecraft:honey_bottle",
+	"minecraft:dried_kelp"
+  ],
+  "reload_ticks": 6,
+  "knockback": 1,
+  "velocity_multiplier": 1,
+  "damage": 3
+}

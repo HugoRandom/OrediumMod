@@ -1,0 +1,11 @@
+{
+  "items": [
+    "minecraft:cooked_cod",
+    "minecraft:cooked_salmon"
+  ],
+  "reload_ticks": 50,
+  "knockback": 2,
+  "velocity_multiplier": 1,
+  "damage": 3,
+  "sound_pitch": 9999
+}
