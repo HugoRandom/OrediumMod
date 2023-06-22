@@ -25,22 +25,32 @@ public class OrediumTags {
     }
 
     public static class Items {
-        public static final TagKey<Item> OREDIUM_INGOTS_TAG = tag("ingots");
-        public static final TagKey<Item> OREDIUM_NUGGETS_TAG = tag("nuggets");
-        public static final TagKey<Item> OREDIUM_FOODS_TAG = tag("foods");
-        public static final TagKey<Item> OREDIUM_BASIC_TAG = tag("foods/basic");
-        public static final TagKey<Item> OREDIUM_PILLS_TAG = tag("foods/pills");
-        public static final TagKey<Item> OREDIUM_DOUBLE_PILLS_TAG = tag("foods/double_pills");
-        public static final TagKey<Item> OREDIUM_COFFEES_TAG = tag("foods/coffees");
-        public static final TagKey<Item> OREDIUM_APPLES_TAG = tag("foods/apples");
 
         private static TagKey<Item> tag(String name){
             return ItemTags.create(new ResourceLocation(Oredium.MOD_ID, name));
         }
-
         private static TagKey<Item> forgeTag(String name){
             return ItemTags.create(new ResourceLocation("forge", name));
         }
+
+        public static final TagKey<Item> INGOTS_TAG = tag("ingots");
+        public static final TagKey<Item> INGOTS_DISPROSIO = forgeTag("ingots/disprosio");
+        public static final TagKey<Item> INGOTS_FRANITOLINA = forgeTag("ingots/franitolina");
+        public static final TagKey<Item> INGOTS_MELITONILA = forgeTag("ingots/melitonila");
+        public static final TagKey<Item> INGOTS_TERIUM = forgeTag("ingots/terium");
+        public static final TagKey<Item> INGOTS_ALEZARITA = forgeTag("ingots/alezarita");
+        public static final TagKey<Item> INGOTS_HALINOX = forgeTag("ingots/halinox");
+        public static final TagKey<Item> INGOTS_MIGUELITIO = forgeTag("ingots/miguelitio");
+
+        public static final TagKey<Item> NUGGETS_TAG = tag("nuggets");
+        public static final TagKey<Item> FOODS_TAG = tag("foods");
+        public static final TagKey<Item> BASIC_TAG = tag("foods/basic");
+        public static final TagKey<Item> PILLS_TAG = tag("foods/pills");
+        public static final TagKey<Item> DOUBLE_PILLS_TAG = tag("foods/double_pills");
+        public static final TagKey<Item> COFFEES_TAG = tag("foods/coffees");
+        public static final TagKey<Item> APPLES_TAG = tag("foods/apples");
+
+
     }
     public static class ConfiguredStructureFeatures {
         public static final TagKey<ConfiguredStructureFeature<?, ?>> CUSTOM_STRUCTURE_TAG = tag("custom_structure_tag");

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "IBI",
+        "IPI",
+        " P "
+    ],
+    "key": {
+        "P": {
+            "item": "minecraft:stick"
+    },
+        "I": {
+            "item": "oredium:miguelitio_ingot"
+    },
+        "B": {
+            "item": "oredium:miguelitio_block"
+    }
+   },
+    "result": {
+        "item": "oredium:miguelitio_hammer"
+    }
+}

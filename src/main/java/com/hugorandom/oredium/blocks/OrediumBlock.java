@@ -94,18 +94,7 @@ public class OrediumBlock extends BaseEntityBlock {
 								pPos.getX()+0.5,
 								pPos.getY()+1,
 								pPos.getZ()+0.5,
-								new ItemStack(Items1Init.TERIUM_INGOT.get())));
-					}
-					else{
-						pLevel.addFreshEntity(new ItemEntity(pLevel,
-								pPos.getX()+0.5,
-								pPos.getY()+1,
-								pPos.getZ()+0.5,
 								new ItemStack(FoodsInit.GOLDEN_PILL.get())));
-						if (!pState.getValue(ENERGY)){
-							pPlayer.addEffect(new MobEffectInstance(
-									EffectsInit.UNSTABLE.get(), 100, 0));
-						}
 					}
 				}
 			}

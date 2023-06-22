@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "IBI",
+        "IPI",
+        " P "
+    ],
+    "key": {
+        "P": {
+            "item": "minecraft:stick"
+    },
+        "I": {
+            "item": "oredium:disprosio_ingot"
+    },
+        "B": {
+            "item": "oredium:disprosio_block"
+    }
+   },
+    "result": {
+        "item": "oredium:disprosio_hammer"
+    }
+}

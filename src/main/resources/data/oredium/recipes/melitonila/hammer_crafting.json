@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "IBI",
+        "IPI",
+        " P "
+    ],
+    "key": {
+        "P": {
+            "item": "minecraft:stick"
+    },
+        "I": {
+            "item": "oredium:melitonila_ingot"
+    },
+        "B": {
+            "item": "oredium:melitonila_block"
+    }
+   },
+    "result": {
+        "item": "oredium:melitonila_hammer"
+    }
+}

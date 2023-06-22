@@ -8,7 +8,9 @@ import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.ClipContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
@@ -28,13 +30,14 @@ import java.util.Set;
 public class Hammer extends DiggerItem {
     private final int depth;
     private final int radius;
-    public Hammer(Tier pTier, int pRadius, int pDepth) {
+    public Hammer(Tier pTier, int pRadius, int pDepth, int pDurability) {
         super(0,-3F, pTier,
                 BlockTags.MINEABLE_WITH_PICKAXE,
                 new Properties()
                         .tab(ItemGroupTabs.OREDIUM_TOOLS)
                         .stacksTo(1)
-                        .rarity(Rarity.COMMON));
+                        .rarity(Rarity.COMMON)
+                        .durability(pDurability));
         this.radius = pRadius;
         this.depth = pDepth;
     }
@@ -126,9 +129,12 @@ public class Hammer extends DiggerItem {
         if (pState.getDestroySpeed(pLevel, pPos) <= 0) return false;
         return pLevel.getBlockEntity(pPos) == null;
     }
+
+
+
     @Override
     public void appendHoverText(@NotNull ItemStack pStack, @Nullable Level pLevel,
                                 @NotNull List<Component> pTooltipComponents, @NotNull TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(new TranslatableComponent("tooltip.oredium." + pStack.getItem().asItem()));
+        pTooltipComponents.add(new TranslatableComponent("tooltip.oredium.hammer_" + this.radius + "_" + this.depth));
     }
 }

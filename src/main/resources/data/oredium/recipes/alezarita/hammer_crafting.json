@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "IBI",
+        "IPI",
+        " P "
+    ],
+    "key": {
+        "P": {
+            "item": "minecraft:stick"
+    },
+        "I": {
+            "item": "oredium:alezarita_ingot"
+    },
+        "B": {
+            "item": "oredium:alezarita_block"
+    }
+   },
+    "result": {
+        "item": "oredium:alezarita_hammer"
+    }
+}

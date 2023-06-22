@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "IBI",
+        "IPI",
+        " P "
+    ],
+    "key": {
+        "P": {
+            "item": "minecraft:stick"
+    },
+        "I": {
+            "item": "oredium:terium_ingot"
+    },
+        "B": {
+            "item": "oredium:terium_block"
+    }
+   },
+    "result": {
+        "item": "oredium:terium_hammer"
+    }
+}
