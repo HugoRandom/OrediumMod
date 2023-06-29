@@ -28,7 +28,7 @@ public class Smoothie extends Item {
 	public static final FoodProperties HALINOX_SMOOTHIE = new FoodProperties.Builder()
 			.effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 200, 0), 1.0f)
 			.nutrition(6)
-			.saturationMod(0.7f)
+			.saturationMod(0.8f)
 			.alwaysEat()
 			.build();
 

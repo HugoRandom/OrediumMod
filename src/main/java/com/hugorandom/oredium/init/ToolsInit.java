@@ -44,6 +44,6 @@ public class ToolsInit {
     }
 
     private static void registerExtraTools(String prefix, Tier tier){
-        TOOLS.register(prefix + "_hammer", () -> new Hammer(tier, 3, 1, tier.getUses()*2));
+        TOOLS.register(prefix + "_hammer", () -> new Hammer(tier, 3, 1, tier.getUses()*4));
     }
 }

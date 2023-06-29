@@ -14,26 +14,29 @@ public class OrePlaced {
 
     // Metales
     public static final Holder<PlacedFeature> DISPROSIO_PLACED = PlacementUtils.register("disprosio_placed",
-            WorldConfig.DISPROSIO_ORE, OreConfig.commonOrePlacement(6, HeightRangePlacement.uniform(
-                    VerticalAnchor.absolute(-60),VerticalAnchor.absolute(15))));
+            WorldConfig.DISPROSIO_ORE, OreConfig.commonOrePlacement(5, HeightRangePlacement.uniform(
+                    VerticalAnchor.absolute(-60),VerticalAnchor.absolute(10))));
     public static final Holder<PlacedFeature> FRANITOLINA_PLACED = PlacementUtils.register("franitolina_placed",
-            WorldConfig.FRANITOLINA_ORE, OreConfig.commonOrePlacement(6, HeightRangePlacement.uniform(
-                    VerticalAnchor.absolute(-60),VerticalAnchor.absolute(15))));
+            WorldConfig.FRANITOLINA_ORE, OreConfig.commonOrePlacement(5, HeightRangePlacement.uniform(
+                    VerticalAnchor.absolute(-60),VerticalAnchor.absolute(10))));
     public static final Holder<PlacedFeature> MELITONILA_PLACED = PlacementUtils.register("melitonila_placed",
-            WorldConfig.MELITONILA_ORE, OreConfig.commonOrePlacement(6, HeightRangePlacement.uniform(
-                    VerticalAnchor.absolute(-60),VerticalAnchor.absolute(15))));
+            WorldConfig.MELITONILA_ORE, OreConfig.commonOrePlacement(5, HeightRangePlacement.uniform(
+                    VerticalAnchor.absolute(-60),VerticalAnchor.absolute(10))));
     public static final Holder<PlacedFeature> TERIUM_PLACED = PlacementUtils.register("terium_placed",
-            WorldConfig.TERIUM_ORE, OreConfig.commonOrePlacement(4, HeightRangePlacement.uniform(
+            WorldConfig.TERIUM_ORE, OreConfig.commonOrePlacement(5, HeightRangePlacement.uniform(
                     VerticalAnchor.absolute(-60),VerticalAnchor.absolute(-20))));
     public static final Holder<PlacedFeature> ALEZARITA_PLACED = PlacementUtils.register("alezarita_placed",
             WorldConfig.ALEZARITA_ORE, OreConfig.commonOrePlacement(5, HeightRangePlacement.uniform(
-                    VerticalAnchor.absolute(10),VerticalAnchor.absolute(100))));
+                    VerticalAnchor.absolute(10),VerticalAnchor.absolute(120))));
+    public static final Holder<PlacedFeature> ALEZARITA_RAW_PLACED = PlacementUtils.register("alezarita_raw_placed",
+            WorldConfig.ALEZARITA_RAW, OreConfig.commonOrePlacement(1, HeightRangePlacement.uniform(
+                    VerticalAnchor.absolute(8),VerticalAnchor.absolute(20))));
     public static final Holder<PlacedFeature> HALINOX_PLACED = PlacementUtils.register("halinox_placed",
                 WorldConfig.HALINOX_ORE, OreConfig.commonOrePlacement(5, HeightRangePlacement.uniform(
-                    VerticalAnchor.absolute(10),VerticalAnchor.absolute(100))));
+                    VerticalAnchor.absolute(10),VerticalAnchor.absolute(120))));
     public static final Holder<PlacedFeature> MIGUELITIO_PLACED = PlacementUtils.register("miguelitio_placed",
             WorldConfig.MIGUELITIO_ORE, OreConfig.commonOrePlacement(5, HeightRangePlacement.triangle(
-                    VerticalAnchor.absolute(10),VerticalAnchor.absolute(100))));
+                    VerticalAnchor.absolute(10),VerticalAnchor.absolute(120))));
     public static final Holder<PlacedFeature> TIN_PLACED = PlacementUtils.register("tin_placed",
             WorldConfig.TIN_ORE, OreConfig.commonOrePlacement(12, HeightRangePlacement.uniform(
                     VerticalAnchor.absolute(-60),VerticalAnchor.absolute(65))));

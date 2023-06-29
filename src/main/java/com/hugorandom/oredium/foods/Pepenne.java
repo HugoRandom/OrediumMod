@@ -27,7 +27,7 @@ public class Pepenne extends Item {
 	public static final FoodProperties PEPENNE = new FoodProperties.Builder()
 			.effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 300, 0), 0.15f)
 			.nutrition(12)
-			.saturationMod(0.7f)
+			.saturationMod(0.8f)
 			.alwaysEat()
 			.build();
 	

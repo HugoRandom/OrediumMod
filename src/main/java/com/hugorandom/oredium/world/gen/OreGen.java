@@ -19,6 +19,7 @@ public class OreGen {
         base.add(OrePlaced.MELITONILA_PLACED);
         base.add(OrePlaced.TERIUM_PLACED);
         base.add(OrePlaced.ALEZARITA_PLACED);
+        base.add(OrePlaced.ALEZARITA_RAW_PLACED);
         base.add(OrePlaced.HALINOX_PLACED);
         base.add(OrePlaced.MIGUELITIO_PLACED);
         base.add(OrePlaced.TIN_PLACED);

@@ -35,8 +35,6 @@ public class ArmorU extends ArmorItem {
                             MobEffects.REGENERATION, 200, 0))
                     .put(ArmorTier.MELITONILA_UPGRADED, new MobEffectInstance(
                             MobEffects.DAMAGE_BOOST, 200, 0))
-                    .put(ArmorTier.TERIUM_UPGRADED, new MobEffectInstance(
-                            MobEffects.DAMAGE_RESISTANCE, 200, 1))
                     .put(ArmorTier.ALEZARITA_UPGRADED, new MobEffectInstance(
                             MobEffects.WATER_BREATHING, 200, 0))
                     .put(ArmorTier.HALINOX_UPGRADED, new MobEffectInstance(

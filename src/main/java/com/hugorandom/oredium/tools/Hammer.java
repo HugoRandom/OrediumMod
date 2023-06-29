@@ -118,6 +118,7 @@ public class Hammer extends DiggerItem {
                 damage ++;
             }
         }
+        damage --;
         if (damage != 0 && !player.isCreative()) {
             hammerStack.hurtAndBreak(damage, livingEntity, (livingEntityx) -> {
                 livingEntityx.broadcastBreakEvent(EquipmentSlot.MAINHAND);
